@@ -1,0 +1,27 @@
+{
+  "name": "quiz-cmb-bsb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrsmarcos00/quiz-cmb-bsb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrsmarcos00/quiz-cmb-bsb/issues"
+  },
+  "homepage": "https://github.com/vrsmarcos00/quiz-cmb-bsb#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "npm": "^10.1.0",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.1"
+  }
+}
