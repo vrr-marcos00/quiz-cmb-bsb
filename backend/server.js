@@ -27,6 +27,41 @@ const data = {
   currentPhase: 'facil',
 };
 
+// Objeto para rastrear as salas
+const rooms = {};
+
+// Função para salvar os dados em um arquivo JSON
+function saveDataToJsonFile(data) {
+  const jsonData = JSON.stringify(data, null, 2);
+
+  fs.writeFile('quizData.json', jsonData, (err) => {
+    if (err) {
+      console.error('Erro ao salvar os dados:', err);
+    } else {
+      console.log('Dados salvos com sucesso em quizData.json');
+    }
+  });
+}
+
+function saveRoomsToFile() {
+  const jsonData = JSON.stringify(rooms, null, 2);
+
+  fs.writeFile('rooms.json', jsonData, (err) => {
+    if (err) {
+      console.error('Erro ao salvar as salas:', err);
+    } else {
+      console.log('Salas salvas com sucesso em rooms.json');
+    }
+  });
+}
+
+function generateRoomCode() {
+  const min = 100000; // Menor número de 6 dígitos
+  const max = 999999; // Maior número de 6 dígitos
+
+  return String(Math.floor(Math.random() * (max - min + 1)) + min);
+}
+
 // Manipulador de eventos para quando um cliente se conecta
 io.on('connection', (socket) => {
   console.log('Um cliente se conectou');
@@ -102,19 +137,27 @@ io.on('connection', (socket) => {
       saveDataToJsonFile(data);
     }
   });
-  
-  // Função para salvar os dados em um arquivo JSON
-  function saveDataToJsonFile(data) {
-    const jsonData = JSON.stringify(data, null, 2);
-  
-    fs.writeFile('quizData.json', jsonData, (err) => {
-      if (err) {
-        console.error('Erro ao salvar os dados:', err);
-      } else {
-        console.log('Dados salvos com sucesso em quizData.json');
-      }
-    });
-  }
+
+  // No lado do cliente (React)
+ // socket.emit('authenticate', { role: 'apresentador' }); // ou role: 'aluno'
+  socket.on('authenticate', ({ role }) => {
+    if (role === 'presenter') {
+      const roomCode = generateRoomCode(); // Substitua por sua lógica de geração de código
+      socket.join(roomCode);
+      socket.emit('roomCode', roomCode);
+    } else if (role === 'student') {
+      // Lógica para alunos que desejam entrar em uma sala
+      socket.on('joinRoom', (roomCode) => {
+        if (rooms[roomCode]) {
+          socket.join(roomCode);
+          rooms[roomCode].users.push(socket.id);
+          saveRoomsToFile(); // Certifique-se de ter a função saveRoomsToFile() definida
+        } else {
+          socket.emit('roomError', 'A sala não existe.');
+        }
+      });
+    }
+  });
 });
 
 // Inicialize o servidor na porta desejada
