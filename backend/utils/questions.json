@@ -1,0 +1,23 @@
+{
+    "facil": [
+      {
+        "pergunta": "Qual é a capital do Brasil?",
+        "resposta": "Brasília",
+        "tempo": 30
+      }
+    ],
+    "medio": [
+      {
+        "pergunta": "Quem escreveu 'Dom Quixote'?",
+        "resposta": "Miguel de Cervantes",
+        "tempo": 30
+      }
+    ],
+    "dificil": [
+      {
+        "pergunta": "Qual é a fórmula química da água?",
+        "resposta": "H2O",
+        "tempo": 30
+      }
+    ]
+  }
