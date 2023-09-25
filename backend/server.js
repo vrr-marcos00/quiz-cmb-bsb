@@ -140,25 +140,29 @@ io.on('connection', (socket) => {
 
   // No lado do cliente (React)
  // socket.emit('authenticate', { role: 'apresentador' }); // ou role: 'aluno'
-  socket.on('authenticate', ({ role }) => {
+ socket.on('authenticate', ({ role }) => {
     if (role === 'presenter') {
-      const roomCode = generateRoomCode(); // Substitua por sua lógica de geração de código
+      const roomCode = generateRoomCode();
       socket.join(roomCode);
       socket.emit('roomCode', roomCode);
     } else if (role === 'student') {
       // Lógica para alunos que desejam entrar em uma sala
-      socket.on('joinRoom', (roomCode) => {
+      socket.on('joinRoom', (roomCode, studentId) => {
         if (rooms[roomCode]) {
+          // Verifique se o código da sala existe
           socket.join(roomCode);
-          rooms[roomCode].users.push(socket.id);
-          saveRoomsToFile(); // Certifique-se de ter a função saveRoomsToFile() definida
+          rooms[roomCode].users.push({ socketId: socket.id, studentId });
+          saveRoomsToFile();
+
+          // Emita um evento de sucesso para o aluno
+          socket.emit('studentAuthenticated', 'Você foi autenticado com sucesso na sala.');
         } else {
-          socket.emit('roomError', 'A sala não existe.');
+          // Emita um evento de erro para o aluno
+          socket.emit('roomError', 'A sala não existe ou o código está incorreto.');
         }
       });
     }
   });
-});
 
 // Inicialize o servidor na porta desejada
 const PORT = process.env.PORT || 4000;
