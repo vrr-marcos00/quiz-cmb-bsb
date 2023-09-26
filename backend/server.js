@@ -2,7 +2,7 @@ const http = require('http');
 const express = require('express');
 const socketIo = require('socket.io');
 const fs = require('fs');
-const { v4: uuidv4 } = require('uuid');
+const path = require('path');
 
 const questions = require('./utils/questions.json');
 
@@ -13,7 +13,7 @@ const server = http.createServer(app);
 // Crie o servidor Socket.io e associe-o ao servidor HTTP
 const io = socketIo(server, {
   cors: {
-    origin: 'http://localhost:3000', // Troque pela URL do seu aplicativo React
+    origin: '*',
     methods: ['GET', 'POST'],
     credentials: true,
   },
@@ -28,13 +28,17 @@ const data = {
 };
 
 // Objeto para rastrear as salas
-const rooms = {};
+const room = require('./database/room.json') || {};
+
+// Listagem de clients a serem desconectados
+const clientsToDisconnect = [];
 
 // Função para salvar os dados em um arquivo JSON
 function saveDataToJsonFile(data) {
   const jsonData = JSON.stringify(data, null, 2);
+  const filePath = path.join(__dirname, 'database', 'quizData.json');
 
-  fs.writeFile('quizData.json', jsonData, (err) => {
+  fs.writeFile(filePath, jsonData, (err) => {
     if (err) {
       console.error('Erro ao salvar os dados:', err);
     } else {
@@ -43,14 +47,15 @@ function saveDataToJsonFile(data) {
   });
 }
 
-function saveRoomsToFile() {
-  const jsonData = JSON.stringify(rooms, null, 2);
+function saveRoomToFile() {
+  const jsonData = JSON.stringify(room, null, 2);
+  const filePath = path.join(__dirname, 'database', 'room.json');
 
-  fs.writeFile('rooms.json', jsonData, (err) => {
+  fs.writeFile(filePath, jsonData, (err) => {
     if (err) {
-      console.error('Erro ao salvar as salas:', err);
+      console.error('Erro ao salvar sala:', err);
     } else {
-      console.log('Salas salvas com sucesso em rooms.json');
+      console.log('Sala salva com sucesso em database/room.json');
     }
   });
 }
@@ -71,11 +76,37 @@ io.on('connection', (socket) => {
     console.log('Um cliente se desconectou');
   });
 
+  // Manipulador de eventos para desconectar um cliente quando um evento personalizado é acionado
+  socket.on('forceDisconnect', () => {
+    socket.disconnect();
+    console.log(`Cliente desconectado: ${socket.id} - force disconnect`);
+  });
+
+  socket.on('disconnectClients', () => {
+    clientsToDisconnect.forEach((clientId) => {
+      const clientSocket = io.sockets.connected[clientId];
+      if (clientSocket) {
+        clientSocket.disconnect();
+        console.log(`Cliente desconectado: ${clientId}`);
+      }
+    });
+  });
+
   // Manipulador de eventos personalizados
   socket.on('chat message', (message) => {
     console.log(`Mensagem recebida: ${message}`);
     // Emitir a mensagem para todos os clientes conectados
     io.emit('chat message', message);
+  });
+
+  // Limpa arquivo romm
+  socket.on('clearFileRoom', () => {
+    room.roomCode = "";
+    room.users = [];
+    saveRoomToFile();
+
+    console.log('Arquivo room limpado!')
+    io.emit('clearFileRoomMessage', 'Arquivo room limpado!');
   });
 
   // Manipulador de eventos para quando um cliente solicita uma pergunta aleatória
@@ -104,11 +135,8 @@ io.on('connection', (socket) => {
     // Remove a pergunta da matriz para que ela não seja repetida
     currentPhaseQuestions.splice(randomIndex, 1);
     
-    // Gere um ID único para a pergunta
-    const questionId = uuidv4();
-    
     // Envie a pergunta aleatória para o cliente
-    socket.emit('question', { id: questionId, question: randomQuestion });
+    socket.emit('question', { id: randomQuestion.id, question: randomQuestion });
   });
 
 
@@ -139,23 +167,37 @@ io.on('connection', (socket) => {
   });
 
   // No lado do cliente (React)
- // socket.emit('authenticate', { role: 'apresentador' }); // ou role: 'aluno'
- socket.on('authenticate', ({ role }) => {
+  // socket.emit('authenticate', { role: 'apresentador' }); // ou role: 'aluno'
+  socket.on('authenticate', ({ role }) => {
     if (role === 'presenter') {
       const roomCode = generateRoomCode();
       socket.join(roomCode);
       socket.emit('roomCode', roomCode);
+
+      // Salva código da sala em um JSON
+      room.roomCode = roomCode;
+      saveRoomToFile(room);
     } else if (role === 'student') {
       // Lógica para alunos que desejam entrar em uma sala
       socket.on('joinRoom', (roomCode, studentId) => {
-        if (rooms[roomCode]) {
+        if (roomCode === room.roomCode) {
           // Verifique se o código da sala existe
           socket.join(roomCode);
-          rooms[roomCode].users.push({ socketId: socket.id, studentId });
-          saveRoomsToFile();
+          if (!room.users) {
+            room.users = [];
+            room.users.push({ socketId: socket.id, studentId });
+          } else {
+            const userIsExisting = (room.users).find((user) => user.socketId === socket.id);
 
-          // Emita um evento de sucesso para o aluno
-          socket.emit('studentAuthenticated', 'Você foi autenticado com sucesso na sala.');
+            if (!userIsExisting) {
+              room.users.push({ socketId: socket.id, studentId });
+              // Emita um evento de sucesso para o aluno
+              socket.emit('studentAuthenticated', 'Você foi autenticado com sucesso na sala.');
+            } else {
+              socket.emit('userIsExistingInTheRoom', 'Você não pode ter dois acessos simultâneos');
+            }
+          }
+          saveRoomToFile();
         } else {
           // Emita um evento de erro para o aluno
           socket.emit('roomError', 'A sala não existe ou o código está incorreto.');
@@ -163,6 +205,8 @@ io.on('connection', (socket) => {
       });
     }
   });
+});
+  
 
 // Inicialize o servidor na porta desejada
 const PORT = process.env.PORT || 4000;
