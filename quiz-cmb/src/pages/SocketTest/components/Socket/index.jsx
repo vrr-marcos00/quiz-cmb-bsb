@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
+
+/**
+ * Configs
+ */
 import io from 'socket.io-client';
+import { URL_SOCKET } from '../../../../configs';
 
 class Socket extends Component {
   constructor() {
@@ -9,7 +14,7 @@ class Socket extends Component {
     };
 
     // Conecte-se ao servidor Socket.io
-    this.socket = io('http://localhost:4000'); // Substitua pela URL do seu servidor
+    this.socket = io(URL_SOCKET); // Substitua pela URL do seu servidor
   }
 
   componentDidMount() {

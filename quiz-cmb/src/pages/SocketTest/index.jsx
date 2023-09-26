@@ -1,10 +1,14 @@
 import React from 'react';
 import './styles.css';
+
+/**
+ * Components
+ */
 import Socket from './components/Socket';
 
 function SocketTest() {
   return (
-    <div className="socket-test">
+    <div className="main-page">
       <Socket />
     </div>
   );
