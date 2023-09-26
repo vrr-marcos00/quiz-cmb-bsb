@@ -6,6 +6,7 @@ function HomePresenter({ socket }) {
 
   React.useEffect(() => {
     socket.emit('clearFileRoom');
+    socket.emit('disconnectClients');
   }, []);
 
   const handleClickRoomCreate = () => {

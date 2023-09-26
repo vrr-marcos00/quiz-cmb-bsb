@@ -28,10 +28,10 @@ const data = {
 };
 
 // Objeto para rastrear as salas
-const room = require('./database/room.json') || {};
+const room = require('./database/room.json') || { roomCode: '', users: [] };
 
 // Listagem de clients a serem desconectados
-const clientsToDisconnect = [];
+let clientsToDisconnect = [];
 
 // Função para salvar os dados em um arquivo JSON
 function saveDataToJsonFile(data) {
@@ -83,30 +83,30 @@ io.on('connection', (socket) => {
   });
 
   socket.on('disconnectClients', () => {
+    const connectedClients = io.of("/").sockets;
+  
     clientsToDisconnect.forEach((clientId) => {
-      const clientSocket = io.sockets.connected[clientId];
+      const clientSocket = connectedClients.get(clientId);
       if (clientSocket) {
         clientSocket.disconnect();
         console.log(`Cliente desconectado: ${clientId}`);
       }
     });
-  });
-
-  // Manipulador de eventos personalizados
-  socket.on('chat message', (message) => {
-    console.log(`Mensagem recebida: ${message}`);
-    // Emitir a mensagem para todos os clientes conectados
-    io.emit('chat message', message);
+    clientsToDisconnect = [];
   });
 
   // Limpa arquivo romm
   socket.on('clearFileRoom', () => {
-    room.roomCode = "";
-    room.users = [];
-    saveRoomToFile();
+    console.log(room.users.length > 0)
+    if (room.users.length > 0) {
+      clientsToDisconnect = (room.users).map((user) => user.socketId);
 
-    console.log('Arquivo room limpado!')
-    io.emit('clearFileRoomMessage', 'Arquivo room limpado!');
+      room.roomCode = '';
+      room.users = [];
+      saveRoomToFile();
+
+      socket.emit('clearFileRoomMessage', 'Arquivo room limpado!');
+    }
   });
 
   // Manipulador de eventos para quando um cliente solicita uma pergunta aleatória
