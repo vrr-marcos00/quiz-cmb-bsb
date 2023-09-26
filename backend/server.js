@@ -6,11 +6,11 @@ const path = require('path');
 
 const questions = require('./utils/questions.json');
 
-// Crie o aplicativo Express e o servidor HTTP
+// Cria o aplicativo Express e o servidor HTTP
 const app = express();
 const server = http.createServer(app);
 
-// Crie o servidor Socket.io e associe-o ao servidor HTTP
+// Cria o servidor Socket.io e associe-o ao servidor HTTP
 const io = socketIo(server, {
   cors: {
     origin: '*',
@@ -129,21 +129,21 @@ io.on('connection', (socket) => {
     const randomIndex = Math.floor(Math.random() * currentPhaseQuestions.length);
     const randomQuestion = currentPhaseQuestions[randomIndex];
     
-    // Remove a pergunta da matriz para que ela não seja repetida
+    // Remova a pergunta da matriz para que ela não seja repetida
     currentPhaseQuestions.splice(randomIndex, 1);
     
-    // Envie a pergunta aleatória para o cliente
+    // Envia a pergunta aleatória para o cliente
     io.emit('question', { id: randomQuestion.id, question: randomQuestion });
   });
 
 
   socket.on('answer', ({ playerId, questionId, isCorrect }) => {
-    // Verifique se o jogador já respondeu a esta pergunta
+    // Verifica se o jogador já respondeu a esta pergunta
     if (!data.answeredQuestions.includes(questionId)) {
-      // Adicione a ID da pergunta à lista de perguntas respondidas
+      // Adiciona o ID da pergunta à lista de perguntas respondidas
       data.answeredQuestions.push(questionId);
   
-      // Verifique se o jogador está no objeto de participantes
+      // Verifica se o jogador está no objeto de participantes
       if (!data.participants[playerId]) {
         // Se não estiver, crie uma entrada para o jogador
         data.participants[playerId] = {
@@ -151,68 +151,63 @@ io.on('connection', (socket) => {
         };
       }
   
-      // Atualize a pontuação do jogador com base na resposta
+      // Atualiza a pontuação do jogador com base na resposta
       if (isCorrect) {
         data.participants[playerId].score += 10;
       } else {
         data.participants[playerId].score -= 10;
       }
   
-      // Salve os dados em um arquivo JSON
+      // Salva os dados em um arquivo JSON
       saveDataToJsonFile(data);
     }
   });
 
-  // No lado do cliente (React)
-  // socket.emit('authenticate', { role: 'apresentador' }); // ou role: 'aluno'
+  socket.on('joinRoom', (roomCode, studentId) => {
+    // Verifica se o código da sala existe
+    if (roomCode === room.roomCode) {
+      socket.join(roomCode);
+      if (!room.users) {
+        room.users = [];
+        room.users.push({ socketId: socket.id, studentId });
+        socket.emit('studentAuthenticated', 'Você foi autenticado com sucesso na sala.');
+      } else {
+        const userIsExisting = room.users.find((user) => user.socketId === socket.id);
+  
+        if (!userIsExisting) {
+          room.users.push({ socketId: socket.id, studentId });
+          // Emite um evento de sucesso para o aluno
+          socket.emit('studentAuthenticated', 'Você foi autenticado com sucesso na sala.');
+        } else {
+          socket.emit('userIsExistingInTheRoom', 'Você não pode ter dois acessos simultâneos');
+        }
+      }
+      console.log(`O estudante ${studentId} entrou na sala`);
+      saveRoomToFile();
+  
+      io.emit('currentRoom', room);
+    } else {
+      // Emite um evento de erro para o aluno
+      socket.emit('roomError', 'A sala não existe ou o código está incorreto.');
+    }
+  });
+
   socket.on('authenticate', ({ role }) => {
     if (role === 'presenter') {
       const roomCode = generateRoomCode();
       socket.join(roomCode);
       socket.emit('roomCode', roomCode);
-
+  
       // Salva código da sala em um JSON
       room.roomCode = roomCode;
       saveRoomToFile(room);
-    } else if (role === 'student') {
-      // Lógica para alunos que desejam entrar em uma sala
-      socket.on('joinRoom', (roomCode, studentId) => {
-        // Verifique se o código da sala existe
-        if (roomCode === room.roomCode) {
-          socket.join(roomCode);
-          if (!room.users) {
-            room.users = [];
-            room.users.push({ socketId: socket.id, studentId });
-            socket.emit('studentAuthenticated', 'Você foi autenticado com sucesso na sala.');
-          } else {
-            const userIsExisting = (room.users).find((user) => user.socketId === socket.id);
-
-            if (!userIsExisting) {
-              room.users.push({ socketId: socket.id, studentId });
-              // Emite um evento de sucesso para o aluno
-              socket.emit('studentAuthenticated', 'Você foi autenticado com sucesso na sala.');
-            } else {
-              socket.emit('userIsExistingInTheRoom', 'Você não pode ter dois acessos simultâneos');
-            }
-          }
-          console.log(`O estudante ${studentId} entrou na sala`);
-          saveRoomToFile();
-
-          io.emit('currentRoom', room);
-        } else {
-          // Emita um evento de erro para o aluno
-          socket.emit('roomError', 'A sala não existe ou o código está incorreto.');
-        }
-      });
     }
   });
 });
   
 
-// Inicialize o servidor na porta desejada
+// Inicializa o servidor na porta desejada
 const PORT = process.env.PORT || 4000;
 server.listen(PORT, () => {
   console.log(`Servidor Socket.io está ouvindo na porta ${PORT}`);
 });
-
-
