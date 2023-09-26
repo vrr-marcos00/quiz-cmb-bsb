@@ -17,10 +17,6 @@ function HomeStudent({ socket }) {
     socket.on('roomError', (message) => {
       alert(message);
     });
-
-    socket.on('initGame', () => {
-      console.log('GAME DEVE SER INICIADO');
-    });
   }, []);
 
   const handleClickEnterTheRoom = () => {

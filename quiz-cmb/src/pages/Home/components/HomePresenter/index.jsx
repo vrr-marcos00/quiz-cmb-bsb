@@ -8,7 +8,7 @@ function HomePresenter({ socket, currentRoom }) {
     socket.emit('clearFileRoom');
 
     socket.on('initGame', () => {
-      console.log('GAME DEVE SER INICIADO');
+      window.location.href = '/question-presenter';
     });
 
     socket.on('initGameError', (message) => {

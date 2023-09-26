@@ -4,7 +4,7 @@ const socketIo = require('socket.io');
 const fs = require('fs');
 const path = require('path');
 
-const questions = require('./utils/questions.json');
+const questions = require('./database/questions.json');
 
 // Cria o aplicativo Express e o servidor HTTP
 const app = express();
@@ -24,7 +24,7 @@ const io = socketIo(server, {
 const data = {
   participants: {},
   answeredQuestions: [],
-  currentPhase: 'facil',
+  currentPhase: 'easy',
 };
 
 // Objeto para rastrear as salas
@@ -113,13 +113,13 @@ io.on('connection', (socket) => {
     if (currentPhaseQuestions.length === 0) {
       // Se não houver mais perguntas na fase atual, mude para a próxima fase
       switch (data.currentPhase) {
-        case 'facil':
-          data.currentPhase = 'medio';
+        case 'easy':
+          data.currentPhase = 'medium';
           break;
-        case 'medio':
-          data.currentPhase = 'dificil';
+        case 'medium':
+          data.currentPhase = 'difficult';
           break;
-        case 'dificil':
+        case 'difficult':
           // Todas as fases foram concluídas, você pode tratar isso como desejar
           break;
       }

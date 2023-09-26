@@ -9,18 +9,22 @@ import io from 'socket.io-client';
 
 const socket = io(URL_SOCKET);
 
-function WaitingRoom() {
+function QuestionStudent() {
+  const [question, setQuestion] = React.useState({});
+
   React.useEffect(() => {
-    socket.on('initGame', () => {
-      window.location.href = '/question-student';
+    socket.emit('getRandomQuestion');
+    socket.on('question', (data) => {
+      setQuestion(data);
     });
   }, []);
 
   return (
     <div className="main-page">
-      <h1>Sala de espera</h1>
+      <h1>Sala de perguntas</h1>
+      <h2>{question.id}</h2>
     </div>
   );
 }
 
-export default WaitingRoom;
+export default QuestionStudent;
