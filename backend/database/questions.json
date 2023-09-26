@@ -1,0 +1,205 @@
+{
+  "easy": [{
+      "id": 1,
+      "question": "Qual a capital da Nova Zelândia?",
+      "alternatives": ["Auckland", "Melbourne", "Wellington", "Christchurch", "Queenstown"],
+      "response": "Wellington",
+      "response_alternative": {
+        "letter": "c",
+        "answer": "Wellington"
+      }
+    },
+    {
+      "id": 2,
+      "question": "Quem foi o criador da Academia Real Militar, atual AMAN?",
+      "alternatives": ["D. Pedro I", "Tomé de Souza", "D. Maria I", "Príncipe Regente D. João", "Visconde do Rio Branco"],
+      "response": "Príncipe Regente D. João",
+      "response_alternative": {
+        "letter": "d",
+        "answer": "Príncipe Regente D. João"
+      }
+    },
+    {
+      "id": 3,
+      "question": "Qual o maior mamífero herbívoro brasileiro?",
+      "alternatives": ["anta", "rinoceronte", "cavalo", "boi", "baleia"],
+      "response": "anta",
+      "response_alternative": {
+        "letter": "a",
+        "answer": "anta"
+      }
+    },
+    {
+      "id": 4,
+      "question": "Quais as principais raças de cães usadas pela polícia para rastrear criminosos, farejar materiais ilegais e realizar tarefas difíceis para os humanos?",
+      "alternatives": ["Pastor Alemão, Pastor Belga de Malinois e Rottweiler.", "Basset, Labrador e Yorkshire.", "Buldogue Francês, Lulu da Pomerândia e Pastor Alemão.", "Rottweiler, Pastor Alemão e Yorkshire.", "Doberman, Dogue Alemão e Fila Brasileiro."],
+      "response": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler",
+      "response_alternative": {
+        "letter": "a",
+        "answer": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler"
+      }
+    }
+  ],
+  "difficult": [{
+      "id": 5,
+      "question": "Quais os animais que integram o grupo dos cinco grandes (Big Five) da África do Sul?",
+      "alternatives": ["Leão, elefante, rinoceronte, hipopótamo e búfalo.", "Leão, elefante, rinoceronte, leopardo e búfalo.", "Elefante, rinoceronte, hipopótamo, búfalo e leopardo.", "Elefante, rinoceronte, hipopótamo, búfalo e girafa.", "Elefante, leão, girafa, búfalo e leopardo."],
+      "response": "Leão, elefante, rinoceronte, leopardo e búfalo",
+      "response_alternative": {
+        "letter": "b",
+        "answer": "Leão, elefante, rinoceronte, leopardo e búfalo"
+      }
+    },
+    {
+      "id": 6,
+      "question": "O camaleão de Madagascar tem um visão que abrange um ângulo de:",
+      "alternatives": ["180º.", "90º.", "200º.", "45º.", "360º."],
+      "response": "360º",
+      "response_alternative": {
+        "letter": "e",
+        "answer": "360º"
+      }
+    },
+    {
+      "id": 7,
+      "question": "A que hino pertence a estrofe: 'Bandeira do Brasil\nNinguém te manchará\nTeu povo varonil\nIsso não consentirá'",
+      "alternatives": ["Canção do Exército", "Fibra de Herói", "Canção da Infantaria", "Canção do Paraquedista", "Hino da Bandeira"],
+      "response": "Fibra de Herói",
+      "response_alternative": {
+        "letter": "b",
+        "answer": "Fibra de Herói"
+      }
+    },
+    {
+      "id": 8,
+      "question": "Qual o grupo dos países que possuem a Língua Portuguesa como idioma oficial?",
+      "alternatives": ["Brasil, Portugal, Curaçao e Timor-Leste.", "Guiné Equatorial, Moçambique, São Tomé e Príncipe e África do Sul.", "Portugal, Angola, Cabo Verde e Guiné Bissau.", "Moçambique, Brasil, Portugal e Etiópia.", "Guiné Equatorial, Guiné Bissau, São Tomé e Príncipe e Somália."],
+      "response": "Portugal, Angola, Cabo Verde e Guiné Bissau",
+      "response_alternative": {
+        "letter": "c",
+        "answer": "Portugal, Angola, Cabo Verde e Guiné Bissau"
+      }
+    },
+    {
+      "id": 9,
+      "question": "Aleijadinho foi vítima do preconceito e de uma doença devastadora, que não deixaram abalar seu talento. Sobre o artista, podemos afirmar:",
+      "alternatives": ["O Santuário do Bom Jesus de Matosinhos é considerado Patrimônio Mundial da UNESCO. A igreja faz parte do acervo de obras do artista. Lá estão as esculturas em pedra-sabão, representação dos Doze Profetas.", "Todo dinheiro que recebia, o artista dava para a Igreja.", "Além de esculpir, talhar em pedra e madeira e projetar igrejas, Aleijadinho também se dedicava à agricultura.", "Além de perder os movimentos das mãos e dos pés, Antônio Francisco Lisboa também ficou cego e por isso passou a trabalhar à noite.", "Todas as obras de Aleijadinho, desde talhas, projetos arquitetônicos a esculturas e relevos foram realizadas no estado da Bahia."],
+      "response": "O Santuário do Bom Jesus de Matosinhos é considerado Patrimônio Mundial da UNESCO. A igreja faz parte do acervo de obras do artista. Lá estão as esculturas em pedra-sabão, representação dos Doze Profetas.",
+      "response_alternative": {
+        "letter": "a",
+        "answer": "O Santuário do Bom Jesus de Matosinhos é considerado Patrimônio Mundial da UNESCO. A igreja faz parte do acervo de obras do artista. Lá estão as esculturas em pedra-sabão, representação dos Doze Profetas."
+      }
+    },
+    {
+      "id": 10,
+      "question": "David ou Davi é uma das esculturas mais famosas de qual artista renascentista?",
+      "alternatives": ["Leonardo da Vinci", "Michelangelo", "Botticelli", "Rafael", "Galileo Galilei"],
+      "response": "Michelangelo",
+      "response_alternative": {
+        "letter": "b",
+        "answer": "Michelangelo"
+      }
+    },
+    {
+      "id": 11,
+      "question": "Quando surgiu no Brasil a Irmandade da Santa Casa de Misericórdia?",
+      "alternatives": ["Surgiu ainda no período colonial, instalando-se em Olinda, na Capitania de Pernambuco, em 1539.", "Surgiu ainda no período colonial, instalando-se em Recife, na Capitania de Pernambuco, em 1540.", "Surgiu no período pós-colonial, instalando-se em Salvador, em 1539.", "Surgiu na Bahia, com o primeiro governador Tomé de Souza.", "Surgiu ainda no período colonial, instalando-se no Rio de Janeiro, em 1808."],
+      "response": "Surgiu ainda no período colonial, instalando-se em Olinda, na Capitania de Pernambuco, em 1539.",
+      "response_alternative": {
+        "letter": "a",
+        "answer": "Surgiu ainda no período colonial, instalando-se em Olinda, na Capitania de Pernambuco, em 1539."
+      }
+    },
+    {
+      "id": 12,
+      "question": "Qual dos animais abaixo é mais rápido?",
+      "alternatives": ["O Elefante", "O porco", "A Girafa", "O gato doméstico", "A cobra"],
+      "response": "A Girafa",
+      "response_alternative": {
+        "letter": "c",
+        "answer": "A Girafa"
+      }
+    },
+    {
+      "id": 13,
+      "question": "Quais são os países que mais produzem café no mundo?",
+      "alternatives": ["Uganda, Costa do Marfim, Guatemala, Brasil e Índia.", "México, Colômbia, Índia, Vietnã e Costa do Marfim.", "Brasil, Alemanha, Estados Unidos, Índia e Indonésia.", "Etiópia, Indonésia, Colômbia, Vietnã e Brasil.", "África do Sul, Portugal, Costa do Marfim, Brasil e Colômbia."],
+      "response": "Etiópia, Indonésia, Colômbia, Vietnã e Brasil",
+      "response_alternative": {
+        "letter": "d",
+        "answer": "Etiópia, Indonésia, Colômbia, Vietnã e Brasil"
+      }
+    },
+    {
+      "id": 14,
+      "question": "Quantas bactérias são compartilhadas durante um beijo apaixonado?",
+      "alternatives": ["1 milhão", "500 mil", "8 milhões", "800 milhões", "80 milhões"],
+      "response": "80 milhões",
+      "response_alternative": {
+        "letter": "e",
+        "answer": "80 milhões"
+      }
+    },
+    {
+      "id": 15,
+      "question": "Anualmente, quantos terremotos sacodem a Terra?",
+      "alternatives": ["cerca de 100", "cerca de 1.000", "cerca de 10.000", "cerca de 100.000", "cerca de 1.000.000"],
+      "response": "cerca de 1.000.000",
+      "response_alternative": {
+        "letter": "e",
+        "answer": "cerca de 1.000.000"
+      }
+    },
+    {
+      "id": 16,
+      "question": "Qual o maior túnel do mundo?",
+      "alternatives": ["SERPUKHOVSKO-TIMIRYAZEVSKAYA, na Rússia", "EUROTÚNEL, liga Inglaterra e França", "SEIKAN, no Japão", "BASE DE LÖTSCHBERG, na Suíça", "KALUZHSKO-RIZHSKAYA, na Rússia"],
+      "response": "SEIKAN, no Japão",
+      "response_alternative": {
+        "letter": "c",
+        "answer": "SEIKAN, no Japão"
+      }
+    }
+  ],
+  "medium": [{
+      "id": 17,
+      "question": "Quem é o Intruso?",
+      "alternatives": ["303", "81", "234", "11", "15"],
+      "response": "11",
+      "response_alternative": {
+        "letter": "d",
+        "answer": "11"
+      }
+    },
+    {
+      "id": 18,
+      "question": "Falando sobre período histórico, temos a.C. e d.C. que significam, respectivamente, 'antes de Cristo' e 'depois de Cristo'. Em latim, como é representada a sigla d.C.?",
+      "alternatives": ["A.C.", "D.A.", "A.D.", "An. Dom.", "A.J."],
+      "response": "A.D.",
+      "response_alternative": {
+        "letter": "c",
+        "answer": "A.D."
+      }
+    },
+    {
+      "id": 19,
+      "question": "Quantos degraus há na torre Eiffel?",
+      "alternatives": ["1420", "1658", "2561", "1665", "996"],
+      "response": "1665",
+      "response_alternative": {
+        "letter": "d",
+        "answer": "1665"
+      }
+    },
+    {
+      "id": 20,
+      "question": "Imagine que você foi dar um salto de paraquedas e, de repente, ao saltar, você sai da posição correta e acaba escorregando. O que fazer para se salvar?",
+      "alternatives": ["Puxar a corda do paraquedas.", "Abrir os braços para gerar resistência.", "Agarrar as canelas e esperar pelo melhor.", "Fechar a boca e os olhos.", "Abrir espaço com as pernas para deixar o ar entrar."],
+      "response": "Agarrar as canelas e esperar pelo melhor.",
+      "response_alternative": {
+        "letter": "c",
+        "answer": "Agarrar as canelas e esperar pelo melhor."
+      }
+    }
+  ]
+}
