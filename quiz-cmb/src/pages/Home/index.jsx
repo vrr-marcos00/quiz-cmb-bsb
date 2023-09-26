@@ -21,7 +21,6 @@ function Home() {
   const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
-    localStorage.setItem('userType', userType);
     socket.on('currentRoom', (currentRoom) => {
       setCurrentRoomInfo(currentRoom);
     });
