@@ -7,7 +7,6 @@ function HomeStudent({ socket }) {
   const [errorMessage, setErrorMessage] = React.useState('');
 
   const handleClickEnterTheRoom = () => {
-
     if (!roomCode) {
       alert('RoomCode obrigatório');
       return;

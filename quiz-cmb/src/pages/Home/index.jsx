@@ -17,12 +17,18 @@ const socket = io(URL_SOCKET);
 
 function Home() {
   const userType = new URLSearchParams(window.location.search).get('userType')
+  const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
+
+  React.useEffect(() => {
+    socket.on('currentRoom', (currentRoom) => {
+      setCurrentRoomInfo(currentRoom);
+    });
+  }, []);
 
   return (
     <div className="main-page">
-      {console.log(userType)}
       {userType === 'presenter' 
-        ? <HomePresenter socket={socket} />
+        ? <HomePresenter socket={socket} currentRoom={currentRoomInfo} />
         : <HomeStudent socket={socket} />
       }
     </div>

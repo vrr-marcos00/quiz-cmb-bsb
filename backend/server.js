@@ -69,8 +69,6 @@ function generateRoomCode() {
 
 // Manipulador de eventos para quando um cliente se conecta
 io.on('connection', (socket) => {
-  console.log('Um cliente se conectou');
-
   // Manipulador de eventos para quando um cliente se desconecta
   socket.on('disconnect', () => {
     console.log('Um cliente se desconectou');
@@ -90,9 +88,12 @@ io.on('connection', (socket) => {
         const clientSocket = connectedClients.get(user.socketId);
         if (clientSocket) {
           clientSocket.disconnect();
-          console.log(`Cliente desconectado: ${clientId}`);
+          console.log(`Cliente desconectado: ${user.studentId}`);
         }
       });
+
+      room.users = [];
+      saveRoomToFile();
     }
   });
 
@@ -132,7 +133,7 @@ io.on('connection', (socket) => {
     currentPhaseQuestions.splice(randomIndex, 1);
     
     // Envie a pergunta aleatória para o cliente
-    socket.emit('question', { id: randomQuestion.id, question: randomQuestion });
+    io.emit('question', { id: randomQuestion.id, question: randomQuestion });
   });
 
 
@@ -176,12 +177,13 @@ io.on('connection', (socket) => {
     } else if (role === 'student') {
       // Lógica para alunos que desejam entrar em uma sala
       socket.on('joinRoom', (roomCode, studentId) => {
+        // Verifique se o código da sala existe
         if (roomCode === room.roomCode) {
-          // Verifique se o código da sala existe
           socket.join(roomCode);
           if (!room.users) {
             room.users = [];
             room.users.push({ socketId: socket.id, studentId });
+            socket.emit('studentAuthenticated', 'Você foi autenticado com sucesso na sala.');
           } else {
             const userIsExisting = (room.users).find((user) => user.socketId === socket.id);
 
@@ -193,7 +195,10 @@ io.on('connection', (socket) => {
               socket.emit('userIsExistingInTheRoom', 'Você não pode ter dois acessos simultâneos');
             }
           }
+          console.log(`O estudante ${studentId} entrou na sala`);
           saveRoomToFile();
+
+          io.emit('currentRoom', room);
         } else {
           // Emita um evento de erro para o aluno
           socket.emit('roomError', 'A sala não existe ou o código está incorreto.');

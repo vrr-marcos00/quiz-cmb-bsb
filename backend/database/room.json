@@ -1,4 +1,13 @@
 {
-  "roomCode": "",
-  "users": []
+  "roomCode": "661106",
+  "users": [
+    {
+      "socketId": "0JnSq_OrZBRjLXDQAAAp",
+      "studentId": "Test"
+    },
+    {
+      "socketId": "2PC5mOU6qVf1V90cAAAr",
+      "studentId": "Teste 2"
+    }
+  ]
 }
