@@ -1,37 +1,39 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
 
 function HomeStudent({ socket }) {
   const [roomCode, setRoomCode] = React.useState('')
   const [studentId, setStudentId] = React.useState('')
   const [successMessage, setSuccessMessage] = React.useState('');
-  const [errorMessage, setErrorMessage] = React.useState('');
 
-  const handleClickEnterTheRoom = () => {
-    if (!roomCode) {
-      alert('RoomCode obrigatório');
-      return;
-    }
-
-    if (!studentId) {
-      alert('RoomCode obrigatório');
-      return;
-    }
-
-    socket.emit('authenticate', { role: 'student' });
-    socket.emit('joinRoom', roomCode, studentId);
-
+  React.useEffect(() => {
     socket.on('studentAuthenticated', (message) => {
       console.log(message)
       setSuccessMessage(message);
     });
 
     socket.on('userIsExistingInTheRoom', (message) => {
-      setErrorMessage(message);
+      alert(message);
     });
 
     socket.on('roomError', (message) => {
-      setErrorMessage(message);
+      alert(message);
     });
+  }, []);
+
+  const handleClickEnterTheRoom = () => {
+    if (!studentId) {
+      alert('Nome obrigatório');
+      return;
+    }
+    
+    if (!roomCode) {
+      alert('RoomCode obrigatório');
+      return;
+    }
+
+    socket.emit('authenticate', { role: 'student' });
+    socket.emit('joinRoom', roomCode, studentId);
   };
 
   return (
@@ -49,7 +51,6 @@ function HomeStudent({ socket }) {
         <button onClick={handleClickEnterTheRoom}>Entrar na sala</button>
 
         <h5>{successMessage}</h5>
-        <h5>{errorMessage}</h5>
       </div>
     </div>
   )
