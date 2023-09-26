@@ -82,31 +82,27 @@ io.on('connection', (socket) => {
     console.log(`Cliente desconectado: ${socket.id} - force disconnect`);
   });
 
-  socket.on('disconnectClients', () => {
+  socket.on('disconnectAllUsers', () => {
     const connectedClients = io.of("/").sockets;
-  
-    clientsToDisconnect.forEach((clientId) => {
-      const clientSocket = connectedClients.get(clientId);
-      if (clientSocket) {
-        clientSocket.disconnect();
-        console.log(`Cliente desconectado: ${clientId}`);
-      }
-    });
-    clientsToDisconnect = [];
+
+    if (room.users.length > 0) {
+      room.users.forEach((user) => {
+        const clientSocket = connectedClients.get(user.socketId);
+        if (clientSocket) {
+          clientSocket.disconnect();
+          console.log(`Cliente desconectado: ${clientId}`);
+        }
+      });
+    }
   });
 
   // Limpa arquivo romm
   socket.on('clearFileRoom', () => {
-    console.log(room.users.length > 0)
-    if (room.users.length > 0) {
-      clientsToDisconnect = (room.users).map((user) => user.socketId);
+    room.roomCode = '';
+    room.users = [];
+    saveRoomToFile();
 
-      room.roomCode = '';
-      room.users = [];
-      saveRoomToFile();
-
-      socket.emit('clearFileRoomMessage', 'Arquivo room limpado!');
-    }
+    socket.emit('clearFileRoomMessage', 'Arquivo room limpado!');
   });
 
   // Manipulador de eventos para quando um cliente solicita uma pergunta aleatória

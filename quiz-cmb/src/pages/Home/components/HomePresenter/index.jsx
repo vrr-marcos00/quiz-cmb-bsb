@@ -6,7 +6,6 @@ function HomePresenter({ socket }) {
 
   React.useEffect(() => {
     socket.emit('clearFileRoom');
-    socket.emit('disconnectClients');
   }, []);
 
   const handleClickRoomCreate = () => {
@@ -14,6 +13,10 @@ function HomePresenter({ socket }) {
     socket.on('roomCode', (roomCode) => {
       setRoomCode(roomCode);
     });
+  };
+
+  const handleDisconnectAllUsers = () => {
+    socket.emit('disconnectAllUsers');
   };
 
   return (
@@ -24,6 +27,7 @@ function HomePresenter({ socket }) {
       </div>
       <div>
         <button onClick={handleClickRoomCreate}>Criar Sala</button>
+        <button onClick={handleDisconnectAllUsers}>Disconectar todos os usuários</button>
       </div>
     </div>
   )
