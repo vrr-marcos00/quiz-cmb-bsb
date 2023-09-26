@@ -6,6 +6,14 @@ function HomePresenter({ socket, currentRoom }) {
 
   React.useEffect(() => {
     socket.emit('clearFileRoom');
+
+    socket.on('initGame', () => {
+      console.log('GAME DEVE SER INICIADO');
+    });
+
+    socket.on('initGameError', (message) => {
+      alert(message);
+    });
   }, []);
 
   const handleClickRoomCreate = () => {
@@ -20,6 +28,10 @@ function HomePresenter({ socket, currentRoom }) {
     socket.emit('forceDisconnect');
   };
 
+  const handleIniteGame = () => {
+    socket.emit('initQuiz');
+  };
+
   return (
     <div className="main-page">
       <div>
@@ -29,6 +41,7 @@ function HomePresenter({ socket, currentRoom }) {
       <div>
         <button onClick={handleClickRoomCreate}>Criar Sala</button>
         <button onClick={handleDisconnectAllUsers}>Disconectar todos os usuários</button>
+        <button onClick={handleIniteGame}>Iniciar Game</button>
       </div>
 
       <div>
@@ -37,7 +50,7 @@ function HomePresenter({ socket, currentRoom }) {
             <h3>Usuários conectados</h3>
             <ul>
               {currentRoom.users.map((user) => (
-                <li key={user.studantId}>{user.studentId}</li>
+                <li key={user.socketId}>{user.studentId}</li>
               ))}
             </ul>
           </div>

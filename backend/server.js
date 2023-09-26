@@ -203,6 +203,15 @@ io.on('connection', (socket) => {
       saveRoomToFile(room);
     }
   });
+
+  socket.on('initQuiz', () => {
+    if (room.users.length > 0) {
+      io.emit('initGame', true);
+    } else {
+      socket.emit('initGameError', 'O jogo deve conter no minímo 1 jogador');
+    }
+    
+  })
 });
   
 

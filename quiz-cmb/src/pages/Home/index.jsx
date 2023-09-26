@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
 import './styles.css';
 
@@ -20,6 +21,7 @@ function Home() {
   const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
+    localStorage.setItem('userType', userType);
     socket.on('currentRoom', (currentRoom) => {
       setCurrentRoomInfo(currentRoom);
     });

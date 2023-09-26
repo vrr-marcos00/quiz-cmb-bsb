@@ -1,4 +1,9 @@
 {
-  "roomCode": "981089",
-  "users": []
+  "roomCode": "179654",
+  "users": [
+    {
+      "socketId": "NnpR5g5nQaDuzjmJAAAS",
+      "studentId": "Teste "
+    }
+  ]
 }

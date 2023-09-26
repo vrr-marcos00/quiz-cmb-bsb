@@ -4,12 +4,10 @@ import React from 'react';
 function HomeStudent({ socket }) {
   const [roomCode, setRoomCode] = React.useState('')
   const [studentId, setStudentId] = React.useState('')
-  const [successMessage, setSuccessMessage] = React.useState('');
 
   React.useEffect(() => {
     socket.on('studentAuthenticated', (message) => {
-      console.log(message)
-      setSuccessMessage(message);
+      window.location.href = '/waiting-room';
     });
 
     socket.on('userIsExistingInTheRoom', (message) => {
@@ -18,6 +16,10 @@ function HomeStudent({ socket }) {
 
     socket.on('roomError', (message) => {
       alert(message);
+    });
+
+    socket.on('initGame', () => {
+      console.log('GAME DEVE SER INICIADO');
     });
   }, []);
 
@@ -49,8 +51,6 @@ function HomeStudent({ socket }) {
         <input onChange={(e) => setRoomCode(e.target.value)} />
 
         <button onClick={handleClickEnterTheRoom}>Entrar na sala</button>
-
-        <h5>{successMessage}</h5>
       </div>
     </div>
   )
