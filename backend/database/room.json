@@ -1,13 +1,9 @@
 {
-  "roomCode": "787878",
+  "roomCode": "913285",
   "users": [
     {
-      "socketId": "lFmrs8eA6uWRuk2VAAAk",
-      "studentId": "Teste 2"
-    },
-    {
-      "socketId": "mdscHM4WogIfplKCAAAs",
-      "studentId": "Teste"
+      "socketId": "vA3Ty0ZVNkqurPR9AAB8",
+      "studentId": "Marcos Sa"
     }
   ]
 }

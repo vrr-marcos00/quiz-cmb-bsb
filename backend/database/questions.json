@@ -2,207 +2,2247 @@
   "easy": [
     {
       "id": 1,
-      "question": "Qual a capital da Nova Zelândia?",
-      "alternatives": ["Auckland", "Melbourne", "Wellington", "Christchurch", "Queenstown"],
-      "response": "Wellington",
-      "response_alternative": {
-        "letter": "c",
-        "answer": "Wellington"
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual é a característica principal da fase seguinte à mostrada na figura?",
+      "alternativas": [
+        "A) separação dos cromossomos homólogos.",
+        "B) condensação dos cromossomos",
+        "C) alinhamento dos cromossomos na placa equatorial.",
+        "D) separação das cromátides-irmãs.",
+        "E) desaparecimento da carioteca."
+      ],
+      "respostaLetra": "D",
+      "descricao": "A fase mostrada na figura é metáfase; a fase seguinte é a anáfase, cuja característica principal é a separação das cromátides-irmãs.",
+      "imgPergunta": "https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2016/10/metafase-mitose-divisao-celular.jpg?quality=100&strip=info&w=550",
+      "imgResposta": ""
     },
     {
       "id": 2,
-      "question": "Quem foi o criador da Academia Real Militar, atual AMAN?",
-      "alternatives": ["D. Pedro I", "Tomé de Souza", "D. Maria I", "Príncipe Regente D. João", "Visconde do Rio Branco"],
-      "response": "Príncipe Regente D. João",
-      "response_alternative": {
-        "letter": "d",
-        "answer": "Príncipe Regente D. João"
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual o componente nutricional presente no ovo, que é muito procurado pelos frequentadores de academia?",
+      "alternativas": [
+        "A) proteína",
+        "B) lipídeos",
+        "C) calorias",
+        "D) carboidratos",
+        "E) vitaminas"
+      ],
+      "respostaLetra": "A",
+      "descricao": "O ovo é importante por ter a clara rica em proteínas, as quais fortalecem os músculos e favorecem o crescimento.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 3,
-      "question": "Qual o maior mamífero herbívoro brasileiro?",
-      "alternatives": ["anta", "rinoceronte", "cavalo", "boi", "baleia"],
-      "response": "anta",
-      "response_alternative": {
-        "letter": "a",
-        "answer": "anta"
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual composto não é fonte de energia para o ser humano?",
+      "alternativas": [
+        "A) glicose",
+        "B) amido",
+        "C) glicogênio",
+        "D) celulose",
+        "E) frutose"
+      ],
+      "respostaLetra": "D",
+      "descricao": "Apesar de ser constituído de monômeros de glicose ligados entre si, a celulose só é aproveitada por alguns animais que possuem associação com micro-organismos em seus tratos digestivos. Esses microrganismos produzem a celulase, capaz de metabolizar esse polímero.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 4,
-      "question": "Quais as principais raças de cães usadas pela polícia para rastrear criminosos, farejar materiais ilegais e realizar tarefas difíceis para os humanos?",
-      "alternatives": ["Pastor Alemão, Pastor Belga de Malinois e Rottweiler.", "Basset, Labrador e Yorkshire.", "Buldogue Francês, Lulu da Pomerândia e Pastor Alemão.", "Rottweiler, Pastor Alemão e Yorkshire.", "Doberman, Dogue Alemão e Fila Brasileiro."],
-      "response": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler",
-      "response_alternative": {
-        "letter": "a",
-        "answer": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler"
-      }
+      "tema": "Biologia",
+      "pergunta": "A qual filo pertence o animal da imagem?",
+      "alternativas": [
+        "A) aracnida",
+        "B) artrópoda",
+        "C) insecta",
+        "D) quilópoda",
+        "E) animalia"
+      ],
+      "respostaLetra": "B",
+      "descricao": "As aranhas pertencem ao filo Artrópoda, classe Arachnida, ordem Araneae, constituindo um dos maiores grupos animais no que diz respeito à sua diversidade, existindo mais de 12 mil espécies só no Brasil.",
+      "imgPergunta": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/05/1-aranha-marrom.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 21,
+      "tema": "Curiosidades",
+      "pergunta": "Qual a capital da Nova Zelândia?",
+      "alternativas": [
+        "A) Auckland",
+        "B) Melbourne",
+        "C) Wellington",
+        "D) Christchurch",
+        "E) Queenstown"
+      ],
+      "respostaLetra": "C",
+      "descricao": "A capital da Nova Zelândia é Wellington.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 22,
+      "tema": "Curiosidades",
+      "pergunta": "Quem foi o criador da Academia Real Militar, atual AMAN?",
+      "alternativas": [
+        "A) D. Pedro I",
+        "B) Tomé de Souza",
+        "C) D. Maria I",
+        "D) Príncipe Regente D. João",
+        "E) Visconde do Rio Branco"
+      ],
+      "respostaLetra": "D",
+      "descricao": "A Academia Real Militar foi uma decorrência da vinda da Família Real para o Brasil em 1808. O príncipe D. João criou-a para a formação de oficiais do Exército de Portugal e para todo o reino.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 23,
+      "tema": "Curiosidades",
+      "pergunta": "Qual o maior mamífero herbívoro brasileiro?",
+      "alternativas": [
+        "A) anta",
+        "B) rinoceronte",
+        "C) cavalo",
+        "D) boi",
+        "E) baleia "
+      ],
+      "respostaLetra": "A",
+      "descricao": "A anta é o maior mamífero herbívoro do Brasil, chegando a pesar 250 quilos e medir 2 metros de comprimento.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 24,
+      "tema": "Curiosidades",
+      "pergunta": "Quais as principais raças de cães usadas pela polícia para rastrear criminosos, farejar materiais ilegais e realizar tarefas difíceis para os humanos?",
+      "alternativas": [
+        "A) Pastor Alemão, Pastor Belga de Malinois e Rottweiler.",
+        "B) Basset, Labrador e Yorkshire.",
+        "C) Buldogue Francês, Lulu da Pomerândia e Pastor Alemão.",
+        "D) Rottweiler, Pastor Alemão e Yorkshire.",
+        "E) Doberman, Dogue Alemão e Fila Brasileiro."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler são as raças mais utilizadas pela polícia.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 41,
+      "tema": "Física",
+      "pergunta": "As bicicletas de montanha (montain bikes) evoluíram muito na última década. Passaram a ter rodas de raio 29” ao invés de 26”. Com isso, comparando com os modelos antigos, as novas rodas giram com uma frequência aproximadamente",
+      "alternativas": [
+        "A) 3% maior",
+        "B) 3% menor",
+        "C) 10% maior",
+        "D) 10% menor",
+        "E) Igual"
+      ],
+      "respostaLetra": "D",
+      "descricao": "V = 2πf.R, na comparação  f1 . R1 = f2 . R2 | f29 . 29 = f 26 . 26 | f29 / f 26  = 26/29  ≈ 0,90  Logo, 10% menor!",
+      "imgPergunta": "https://tse3.mm.bing.net/th?id=OIP.WMKCveSSqBQF3rBeoDpDPQHaE7&pid=Api&P=0&h=180",
+      "imgResposta": ""
+    },
+    {
+      "id": 42,
+      "tema": "Física",
+      "pergunta": "Uma fonte de calor de 500 W foi utilizada para aquecer 50L de água. Sabendo-se que este processo demorou 2h, a variação de temperatura da água foi de:",
+      "alternativas": [
+        "A) 5 C.",
+        "B) 9 C.",
+        "C) 18 C.",
+        "D) 36 C.",
+        "E) 72 C."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Como Q = m.c.ΔT e Q = Potência x tempo  |  (500W).(2x3600s) = (50.000g).(4,0 J/g C). ΔT |  ΔT = 18 C",
+      "imgPergunta": "https://revista.crea-pr.org.br/wp-content/uploads/2022/09/Coletor-telhado.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 43,
+      "tema": "Física",
+      "pergunta": "A energia elétrica consumida pelo chuveiro, quando ele opera em sua máxima potência, durante um banho de 20 min, é igual a:",
+      "alternativas": [
+        "A) 1800 J.",
+        "B) 450 J.",
+        "C) 64,8 J.",
+        "D) 27 KWh.",
+        "E) 1,8 KWh."
+      ],
+      "respostaLetra": "E",
+    "descricao": "P = 5400 W = 5,4 KW    Δt = 20 min = 1/3 h  |   E = P.Δt = 5,4 . 1/3 = 1,8 KWh.",
+      "imgPergunta": "https://www.mundodaeletrica.com.br/y/5118/Slide1-3.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 44,
+      "tema": "Física",
+      "pergunta": "A partir do telescópio Hubble, foi possível obter imagens fantásticas do Universo. Isto se deve ao fato de que o telescópio está em órbita ao redor da Terra, reduzindo assim:",
+      "alternativas": [
+        "A) a interferência da gravidade sobre o seu alinhamento",
+        "B) a interferência da atmosfera terrestre",
+        "C) a interferência da luz solar",
+        "D) a interferência da luz das outras cidades",
+        "E) a interferência de outros telescópios na superfície da terra"
+      ],
+      "respostaLetra": "B",
+      "descricao": "A atmosfera terrestre gera muita refração da luz proveniente dos astros, o que prejudica a observação destes.",
+      "imgPergunta": "https://img.olhardigital.com.br/wp-content/uploads/2021/07/Telescopio-Espacial-Hubble-fotografado-a-partir-da-Discovery-em-1997.png",
+      "imgResposta": ""
+    },
+    {
+      "id": 61,
+      "tema": "Geografia",
+      "pergunta": "O modelo industrial proposto por Vargas foi apoiado no(a):",
+      "alternativas": [
+        "A) Plataforma de exportação",
+        "B) Substituição de exportações ",
+        "C) Substituição de importações",
+        "D) tração de multinacionais",
+        "E) Produção nacional de bens de consumo duráveis"
+      ],
+      "respostaLetra": "C",
+      "descricao": "No contexto da Era Vargas, o primeiro grande surto industrial se deu com o forte investimento em indústrias de base de capital estatal e estímulo à SUBSTITUIÇÃO DE IMPORTAÇÕES, modelo que perdurou pelas décadas seguintes.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 62,
+      "tema": "Geografia",
+      "pergunta": "o plano rodoviário nacional, as rodovias radiais são aquelas que:",
+      "alternativas": [
+        "A) “Cortam” o país numa mesma linha longitudinal.",
+        "B) Atravessam o país de Norte a sul como a BR 101 e 116.",
+        "C) São também chamadas de rodovias de ligação, fazendo “pontes” transversais entre as principais rodovias. ",
+        "D) Partem de Brasília.",
+        "E) Margeiam a região amazônica."
+      ],
+      "respostaLetra": "D",
+      "descricao": "O mapa abaixo mostra algumas da rodovias radiais, que partem de Brasília e variam da BR 010 a 090.",
+      "imgPergunta": "",
+      "imgResposta": "https://www.gov.br/dnit/pt-br/rodovias/rodovias-federais/nomeclatura-das-rodovias-federais/rodovias-radiais.jpg"
+    },
+    {
+      "id": 63,
+      "tema": "Geografia",
+      "pergunta": "O deslocamento em linha reta de um ponto de coordenadas (23º30’S e 60ºW) para outro de coordenadas (24ºS e 50º30’W) terá que seguir a direção:",
+      "alternativas": [
+        "A) Sudeste.",
+        "B) Nordeste.",
+        "C) NorSudoeste.",
+        "D) EsteNordeste.",
+        "E) Noroeste."
+      ],
+      "respostaLetra": "A",
+      "descricao": "",
+      "imgPergunta": "",
+      "imgResposta": "https://www.estadosecapitaisdobrasil.com/wp-content/uploads/2016/06/latitude-e-longitude.jpg"
+    },
+    {
+      "id": 64,
+      "tema": "Geografia",
+      "pergunta": "Durante o horário de verão, pela Copa do Brasil, o jogo entre os times do Rio Branco e Bahia, iniciou-se às 22h na capital acreana e foi visto, ao vivo, a que horas na capital baiana?",
+      "alternativas": [
+        "A) às 24h.",
+        "B) à 01h do dia seguinte.",
+        "C) às 23h.",
+        "D) às 22h.",
+        "E) às 20h."
+      ],
+      "respostaLetra": "A",
+      "descricao": "O Acre fica a dois fusos horários a oeste da Bahia, e nenhum dos dois Estados adota o Horário de Verão. Portanto, se o jogo começou às 22h em Rio Branco, foi assistido, ao vivo, com duas horas a mais em Salvador (às 24h).",
+      "imgPergunta": "",
+      "imgResposta": "https://content.prodigioeducacao.com/prodigio/upload/73fd63ba-e233-4d6f-a4fa-3cbee24fb756.jpeg"
+    },
+    {
+      "id": 81,
+      "tema": "História",
+      "pergunta": "A Guerra do Peloponeso, ocorrida na Grécia entre 431 a.C. e 404 a.C, opôs duas ligas de cidades, a de Delos e a do Peloponeso.  Quem liderava, respectivamente, cada uma dessas ligas?",
+      "alternativas": [
+        "A) Macedônia e Esparta.",
+        "B) Tebas e Corinto.",
+        "C) Atenas e Tebas.",
+        "D) Esparta e Atenas.",
+        "E) Atenas e Esparta."
+      ],
+      "respostaLetra": "E",
+      "descricao": "A Liga de Delos era comandada por Atenas e a do Peloponeso liderada por Esparta.  A guerra arrastou praticamente todas as poleis gregas e terminou com a vitória espartana e o fim da hegemonia ateniense.",
+      "imgPergunta": "",
+      "imgResposta": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Athenian_empire_es.svg/1200px-Athenian_empire_es.svg.png"
+    },
+    {
+      "id": 82,
+      "tema": "História",
+      "pergunta": "Nos primeiros séculos da República Romana, os conflitos entre patrícios e plebeus foram recorrentes.  O que desejavam os plebeus?",
+      "alternativas": [
+        "A) Desejavam governar Roma, excluindo os patrícios do poder.",
+        "B) Desejavam o direito à cidadania, que lhes era negado.",
+        "C) Desejavam o monopólio das terras conquistadas.",
+        "D) Desejavam a igualdade jurídica com os patrícios.",
+        "E) Desejavam o fim do serviço militar obrigatório."
+      ],
+      "respostaLetra": "D",
+      "descricao": "Durante a República Romana (509-27 a.C.), os plebeus usaram de vários expedientes (revoltas, ameaças de abandonar a cidade, recusa do serviço militar etc.) para conseguir leis que os igualassem juridicamente com os patrícios, que monopolizavam o Senado e as magistraturas.",
+      "imgPergunta": "",
+      "imgResposta": "https://jafetnumismatica.com.br/wp-content/uploads/2018/08/denariohistorico-cesar.jpg"
+    },
+    {
+      "id": 83,
+      "tema": "História",
+      "pergunta": "Roma e Cartago se enfrentaram em três guerras. Entre o segundo e o primeiro conflito, um político romano ficou famoso por terminar seus discursos com a frase “Cartago deve ser destruída”.  Qual era seu nome?",
+      "alternativas": [
+        "A) Caio Graco.",
+        "B) Júlio César.",
+        "C) Catão, o Velho.",
+        "D) Cícero.",
+        "E) Ovídio."
+      ],
+      "respostaLetra": "C",
+      "descricao": "“Delenda est Carthago” (“Cartago deve ser destruída”) é uma frase célebre usada exaustivamente pelo senador romano Catão, o Velho (234-149 a.C.) para finalizar seus discursos.  O político não perdoava as ações de Aníbal na 2ª Guerra Púnica e defendia que somente a destruição completa de Cartago poderia servir como compensação para os romanos.",
+      "imgPergunta": "",
+      "imgResposta": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Patrizio_Torlonia.jpg/220px-Patrizio_Torlonia.jpg"
+    },
+    {
+      "id": 84,
+      "tema": "História",
+      "pergunta": "As primeiras universidades europeias surgiram na Baixa Idade Média (séc. XI-XV) e estavam ligadas ao processo de urbanização. As três primeiras universidades fundadas foram:",
+      "alternativas": [
+        "A) Bolonha, Paris e Oxford.",
+        "B) Paris, Salamanca e Cambridge.",
+        "C) Bolonha, Paris e Roma.",
+        "D) Bolonha, Oxford e Edimburgo.",
+        "E) Berlim, Paris e Oxford."
+      ],
+      "respostaLetra": "A",
+      "descricao": "As primeiras três universidades surgiram de forma diversa: Paris (1170) evoluiu de escola catredalícia,  Bolonha (1088) desenvolveu-se a partir de uma corporação de estudantes, já Oxford, não se sabe ao certo quando e como foi fundada, mas já existia em  1096.",
+      "imgPergunta": "",
+      "imgResposta": "https://img1.gratispng.com/20180811/xqk/kisspng-university-of-bologna-tomsk-state-university-unive-sciences-politiques-toulouse-double-degree-with-5b6ecefbab36e5.9621313015339886037013.jpg"
+    },
+    {
+      "id": 101,
+      "tema": "Português",
+      "pergunta": "É o autor da obra Memórias Sentimentais de João Miramar:",
+      "alternativas": [
+        "A) Oswald de Andrade.",
+        "B) Mário de Andrade.",
+        "C) João Guimarães Rosa.",
+        "D) Jorge Amado.",
+        "E) José Lins do Rego."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Oswald de Andrade escreveu a obra Memórias sentimentais de João Miramar.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 102,
+      "tema": "Português",
+      "pergunta": "Na frase: “Quem me chamou?”, o sujeito é",
+      "alternativas": [
+        "A) Oculto.",
+        "B) Indeterminado.",
+        "C) Simples.",
+        "D) Oração sem sujeito.",
+        "E) Elíptico."
+      ],
+      "respostaLetra": "C",
+      "descricao": "O sujeito da frase “Quem me chamou?” é simples, desempenhado pelo pronome indefinido “Quem”.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 103,
+      "tema": "Português",
+      "pergunta": "Assinale a alternativa que, ao ser corretamente pontuada, admite o emprego de apenas duas vírgulas.",
+      "alternativas": [
+        "A) – Não senhor eu não sei o que é mas posso descobrir. ",
+        "B) O filho presenteou a mãe e a filha o pai.",
+        "C) Hoje se fará a convocação dos jogadores e a palavra do técnico não foi a única ouvida.",
+        "D) – Leonardo que espécie de homem é você que apesar das provas ainda se recusa a acreditar no que vê?",
+        "E) O amor ardente do sol queimaria o mundo e a lua com suas lágrimas inundaria toda a terra."
+      ],
+      "respostaLetra": "B",
+      "descricao": "O filho presenteou a mãe, e a filha, o pai.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 104,
+      "tema": "Português",
+      "pergunta": "Pertencem a que autor os versos:  “De tudo, ao meu amor serei atento. Antes, e com tal zelo, e sempre, e tanto  Que mesmo em face do maior encanto  Dele se encante mais meu pensamento.”",
+      "alternativas": [
+        "A) Vinícius de Morais.",
+        "B) Carlos Drummond de Andrade.",
+        "C) Thiago de Mello.",
+        "D) Fagundes Varela.",
+        "E) Mário de Andrade."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Os versos são de autoria de Vinícius de Morais e pertencem ao Soneto de Fidelidade.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 121,
+      "tema": "Química",
+      "pergunta": "A concentração hidrogeniônica do suco de limão puro é 10-3 mol/L. Qual o pH de um refresco preparado com 20 mL de suco de limão e água suficiente para completar 200 mL?",
+      "alternativas": [
+        "A) 2,5.",
+        "B) 3,0.",
+        "C) 3,5.",
+        "D) 4,0.",
+        "E) 4,5."
+      ],
+      "respostaLetra": "D",
+      "descricao": "pH = - log [H3O1+]  | pH = - log [10-4] | pH = - (-4) | pH = 4",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 122,
+      "tema": "Química",
+      "pergunta": "O conhecimento das estruturas das moléculas é um assunto bastante relevante, já que as formas delas determinam propriedades de substâncias como odor, sabor, coloração e solubilidade. As figuras apresentam as estruturas das moléculas de CO2, H2O, NH3, CH4, H2S e PH3. Quanto às forças intermoleculares, a molécula que forma ligações de hidrogênio (pontes de hidrogênio) com a água é:",
+      "alternativas": [
+        "A) H2S.",
+        "B) CH4.",
+        "C) NH3.",
+        "D) PH3.",
+        "E) CO2."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Para formar pontes de hidrogênio com a H2O, é necessário que a molécula possua átomos de hidrogênio ligados a elementos muito eletronegativos, como o flúor, oxigênio e o nitrogênio. A única molécula que satisfaz esse requisito é a amônia (NH3).",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 123,
+      "tema": "Química",
+      "pergunta": "Considere os estudos cinéticos de uma reação química. Julgue os itens abaixo e escolha o correto:",
+      "alternativas": [
+        "A) Toda reação é produzida por colisões, mas nem toda colisão gera uma reação.",
+        "B) Uma colisão altamente energética não pode produzir uma reação.",
+        "C) Toda colisão com orientação adequada produz uma reação.",
+        "D) A energia mínima para uma colisão efetiva é denominada energia da reação.",
+        "E) A diferença energética entre produtos e reagentes é denominada energia de ativação da reação. "
+      ],
+      "respostaLetra": "A",
+      "descricao": "b) Falsa. Uma colisão altamente energética pode produzir uma reação.  c) Falsa. Para produzir uma reação, a colisão deve, sim, ter orientação adequada, mas também deve ter energia suficiente.  d) Falsa. A energia mínima para uma colisão efetiva é denominada energia da ativação, mas não energia de reação.  e) Falsa. A diferença energética entre produtos e reagentes é denominada entalpia da reação",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 124,
+      "tema": "Química",
+      "pergunta": "Qual a alternativa que contém apenas processos com ΔH negativo?",
+      "alternativas": [
+        "A) Combustão e fusão.",
+        "B) Combustão e sublimação de sólido para gás.",
+        "C) Combustão e sublimação de gás para sólido.",
+        "D) Fusão e ebulição.",
+        "E) Evaporação e solidificação."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Em toda combustão (queima de algum combustível) ocorre liberação de calor, e na sublimação de gás para sólido, o gás precisa liberar calor para se tornar sólido.",
+      "imgPergunta": "",
+      "imgResposta": ""
     }
   ],
   "medium": [
     {
       "id": 5,
-      "question": "Quais os animais que integram o grupo dos cinco grandes (Big Five) da África do Sul?",
-      "alternatives": ["Leão, elefante, rinoceronte, hipopótamo e búfalo.", "Leão, elefante, rinoceronte, leopardo e búfalo.", "Elefante, rinoceronte, hipopótamo, búfalo e leopardo.", "Elefante, rinoceronte, hipopótamo, búfalo e girafa.", "Elefante, leão, girafa, búfalo e leopardo."],
-      "response": "Leão, elefante, rinoceronte, leopardo e búfalo",
-      "response_alternative": {
-        "letter": "b",
-        "answer": "Leão, elefante, rinoceronte, leopardo e búfalo"
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual é a relação ecológica pela qual certos seres vivos se utilizam de outros como meio de locomoção?",
+      "alternativas": [
+        "A) forésia",
+        "B) inquilinismo",
+        "C) comensalismo",
+        "D) caronismo",
+        "E) mutualismo"
+      ],
+      "respostaLetra": "A",
+      "descricao": "Forésia é uma relação ecológica harmônica, em que um indivíduo se aproveita de outro para transporte, sem prejudicá-lo.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 6,
-      "question": "O camaleão de Madagascar tem um visão que abrange um ângulo de:",
-      "alternatives": ["180º.", "90º.", "200º.", "45º.", "360º."],
-      "response": "360º",
-      "response_alternative": {
-        "letter": "e",
-        "answer": "360º"
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual o nome que se dá à passagem de células sanguíneas, em especial os leucócitos, através das paredes dos capilares para o tecido conjuntivo?",
+      "alternativas": [
+        "A) filtração",
+        "B) osmose",
+        "C) difusão",
+        "D) diálise",
+        "E) diapedese"
+      ],
+      "respostaLetra": "E",
+      "descricao": "Diapedese é o nome dado ao movimento de saída das células de defesa de um vaso sanguíneo para um tecido próximo. Este processo geralmente ocorre quando uma área é danificada e o processo de inflamação é necessário. Os neutrófilos e monócitos são atraídos até o local da inflamação, passando a englobar e fagocitar os agentes invasores.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 7,
-      "question": "A que hino pertence a estrofe: 'Bandeira do Brasil\nNinguém te manchará\nTeu povo varonil\nIsso não consentirá'",
-      "alternatives": ["Canção do Exército", "Fibra de Herói", "Canção da Infantaria", "Canção do Paraquedista", "Hino da Bandeira"],
-      "response": "Fibra de Herói",
-      "response_alternative": {
-        "letter": "b",
-        "answer": "Fibra de Herói"
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual mineral presente na molécula de clorofila cuja ausência em animais prejudica o crescimento e causa distúrbios comportamentais?",
+      "alternativas": [
+        "A) magnésio",
+        "B) zinco",
+        "C) cálcio",
+        "D) selênio",
+        "E) ferro"
+      ],
+      "respostaLetra": "A",
+      "descricao": "O magnésio, além de constituir a molécula de clorofila, é um mineral essencial para o corpo humano, necessário para mais de 300 processos biológicos muito importantes, incluindo a produção de ATP e a contração muscular. Sua deficiência pode causar uma série de complicações como cãibra, fadiga, síndrome pré-menstrual, irritabilidade, insônia, perda de memória, entre outros.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 8,
-      "question": "Qual o grupo dos países que possuem a Língua Portuguesa como idioma oficial?",
-      "alternatives": ["Brasil, Portugal, Curaçao e Timor-Leste.", "Guiné Equatorial, Moçambique, São Tomé e Príncipe e África do Sul.", "Portugal, Angola, Cabo Verde e Guiné Bissau.", "Moçambique, Brasil, Portugal e Etiópia.", "Guiné Equatorial, Guiné Bissau, São Tomé e Príncipe e Somália."],
-      "response": "Portugal, Angola, Cabo Verde e Guiné Bissau",
-      "response_alternative": {
-        "letter": "c",
-        "answer": "Portugal, Angola, Cabo Verde e Guiné Bissau"
-      }
+      "tema": "Biologia",
+      "pergunta": "Um cuidado médico que deve ser tomado com relação à febre é não deixá-la subir muito. Sabe-se que a febre acima de 40°C pode ser fatal ao ser humano, pois ocorre modificação das enzimas do sistema nervoso central. Como a temperatura alta modifica essas enzimas?",
+      "alternativas": [
+        "A) Induzindo a modificação da sequência de aminoácidos das enzimas.",
+        "B) Induzindo a autodigestão das enzimas.",
+        "C) Quebrando as ligações covalentes das enzimas.",
+        "D) Induzindo a desnaturação das enzimas.",
+        "E) Induzindo a exocitose das enzimas."
+      ],
+      "respostaLetra": "D",
+      "descricao": "Quando as proteínas são submetidas à elevação de temperatura, a variações de pH ou a solutos como a ureia, sofrem alterações na sua configuração espacial, e sua atividade biológica é perdida. Este processo se chama desnaturação.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 9,
-      "question": "Aleijadinho foi vítima do preconceito e de uma doença devastadora, que não deixaram abalar seu talento. Sobre o artista, podemos afirmar:",
-      "alternatives": ["O Santuário do Bom Jesus de Matosinhos é considerado Patrimônio Mundial da UNESCO. A igreja faz parte do acervo de obras do artista. Lá estão as esculturas em pedra-sabão, representação dos Doze Profetas.", "Todo dinheiro que recebia, o artista dava para a Igreja.", "Além de esculpir, talhar em pedra e madeira e projetar igrejas, Aleijadinho também se dedicava à agricultura.", "Além de perder os movimentos das mãos e dos pés, Antônio Francisco Lisboa também ficou cego e por isso passou a trabalhar à noite.", "Todas as obras de Aleijadinho, desde talhas, projetos arquitetônicos a esculturas e relevos foram realizadas no estado da Bahia."],
-      "response": "O Santuário do Bom Jesus de Matosinhos é considerado Patrimônio Mundial da UNESCO. A igreja faz parte do acervo de obras do artista. Lá estão as esculturas em pedra-sabão, representação dos Doze Profetas.",
-      "response_alternative": {
-        "letter": "a",
-        "answer": "O Santuário do Bom Jesus de Matosinhos é considerado Patrimônio Mundial da UNESCO. A igreja faz parte do acervo de obras do artista. Lá estão as esculturas em pedra-sabão, representação dos Doze Profetas."
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual a organela citoplasmática que está presente nas células bacterianas, animais e vegetais?",
+      "alternativas": [
+        "A) ribossomo",
+        "B) retículo endoplasmático",
+        "C) mitocôndria",
+        "D) lisossomo",
+        "E) vacúolo"
+      ],
+      "respostaLetra": "A",
+      "descricao": "Dentre as organelas apresentadas, o ribossomo é o único encontrado simultaneamente nas células bacterianas, animais e vegetais",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 10,
-      "question": "David ou Davi é uma das esculturas mais famosas de qual artista renascentista?",
-      "alternatives": ["Leonardo da Vinci", "Michelangelo", "Botticelli", "Rafael", "Galileo Galilei"],
-      "response": "Michelangelo",
-      "response_alternative": {
-        "letter": "b",
-        "answer": "Michelangelo"
-      }
+      "tema": "Biologia",
+      "pergunta": "Observando a tabela nutricional da imagem, qual é o principal produto que deveria ser evitado por alguém que tem pressão alta dentre as opções de resposta?",
+      "alternativas": [
+        "A) Requeijão",
+        "B) Meia Cura",
+        "C) Ricota",
+        "D) Minas Frescal",
+        "E) Prato"
+      ],
+      "respostaLetra": "D",
+      "descricao": "Uma pessoa com pressão alta deve evitar consumir produtos com alto índice de sódio, que faz com que a pressão sanguínea se eleve, podendo ocasionar rompimento dos vasos sanguíneos.",
+      "imgPergunta": "https://4.bp.blogspot.com/-N0dd_xMV-Fc/WNxJlUUhMTI/AAAAAAAAHTg/L8fnTmAmFSE2NQtAMcoJBEigG07vp5A-gCLcB/s1600/00000000000000000000000000000000000000000%2Bqueijos1.png",
+      "imgResposta": ""
     },
     {
       "id": 11,
-      "question": "Quando surgiu no Brasil a Irmandade da Santa Casa de Misericórdia?",
-      "alternatives": ["Surgiu ainda no período colonial, instalando-se em Olinda, na Capitania de Pernambuco, em 1539.", "Surgiu ainda no período colonial, instalando-se em Recife, na Capitania de Pernambuco, em 1540.", "Surgiu no período pós-colonial, instalando-se em Salvador, em 1539.", "Surgiu na Bahia, com o primeiro governador Tomé de Souza.", "Surgiu ainda no período colonial, instalando-se no Rio de Janeiro, em 1808."],
-      "response": "Surgiu ainda no período colonial, instalando-se em Olinda, na Capitania de Pernambuco, em 1539.",
-      "response_alternative": {
-        "letter": "a",
-        "answer": "Surgiu ainda no período colonial, instalando-se em Olinda, na Capitania de Pernambuco, em 1539."
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual é o tipo de herança mostrada no heredograma da imagem?",
+      "alternativas": [
+        "A) autossômica dominante.",
+        "B) autossômica recessiva.",
+        "C) ligada ao X dominante.",
+        "D) ligada ao X recessiva.",
+        "E) Mitocondrial."
+      ],
+      "respostaLetra": "C",
+      "descricao": "São características de uma herança ligada ao X dominante: a característica aparece em todas as gerações. Há mais mulheres afetadas do que homens, e filhas de pais afetados são sempre afetadas.",
+      "imgPergunta": "https://files.passeidireto.com/8a0345d1-0aa0-46f1-a2e8-4ed38ce079c3/bg1.png",
+      "imgResposta": ""
     },
     {
       "id": 12,
-      "question": "Qual dos animais abaixo é mais rápido?",
-      "alternatives": ["O Elefante", "O porco", "A Girafa", "O gato doméstico", "A cobra"],
-      "response": "A Girafa",
-      "response_alternative": {
-        "letter": "c",
-        "answer": "A Girafa"
-      }
+      "tema": "Biologia",
+      "pergunta": "A imagem é um exemplo de...",
+      "alternativas": [
+        "A) hábito alimentar",
+        "B) cadeia alimentar",
+        "C) teia alimentar",
+        "D) fila alimentar",
+        "E) comensalismo"
+      ],
+      "respostaLetra": "B",
+      "descricao": "Cadeia alimentar é a sequência unidirecional de matéria e energia trocada entre os seres vivos através da alimentação.",
+      "imgPergunta": "https://www.coladaweb.com/wp-content/uploads/2015/01/20170111-cadeia-alimentar.jpg",
+      "imgResposta": ""
     },
     {
       "id": 13,
-      "question": "Quais são os países que mais produzem café no mundo?",
-      "alternatives": ["Uganda, Costa do Marfim, Guatemala, Brasil e Índia.", "México, Colômbia, Índia, Vietnã e Costa do Marfim.", "Brasil, Alemanha, Estados Unidos, Índia e Indonésia.", "Etiópia, Indonésia, Colômbia, Vietnã e Brasil.", "África do Sul, Portugal, Costa do Marfim, Brasil e Colômbia."],
-      "response": "Etiópia, Indonésia, Colômbia, Vietnã e Brasil",
-      "response_alternative": {
-        "letter": "d",
-        "answer": "Etiópia, Indonésia, Colômbia, Vietnã e Brasil"
-      }
+      "tema": "Biologia",
+      "pergunta": "Observe o cladograma da imagem. A característica evolutiva de nº 4 é o aparecimento...",
+      "alternativas": [
+        "A) do embrião",
+        "B) de vasos condutores",
+        "C) de flores e frutos",
+        "D) de sementes",
+        "E) tecidos vasculares"
+      ],
+      "respostaLetra": "C",
+      "descricao": "A característica evolutiva de gimnospermas para angiospermas é o aparecimento de flores e frutos.",
+      "imgPergunta": "https://djalmasantos.files.wordpress.com/2011/07/286.jpg",
+      "imgResposta": ""
     },
     {
       "id": 14,
-      "question": "Quantas bactérias são compartilhadas durante um beijo apaixonado?",
-      "alternatives": ["1 milhão", "500 mil", "8 milhões", "800 milhões", "80 milhões"],
-      "response": "80 milhões",
-      "response_alternative": {
-        "letter": "e",
-        "answer": "80 milhões"
-      }
+      "tema": "Biologia",
+      "pergunta": "O que é citocinina?",
+      "alternativas": [
+        "A) uma célula amorfa.",
+        "B) omponente do citoesqueleto celular.",
+        "C) uma organela celular presente apenas em vegetais.",
+        "D) hormônio vegetal responsável por estimular a divisão celular.",
+        "E) Processo de separação do citoplasma em duas células distintas, como produto final da meiose."
+      ],
+      "respostaLetra": "D",
+      "descricao": "A citocinina é o nome de um hormônio vegetal, produzido no meristema apical da raiz, cuja função é promover a indução da divisão celular. Também atua na quebra de dormência nas sementes, na floração e no crescimento de frutos.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 15,
-      "question": "Anualmente, quantos terremotos sacodem a Terra?",
-      "alternatives": ["cerca de 100", "cerca de 1.000", "cerca de 10.000", "cerca de 100.000", "cerca de 1.000.000"],
-      "response": "cerca de 1.000.000",
-      "response_alternative": {
-        "letter": "e",
-        "answer": "cerca de 1.000.000"
-      }
+      "tema": "Biologia",
+      "pergunta": "Um indivíduo que possua o genótipo AaBbCCddEe produzirá quantos gametas diferentes na gametogênese?",
+      "alternativas": [
+        "A) 2",
+        "B) 4",
+        "C) 8",
+        "D) 16",
+        "E) 32"
+      ],
+      "respostaLetra": "C",
+      "descricao": "O indivíduo citado produzirá 8 gametas diferentes.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 16,
-      "question": "Qual o maior túnel do mundo?",
-      "alternatives": ["SERPUKHOVSKO-TIMIRYAZEVSKAYA, na Rússia", "EUROTÚNEL, liga Inglaterra e França", "SEIKAN, no Japão", "BASE DE LÖTSCHBERG, na Suíça", "KALUZHSKO-RIZHSKAYA, na Rússia"],
-      "response": "SEIKAN, no Japão",
-      "response_alternative": {
-        "letter": "c",
-        "answer": "SEIKAN, no Japão"
-      }
+      "tema": "Biologia",
+      "pergunta": "Os animais mostrados na imagem são um exemplo de:",
+      "alternativas": [
+        "A) divergência adaptativa",
+        "B) convergência adaptativa",
+        "C) formação adaptativa",
+        "D) mutação adaptativa",
+        "E) criação adaptativa"
+      ],
+      "respostaLetra": "B",
+      "descricao": "Convergência adaptativa é o processo evolutivo pelo qual determinados organismos não aparentados desenvolvem estratégias adaptativas semelhantes por estarem inseridos no mesmo tipo de habitat e obedecerem aos mesmos condicionamentos ecológicos.",
+      "imgPergunta": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6mS-D04Z_EwGE2BxfCCB8rcDQitnvg3_zVg&usqp=CAU",
+      "imgResposta": ""
+    },
+    {
+      "id": 25,
+      "tema": "Curiosidades",
+      "pergunta": "Quais os animais que integram o grupo dos cinco grandes (Big Five) da África do Sul?",
+      "alternativas": [
+        "A) Leão, elefante, rinoceronte, hipopótamo e búfalo.",
+        "B) Leão, elefante, rinoceronte, leopardo e búfalo.",
+        "C) Elefante, rinoceronte, hipopótamo, búfalo e leopardo.",
+        "D) Elefante, rinoceronte, hipopótamo, búfalo e girafa.",
+        "E) Elefante, leão, girafa, búfalo e leopardo."
+      ],
+      "respostaLetra": "B",
+      "descricao": "“Big Five” é o nome de um grupo de animais africanos composto pelo leão, o leopardo, o rinoceronte, o búfalo e o elefante. ",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 26,
+      "tema": "Curiosidades",
+      "pergunta": "O camaleão de Madagascar tem um visão que abrange um ângulo de:",
+      "alternativas": [
+        "A) 180º.",
+        "B) 90º.",
+        "C) 200º.",
+        "D) 45º.",
+        "E) 360º."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Os olhos dos camaleões têm um arco de 360 graus de visão e podem enxergar em duas direções ao mesmo tempo. Dessa forma, os camaleões têm os olhos mais distintivos de qualquer réptil. Suas pálpebras superiores e inferiores são unidas, formando um dispositivo circular com apenas uma abertura suficiente para a pupila fazer o seu serviço.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 27,
+      "tema": "Curiosidades",
+      "pergunta": "A que hino pertence a estrofe:  “Bandeira do Brasil  Ninguém te manchará Teu povo varonil  Isso não consentirá”",
+      "alternativas": [
+        "A) A que hino pertence a estrofe:",
+        "B) “Bandeira do Brasil",
+        "C) Ninguém te manchará",
+        "D) Teu povo varonil",
+        "E) Isso não consentirá”"
+      ],
+      "respostaLetra": "B",
+      "descricao": "Fibra de Herói",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 28,
+      "tema": "Curiosidades",
+      "pergunta": "Qual o grupo dos países que possuem a Língua Portuguesa como idioma oficial?",
+      "alternativas": [
+        "A) Brasil, Portugal, Curaçao e Timor-Leste.",
+        "B) Guiné Equatorial, Moçambique, São Tomé e Príncipe e África do Sul.",
+        "C) Portugal, Angola, Cabo Verde e Guiné Bissau.",
+        "D) Moçambique, Brasil, Portugal e Etiópia.",
+        "E) Guiné Equatorial, Guiné Bissau, São Tomé e Príncipe e Somália."
+      ],
+      "respostaLetra": "C",
+      "descricao": "1. Brasil  2. Angola  3. Cabo Verde  4. Guiné Bissau  5. Guiné Equatorial  6. Portugal  7. São Tomé e Príncipe  8. Moçambique  9. Timor-Leste",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 29,
+      "tema": "Curiosidades",
+      "pergunta": "Aleijadinho foi vitima do preconceito e de uma doença devastadora, que não deixaram abalar seu talento. Sobre o artista, podemos afirmar:",
+      "alternativas": [
+        "A) O Santuário do Bom Jesus de Matosinhos é considerado Patrimônio Mundial da UNESCO. A igreja faz parte do acervo de obras do artista. Lá estão as esculturas em pedra-sabão, representação dos Dozes Profetas.",
+        "B) Todo dinheiro que recebia, o artista dava para a Igreja.",
+        "C) Além de esculpir, talhar em pedra e madeira e projetar igrejas, Aleijadinho também se dedicava à agricultura.",
+        "D) Além de perder os movimentos das mãos e dos pés, Antônio Francisco Lisboa também ficou cego e por isso passou a trabalhar a noite.",
+        "E) Todas as obras de Aleijadinho, desde talhas, projetos arquitetônicos a esculturas e relevos foram realizadas no estado da Bahia."
+      ],
+      "respostaLetra": "A",
+      "descricao": "O Santuário do Bom Jesus de Matosinhos é considerado Patrimônio Mundial da UNESCO. A igreja faz parte do acervo de obras do artista, lá estão às esculturas em pedra-sabão, representação dos Dozes Profetas.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 30,
+      "tema": "Curiosidades",
+      "pergunta": "David ou Davi é uma das esculturas mais famosas de qual artista renascentista?",
+      "alternativas": [
+        "A) Leonardo da Vinci",
+        "B) Michelangelo",
+        "C) Botticelli",
+        "D) Rafael",
+        "E) Galileo Galilei"
+      ],
+      "respostaLetra": "B",
+      "descricao": "David ou Davi é uma das esculturas mais famosas do artista renascentista Michelangelo. O trabalho retrata o herói bíblico com realismo anatômico impressionante, sendo considerada uma das mais importantes obras do Renascimento. A escultura encontra-se em Florença, Itália, cidade que originalmente encomendou a obra.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 31,
+      "tema": "Curiosidades",
+      "pergunta": "Quando surgiu no Brasil a Irmandade da Santa Casa de Misericórdia?",
+      "alternativas": [
+        "A) Surgiu ainda no período colonial, instalando-se em Olinda, na Capitania de Pernambuco, em 1539.",
+        "B) Surgiu ainda no período colonial, instalando-se em Recife, na Capitania de Pernambuco, em 1540.",
+        "C) Surgiu no período pós-colonial, instalando-se em Salvador, em 1539.",
+        "D) Surgiu na Bahia, com o primeiro governador Tomé de Souza.",
+        "E) Surgiu ainda no período colonial, instalando-se no Rio de Janeiro, em 1808."
+      ],
+      "respostaLetra": "A",
+      "descricao": "A Irmandade da Santa Casa de Misericórdia surgiu ainda no período colonial, instalando-se em Olinda, na Capitania de Pernambuco, em 1539.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 32,
+      "tema": "Curiosidades",
+      "pergunta": "Qual dos animais abaixo é mais rápido?",
+      "alternativas": [
+        "A) O Elefante",
+        "B) O porco",
+        "C) A Girafa",
+        "D) O gato doméstico",
+        "E) A cobra"
+      ],
+      "respostaLetra": "C",
+      "descricao": "A girafa alcança 50 km/h, enquanto o gato alcança 48 km/h; o porco, 17 km/h; o elefante, 40 km/h e a cobra, 32 km/h.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 33,
+      "tema": "Curiosidades",
+      "pergunta": "Quais são os países que mais produzem café no mundo?",
+      "alternativas": [
+        "A) Uganda, Costa do Marfim, Guatemala, Brasil e Índia.",
+        "B) México, Colômbia, Índia, Vietnã e Costa do Marfim.",
+        "C) Brasil, Alemanha, Estados Unidos, Índia e Indonésia.",
+        "D) Etiópia, Indonésia, Colômbia, Vietnã e Brasil.",
+        "E) África do Sul, Portugal, Costa do Marfim, Brasil e Colômbia."
+      ],
+      "respostaLetra": "D",
+      "descricao": "Os maiores produtores de café são: Etiópia, Indonésia, Colômbia, Vietnã e Brasil.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 34,
+      "tema": "Curiosidades",
+      "pergunta": "Quantas bactérias são compartilhadas durante um beijo apaixonado?",
+      "alternativas": [
+        "A) 1 milhão",
+        "B) 500 mil",
+        "C) 8 milhões",
+        "D) 800 milhões",
+        "E) 80 milhões"
+      ],
+      "respostaLetra": "E",
+      "descricao": "De acordo com um estudo publicado na revista Microbiome, cerca de 80 milhões de bactérias são transferidas durante um simples beijo apaixonado.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 35,
+      "tema": "Curiosidades",
+      "pergunta": "Anualmente, quantos terremotos sacodem a Terra?",
+      "alternativas": [
+        "A) cerca de 100",
+        "B) cerca de 1.000",
+        "C) cerca de 10.000",
+        "D) cerca de 100.000",
+        "E) cerca de 1.000.000"
+      ],
+      "respostaLetra": "E",
+      "descricao": "Segundo a Agencia Espacial Norte-Americana, NASA, todo ano, cerca de um milhão de terremotos sacodem a Terra, alguns imperceptíveis.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 45,
+      "tema": "Física",
+      "pergunta": "A distância deste ponto, em uma rodovia nos EUA, até a cidade de Las Vegas é de:",
+      "alternativas": [
+        "A) 72 km",
+        "B) 259,2 km",
+        "C) 20 km",
+        "D) 45 km",
+        "E) 115,2 km"
+      ],
+      "respostaLetra": "E",
+      "descricao": "A placa está em Milhas, portanto 72 x 1,6 = 115,2 km",
+      "imgPergunta": "https://i.pinimg.com/originals/35/d6/6f/35d66f2b665726abd74e6e2c3e9f28df.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 46,
+      "tema": "Física",
+      "pergunta": "Um carro que é equipado com o sistema ABS, que não deixa as rodas do carro travarem durante uma frenagem, reduz a distância de frenagem em 30%, quando comparado à situação com o sistema desligado. Logo, podemos concluir que a relação entre os coeficientes de atrito cinético e estático, entre os pneus e o asfalto, vale: ",
+      "alternativas": [
+        "A) 0,90.",
+        "B) 1,43.",
+        "C) 1,70.",
+        "D) 0,70.",
+        "E) 0,49."
+      ],
+      "respostaLetra": "D",
+      "descricao": "v2=v02-2aΔS | a=gμ  | aABS/a = aE/aC = 1/0,7  | ac/aE=0,7",
+      "imgPergunta": "https://www.carangospb.com/wp-content/uploads/Aut%C3%B3dromo-da-Para%C3%ADba-sedia-Track-Day-de-carros-esportivos-no-dia-25-deste-m%C3%AAs.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 47,
+      "tema": "Física",
+      "pergunta": "O(s) fenômeno(s) físico(s) que é(são) responsável(eis) pela bela imagem da fotografia é(são):",
+      "alternativas": [
+        "A) Refração da luz e Efeito Doppler",
+        "B) Refração e reflexão da Luz",
+        "C) Dupla reflexão da luz",
+        "D) Dupla refração da luz",
+        "E) Refração e interferência da luz"
+      ],
+      "respostaLetra": "B",
+      "descricao": "Refração e reflexão da luz. É possível observar que o segundo arco-íris apresenta uma ordem invertida das cores.",
+      "imgPergunta": "https://services.meteored.com/img/article/ocorrencia-de-arco-iris-esta-aumentando-um-pessimo-sinal-para-o-clima-1671114527814_1280.jpeg",
+      "imgResposta": ""
+    },
+    {
+      "id": 48,
+      "tema": "Física",
+      "pergunta": "Se o centro de massa da embarcação, também conhecida como veleiro, estiver acima da linha da água, seu equilíbrio será:",
+      "alternativas": [
+        "A) Instável.",
+        "B) Estável.",
+        "C) Indiferente.",
+        "D) Invariável. ",
+        "E) Oscilatório."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Instável, pois surgirá um torque que não deixará mais o barco voltar à posição de equilíbrio.",
+      "imgPergunta": "https://f.i.uol.com.br/fotografia/2022/11/13/166837319563715acbc7bf4_1668373195_3x2_md.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 49,
+      "tema": "Física",
+      "pergunta": "Em 1971, o comandante David Scott, da Apollo 15, testou na Lua uma teoria de 1589, na qual uma pena e um martelo soltos ao mesmo tempo e da mesma altura chegariam juntos ao solo. Esta teoria é de:",
+      "alternativas": [
+        "A) Isaac Newton.",
+        "B) Johanes Kepler.",
+        "C) Nicolau Copérnico.",
+        "D) Giordano Bruno.",
+        "E) Galilei Galileo."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Galilei Galileo. No experimento realizado na lua, foi possível eliminar o efeito da resistência do ar sobre o movimento dos corpos.",
+      "imgPergunta": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/1200px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 50,
+      "tema": "Física",
+      "pergunta": "A foto mostra a Lua em um eclipse lunar total. A cor laranja da Lua durante o eclipse é devido:",
+      "alternativas": [
+        "A) à composição química da Lua.",
+        "B) ao reflexo da luz solar pela Terra.",
+        "C) à interferência da Luz solar com a atmosfera da Lua.",
+        "D) ao efeito Doppler, que ocorre devido ao movimento da lua",
+        "E) à refração da Luz solar na atmosfera terrestre."
+      ],
+      "respostaLetra": "E",
+      "descricao": "A cor laranja, proveniente da luz solar, será a que sofrerá um maior desvio ao passar pela atmosfera terrestre, atingindo posteriormente a superficie lunar, deixando-a alaranjada.",
+      "imgPergunta": "https://istoe.com.br/wp-content/uploads/2019/01/2d871074a48503ecbcc7f5dda485ba2dd0cc7d1d.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 51,
+      "tema": "Física",
+      "pergunta": "A imagem ilustra um problema comum na visão e como um óculos pode corrigi-lo. O problema representado e a lente para a correção são:",
+      "alternativas": [
+        "A) Astigmatismo e esférica.",
+        "B) Presbiopia e convergente.",
+        "C) Miopia e divergente.",
+        "D) Hipermetropia e convergente.",
+        "E) Catarata e cilindrica. "
+      ],
+      "respostaLetra": "C",
+      "descricao": "O problema da visão é a Miopia e a lente para a correção, a divergente.",
+      "imgPergunta": "https://www.oticaskohls.com.br/wp-content/uploads/2020/09/Miopia-O-que-e-causas-sintomas-tratamentos.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 52,
+      "tema": "Física",
+      "pergunta": "Nos últimos anos, a sonda Kepler revelou uma grande quantidade de exoplanetas, com um melhor detalhamento de suas propriedades. Um exoplaneta é definido como sendo:",
+      "alternativas": [
+        "A) Um planeta que tem características próximas às da Terra",
+        "B) Um planeta que está na zona habitável de uma estrela",
+        "C) Um planeta que orbita uma estrela diferente de nosso Sol",
+        "D) Um planeta que tem uma órbita além da órbita de Plutão",
+        "E) Um planeta que apresenta uma exocamada sólida."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Um planeta que orbita uma estrela diferente de nosso Sol. Os itens a e b dizem respeito às características de um exoplaneta onde poderia existir vida.",
+      "imgPergunta": "https://hypescience.com/wp-content/uploads/2014/04/kepler-186f-perspective.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 53,
+      "tema": "Física",
+      "pergunta": "Quando um caça ultrapassa a barreira do som, além de um forte estrondo, observamos esta “nuvem” ao redor do avião, que é devida:",
+      "alternativas": [
+        "A) ao acúmulo das frentes de onda.",
+        "B) à alta velocidade.",
+        "C) à queda de pressão.",
+        "D) ao aumento da temperatura.",
+        "E) à alta aceleração do avião."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Ao acúmulo das frentes de onda. Nesta região das “nuvens”, a pressão do ar seria bem maior.",
+      "imgPergunta": "https://tm.ibxk.com.br/2016/02/01/01115727590109.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 54,
+      "tema": "Física",
+      "pergunta": "Para o senhor que está sentado num brinquedo, em um superparque de diversões, que gira em uma trajetória circular de raio igual a 10 m a 25 m/s, ele experimenta uma força G de aproximadamente:",
+      "alternativas": [
+        "A) 2,5g.",
+        "B) 3,0g.",
+        "C) 4,0g.",
+        "D) 6,0g.",
+        "E) 10g."
+      ],
+      "respostaLetra": "D",
+      "descricao": "F = mv2/R      e    F = m.a   , logo a = 252/10 | a = 62,5 m/s2 | Considerando g = 10 m/s2, teremos aproximadamente, 6g.",
+      "imgPergunta": "https://www.fatosdesconhecidos.com.br/wp-content/uploads/2017/06/1-392-1638x1080.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 55,
+      "tema": "Física",
+      "pergunta": "O fato de o homem, dentro da estrutura metálica, não ser afetado pelas altas descargas elétricas que a atingem é devido ao processo idealizado por:",
+      "alternativas": [
+        "A) Marie Ampère.",
+        "B) Benjamin Franklin.",
+        "C) Charles Coulomb.",
+        "D) Thomas Edison.",
+        "E) Michael Faraday."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Esta estrutura metálica, que funciona como uma blindagem eletrostática, também é conhecida como Gaiola de Faraday.",
+      "imgPergunta": "https://newtoncbraga.com.br/images/stories/almanaque/alm1021_0001.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 56,
+      "tema": "Física",
+      "pergunta": "A partir do experimento de H. Cavendish, em 1798, foi possível obter a densidade do planeta Terra. Este trabalho foi fundamental para a determinação da:",
+      "alternativas": [
+        "A) Constante de Cavendish.",
+        "B) Constante elástica.",
+        "C) Constante eletrostática.",
+        "D) Constante da gravitação universal.",
+        "E) Constante de Planck."
+      ],
+      "respostaLetra": "D",
+      "descricao": "A constante G da lei da Gravitação Universal.",
+      "imgPergunta": "https://webfisica.com/imagens-fisica/aulas/aula3-28/caven.png",
+      "imgResposta": ""
+    },
+    {
+      "id": 65,
+      "tema": "Geografia",
+      "pergunta": "Numa carta na escala de 1:50.000, o traçado de 5cm equivale a qual distância real no terreno?",
+      "alternativas": [
+        "A) 250m.",
+        "B) 2,5km.",
+        "C) 100m.",
+        "D) 1km.",
+        "E) 25km."
+      ],
+      "respostaLetra": "B",
+      "descricao": "Num cálculo simples de Escala, tem-se 50.000 x 5cm =250.000cm ou 2,5km. ",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 66,
+      "tema": "Geografia",
+      "pergunta": "O termo “Megacidade” diz respeito a:",
+      "alternativas": [
+        "A) Cidades Globais.",
+        "B) Megalópoles.",
+        "C) Cidades com mais de 10 milhões de habitantes.",
+        "D) Cidades conturbadas.",
+        "E) Áreas metropolitanas."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Conceitualmente, Megacidades diz respeito a uma terminologia de base quantitativa. São cidades com mais de 10 milhões de habitantes.",
+      "imgPergunta": "",
+      "imgResposta": "https://1.bp.blogspot.com/-r91MXEt3G-o/T7Gau7yECPI/AAAAAAAACDM/gowqyig-AmE/s1600/Megacidades+pelo+mundo.jpg"
+    },
+    {
+      "id": 67,
+      "tema": "Geografia",
+      "pergunta": "No Brasil, a Amazônia Azul equivale a(o):",
+      "alternativas": [
+        "A) Mar Territorial.",
+        "B) Zona Econômica Exclusiva",
+        "C) Extensão da Plataforma Continental.",
+        "D) Ao relevo submarino.",
+        "E) Ao domínio hídrico da Amazônia Legal."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Segundo o site oficial da Marinha do Brasil, a Amazônia Azul é a extensão do Mar Territorial, da ZEE e o espaço pleiteado pelo país. A sua totalidade representa a área da Plataforma continental.",
+      "imgPergunta": "",
+      "imgResposta": "https://i.ytimg.com/vi/nbbsX5JzE0Q/maxresdefault.jpg"
+    },
+    {
+      "id": 68,
+      "tema": "Geografia",
+      "pergunta": "Commodities são:",
+      "alternativas": [
+        "A) Produtos industrializados.",
+        "B) Toda produção que advém do campo.",
+        "C) Títulos públicos negociados nas Bolsas de Valores.",
+        "D) Produtos com valor universal.",
+        "E) Produtos derivados dos setores primário e secundário."
+      ],
+      "respostaLetra": "D",
+      "descricao": "Commodities são artigos de comércio, bens que não sofrem processos de alteração (ou que são pouco diferenciados), como frutas, legumes, cereais e alguns metais.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 69,
+      "tema": "Geografia",
+      "pergunta": "São biomas considerados HotSpots brasileiros:",
+      "alternativas": [
+        "A) Pantanal e Mangues.",
+        "B) Campos e Caatinga.",
+        "C) lorestas Tropical e Amazônica.",
+        "D) Mata Atlântica e Araucárias.",
+        "E) Cerrado e Mata Atlântica."
+      ],
+      "respostaLetra": "E",
+      "descricao": "HotSpots são biomas mundiais com grande biodiversidade e fadados à extinção derivada da ação antrópica. No Brasil, são considerados Hotspots a Mata Atlântica e o Cerrado.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 70,
+      "tema": "Geografia",
+      "pergunta": "Sobre o conceito de Desenvolvimento Sustentável, é INCORRETO afirmar:",
+      "alternativas": [
+        "A) Foi apresentado no relatório chamado Nosso Futuro Comum.",
+        "B) Deriva da biologia e foi assumido pela ONU na década de 1980 como alternativa ambientalmente viável.",
+        "C) Equivale ao Desenvolvimento Zero.",
+        "D) Propõe a solidariedade entre e intergerações.",
+        "E) É um ponto de interseção entre as esferas social, econômica e ambiental/natural."
+      ],
+      "respostaLetra": "C",
+      "descricao": "O “Desenvolvimento Zero”, ou “Os limites do Crescimento”, foi um resultado apresentado em Estocolmo 72 e anterior ao conceito de Desenvolvimento Sustentável, apresentado como alternativa pela ONU na década de 1980.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 71,
+      "tema": "Geografia",
+      "pergunta": "A projeção de Peters, chamada de Terceiro  Mundista, é:",
+      "alternativas": [
+        "A) Cilíndrica Equidistante.",
+        "B) Azimutal Equidistante.",
+        "C) Anamorfa e Plana.",
+        "D) Cônica Conforme.",
+        "E) Cilíndrica Equivalente."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Cilíndrica, pois envolve o globo como um cilindro, e equivalente, pois, apesar de alterar as formas e distâncias, mantém as áreas",
+      "imgPergunta": "",
+      "imgResposta": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Equirectangular-projection.jpg/1200px-Equirectangular-projection.jpg"
+    },
+    {
+      "id": 72,
+      "tema": "Geografia",
+      "pergunta": "O Brasil está numa área de relativa estabilidade sísmica, o que explica a ausência de terremotos catastróficos no seu território. Há, entretanto, a ocorrência de sismos de baixa intensidade por aqui, especialmente no espaço conhecido como:",
+      "alternativas": [
+        "A) Lineamento Transbrasiliano.",
+        "B) Cinturão de Fogo.",
+        "C) Falha Sulamericana.",
+        "D) Borda Brasiliana.",
+        "E) Orla Atlântica."
+      ],
+      "respostaLetra": "A",
+      "descricao": "",
+      "imgPergunta": "",
+      "imgResposta": "https://s.glbimg.com/og/rg/f/original/2011/11/04/terremotos_brasil_copiar.jpg"
+    },
+    {
+      "id": 73,
+      "tema": "Geografia",
+      "pergunta": "O tipo de intemperismo predominante em espaços áridos é o:",
+      "alternativas": [
+        "A) Endógeno.",
+        "B) Químico.",
+        "C) Biológico.",
+        "D) Exógeno – Seres vivos.",
+        "E) Físico-mecânico."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Nas áreas áridas predomina o intemperismo físico-mecânico, com a desagregação superficial do regolito.",
+      "imgPergunta": "",
+      "imgResposta": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/10/solo-seco.jpg"
+    },
+    {
+      "id": 74,
+      "tema": "Geografia",
+      "pergunta": "Uma das características marcantes do Toyotismo é o (a):",
+      "alternativas": [
+        "A) Produção em escala.",
+        "B) Esteira de Produção.",
+        "C) Ajuste fino entre fornecimento, produção e consumo.",
+        "D) Trabalho repetitivo (homem-máquina).",
+        "E) Valorização do artesanato."
+      ],
+      "respostaLetra": "C",
+      "descricao": "O Toyotismo é marcado pela expansão global da produção e consumo e intensificação da competição na escala global, com produção em escopo e particularização dos produtos segundo a demanda existente.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 75,
+      "tema": "Geografia",
+      "pergunta": "Qual dos itens abaixo não é uma marca da globalização?",
+      "alternativas": [
+        "A) Diminuição do espaço relativo ao tempo.",
+        "B) Ampliação dos fluxos materiais e imateriais em redes técnicas.",
+        "C) Homogeneização global das oportunidades de circulação e comunicação.",
+        "D) Realização plena na fase mais avançada do capitalismo financeiro.",
+        "E) Vinculação ao modelo econômico neoliberal."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Considerando que a globalização se realiza na fase mais avançada do capitalismo e se configura pela aceleração dos fluxos materiais e imateriais em redes técnicas, não podemos pensar num processo de homogeneização, visto que há profunda seletividade espacial com atores hegemônicos e hegemonizados.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 76,
+      "tema": "Geografia",
+      "pergunta": " Sobre a rede urbana brasileira, segundo os estudos do IBGE (REGIC 2008), pode-se afirmar que há:",
+      "alternativas": [
+        "A)  Três metrópoles de alcance nacional.",
+        "B) Nove metrópoles nacionais.",
+        "C) 12 Regiões metropolitanas.",
+        "D) Uma RIDE, a do DF.",
+        "E) Cinco cidades globais."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Conforme mapa, há no Brasil uma Grande Metrópole Nacional (São Paulo) e duas outras Metrópoles Nacionais (Rio de Janeiro e Brasília), ou seja, três metrópoles com raio de influência nacional.",
+      "imgPergunta": "",
+      "imgResposta": "https://journals.openedition.org/confins/docannexe/image/31037/img-26-small580.jpg"
+    },
+    {
+      "id": 85,
+      "tema": "História",
+      "pergunta": "As cruzadas foram expedições militares convocadas pela Igreja Católica com o intuito de reconquistar aos muçulmanos territórios que os cristãos acreditavam serem sagrados.  Uma das cruzadas, no entanto, desviou-se de seu objetivo e conquistou Constantinopla. Qual foi essa cruzada?",
+      "alternativas": [
+        "A) 2ª Cruzada.",
+        "B) 5ª Cruzada.",
+        "C) 4ª Cruzada.",
+        "D) 10ª Cruzada. ",
+        "E) 7ª Cruzada."
+      ],
+      "respostaLetra": "C",
+      "descricao": "A Quarta Cruzada (1202-1204), convocada pelo papa Inocêncio III,  deveria conquistar o Egito.  A Cruzada, no entanto, foi desviada e, atendendo aos interesses dos comerciantes  venezianos, interessados nas rotas de comércio do Mediterrâneo, os cruzados tomaram e saquearam Constantinopla, cidade cristã capital do Império",
+      "imgPergunta": "",
+      "imgResposta": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2ae4ac30b34f80fbeb2b2c38b0b39591.jpg"
+    },
+    {
+      "id": 86,
+      "tema": "História",
+      "pergunta": "O Humanismo, movimento ligado ao Renascimento Cultural do final da Idade Média e início da Idade Moderna, defendia o ensino do grego, do latim e mesmo do hebraico para melhor compreender textos antigos.  Seu sucesso dependeu da:",
+      "alternativas": [
+        "A) Fundação das primeiras universidades.",
+        "B) Invenção da Imprensa.",
+        "C) Proibição do ensino das línguas vernáculas.",
+        "D) Fundação dos Estados Nacionais.",
+        "E) Queda de Constantinopla em 1453."
+      ],
+      "respostaLetra": "B",
+      "descricao": "O Humanismo recebeu um forte impulso graças à invenção da imprensa.  Esta possibilitou a difusão mais rápida das ideias com a publicação de livros em diversas línguas.  Basta uma prensa e elas vão se multiplicar pela Europa.",
+      "imgPergunta": "",
+      "imgResposta": "https://static.escolakids.uol.com.br/conteudo_legenda/232d9eb0d4c6974baac8cf117f27ed9e.jpg"
+    },
+    {
+      "id": 87,
+      "tema": "História",
+      "pergunta": "Em 1540, o rei da França, Francisco I, declarou em 1540: “Gostaria de ver o testamento de Adão para saber de que forma este dividira o mundo”.  Esse protesto se referia a qual tratado?",
+      "alternativas": [
+        "A) Tratado de Madri. ",
+        "B) Tratado de Verdun.",
+        "C) Tratado de Troyes.",
+        "D) Tratado de Paris.",
+        "E) Tratado de Tordesilhas."
+      ],
+      "respostaLetra": "E",
+      "descricao": "O Tratado de Tordesilhas, assinado em 7 de junho de 1494 entre o Reino de Portugal e a Coroa de Castela, dividia as terras “descobertas e por descobrir” entre esses Estados.  O rei da França questionava a legitimidade do acordo e exigia o princípio de “Uti possidetis”, ou seja, a terra é de quem ocupa.",
+      "imgPergunta": "",
+      "imgResposta": "https://www.sohistoria.com.br/ef2/navegacoes/index_clip_image020.jpg"
+    },
+    {
+      "id": 88,
+      "tema": "História",
+      "pergunta": "O século XVI foi marcado pelas reformas religiosas. Sobre esse período, é possível afirmar que: ",
+      "alternativas": [
+        "A) As disputas entre o papado e os governos locais garantiram o sucesso da Reforma Protestante.",
+        "B) Lutero estimulou a criação de diversas igrejas nacionais sob a autoridade dos príncipes.",
+        "C) A Contrarreforma católica criou o Índex e a Inquisição.",
+        "D) Até o século XVI, a Igreja Católica nunca tinha tido seus dogmas contestados.",
+        "E) Lutero defendia a salvação pela fé em oposição à doutrina católica, que defendia a salvação pelas obras."
+      ],
+      "respostaLetra": "E",
+      "descricao": "O princípio da salvação pela fé era uma das bases da Reforma proposta por Martinho Lutero em oposição à doutrina católica, centrada nas obras, ou ações humanas como a confissão, a caridade e as penitências. ",
+      "imgPergunta": "",
+      "imgResposta": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/estatua-martinho-lutero-reformador-protestante-seculo-xvi-56b4eef69b5f4.jpg"
+    },
+    {
+      "id": 89,
+      "tema": "História",
+      "pergunta": "As reformas religiosas e as grandes navegações são processos concomitantes.  Pressionados na Europa, huguenotes e judeus buscaram abrigo na colônia Brasil. Em quais regiões atuais de nosso país se estabeleceram?  ",
+      "alternativas": [
+        "A) Huguenotes/Rio de Janeiro e Judeus/Pernambuco.",
+        "B) Huguenotes/Rio de Janeiro e Judeus/Maranhão.",
+        "C) Huguenotes/Bahia e Judeus/Pernambuco.",
+        "D) Huguenotes/Espírito Santo e Judeus/Bahia.",
+        "E) Huguenotes/Maranhão e Judeus/Minas Gerais."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Os franceses criaram na região da Baía do Rio de Janeiro (como era então conhecida a Baía de Guanabara), a chamada França Antártica, entre 1555-1570, para abrigar os huguenotes.  Já os holandeses, ao dominarem o nordeste, deram liberdade religiosa aos judeus e a primeira sinagoga das Américas foi fundada em nosso território.",
+      "imgPergunta": "",
+      "imgResposta": "https://www.guiaviagensbrasil.com/imagens/sacadas-centro-historico-recife-pe.jpg"
+    },
+    {
+      "id": 90,
+      "tema": "História",
+      "pergunta": "Selecione a alternativa em que todas as revoluções estão em ordem cronológica  (da mais antiga para a mais atual)?",
+      "alternativas": [
+        "A) Revolução Gloriosa – Revolução de 1930 – Revolução Francesa.",
+        "B) Revolução Gloriosa – Revolução Russa – Revolução dos Cravos.",
+        "C) Revolução Francesa – Revolução Americana – Revolução de Veludo.",
+        "D) Revolução Pernambucana – Revolução Francesa – Revolução Islâmica.",
+        "E) Revolução Gloriosa – Revolução Pernambucana – Revolução Americana."
+      ],
+      "respostaLetra": "B",
+      "descricao": "Revolução Gloriosa (1688-1689)  Revolução Russa (1917)  Revolução dos Cravos (1974)",
+      "imgPergunta": "",
+      "imgResposta": "https://static.todamateria.com.br/upload/re/vo/revolucaodoscravos-cke.jpg"
+    },
+    {
+      "id": 91,
+      "tema": "História",
+      "pergunta": "A Revolução Francesa teve numerosos desdobramentos, possibilitando transformações políticas no Estado e na sociedade em vários países. Identifique a alternativa correta, considerando os impactos sociais e políticos dessa Revolução:",
+      "alternativas": [
+        "A) Fim do absolutismo e desenvolvimento das monarquias constitucionais, especialmente na Europa.",
+        "B) O fim da propriedade privada e avanço do comunismo.",
+        "C) O fortalecimento do poder da Igreja Católica.",
+        "D) A abolição da escravidão no mundo como resultado da Declaração dos Direitos do Homem e do Cidadão.",
+        "E) A igualdade jurídica entre homens e mulheres, uma das principais bandeiras do movimento."
+      ],
+      "respostaLetra": "A",
+      "descricao": "A Revolução Francesa desencadeou a contestação do regime absolutista, dando voz à burguesia e a seus anseios de maior participação política.  Para sobreviverem, as monarquias europeias tiveram que se reformar, criando constituições, dando poder ao parlamento e estendendo progressivamente o direito de voto ao conjunto dos cidadãos. ",
+      "imgPergunta": "",
+      "imgResposta": "https://static.historiadomundo.com.br/2021/05/revolucao-francesa.jpg"
+    },
+    {
+      "id": 92,
+      "tema": "História",
+      "pergunta": "Desde finais do século XVIII, a escravidão começou a ser questionada.  No entanto, para que essa instituição fosse erradicada, foi necessário acabar com:",
+      "alternativas": [
+        "A) As justificativas racistas para a prática.",
+        "B) As bases teológicas da escravidão.",
+        "C) O tráfico de negros vindos da África.",
+        "D) O Absolutismo, que sempre legitimou a escravidão.",
+        "E) Os últimos resquícios de servidão, porque a justificativa para a escravidão se assentava na existência de servos na Europa."
+      ],
+      "respostaLetra": "C",
+      "descricao": "O tráfico era o maior responsável pela reposição de mão de obra escrava, pois, na média, as condições de vida dos escravos eram ruins e as taxas de natalidade baixas.  Sem o fluxo contínuo de homens e mulheres vindos da África, o fim da escravidão era uma questão de tempo. ",
+      "imgPergunta": "",
+      "imgResposta": "https://upload.wikimedia.org/wikipedia/commons/7/71/Navio_negreiro_-_Rugendas_1830.jpg"
+    },
+    {
+      "id": 93,
+      "tema": "História",
+      "pergunta": "Diáspora africana é o nome dado à imigração forçada de homens e mulheres da África para outras regiões do mundo. Estima-se que cerca de 12 milhões de africanos vieram para a América e o Brasil recebeu aproximadamente:",
+      "alternativas": [
+        "A) 25% desse efetivo.",
+        "B) 70% desse efetivo.",
+        "C) 40% desse efetivo.",
+        "D) 30% desse efetivo.",
+        "E) 10% desse efetivo."
+      ],
+      "respostaLetra": "C",
+      "descricao": "O tráfico negreiro no Brasil perdurou do século XVI ao XIX. Nosso país recebeu a maior parte de africanos escravizados no período (quase 40% do total) e foi a última nação da América a abolir a escravidão (1888).",
+      "imgPergunta": "",
+      "imgResposta": "https://multirio.rio.rj.gov.br/images/historia_do_brasil/M2-cap6-de7a11/3_Meynell_navio_interior_t.jpg"
+    },
+    {
+      "id": 94,
+      "tema": "História",
+      "pergunta": "A Revolução Pernambucana (1817) levantava bandeiras da Revolução Francesa e pretendia espalhar seus ideais pelas capitanias e dar notícia ao mundo de que havia uma república no Brasil.  Dentre os atos da Revolução, é possível destacar: ",
+      "alternativas": [
+        "A) A abolição da escravidão.",
+        "B) A expulsão dos portugueses de Pernambuco.",
+        "C) A instauração da liberdade de culto e de imprensa.",
+        "D) O fim da propriedade privada.",
+        "E) Obtenção do apoio internacional ao avanço da Revolução no Brasil."
+      ],
+      "respostaLetra": "C",
+      "descricao": "",
+      "imgPergunta": "",
+      "imgResposta": "https://s.conjur.com.br/img/b/assembleia-constituinte-brasil.jpeg"
+    },
+    {
+      "id": 95,
+      "tema": "História",
+      "pergunta": "Durante o Segundo Reinado Brasileiro, que teve como imperador Dom Pedro II, as duas principais correntes que contestavam as políticas imperiais e acabaram encabeçando o golpe de 15 de novembro de 1889, foram:",
+      "alternativas": [
+        "A) anarquistas e liberais.",
+        "B) federalistas e nacionalistas.",
+        "C) republicanos e militares.",
+        "D) comunistas e integralistas.",
+        "E) socialistas e milicianos. "
+      ],
+      "respostaLetra": "C",
+      "descricao": "O movimento republicano e os militares de carreira foram os principais atores para a organização do golpe contra o Império, efetivado em 1889, tanto é que a República foi instituída e, inicialmente, governada por dois militares: Deodoro da Fonseca e Floriano Peixoto.",
+      "imgPergunta": "",
+      "imgResposta": "https://conhecimentocientifico.r7.com/wp-content/uploads/2019/10/proclamacao-da-republica-o-que-foi-protagonistas-e-curiosidades-2-672x1024.jpg"
+    },
+    {
+      "id": 96,
+      "tema": "História",
+      "pergunta": "De 1815 a 1891, a Inglaterra viveu um período de grande estabilidade política interna, combinada com acentuado desenvolvimento econômico, o que possibilitou aos ingleses o domínio dos mares e a expansão colonialista. As principais realizações desse período se deram durante:",
+      "alternativas": [
+        "A) a Era Vitoriana.",
+        "B) a Revolução Gloriosa",
+        "C) a Segunda Revolução Industrial.",
+        "D) o governo de Elizabeth I.",
+        "E) a Restauração."
+      ],
+      "respostaLetra": "A",
+      "descricao": "A chamada Era Vitoriana (1837-1901) é assim nomeada por causa do governo da Rainha Vitória.  Foi um período de confirmação da Inglaterra como grande potência, um Império que controlava grandes porções do mundo e continuava avançando com sua revolução industrial.",
+      "imgPergunta": "",
+      "imgResposta": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/255px-Queen_Victoria_by_Bassano.jpg"
+    },
+    {
+      "id": 105,
+      "tema": "Português",
+      "pergunta": "Em poesia, para determinar a medida de um verso, este é dividido em sílabas poéticas. Esse procedimento recebe o nome de: ",
+      "alternativas": [
+        "A) redondilha. ",
+        "B) dístico. ",
+        "C) escansão. ",
+        "D) métrica. ",
+        "E) quintilha."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Escansão é o procedimento por meio do qual um verso é separado em sílabas poéticas.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 106,
+      "tema": "Português",
+      "pergunta": "Assinale a alternativa em que se encontra a figura de linguagem presente na frase:  Embarcaremos no avião das 21h.",
+      "alternativas": [
+        "A) Anáfora.",
+        "B) Catacrese.",
+        "C) Metonímia.",
+        "D) Antonomásia.",
+        "E) Silepse."
+      ],
+      "respostaLetra": "B",
+      "descricao": "Consiste na utilização de um termo ⎯ já existente e com significação própria ⎯ em outro sentido em virtude da falta de palavras que expressem o que se quer dizer. Na questão, embora o verbo embarcar tenha-se originado a partir do substantivo barca (embarcar = entrar numa barca, a fim de ser por ela transportado), hoje o seu emprego é extensível para expressar a mesma ideia, porém com outros meios de transporte que não somente a barca. Exemplos: “Embarcar no trem”, “Embarcar no ônibus”.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 107,
+      "tema": "Português",
+      "pergunta": "Assinale a alternativa em que não há conotação. ",
+      "alternativas": [
+        "A) Construí um abismo de pedra entre mim e ti. ",
+        "B) Senti a seda da pele do bebê em meus dedos quando o segurei.",
+        "C) Diante do caos estabelecido na empresa, o gerente nadava em ouro. ",
+        "D) Eu não me importo com suas dores de cabeça.",
+        "E) Estamos mortos de fome. "
+      ],
+      "respostaLetra": "D",
+      "descricao": "A letra D é a única que não apresenta palavra ou expressão em sentido conotativo.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 108,
+      "tema": "Português",
+      "pergunta": "Goza, goza da flor da mocidade,  Que o tempo trota a toda ligeireza, E imprime em toda a flor sua pisada.  Oh, não aguardes, que a madura idade  Te converta em flor, essa beleza  Em terra, em cinza, em pó, em sobra, em nada. (Gregório de Matos)  Analisando o fragmento da poesia acima, conclui-se que o agente é a (o)",
+      "alternativas": [
+        "A) mocidade.",
+        "B) terra.",
+        "C) beleza.",
+        "D) flor",
+        "E) tempo. "
+      ],
+      "respostaLetra": "E",
+      "descricao": "É o tempo o responsável pela temática presentes nos versos, pois é ele que “trota”, “imprime”, além de converter toda beleza em “terra, em cinza, em pó, em sobra, em nada”.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 109,
+      "tema": "Português",
+      "pergunta": "Assinale a opção em que ocorre um substantivo feminino.",
+      "alternativas": [
+        "A) Musse.",
+        "B) Eclipse.",
+        "C) Dó (pena).",
+        "D) trema.",
+        "E) Apêndice."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Musse é um substantivo feminino.  A musse de maracujá estava deliciosa.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 110,
+      "tema": "Português",
+      "pergunta": "Assinale a opção em que se empregou corretamente a forma verbal:",
+      "alternativas": [
+        "A) Quando você ver Epaminondas, diga-lhe que preciso muito falar com ele.",
+        "B) O policial interviu na discussão, a fim de evitar mal maior.",
+        "C) Se a empresa propor vagas de empregos, haverá muitos candidatos.",
+        "D) Os funcionários se indisporam com a diretoria.",
+        "E) Ficarão alegres, se virem os resultados."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Os verbos presentes nas alternativas são irregulares. Portanto, na (A) a forma verbal deveria ser vir, na (B), interveio, na (C), propuser e, na (D), indispuseram. ",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 111,
+      "tema": "Português",
+      "pergunta": "Assinale a opção que apresenta uma característica que NÃO pertence ao Arcadismo:",
+      "alternativas": [
+        "A) Antropocentrismo.",
+        "B) Paganismo.",
+        "C) Influências do Iluminismo.",
+        "D) Bucolismo.",
+        "E) Rebuscamento do vocabulário."
+      ],
+      "respostaLetra": "E",
+      "descricao": "O vocabulário rebuscado (utilização de palavras mais elaboradas e de significado complexo) é uma característica do Barroco.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 112,
+      "tema": "Português",
+      "pergunta": "Assinale a alternativa em que há um verbo defectivo:",
+      "alternativas": [
+        "A) Demoliram vários prédios naquele local. ",
+        "B) Eles se correspondem frequentemente.",
+        "C) Estampava no rosto um sorriso, um sorriso de criança.",
+        "D) Compramos muitas mercadorias remarcadas.",
+        "E) Coube ao juiz julgar o réu. "
+      ],
+      "respostaLetra": "A",
+      "descricao": "Verbo defectivo é aquele que não apresenta conjugação para todas as pessoas, tempos e modos. Desse modo, o verbo demolir enquadra-se nesse paradigma, não tendo, por exemplo, a 1ª. Pessoa do singular do presente do indicativo, o que vai redundar na inexistência de todo o presente do subjuntivo.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 113,
+      "tema": "Português",
+      "pergunta": "“As pessoas são inteiramente livres, como julgo são aqui.” No trecho sublinhado, ocorre uma omissão de que tipo de palavra?",
+      "alternativas": [
+        "A) Conjunção conclusiva.",
+        "B) Conjunção integrante. ",
+        "C) Palavra denotativa.",
+        "D) Preposição essencial.",
+        "E) Pronome relativo. "
+      ],
+      "respostaLetra": "B",
+      "descricao": "Omitiu-se a conjunção integrante “que” no segmento destacado (… como julgo que são aqui.), que é uma oração subordinada substantiva com valor de objeto direto do verbo julgar.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 114,
+      "tema": "Português",
+      "pergunta": "Leia as afirmações abaixo e, a seguir, responda o que se pede.\nI - Valoriza-se o ideal burguês da vida sustentada pelo trabalho em detrimento dos valores aristocráticos. \nII - Cultiva-se a naturalidade: o homem deve conhecer e exprimir sua sensibilidade e seus sentimentos. \nIII - Prega-se uma vida mediana e equilibrada, longe do mundo urbano. A linguagem deve ser simples, consistindo apenas no que é essencial.  \nO movimento literário definido pelas afirmativas é o:",
+      "alternativas": [
+        "A) Romantismo",
+        "B) Barroco",
+        "C) Parnasianismo",
+        "D) Arcadismo ",
+        "E) Simbolismo"
+      ],
+      "respostaLetra": "D",
+      "descricao": "Os ideais mencionados são características do Arcadismo, o qual defendia a simplicidade da vida, o “fugere urbem” (a fuga da cidade), entre outros aspectos.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 115,
+      "tema": "Português",
+      "pergunta": "Em “O casal de índios levou-os à sua aldeia, que estava deserta, onde ofereceu frutas aos convidados”, temos:",
+      "alternativas": [
+        "A) dois pronomes possessivos e dois pronomes pessoais",
+        "B) um pronome pessoal, um pronome possessivo e dois pronomes relativos ",
+        "C) dois pronomes pessoais e dois pronomes relativos",
+        "D) um pronome pessoal, um pronome possessivo, um pronome relativo e um pronome interrogativo",
+        "E) dois pronomes possessivos e dois pronomes relativos. "
+      ],
+      "respostaLetra": "B",
+      "descricao": "No fragmento temos, um pronome pessoal oblíquo (“os”), um pronome possessivo (“sua”) e dois pronomes relativos (“que” e “onde”).",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 116,
+      "tema": "Português",
+      "pergunta": "Assinale a opção em que todos os elementos caracterizam a poesia romântica brasileira, respectivamente, em suas três gerações ou fases:",
+      "alternativas": [
+        "A) Nacionalismo, autocompaixão, ambiência lúgubre.",
+        "B) Indianismo, melancolia, preocupação social.",
+        "C) Preocupação formal, subjetivismo, morbidez acentuada.",
+        "D) Imaginação criadora, engajamento político, inspiração clássica.",
+        "E) Natureza, pessimismo, cientificismo."
+      ],
+      "respostaLetra": "B",
+      "descricao": "O Indianismo representa a fase nacionalista e busca do herói nacional; a Melancolia, o pessimismo que caracterizou a 2ª fase romântica ou Mal do Século, enquanto que a Preocupação Social representa, sobretudo, a poesia de Casto Alves, destacatamente em Navio Negreiro.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 125,
+      "tema": "Química",
+      "pergunta": "O radioisótopo 222 do 86Rn, por uma série de desintegrações, transforma-se no isótopo 206 do 82Pb. Determine o número de partículas alfa e o número de partículas beta envolvidas nessas transformações.",
+      "alternativas": [
+        "A) 2 partículas alfa e 2 partículas beta.",
+        "B) 2 partículas alfa e 4 partículas beta.",
+        "C) 4 partículas alfa e 3 partículas beta.",
+        "D) 4 partículas alfa e 4 partículas beta.",
+        "E) 3 partículas alfa e 3 partículas beta."
+      ],
+      "respostaLetra": "D",
+      "descricao": "86222Rn → 82206Pb O número de massa diminui 16 unidades. Como cada radiação alfa significa uma diminuição no número de massa em 4 unidades, temos que foram emitidas 4 partículas alfa, pois 4 . 4 = 16. Nesse momento, significou que ele perdeu também 2 unidades no número atômico para cada partícula alfa, dando um total de 8 e ficando com o número atômico igual a 78 (86 – 8). Para cada partícula beta emitida, o elemento ganha uma unidade no número atômico. Como ele está com 78 e precisa atingir o número atômico igual a 82, ele emitiu 4 partículas beta.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 126,
+      "tema": "Química",
+      "pergunta": "Observe as moléculas a seguir: NH3, CHCℓ3, SO3. Suas geometrias moleculares e polaridades são, respectivamente:",
+      "alternativas": [
+        "A) tetraédrica/polar; tetraédrica/polar; trigonal plana/polar.",
+        "B) piramidal/ polar; tetraédrica/polar; trigonal plana/apolar.",
+        "C) trigonal plana/apolar; angular/polar; tetraédrica/apolar.",
+        "D) linear/polar; trigonal plana/polar; angular/polar.",
+        "E) piramidal/apolar; piramidal/apolar; linear/apolar."
+      ],
+      "respostaLetra": "B",
+      "descricao": "De acordo com a Teoria de Repulsão dos Pares Eletrônicos, temos:  NH3 – piramidal – polar | CHCℓ3 – tetraédrico – polar | SO3  – trigonal plana - apolar",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 127,
+      "tema": "Química",
+      "pergunta": "Sabe-se que a chuva ácida é formada pela dissolução, na água da chuva, de óxidos ácidos presentes na atmosfera. Entre os pares de óxidos relacionados, qual é constituído apenas por óxidos que provocam a chuva ácida?",
+      "alternativas": [
+        "A) Na2O e NO2",
+        "B) CO2 e MgO",
+        "C) CO2 e SO3",
+        "D) CO e NO2",
+        "E) CO e NO"
+      ],
+      "respostaLetra": "C",
+      "descricao": "O CO2 reage com a água e forma solução ácida, sendo responsável pela acidez natural da chuva em ambientes não poluídos. O SO3 reage com a água, formando ácido sulfúrico e é um dos principais responsáveis por diminuir o pH da chuva a níveis perigosos para o ambiente.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 128,
+      "tema": "Química",
+      "pergunta": "Seathl, chefe indígena americano, em seu famoso discurso, 'discorre a respeito dos sentimentos e dos cuidados que o homem branco deveria ter para com a Terra, à semelhança dos índios, ao se assenhorear das novas regiões. E ao final, diz: “Nunca esqueças como era a terra quando dela tomaste posse. Conserva-a para os teus filhos e ama-a como Deus nos ama a todos. Uma coisa sabemos: o nosso Deus é o mesmo Deus. Nem mesmo o homem branco pode evitar nosso destino comum”. O discurso adaptado, publicado na revista Norsk Natur, Oslo, em 1974, nunca esteve tão atual. O homem, procurando tornar sua vida mais “confortável”, vem destruindo e contaminando tudo ao seu redor, sem se preocupar com os efeitos desastrosos posteriores. Esses efeitos podem ser causados por: \nI. liberação desenfreada de gases-estufa;\nII. destruição da camada de ozônio;\nIII. uso descontrolado de agrotóxicos e inseticidas;\nIV. desmatamento e queimadas. \nÉ correto afirmar que contribuem para o agravamento dos problemas as causas citadas em:",
+      "alternativas": [
+        "A) I, II e III, apenas.",
+        "B) II e III, apenas.",
+        "C) I e IV, apenas.",
+        "D) I, II, III e IV.",
+        "E) II e IV, apenas."
+      ],
+      "respostaLetra": "D",
+      "descricao": "Todos os itens apresentados estão corretos.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 129,
+      "tema": "Química",
+      "pergunta": "O comportamento de um gás real aproxima-se do de um gás ideal quando:",
+      "alternativas": [
+        "A) submetido a baixas temperaturas.",
+        "B) submetido a baixas temperaturas e baixas pressões.",
+        "C) submetido a altas temperaturas e altas pressões.",
+        "D) submetido a altas temperaturas e baixas pressões.",
+        "E) submetido a baixas temperaturas e altas pressões."
+      ],
+      "respostaLetra": "D",
+      "descricao": "Um gás real aproxima-se do ideal quanto mais alta for sua temperatura e menor sua pressão.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 130,
+      "tema": "Química",
+      "pergunta": "Considerando a equação química:  Cl2O7 + 2 NaOH → 2 NaClO4 + H2O   os reagentes e produtos pertencem, respectivamente, às funções:",
+      "alternativas": [
+        "A) óxido, base, sal e óxido.",
+        "B) sal, base, sal e hidreto.",
+        "C) ácido, sal, óxido e hidreto.",
+        "D) óxido, base, óxido e hidreto.",
+        "E) base, ácido, óxido e óxido."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Cl2O7: óxido (composto formado por dois elementos, sendo que o mais eletronegativo deles é o oxigênio). |   NaOH: base (composto que se dissocia em água e libera íons, dos quais o único ânion é o hidróxido, OH-: NaOH → Na+ + OH-);  |   NaClO4: sal (composto que, em solução aquosa, sofre dissociação iônica, liberando pelo menos um cátion diferente do H+ e um ânion diferente do OH-);   |   H2O: óxido.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 131,
+      "tema": "Química",
+      "pergunta": "Uma substância, pura e sólida em temperatura ambiente, apresenta elevadas temperaturas de fusão e de ebulição e conduz corrente elétrica tanto fundida como dissolvida em água. Indique a alternativa cuja substância apresenta as propriedades citadas:",
+      "alternativas": [
+        "A) SO3.",
+        "B) SO2.",
+        "C) NH3.",
+        "D) H2SO4.",
+        "E) Na2SO4."
+      ],
+      "respostaLetra": "E",
+      "descricao": "As características apresentadas no enunciado são de compostos pertencentes à função inorgânica dos sais. O único composto que é um sal é o da alternativa “e”.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 132,
+      "tema": "Química",
+      "pergunta": "O cracking das frações médias de destilação do petróleo é, hoje, uma tecnologia empregada na maioria das refinarias porque:",
+      "alternativas": [
+        "A) aumenta o rendimento em óleos lubrificantes;",
+        "B) economiza energia térmica no processo de destilação;",
+        "C) permite a utilização de equipamento mais compacto;",
+        "D) facilita a destilação do petróleo;",
+        "E) aumenta o rendimento em frações leves."
+      ],
+      "respostaLetra": "E",
+      "descricao": "",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 133,
+      "tema": "Química",
+      "pergunta": "Existe uma fibra sintética conhecida como dácron. O dácron é um(a):",
+      "alternativas": [
+        "A) poliálcool.",
+        "B) poliamida.",
+        "C) poliéter.",
+        "D) poliéster.",
+        "E) poliolefina."
+      ],
+      "respostaLetra": "D",
+      "descricao": "",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 134,
+      "tema": "Química",
+      "pergunta": "Dada a fórmula estrutural do 5- metil-hex-2-en-4-ol, podemos afirmar que ela pode ser classificada em:",
+      "alternativas": [
+        "A) Aberta, ramificada, saturada e homogênea.",
+        "B) Alicíclica, ramificada, insaturada e heterogênea.",
+        "C) Acíclica, ramificada, insaturada e homogênea.",
+        "D) Alifática, normal, saturada e heterogênea.",
+        "E) acíclica, normal, saturada e homogênea."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Apresenta uma estrutura aberta (também chamada de acíclica ou alifática); Possui uma ligação dupla entre os carbonos e, por isso, é insaturada; Apresenta uma ramificação no carbono 5 da cadeia e, por isso, é ramificada; Não apresenta os elementos enxofre, oxigênio, nitrogênio e fósforo entre carbonos e, por isso, é homogênea.",
+      "imgPergunta": "https://s5.static.brasilescola.uol.com.br/img/2016/12/5-metil-hex-2-en-4-ol.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 135,
+      "tema": "Química",
+      "pergunta": "Os desagradáveis odores da transpiração são provocados por alguns ácidos carboxílicos presentes no suor. O composto a seguir que pode ser utilizado para eliminar esse mau cheiro é:",
+      "alternativas": [
+        "A) Leite de magnésia (Hidróxido de magnésio)",
+        "B) Vinagre (Solução diluída de ácido acético)",
+        "C) Sal de cozinha (Cloreto de sódio)",
+        "D) Açúcar (Glicose)",
+        "E) Água"
+      ],
+      "respostaLetra": "A",
+      "descricao": "O leite de magnésia é uma solução de hidróxido de magnésio (Mg(OH)2), uma base que pode reagir com os ácidos carboxílicos presentes no suor, neutralizando-os.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 136,
+      "tema": "Química",
+      "pergunta": "O bicarbonato de sódio (NaHCO3) é um sal básico que pode ser usado como antiácido estomacal. Quando ele entra em contato com o ácido clorídrico presente no suco gástrico do estômago, ocorre uma reação que neutraliza o meio, formando outro sal, água e gás carbônico (responsável pela eructação (arroto)). Qual é o sal formado nessa reação?",
+      "alternativas": [
+        "A) a) NaHCl.",
+        "B) b) NaCCl.",
+        "C) c) NaCl.",
+        "D) d) NaCO3",
+        "E) e) NaCO2Cl"
+      ],
+      "respostaLetra": "C",
+      "descricao": "A reação que ocorre é a seguinte: NaHCO3 + HCl → NaCl + H2O + CO",
+      "imgPergunta": "",
+      "imgResposta": ""
     }
   ],
   "difficult": [
     {
       "id": 17,
-      "question": "Quem é o Intruso?",
-      "alternatives": ["303", "81", "234", "11", "15"],
-      "response": "11",
-      "response_alternative": {
-        "letter": "d",
-        "answer": "11"
-      }
+      "tema": "Biologia",
+      "pergunta": "Qual a diferença fundamental entre as teses desenvolvidas por Lamarck e Darwin quanto atuação do ambiente no papel da adaptação?",
+      "alternativas": [
+        "A) Para Lamarck o meio seleciona os mais adaptados, enquanto para Darwin o meio induz a modificação nos seres vivos.",
+        "B) Para Lamarck o meio induz a modificação nos seres vivos, enquanto para Darwin o meio seleciona os mais adaptados.",
+        "C) Para ambos, o meio incialmente seleciona e depois modifica os seres vivos para adaptá-los.",
+        "D) Para Lamarck o meio modifica e depois seleciona, enquanto para Darwin o meio seleciona e depois modifica os seres vivos.",
+        "E) Para Lamarck o meio não interfere, enquanto para Darwin o meio é responsável pela adaptação."
+      ],
+      "respostaLetra": "B",
+      "descricao": "Para Lamarck, o meio atua induzindo as modificações nos seres vivos, as quais eram passadas aos descendentes. Para Darwin, o meio apenas seleciona as variedades preexistentes que melhor ajustem a espécie ao ambiente em que vivem.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 18,
-      "question": "Falando sobre período histórico, temos a.C. e d.C. que significam, respectivamente, 'antes de Cristo' e 'depois de Cristo'. Em latim, como é representada a sigla d.C.?",
-      "alternatives": ["A.C.", "D.A.", "A.D.", "An. Dom.", "A.J."],
-      "response": "A.D.",
-      "response_alternative": {
-        "letter": "c",
-        "answer": "A.D."
-      }
+      "tema": "Biologia",
+      "pergunta": "Aleksandr Ivanovich Oparin foi um biólogo e bioquímico russo considerado um dos precursores dos estudos sobre a origem da vida. Em 1938, publicou a hipótese de que a atmosfera da Terra seria inicialmente formada por uma mistura de gases. Qual gás que não existia inicialmente na mistura proposta por Oparin?",
+      "alternativas": [
+        "A) metano",
+        "B) amônia",
+        "C) hidrogênio",
+        "D) oxigênio",
+        "E) vapor d'água"
+      ],
+      "respostaLetra": "D",
+      "descricao": "A mistura de gases proposta por Oparin para a atmosfera primitiva continha metano, amônia, hidrogênio e vapor d'água.",
+      "imgPergunta": "",
+      "imgResposta": ""
     },
     {
       "id": 19,
-      "question": "Quantos degraus há na torre Eiffel?",
-      "alternatives": ["1420", "1658", "2561", "1665", "996"],
-      "response": "1665",
-      "response_alternative": {
-        "letter": "d",
-        "answer": "1665"
-      }
+      "tema": "Biologia",
+      "pergunta": "A imagem significa...",
+      "alternativas": [
+        "A) inflamável",
+        "B) transgênico",
+        "C) radioatividade",
+        "D) alta voltagem",
+        "E) perigo"
+      ],
+      "respostaLetra": "B",
+      "descricao": "O símbolo, encontrado em embalagens de vários produtos, indica a presença de mais de 1% de ingrediente transgênico (geralmente soja ou milho)",
+      "imgPergunta": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTjpFPXJyr_Awtx0PkqZ91ALi0qny6YgZytQ&usqp=CAU",
+      "imgResposta": ""
     },
     {
       "id": 20,
-      "question": "Imagine que você foi dar um salto de paraquedas e, de repente, ao saltar, você sai da posição correta e acaba escorregando. O que fazer para se salvar?",
-      "alternatives": ["Puxar a corda do paraquedas.", "Abrir os braços para gerar resistência.", "Agarrar as canelas e esperar pelo melhor.", "Fechar a boca e os olhos.", "Abrir espaço com as pernas para deixar o ar entrar."],
-      "response": "Agarrar as canelas e esperar pelo melhor.",
-      "response_alternative": {
-        "letter": "c",
-        "answer": "Agarrar as canelas e esperar pelo melhor."
-      }
+      "tema": "Biologia",
+      "pergunta": "O exame de DNA tem sido muito utilizado na ciência forense para confirmação de paternidade ou identificação de suspeitos em algum crime. Qual o material que não pode ser utilizado para o exame de DNA?",
+      "alternativas": [
+        "A) hemácias do sangue",
+        "B) células da epiderme",
+        "C) fio de cabelo com a raiz",
+        "D) esfregaço interno da bochecha",
+        "E) sêmen"
+      ],
+      "respostaLetra": "A",
+      "descricao": "As hemácias ou glóbulos vermelhos são células anucleadas, portanto, não possuem DNA para ser comparado.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 36,
+      "tema": "Curiosidades",
+      "pergunta": "Qual o maior túnel do mundo?",
+      "alternativas": [
+        "A) SERPUKHOVSKO-TIMIRYAZEVSKAYA, na Rússia",
+        "B) EUROTÚNEL, liga Inglaterra e França",
+        "C) SEIKAN, no Japão",
+        "D) BASE DE LÖTSCHBERG, na Suíça",
+        "E) KALUZHSKO-RIZHSKAYA, na Rússia"
+      ],
+      "respostaLetra": "C",
+      "descricao": "Seikan, no Japão com 53,8 km, enquanto o Eurotunel tem 50,4 km.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 37,
+      "tema": "Curiosidades",
+      "pergunta": "Quem é o Intruso?",
+      "alternativas": [
+        "A) 303",
+        "B) 81",
+        "C) 234",
+        "D) 11",
+        "E) 15"
+      ],
+      "respostaLetra": "D",
+      "descricao": "O número “11” é o único que não é divisível por 3!",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 38,
+      "tema": "Curiosidades",
+      "pergunta": "Falando sobre período histórico, temos a.C. e d.C. que significam, respectivamente, “antes de Cristo” e “depois de Cristo”. Em latim, como é representada a sigla d.C.?",
+      "alternativas": [
+        "A) A.C.",
+        "B) D.A.",
+        "C) A.D.",
+        "D) An. Dom.",
+        "E) A.J."
+      ],
+      "respostaLetra": "C",
+      "descricao": "A.D. é a abreviação de Anno Domini.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 39,
+      "tema": "Curiosidades",
+      "pergunta": "Quantos degraus há na torre Eiffel?",
+      "alternativas": [
+        "A) 1420",
+        "B) 1658",
+        "C) 2561",
+        "D) 1665",
+        "E) 996"
+      ],
+      "respostaLetra": "D",
+      "descricao": "Gustave Eiffel criou 1665 degraus para subir ao topo da torre Eiffel.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 40,
+      "tema": "Curiosidades",
+      "pergunta": "Imagine que você foi dar um salto de paraquedas e, de repente, ao saltar, você sai da posição correta e acaba escorregando. O que fazer para se salvar?",
+      "alternativas": [
+        "A) Puxar a corda do paraquedas.",
+        "B) Abrir os braços para gerar resistência.",
+        "C) Agarrar as canelas e esperar pelo melhor.",
+        "D) Fechar a boca e os olhos.",
+        "E) Abrir espaço com as pernas para deixar o ar entrar."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Agarrar as canelas e esperar pelo melhor.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 57,
+      "tema": "Física",
+      "pergunta": "A memorável capa do álbum The Dark Side of the Moon, da banda de rock Pink Floyd, ilustra o fenômeno físico da:",
+      "alternativas": [
+        "A) Dispersão da luz.",
+        "B) Reflexão interna da luz.",
+        "C) Interferência da luz.",
+        "D) Birrefringência .",
+        "E) Ressonância luminosa."
+      ],
+      "respostaLetra": "A",
+      "descricao": "Dispersão da luz, na qual a luz branca, ao passar por um prisma, sofrerá refração e será desviada em um ângulo diferente.",
+      "imgPergunta": "https://www.92rockpop.com.br/wp-content/uploads/2023/03/pink-floyd-dark-side-of-the-moon.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 58,
+      "tema": "Física",
+      "pergunta": "O trovão, que ouvimos logo após um relâmpago cruzar o céu, é devido a vários fatores, exceto à(ao):",
+      "alternativas": [
+        "A) Aumento da temperatura do ar.",
+        "B) Altíssima corrente elétrica passando pelo ar.",
+        "C) Aumento da pressão do ar no caminho do relâmpago.",
+        "D) Elevadíssima D.D.P entre as nuvens e o solo",
+        "E) Ionização do ar em torno do relâmpago."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Ionização do ar em torno do relâmpago. ",
+      "imgPergunta": "https://4.bp.blogspot.com/-HoNP4kt7Ly8/TcpeebcucdI/AAAAAAAAAVQ/nva_lUy2l94/s1600/raio-arvore.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 59,
+      "tema": "Física",
+      "pergunta": "Numa geladeira, o trabalho realizado pelo(sobre) o gás é que possibilita a troca de calor entre o meio interno e externo. No evaporador e no compressor, o trabalho realizado pelo gás é:",
+      "alternativas": [
+        "A) Positivo – Negativo.",
+        "B) Positivo – Positivo.",
+        "C) Negativo – Negativo.",
+        "D) Zero – Negativo.",
+        "E) Positivo – Zero."
+      ],
+      "respostaLetra": "A",
+      "descricao": "No processo de evaporação, o gás sobre uma expansão adiabática, logo o trabalho será positivo. Na compressão do gás, este sofrerá uma diminuição de volume e o trabalho será negativo.",
+      "imgPergunta": "https://2.bp.blogspot.com/-0BRo1Lwu3pw/VfQa0hU1FvI/AAAAAAAAAH4/9GLWSEzeP4g/s1600/geladeira.png",
+      "imgResposta": ""
+    },
+    {
+      "id": 60,
+      "tema": "Física",
+      "pergunta": "De acordo com a Teoria da Relatividade Geral, a definição de buraco negro é:",
+      "alternativas": [
+        "A) Uma região do espaço da qual nada pode escapar.",
+        "B) Um ponto que atrai toda a luz para si.",
+        "C) A deformação gerada no espaço-tempo devido à gravidade de uma estrela.",
+        "D) O ponto que gera a maior força gravitacional no universo.",
+        "E) A matéria escura que permeia uma galáxia."
+      ],
+      "respostaLetra": "A",
+      "descricao": "De acordo com a Teoria da Relatividade Geral, de Albert Einstein,  um buraco negro é uma região do espaço da qual nada, nem mesmo partículas que se movem à velocidade da luz, podem escapar, pois a sua velocidade é inferior à velocidade de escape desses corpos celestes infinitamente densos.",
+      "imgPergunta": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/260px-Black_hole_-_Messier_87_crop_max_res.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 77,
+      "tema": "Geografia",
+      "pergunta": "Em qual camada da atmosfera aparece a concentração de O3 (Ozônio) que filtra algumas extensões de raios solares como os ultravioletas?",
+      "alternativas": [
+        "A) Troposfera.",
+        "B) Estratosfera.",
+        "C) Mesosfera.",
+        "D) Ionosfera.",
+        "E) Exosfera."
+      ],
+      "respostaLetra": "B",
+      "descricao": "Conforme imagem, a Camada de Ozônio, fundamental à vida na Terra, está na alta Estratosfera.",
+      "imgPergunta": "",
+      "imgResposta": "https://cursoenemgratuito.com.br/app/uploads/2019/08/camadas_atmosfera_ozonio-300x158.jpg"
+    },
+    {
+      "id": 78,
+      "tema": "Geografia",
+      "pergunta": "A nuvem da imagem, típica das tempestades mais violentas é um(a):",
+      "alternativas": [
+        "A) Cirrus",
+        "B) Stratus",
+        "C) Cirrostratus",
+        "D) Cirrocumulus",
+        "E) Cumulonimbus"
+      ],
+      "respostaLetra": "E",
+      "descricao": "As nuvens mais densas e escuras, responsáveis pelas grandes tempestades é a Cumulonimbus.",
+      "imgPergunta": "https://nabaseshop.com.br/wp-content/uploads/2018/07/cumulonimbus1.jpg",
+      "imgResposta": ""
+    },
+    {
+      "id": 79,
+      "tema": "Geografia",
+      "pergunta": "Qual das Massas de Ar (Sistemas Atmosféricos) é responsável pela umidade que “toma”o centro do território brasileiro no período do verão?",
+      "alternativas": [
+        "A) Massa Tropical Atlântica.",
+        "B) Massa Tropical Continental.",
+        "C) Massa Polar Atlântica.",
+        "D) Massa Equatorial Atlântica.",
+        "E) Massa Equatorial Continental."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Conforme imagem esquemática, a massa que toma o Brasil Central durante o verão, levando a umidade da Zona de Convergência Intertropital, é a Massa Equatorial Continental, que “nasce” na região Amazônica.",
+      "imgPergunta": "",
+      "imgResposta": "https://s2-educacao.glbimg.com/uC3bUAybenbu-wJ-0Vtsc2r0HuE=/7x0:627x295/620x295/s.glbimg.com/po/ek/f/original/2014/12/11/massas_de_ar_brasil_am_sul.png"
+    },
+    {
+      "id": 80,
+      "tema": "Geografia",
+      "pergunta": "No Brasil, segundo o censo agropecuário do IBGE, o estado maior produtor de Café é:",
+      "alternativas": [
+        "A) SP.",
+        "B) MG.",
+        "C) ES.",
+        "D) BA.",
+        "E) PR."
+      ],
+      "respostaLetra": "B",
+      "descricao": "O Café é um dos principais produtos da pauta de exportações do Brasil. Historicamente ligado a SP e PR, tem, na atualidade, o estado de MG como maior produtor, conforme censo agropecuário do IBGE.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 97,
+      "tema": "História",
+      "pergunta": "A partir de 1903, o Rio de Janeiro, então capital da república, passou por uma ampla e violenta reforma urbana apelidada de Bota-Abaixo.  Durante o governo de qual prefeito aconteceu esse processo?",
+      "alternativas": [
+        "A) Pinheiro Machado.",
+        "B) Euclides da Cunha.",
+        "C) Leonel Brizola.",
+        "D) Pereira Passos.",
+        "E) Rui Barbosa."
+      ],
+      "respostaLetra": "D",
+      "descricao": "Sanear, higienizar, ordenar, demolir, civilizar foram as ordens do prefeito Pereira Passos (1902-1906). Um dos objetivos principais dessa reforma era livrar a capital federal da pecha de cidade insalubre, assolada por constantes epidemias de febre amarela, varíola e malária, com sérios prejuízos para a atividade comercial do país.",
+      "imgPergunta": "",
+      "imgResposta": "https://tutudaju.com/wp-content/uploads/2021/11/Francisco-Pereira-Passos-O-prefeito-Pereira-Passos-posando-para-Rodolpho-Bernadelli-Fonte-Foto-Malta.-Arquivo-IHGB-Rio-de-Janeiro-1000.jpg"
+    },
+    {
+      "id": 98,
+      "tema": "História",
+      "pergunta": "Com o término da 1ª Guerra Mundial, a Alemanha, considerada culpada pela guerra, foi punida com perdas territoriais.  Assinale a alternativa que apresenta o território perdido por esse país:",
+      "alternativas": [
+        "A) Renânia.",
+        "B) Saxônia.",
+        "C) Baviera.",
+        "D) Pomerânia.",
+        "E) Alsácia-Lorena."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Em 1871, após o fim da Guerra Franco-Prussiana, a Alsácia e a maior parte da Lorena, que faziam parte da França antes da guerra, foram anexadas ao recém-formado Império Alemão. O Tratado de Versalhes (1919) obrigou a Alemanha a devolver esses territórios à França.",
+      "imgPergunta": "",
+      "imgResposta": "https://i.pinimg.com/originals/2f/f5/66/2ff566a7bc09e9ba0e110a88ebf96306.gif"
+    },
+    {
+      "id": 99,
+      "tema": "História",
+      "pergunta": "A Era Vargas, que durou cerca de 15 anos, a segunda fase republicana brasileira, caracterizou-se:",
+      "alternativas": [
+        "A) Pela extrema centralização política nas mãos de Vargas e de seus ministros.",
+        "B) Por instalar uma ditadura comunista durante o período conhecido como Estado Novo (1937-45).",
+        "C) Pela substituição da agricultura pela indústria.",
+        "D) Por abraçar a ideologia fascista apoiada em um partido único, o integralista.",
+        "E) Por uma política antissemita que obrigou a população judaica a residir em guetos."
+      ],
+      "respostaLetra": "A",
+      "descricao": "O longo governo Vargas passou por diversas fases, desde ditadura até democracia. Flertou com o fascismo, sem, no entanto, abraçá-lo integralmente.  Porém, o que não mudou desde o início, foi seu caráter centralizador no plano político, econômico e  e administrativo. ",
+      "imgPergunta": "",
+      "imgResposta": "https://cdn.acritica.net/upload/dn_noticia/2015/08/getuliovargas6b12.jpg"
+    },
+    {
+      "id": 100,
+      "tema": "História",
+      "pergunta": "Este ano, acontece mais uma copa de futebol feminino e, também, o fim da proibição de que as mulheres praticassem este esporte.  Em qual ano e governo foi baixada essa lei?",
+      "alternativas": [
+        "A) Washington Luís/1929.",
+        "B) Getúlio Vargas/1937.",
+        "C) Dutra/1946.",
+        "D) Getúlio Vargas/1941.",
+        "E) JK/1956."
+      ],
+      "respostaLetra": "D",
+      "descricao": "“Às mulheres não se permitirá a prática de desportos incompatíveis com as condições de sua natureza.”, dizia trecho do artigo 54 do Decreto-lei 3.199, em 14/04/1941, assinado por Getúlio Vargas.  Além de banir as mulheres do futebol, proibia outras modalidades, tais como judô, rúgbi e polo aquático.  Apesar da proibição, das prisões, houve resistência até que a lei foi abolida em 1979. ",
+      "imgPergunta": "",
+      "imgResposta": "https://files.sunoresearch.com.br/p/uploads/2022/12/marta2.jpg"
+    },
+    {
+      "id": 117,
+      "tema": "Português",
+      "pergunta": "O pronome oblíquo pode substituir o possessivo, como na frase:",
+      "alternativas": [
+        "A) A esposa pedia-lhe que pusesse a gramática de lado.",
+        "B) Arrume-se já.",
+        "C) Dei-lhe toda atenção.",
+        "D) O professor devolveu-me o livro.",
+        "E) Furtaram-lhe a carteira com todos os documentos."
+      ],
+      "respostaLetra": "E",
+      "descricao": "Em Furtaram-lhe a carteira, o pronome lhe está substituindo ou o pronome sua ou o pronome dele. Assim:  Furtaram a sua carteira.  Ou  Furtaram a carteira dele.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 118,
+      "tema": "Português",
+      "pergunta": "Considerado pela crítica brasileira o escritor mais bem dotado de sua geração, Álvares de Azevedo, além das poesias, deixou-nos que obra de prosa narrativa?",
+      "alternativas": [
+        "A) Tenda dos Milagres.",
+        "B) Macário.",
+        "C) Espumas Flutuantes.",
+        "D) Noite na Taverna.",
+        "E) O Cortiço."
+      ],
+      "respostaLetra": "D",
+      "descricao": "Publicada postumamente em 1855, Noite na Taverna é uma antologia de contos do autor ultrarromântico Álvares de Azevedo.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 119,
+      "tema": "Português",
+      "pergunta": "Assinale, entre as alternativas a seguir, aquela em que o “se” apresenta a mesma função sintática que em “Abriu-se a porta do apartamento”.",
+      "alternativas": [
+        "A) Se vendem as latinhas vazias para reciclagem, eu já não sei.",
+        "B) Falam-se uma ou duas vezes por semana, uma gosta muito da outra.",
+        "C) Escolheram-se os melhores, mas nem estes eram muito bons. ",
+        "D) Lá se vai o amigo, rua acima, meio quieto, parecendo magoado.",
+        "E) Despediu-se rapidamente, sonhara a noite toda com aquela viagem."
+      ],
+      "respostaLetra": "C",
+      "descricao": "Em “Abriu-se a porta do apartamento”, o pronome “se” exerce a função de partícula apassivadora, por estar vinculada a um verbo transitivo direto. Fenômeno idêntico encontra-se na alternativa C, em que o pronome “se” está vinculado a um verbo transitivo direto (“Escolheram”), exercendo a mesma função, qual seja, a de partícula apassivadora.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 120,
+      "tema": "Português",
+      "pergunta": "O projeto desse movimento literário baseava-se na crença de que a função essencial da arte era produzir o belo, e o lema escolhido para traduzir essa ideia foi “a arte pela arte”. É possível observar, nesse contexto, características como a preocupação com a técnica (metro, ritmo e rima) e o resgate de temas da Antiguidade clássica (referências à mitologia e a personagens históricas). Essa escola literária é conhecida como",
+      "alternativas": [
+        "A) Neoclassicismo. ",
+        "B) Arcadismo.",
+        "C) Classicismo.",
+        "D) Expressionismo. ",
+        "E) Parnasianismo."
+      ],
+      "respostaLetra": "E",
+      "descricao": "O Parnasianismo caracterizou-se pela busca da perfeição formal, vocabulário culto, gosto pelo soneto e pelas descrições, rimas raras, apego à tradição clássica e à arte pela arte.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 137,
+      "tema": "Química",
+      "pergunta": "Das alternativas indicadas a seguir, qual é constituída por elementos da Tabela Periódica com características químicas distintas?",
+      "alternativas": [
+        "A) He, Ne, Ar",
+        "B) Mg, Ca, Sr",
+        "C) Li, Be, B",
+        "D) F, Cl, Br",
+        "E) Li, Na, K"
+      ],
+      "respostaLetra": "C",
+      "descricao": "Na tabela periódica, os elementos químicos com características semelhantes pertencem à mesma família ou grupo. Isso significa que os elementos que possuem características químicas distintas são aqueles que não pertencem à mesma família da tabela periódica, que é o caso da alternativa c: Li (família 1), Be (família 2) e B (família 3).",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 138,
+      "tema": "Química",
+      "pergunta": "Ao se realizar a distribuição eletrônica do titânio, que possui número atômico igual a 22, descobre-se que o seu subnível mais energético e os elétrons distribuídos nele são dados por:",
+      "alternativas": [
+        "A) 3p3",
+        "B) 3p5",
+        "C) 4s2",
+        "D) 3d2",
+        "E) 4p6"
+      ],
+      "respostaLetra": "D",
+      "descricao": "A distribuição eletrônica do titânio em ordem energética crescente é: 1s2 2s22p6 3s2 3p6 4s2 3d2. Portanto, o seu subnível mais energético é o último a ser preenchido: 3d2",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 139,
+      "tema": "Química",
+      "pergunta": "O consumo de ácido sulfúrico pode ser utilizado como um indicador do desenvolvimento de um país. Industrialmente, esse ácido pode ser obtido a partir da pirita de ferro, que consiste basicamente em sulfeto ferroso (FeS). Classifique as equações de obtenção industrial do ácido sulfúrico mostradas a seguir: \nI. FeS + O2 → Fe + SO2  \nII. 2 SO2 + 2 O2 → 2 SO3  \nIII. SO3 + H2O → H2SO4",
+      "alternativas": [
+        "A) Dupla troca, síntese, síntese.",
+        "B) Dupla troca, análise, análise.",
+        "C) Síntese, simples troca, dupla troca.",
+        "D) Simples troca, análise, análise.",
+        "E) Simples troca, síntese, síntese."
+      ],
+      "respostaLetra": "E",
+      "descricao": "I. FeS + O2 → Fe + SO2 = reação de simples troca ou deslocamento (uma substância composta (FeS) reage com uma substância simples (O2) e produz uma nova substância simples (Fe) e uma nova substância composta (SO2) pelo deslocamento entre seus elementos). \nII. 2 SO2 + 2 O2 → 2 SO3 = reação de síntese ou adição (duas substâncias reagem e produzem uma única substância mais complexa). \nIII. SO3 + H2O → H2SO4 = reação de síntese ou adição.",
+      "imgPergunta": "",
+      "imgResposta": ""
+    },
+    {
+      "id": 140,
+      "tema": "Química",
+      "pergunta": "O efeito estufa, segundo as teorias mais aceitas pela comunidade científica, vem contribuindo para a elevação média das temperaturas no planeta. Esse fenômeno é um processo:",
+      "alternativas": [
+        "A) natural, porém intensificado pela ação humana.",
+        "B) artificial, ou seja, resultado direto da interferência antrópica sobre o meio.",
+        "C) recente, não havendo registros de sua existência em épocas geológicas antigas.",
+        "D) natural, sem relação com as práticas sociais.",
+        "E) artificial, resultado da chuva ácida."
+      ],
+      "respostaLetra": "A",
+      "descricao": "O efeito estufa, segundo as teorias mais aceitas e divulgadas pelo meio científico, é um processo natural de conservação do calor sobre a Terra, mas que vem se intensificando em razão da maior emissão de poluentes na atmosfera pelo ser humano.",
+      "imgPergunta": "",
+      "imgResposta": ""
     }
   ]
 }
