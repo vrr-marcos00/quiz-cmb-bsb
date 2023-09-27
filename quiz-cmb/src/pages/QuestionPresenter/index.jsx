@@ -13,16 +13,21 @@ function QuestionPresenter() {
   const [question, setQuestion] = React.useState({});
 
   React.useEffect(() => {
-    socket.emit('getRandomQuestion');
+    socket.emit('start-game');
     socket.on('question', (data) => {
       setQuestion(data);
     });
   }, []);
 
+  const handleNextQuestion = () => {
+    socket.emit('next-question');
+  };
+
   return (
     <div className="main-page">
       <h1>Sala de perguntas</h1>
       <h2>{question.id}</h2>
+      <button onClick={handleNextQuestion}>Próxima Pergunta</button>
     </div>
   );
 }

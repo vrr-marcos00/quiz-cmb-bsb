@@ -1,5 +1,6 @@
 {
-  "easy": [{
+  "easy": [
+    {
       "id": 1,
       "question": "Qual a capital da Nova Zelândia?",
       "alternatives": ["Auckland", "Melbourne", "Wellington", "Christchurch", "Queenstown"],
@@ -40,7 +41,8 @@
       }
     }
   ],
-  "difficult": [{
+  "medium": [
+    {
       "id": 5,
       "question": "Quais os animais que integram o grupo dos cinco grandes (Big Five) da África do Sul?",
       "alternatives": ["Leão, elefante, rinoceronte, hipopótamo e búfalo.", "Leão, elefante, rinoceronte, leopardo e búfalo.", "Elefante, rinoceronte, hipopótamo, búfalo e leopardo.", "Elefante, rinoceronte, hipopótamo, búfalo e girafa.", "Elefante, leão, girafa, búfalo e leopardo."],
@@ -161,7 +163,8 @@
       }
     }
   ],
-  "medium": [{
+  "difficult": [
+    {
       "id": 17,
       "question": "Quem é o Intruso?",
       "alternatives": ["303", "81", "234", "11", "15"],

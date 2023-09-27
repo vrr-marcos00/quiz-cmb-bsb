@@ -13,7 +13,6 @@ function QuestionStudent() {
   const [question, setQuestion] = React.useState({});
 
   React.useEffect(() => {
-    socket.emit('getRandomQuestion');
     socket.on('question', (data) => {
       setQuestion(data);
     });
