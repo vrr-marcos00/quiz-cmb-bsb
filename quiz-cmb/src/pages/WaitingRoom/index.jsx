@@ -12,7 +12,7 @@ const socket = io(URL_SOCKET);
 function WaitingRoom() {
   React.useEffect(() => {
     socket.on('initGame', () => {
-      window.location.href = '/question-student';
+      window.location.href = '/question/student';
     });
   }, []);
 
