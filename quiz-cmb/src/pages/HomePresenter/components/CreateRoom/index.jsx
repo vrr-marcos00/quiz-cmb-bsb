@@ -1,14 +1,19 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
 
-function HomePresenter({ socket, currentRoom }) {
-  const [roomCode, setRoomCode] = React.useState('Sem Código')
+function CreateRoom({ socket }) {
+  const [roomCode, setRoomCode] = React.useState('Sem Código');
+  const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
     socket.emit('clearFileRoom');
 
+    socket.on('currentRoom', (currentRoom) => {
+      setCurrentRoomInfo(currentRoom);
+    });
+
     socket.on('initGame', () => {
-      window.location.href = '/question-presenter';
+      window.location.href = '/question/presenter';
     });
 
     socket.on('initGameError', (message) => {
@@ -45,11 +50,11 @@ function HomePresenter({ socket, currentRoom }) {
       </div>
 
       <div>
-        {currentRoom && currentRoom.roomCode && (
+        {currentRoomInfo && currentRoomInfo.roomCode && (
           <div>
             <h3>Usuários conectados</h3>
             <ul>
-              {currentRoom.users.map((user) => (
+              {currentRoomInfo.users.map((user) => (
                 <li key={user.socketId}>{user.studentId}</li>
               ))}
             </ul>
@@ -60,4 +65,4 @@ function HomePresenter({ socket, currentRoom }) {
   )
 }
 
-export default HomePresenter;
+export default CreateRoom;

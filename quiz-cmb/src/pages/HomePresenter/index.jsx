@@ -11,13 +11,11 @@ import io from 'socket.io-client';
 /**
  * Components
  */
-import HomePresenter from './components/HomePresenter';
-import HomeStudent from './components/HomeStudent';
+import CreateRoom from './components/CreateRoom';
 
 const socket = io(URL_SOCKET);
 
 function Home() {
-  const userType = new URLSearchParams(window.location.search).get('userType')
   const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
@@ -28,10 +26,7 @@ function Home() {
 
   return (
     <div className="main-page">
-      {userType === 'presenter' 
-        ? <HomePresenter socket={socket} currentRoom={currentRoomInfo} />
-        : <HomeStudent socket={socket} />
-      }
+      <CreateRoom socket={socket} currentRoom={currentRoomInfo} />
     </div>
   );
 }

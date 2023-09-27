@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
 
-function HomeStudent({ socket }) {
+function EnterRoom({ socket }) {
   const [roomCode, setRoomCode] = React.useState('')
   const [studentId, setStudentId] = React.useState('')
 
@@ -52,4 +52,4 @@ function HomeStudent({ socket }) {
   )
 }
 
-export default HomeStudent;
+export default EnterRoom;
