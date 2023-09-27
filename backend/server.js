@@ -27,11 +27,21 @@ const data = {
   currentPhase: 'easy',
 };
 
+const phases = ['easy', 'medium', 'difficult'];
+let currentPhaseIndex = 0;
+
+// Armazena o estado do jogo para cada cliente
+const clientGameState = {};
+
+// Armazena os índices das próximas perguntas a serem exibidas em cada fase
+const nextQuestionIndexes = {
+  easy: 0,
+  medium: 0,
+  difficult: 0,
+};
+
 // Objeto para rastrear as salas
 const room = require('./database/room.json') || { roomCode: '', users: [] };
-
-// Listagem de clients a serem desconectados
-let clientsToDisconnect = [];
 
 // Função para salvar os dados em um arquivo JSON
 function saveDataToJsonFile(data) {
@@ -69,6 +79,8 @@ function generateRoomCode() {
 
 // Manipulador de eventos para quando um cliente se conecta
 io.on('connection', (socket) => {
+  clientGameState[socket.id] = { phase: 'easy' };
+
   // Manipulador de eventos para quando um cliente se desconecta
   socket.on('disconnect', () => {
     console.log('Um cliente se desconectou');
@@ -106,36 +118,49 @@ io.on('connection', (socket) => {
     socket.emit('clearFileRoomMessage', 'Arquivo room limpado!');
   });
 
-  // Manipulador de eventos para quando um cliente solicita uma pergunta aleatória
-  socket.on('getRandomQuestion', () => {
-    const currentPhaseQuestions = questions[data.currentPhase];
-    
-    if (currentPhaseQuestions.length === 0) {
-      // Se não houver mais perguntas na fase atual, mude para a próxima fase
-      switch (data.currentPhase) {
-        case 'easy':
-          data.currentPhase = 'medium';
-          break;
-        case 'medium':
-          data.currentPhase = 'difficult';
-          break;
-        case 'difficult':
-          // Todas as fases foram concluídas, você pode tratar isso como desejar
-          break;
-      }
-    }
-    
-    // Obtém uma pergunta aleatória da fase atual
-    const randomIndex = Math.floor(Math.random() * currentPhaseQuestions.length);
-    const randomQuestion = currentPhaseQuestions[randomIndex];
-    
-    // Remova a pergunta da matriz para que ela não seja repetida
-    currentPhaseQuestions.splice(randomIndex, 1);
-    
-    // Envia a pergunta aleatória para o cliente
-    io.emit('question', { id: randomQuestion.id, question: randomQuestion });
+  socket.on('start-game', () => {
+    // Inicie o jogo com a primeira pergunta
+    io.emit('question', questions.easy[0]);
   });
 
+  socket.on('next-question', () => {
+    const currentPhase = phases[currentPhaseIndex];
+    const questionsForPhase = questions[currentPhase];
+
+    // Certifique-se de que a fase atual seja válida
+    if (questionsForPhase) {
+      // Incrementa o índice da próxima pergunta para a fase atual
+      nextQuestionIndexes[currentPhase]++;
+
+      if (nextQuestionIndexes[currentPhase] >= questionsForPhase.length) {
+        // Todas as perguntas da fase atual foram exibidas
+        io.emit('phase-complete', currentPhase);
+
+        // Avança para a próxima fase se houver
+        currentPhaseIndex++;
+        if (currentPhaseIndex < phases.length) {
+          const nextPhase = phases[currentPhaseIndex];
+          io.emit('next-phase', nextPhase);
+          nextQuestionIndexes[nextPhase] = 0;
+          if (questions[nextPhase].length > 0) {
+            io.emit('question', questions[nextPhase][0]);
+          } else {
+            io.emit('game-over');
+          }
+        } else {
+          // Todas as fases foram concluídas
+          io.emit('game-over');
+        }
+      } else {
+        // Exibe a próxima pergunta na fase atual
+        const nextQuestion = questionsForPhase[nextQuestionIndexes[currentPhase]];
+        io.emit('question', nextQuestion);
+      }
+    } else {
+      // Não há mais fases, emitir 'game-over'
+      io.emit('game-over');
+    }
+  });
 
   socket.on('answer', ({ playerId, questionId, isCorrect }) => {
     // Verifica se o jogador já respondeu a esta pergunta
