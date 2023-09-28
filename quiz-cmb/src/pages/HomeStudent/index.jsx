@@ -16,7 +16,7 @@ const socket = io(URL_SOCKET);
 
 function HomeStudent() {
   return (
-    <div className="main-page">
+    <div className="main-page-home-student">
       <EnterRoom socket={socket} />
     </div>
   );

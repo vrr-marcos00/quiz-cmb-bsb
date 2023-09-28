@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
+import './styles.css';
 
 function EnterRoom({ socket }) {
   const [roomCode, setRoomCode] = React.useState('')
@@ -35,17 +36,13 @@ function EnterRoom({ socket }) {
   };
 
   return (
-    <div className="main-page">
-      <div>
-        <h1>Estudante</h1>
+    <div className="container-home-student">
+      <div className="home-student-title">
+        <h1>QUIZ!</h1>
       </div>
-      <div>
-        <h3>Digite o nome da escola</h3>
-        <input onChange={(e) => setStudentId(e.target.value)} />
-
-        <h3>Digite o id da sala</h3>
-        <input onChange={(e) => setRoomCode(e.target.value)} />
-
+      <div className="home-student-login">
+        <input placeholder="Escola" onChange={(e) => setStudentId(e.target.value)} />
+        <input placeholder="Código da sala" onChange={(e) => setRoomCode(e.target.value)} />
         <button onClick={handleClickEnterTheRoom}>Entrar na sala</button>
       </div>
     </div>
