@@ -4,105 +4,128 @@ import './styles.css';
 /**
  * Images
  */
-import IMAGE_CMB from '../../../../assets/images/CMB.jpg';
-import IMAGE_CMBEL from '../../../../assets/images/CMBEL.jpg';
-import IMAGE_CMBH from '../../../../assets/images/CMBH.jpg';
-import IMAGE_CMC from '../../../../assets/images/CMC.jpg';
-import IMAGE_CMCG from '../../../../assets/images/CMCG.jpg';
-import IMAGE_CMF from '../../../../assets/images/CMF.jpg';
-import IMAGE_CMM from '../../../../assets/images/CMM.jpg';
-import IMAGE_CMPA from '../../../../assets/images/CMPA.jpg';
-import IMAGE_CMR from '../../../../assets/images/CMR.jpg';
-import IMAGE_CMRJ from '../../../../assets/images/CMRJ.jpg';
-import IMAGE_CMSM from '../../../../assets/images/CMSM.jpg';
-import IMAGE_CMSP from '../../../../assets/images/CMSP.jpg';
-import IMAGE_CMVM from '../../../../assets/images/CMVM.jpg';
+import IMAGE_CMB from '../../../../assets/images/CMB.png';
+import IMAGE_CMBEL from '../../../../assets/images/CMBel.png';
+import IMAGE_CMBH from '../../../../assets/images/CMBH.png';
+import IMAGE_CMC from '../../../../assets/images/CMC.png';
+import IMAGE_CMCG from '../../../../assets/images/CMCG.png';
+import IMAGE_CMM from '../../../../assets/images/CMM.png';
+import IMAGE_CMPA from '../../../../assets/images/CMPA.png';
+import IMAGE_CMR from '../../../../assets/images/CMR.png';
+import IMAGE_CMRJ from '../../../../assets/images/CMRJ.png';
+import IMAGE_CMSM from '../../../../assets/images/CMSM.png';
+import IMAGE_CMSP from '../../../../assets/images/CMSP.png';
+import IMAGE_CMVM from '../../../../assets/images/CMVM.png';
 
 
 function FisrtPlaced() {
 
-  const arrayColleges = ["CMB", "CMBEL", "CMBH", "CMC", "CMCG", "CMF", "CMM", "CMPA", "CMR", "CMRJ", "CMSM", "CMSP", "CMVM"];
+  const arrayColleges = ["CMB", "CMBEL", "CMBH", "CMC", "CMCG", "CMF", "CMM", "CMPA", "CMR", "CMRJ", "CMSM", "CMSP", "CMVM", "CMVM0", "CMVM1", "CMVM2"];
 
   const images_colleges = {
     CMB: {
       name: 'CMB',
       image: IMAGE_CMB,
-      position: 1
+      points: 1
     },
     CMBEL: {
       name: 'CMBEL',
       image: IMAGE_CMBEL,
-      position: 2
+      points: 2
     },
     CMBH: {
       name: 'CMBH',
       image: IMAGE_CMBH,
-      position: 3
+      points: 3
     },
     CMC: {
       name: 'CMC',
       image: IMAGE_CMC,
-      position: 4
+      points: 4
     },
     CMCG: {
       name: 'CMCG',
       image: IMAGE_CMCG,
-      position: 5
+      points: 5
     },
     CMF: {
       name: 'CMF',
-      image: IMAGE_CMF,
-      position: 6
+      image: '',
+      points: 6
     },
     CMM: {
       name: 'CMM',
       image: IMAGE_CMM,
-      position: 7
+      points: 7
     },
     CMPA: {
       name: 'CMPA',
       image: IMAGE_CMPA,
-      position: 8
+      points: 8
     },
     CMR: {
       name: 'CMR',
       image: IMAGE_CMR,
-      position: 9
+      points: 9
     },
     CMRJ: {
       name: 'CMRJ',
       image: IMAGE_CMRJ,
-      position: 10
+      points: 10
     },
     CMSM: {
       name: 'CMSM',
       image: IMAGE_CMSM,
-      position: 11
+      points: 11
     },
     CMSP: {
       name: 'CMSP',
       image: IMAGE_CMSP,
-      position: 12
+      points: 12
     },
     CMVM: {
       name: 'CMVM',
       image: IMAGE_CMVM,
-      position: 13
+      points: 13
+    },
+    CMVM0: {
+      name: 'CMVM',
+      image: IMAGE_CMVM,
+      points: 14
+    },
+    CMVM1: {
+      name: 'CMVM',
+      image: IMAGE_CMVM,
+      points: 15
+    },
+    CMVM2: {
+      name: 'CMVM',
+      image: IMAGE_CMVM,
+      points: 16
     }
   }
 
   return (
     < div className='first-placed-row' >
-      {arrayColleges.map((college, index) => (
-        <div key={index} className='first-placed-college'>
-          <div className='first-placed-college-position'>
-            <p>{images_colleges[college].position}º</p>
+      {/* <div>
+        {arrayColleges.slice(0, 8).map((college, index) => (
+          <div key={index} className='first-placed-college'>
+            <div className='first-placed-college-position'>
+              <p>{index + 1}º</p>
+            </div>
           </div>
-          <div className='first-placed-college-image'>
-            <img src={images_colleges[college].image} alt={images_colleges[college].name} />
+        ))}
+      </div>
+      <div>
+        {arrayColleges.slice(8, 16).map((college, index) => (
+          <div key={index} className='first-placed-college'>
+            <div className='first-placed-college-position'>
+              <p>{index + 9}º</p>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div> */}
+
     </div >
   );
 }

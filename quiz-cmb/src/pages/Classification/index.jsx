@@ -16,7 +16,7 @@ import FirstPlaced from './components/FirstPlaced';
 
 function Classification() {
   return (
-    <div className="main-page-classification">
+    <>
       <div className="container-page-classification">
         <div>
           <h1>Classificação</h1>
@@ -25,7 +25,7 @@ function Classification() {
           <FirstPlaced />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
