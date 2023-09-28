@@ -1,8 +1,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
+import './styles.css';
 
 function CreateRoom({ socket }) {
-  const [roomCode, setRoomCode] = React.useState('Sem Código');
+  const [roomCode, setRoomCode] = React.useState('Nenhuma sala criada');
   const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
@@ -38,18 +39,17 @@ function CreateRoom({ socket }) {
   };
 
   return (
-    <div className="main-page">
-      <div>
-        <h1>Apresentador</h1>
-        <h3>Código: {roomCode}</h3>
-      </div>
-      <div>
+    <div className="container-create-room">
+      <h1 className="create-room-title">QUIZ!</h1>
+      <div className="create-room-row">
+        <div className="room-code">
+          <h3>{roomCode}</h3>
+        </div>
+        
         <button onClick={handleClickRoomCreate}>Criar Sala</button>
-        <button onClick={handleDisconnectAllUsers}>Disconectar todos os usuários</button>
         <button onClick={handleIniteGame}>Iniciar Game</button>
       </div>
-
-      <div>
+      {/* <div>
         {currentRoomInfo && currentRoomInfo.roomCode && (
           <div>
             <h3>Usuários conectados</h3>
@@ -60,7 +60,7 @@ function CreateRoom({ socket }) {
             </ul>
           </div>
         )}
-      </div>
+      </div> */}
     </div>
   )
 }

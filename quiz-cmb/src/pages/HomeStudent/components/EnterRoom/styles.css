@@ -9,8 +9,10 @@
 
 .home-student-title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 2em;
     font-weight: bold;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #fff;
 }
 
 .home-student-login {
