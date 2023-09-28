@@ -17,7 +17,7 @@ function ContainerQuestions({ question }) {
           </div>
           <div className="cointainer-image">
             {question.imgPergunta && (
-              <img src={question.imgPergunta} alt="Imagem da pergunta" />
+              <img src={question.imgPergunta} alt="Imagem da pergunta" loading="lazy" />
             )}
           </div>
         </div>

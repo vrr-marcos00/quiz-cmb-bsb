@@ -21,7 +21,7 @@ function CardAwnser({ theme, awnser, imgAwnser, alternatives, onClickAlternative
           )}
 
           {imgAwnser && (
-            <img src={imgAwnser} alt="imageAwnser" />
+            <img src={imgAwnser} alt="imageAwnser" loading="lazy" />
           )}
        </div>
 
