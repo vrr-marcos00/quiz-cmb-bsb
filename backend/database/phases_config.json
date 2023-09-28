@@ -1,0 +1,110 @@
+{
+  "easy": {
+    "next_level": "medium",
+    "time": 120000,
+    "time_per_question": 10000,
+    "points_to_earn": 10,
+    "points_to_lose": 10,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual a capital da Nova Zelândia?",
+        "alternatives": [
+          {
+            "content": "Auckland",
+            "id": 1
+          },
+          {
+            "content": "Auckland",
+            "id": 2
+          },
+          {
+            "content": "Auckland",
+            "id": 3
+          },
+          {
+            "content": "Auckland",
+            "id": 4
+          },
+          {
+            "content": "Auckland",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      }
+    ]
+  },
+  "medium": {
+    "next_level": "hard",
+    "time": 240000,
+    "time_per_question": 10000,
+    "points_to_earn": 20,
+    "points_to_lose": 10,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual a capital da Nova Zelândia?",
+        "alternatives": [
+          {
+            "content": "Auckland",
+            "id": 1
+          },
+          {
+            "content": "Auckland",
+            "id": 2
+          },
+          {
+            "content": "Auckland",
+            "id": 3
+          },
+          {
+            "content": "Auckland",
+            "id": 4
+          },
+          {
+            "content": "Auckland",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      }
+    ]
+  },
+  "hard": {
+    "next_level": "finish",
+    "time": 120000,
+    "time_per_question": 10000,
+    "points_to_earn": 30,
+    "points_to_lose": 10,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual a capital da Nova Zelândia?",
+        "alternatives": [
+          {
+            "content": "Auckland",
+            "id": 1
+          },
+          {
+            "content": "Auckland",
+            "id": 2
+          },
+          {
+            "content": "Auckland",
+            "id": 3
+          },
+          {
+            "content": "Auckland",
+            "id": 4
+          },
+          {
+            "content": "Auckland",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      }
+    ]
+  }
+}

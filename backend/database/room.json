@@ -3,11 +3,51 @@
   "users": [
     {
       "socketId": "lFmrs8eA6uWRuk2VAAAk",
-      "studentId": "Teste 2"
+      "studentId": "Teste 2",
+      "points": 0
     },
     {
       "socketId": "mdscHM4WogIfplKCAAAs",
-      "studentId": "Teste"
+      "studentId": "Teste",
+      "points": 0
     }
-  ]
+  ],
+  "current_phase": {
+    "level": "easy",
+    "next_level": "medium",
+    "time": 120000,
+    "time_per_question": 10000,
+    "points_to_earn": 10,
+    "points_to_lose": 10,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual a capital da Nova Zelândia?",
+        "alternatives": [
+          {
+            "content": "Auckland",
+            "id": 1
+          },
+          {
+            "content": "Auckland",
+            "id": 2
+          },
+          {
+            "content": "Auckland",
+            "id": 3
+          },
+          {
+            "content": "Auckland",
+            "id": 4
+          },
+          {
+            "content": "Auckland",
+            "id": 5
+          }
+        ],
+        "response": "Wellington",
+        "correct_answer_id": 2
+      }
+    ]
+  }
 }
