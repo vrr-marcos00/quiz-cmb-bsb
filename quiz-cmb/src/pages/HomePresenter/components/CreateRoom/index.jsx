@@ -1,14 +1,20 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
+import './styles.css';
 
-function HomePresenter({ socket, currentRoom }) {
-  const [roomCode, setRoomCode] = React.useState('Sem Código')
+function CreateRoom({ socket }) {
+  const [roomCode, setRoomCode] = React.useState('Nenhuma sala criada');
+  const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
     socket.emit('clearFileRoom');
 
+    socket.on('currentRoom', (currentRoom) => {
+      setCurrentRoomInfo(currentRoom);
+    });
+
     socket.on('initGame', () => {
-      window.location.href = '/question-presenter';
+      window.location.href = '/question/presenter';
     });
 
     socket.on('initGameError', (message) => {
@@ -33,31 +39,30 @@ function HomePresenter({ socket, currentRoom }) {
   };
 
   return (
-    <div className="main-page">
-      <div>
-        <h1>Apresentador</h1>
-        <h3>Código: {roomCode}</h3>
-      </div>
-      <div>
+    <div className="container-create-room">
+      <h1 className="create-room-title">QUIZ!</h1>
+      <div className="create-room-row">
+        <div className="room-code">
+          <h3>{roomCode}</h3>
+        </div>
+        
         <button onClick={handleClickRoomCreate}>Criar Sala</button>
-        <button onClick={handleDisconnectAllUsers}>Disconectar todos os usuários</button>
         <button onClick={handleIniteGame}>Iniciar Game</button>
       </div>
-
-      <div>
-        {currentRoom && currentRoom.roomCode && (
+      {/* <div>
+        {currentRoomInfo && currentRoomInfo.roomCode && (
           <div>
             <h3>Usuários conectados</h3>
             <ul>
-              {currentRoom.users.map((user) => (
+              {currentRoomInfo.users.map((user) => (
                 <li key={user.socketId}>{user.studentId}</li>
               ))}
             </ul>
           </div>
         )}
-      </div>
+      </div> */}
     </div>
   )
 }
 
-export default HomePresenter;
+export default CreateRoom;
