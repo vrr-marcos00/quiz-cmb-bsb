@@ -2,6 +2,11 @@ import React from 'react';
 import './styles.css';
 
 /**
+ * Components
+ */
+import FirstPlaced from './components/FirstPlaced';
+
+/**
  * Configs
  */
 // import { URL_SOCKET } from '../../configs';
@@ -11,8 +16,15 @@ import './styles.css';
 
 function Classification() {
   return (
-    <div className="main-page">
-      <h1>Classificação</h1>
+    <div className="main-page-classification">
+      <div className="container-page-classification">
+        <div>
+          <h1>Classificação</h1>
+        </div>
+        <div className="firt-classified">
+          <FirstPlaced />
+        </div>
+      </div>
     </div>
   );
 }
