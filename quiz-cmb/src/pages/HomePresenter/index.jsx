@@ -25,7 +25,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="main-page">
+    <div className="main-page-home-presenter">
       <CreateRoom socket={socket} currentRoom={currentRoomInfo} />
     </div>
   );
