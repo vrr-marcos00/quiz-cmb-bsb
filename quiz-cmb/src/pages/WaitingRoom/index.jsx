@@ -1,23 +1,25 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
+
+import { useNavigate } from "react-router-dom";
 
 /**
  * Images
  */
-import logoQuiz from '../../assets/images/logo_quiz.png';
+import logoQuiz from "../../assets/images/logo_quiz.png";
 
-/**
- * Configs
- */
-import { URL_SOCKET } from '../../configs';
-import io from 'socket.io-client';
+function WaitingRoom({ socket }) {
+  const navigate = useNavigate();
 
-const socket = io(URL_SOCKET);
-
-function WaitingRoom() {
   React.useEffect(() => {
-    socket.on('initGame', () => {
-      window.location.href = '/question/student';
+    socket.on("show-next-question", ({ question, level }) => {
+      console.log(question);
+      localStorage.setItem(
+        "currentQuestion",
+        JSON.stringify({ question, level })
+      );
+      alert(level);
+      navigate("/question/student");
     });
   }, []);
 

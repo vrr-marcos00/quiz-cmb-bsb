@@ -1,20 +1,12 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
 /**
  * Components
  */
-import FirstPlaced from './components/FirstPlaced';
+import FirstPlaced from "./components/FirstPlaced";
 
-/**
- * Configs
- */
-// import { URL_SOCKET } from '../../configs';
-// import io from 'socket.io-client';
-
-// const socket = io(URL_SOCKET);
-
-function Classification() {
+function Classification({ socket }) {
   return (
     <>
       <div className="container-page-classification">

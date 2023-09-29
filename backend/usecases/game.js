@@ -8,7 +8,7 @@ let currentQuestion = {};
 let clientGameState = {};
 
 // Objeto para rastrear as salas
-// const room = require("./database/room.json") || { roomCode: "", users: [] };
+const room = require("../database/room.json") || { roomCode: "", users: [] };
 
 /* ---------------------------------- GAME POINTS CONTROL ---------------------------------- */
 
@@ -91,9 +91,9 @@ function updateToNextLevel() {
     return { finishedGame: true };
   }
 
-  const nextLevelConfig = phasesConfig[currentPhase.next_level];
+  const nextLevelConfig = phasesConfig[nextLevel];
   currentPhase = {
-    level: currentPhase.next_level,
+    level: nextLevel,
     ...nextLevelConfig,
   };
   currentQuestion = {};

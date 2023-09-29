@@ -1,41 +1,49 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
+
+import { useNavigate } from "react-router-dom";
 
 function CreateRoom({ socket }) {
-  const [roomCode, setRoomCode] = React.useState('Nenhuma sala criada');
+  const navigate = useNavigate();
+
+  const [roomCode, setRoomCode] = React.useState("Nenhuma sala criada");
   const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
-    socket.emit('clearFileRoom');
+    socket.emit("clearFileRoom");
 
-    socket.on('currentRoom', (currentRoom) => {
+    socket.on("currentRoom", (currentRoom) => {
       setCurrentRoomInfo(currentRoom);
     });
 
-    socket.on('initGame', () => {
-      window.location.href = '/question/presenter';
+    socket.on("show-next-question", ({ question, level }) => {
+      localStorage.setItem(
+        "currentQuestion",
+        JSON.stringify({ question, level })
+      );
+      navigate("/question/presenter");
     });
 
-    socket.on('initGameError', (message) => {
+    socket.on("initGameError", (message) => {
       alert(message);
     });
   }, []);
 
   const handleClickRoomCreate = () => {
-    socket.emit('authenticate', { role: 'presenter' });
-    socket.on('roomCode', (roomCode) => {
+    socket.emit("authenticate", { role: "presenter" });
+    socket.on("roomCode", (roomCode) => {
       setRoomCode(roomCode);
     });
   };
 
   const handleDisconnectAllUsers = () => {
-    socket.emit('disconnectAllUsers');
-    socket.emit('forceDisconnect');
+    socket.emit("disconnectAllUsers");
+    socket.emit("forceDisconnect");
   };
 
   const handleIniteGame = () => {
-    socket.emit('initQuiz');
+    socket.emit("init-quiz");
   };
 
   return (
@@ -45,11 +53,11 @@ function CreateRoom({ socket }) {
         <div className="room-code">
           <h3>{roomCode}</h3>
         </div>
-        
+
         <button onClick={handleClickRoomCreate}>Criar Sala</button>
         <button onClick={handleIniteGame}>Iniciar Game</button>
       </div>
-      {/* <div>
+      <div>
         {currentRoomInfo && currentRoomInfo.roomCode && (
           <div>
             <h3>Usuários conectados</h3>
@@ -60,9 +68,9 @@ function CreateRoom({ socket }) {
             </ul>
           </div>
         )}
-      </div> */}
+      </div>
     </div>
-  )
+  );
 }
 
 export default CreateRoom;
