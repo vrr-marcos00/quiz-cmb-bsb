@@ -21,6 +21,8 @@ function CreateRoom({ socket }) {
       alert(message);
     });
   }, []);
+  // }, [socket]);
+
 
   const handleClickRoomCreate = () => {
     socket.emit('authenticate', { role: 'presenter' });

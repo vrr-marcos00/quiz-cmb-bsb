@@ -3,19 +3,11 @@ import React from 'react';
 import './styles.css';
 
 /**
- * Configs
- */
-import { URL_SOCKET } from '../../configs';
-import io from 'socket.io-client';
-
-/**
  * Components
  */
 import CreateRoom from './components/CreateRoom';
 
-const socket = io(URL_SOCKET);
-
-function Home() {
+function Home({ socket }) {
   const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
@@ -23,6 +15,7 @@ function Home() {
       setCurrentRoomInfo(currentRoom);
     });
   }, []);
+  // }, [socket]);
 
   return (
     <div className="main-page-home-presenter">

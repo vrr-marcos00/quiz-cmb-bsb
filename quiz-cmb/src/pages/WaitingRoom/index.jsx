@@ -6,20 +6,13 @@ import './styles.css';
  */
 import logoQuiz from '../../assets/images/logo_quiz.png';
 
-/**
- * Configs
- */
-import { URL_SOCKET } from '../../configs';
-import io from 'socket.io-client';
-
-const socket = io(URL_SOCKET);
-
-function WaitingRoom() {
+function WaitingRoom({ socket }) {
   React.useEffect(() => {
     socket.on('initGame', () => {
       window.location.href = '/question/student';
     });
   }, []);
+  // }, [socket]);
 
   return (
     <div className="main-page-waiting-room">

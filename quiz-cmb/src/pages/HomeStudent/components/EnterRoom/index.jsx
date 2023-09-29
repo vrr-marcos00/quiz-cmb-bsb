@@ -19,6 +19,7 @@ function EnterRoom({ socket }) {
       alert(message);
     });
   }, []);
+  // }, [socket]);
 
   const handleClickEnterTheRoom = () => {
     if (!studentId) {

@@ -8,15 +8,7 @@ import Background from './components/Background';
 import CardAwnser from './components/CardAwnser';
 import TimeQuestion from './components/TimeQuestion';
 
-/**
- * Configs
- */
-import { URL_SOCKET } from '../../configs';
-import io from 'socket.io-client';
-
-const socket = io(URL_SOCKET);
-
-function QuestionStudent() {
+function QuestionStudent({ socket }) {
   const [question, setQuestion] = React.useState({});
   const [currentPhase, setCurrentPhase] = React.useState('');
 
@@ -25,6 +17,7 @@ function QuestionStudent() {
       setQuestion(data);
     });
   }, []);
+  // }, [socket]);
 
   const handleClickAlternative = (event) => {
     const getbuttons = document.querySelectorAll('.card-alternatives_buttons button');

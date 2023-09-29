@@ -2,12 +2,6 @@ import React from 'react';
 import './styles.css';
 
 /**
- * Configs
- */
-import { URL_SOCKET } from '../../configs';
-import io from 'socket.io-client';
-
-/**
  * Components
  */
 import Time from './components/Time/Index';
@@ -16,9 +10,7 @@ import ContainerQuestions from './components/ContainerQuestions';
 import ContainerTitle from './components/ContainerTitle';
 import ContainerStudents from './components/ContainerStudents';
 
-const socket = io(URL_SOCKET);
-
-function QuestionPresenter() {
+function QuestionPresenter({ socket }) {
   const [question, setQuestion] = React.useState({});
   const [currentPhase, setCurrentPhase] = React.useState('easy');
 
@@ -28,6 +20,7 @@ function QuestionPresenter() {
       setQuestion(data);
     });
   }, []);
+  // }, [socket]);
 
   const handleNextQuestion = () => {
     socket.emit('next-question');
