@@ -94,6 +94,7 @@ io.on("connection", (socket) => {
 
   // Manipulador de eventos para quando um cliente se desconecta
   socket.on("disconnect", () => {
+    console.log(socket.id);
     console.log("Um cliente se desconectou");
   });
 
@@ -127,77 +128,6 @@ io.on("connection", (socket) => {
     saveRoomToFile();
 
     socket.emit("clearFileRoomMessage", "Arquivo room limpado!");
-  });
-
-  socket.on("start-game", () => {
-    // Inicie o jogo com a primeira pergunta
-    io.emit("question", questions.easy[0]);
-  });
-
-  socket.on("next-question", () => {
-    const currentPhase = phases[currentPhaseIndex];
-    const questionsForPhase = questions[currentPhase];
-
-    // Certifique-se de que a fase atual seja válida
-    if (questionsForPhase) {
-      // Incrementa o índice da próxima pergunta para a fase atual
-      nextQuestionIndexes[currentPhase]++;
-
-      if (nextQuestionIndexes[currentPhase] >= questionsForPhase.length) {
-        // Todas as perguntas da fase atual foram exibidas
-        io.emit("phase-complete", currentPhase);
-
-        // Avança para a próxima fase se houver
-        currentPhaseIndex++;
-        if (currentPhaseIndex < phases.length) {
-          const nextPhase = phases[currentPhaseIndex];
-          io.emit("next-phase", nextPhase);
-          nextQuestionIndexes[nextPhase] = 0;
-          if (questions[nextPhase].length > 0) {
-            io.emit("question", questions[nextPhase][0]);
-          } else {
-            io.emit("game-over");
-          }
-        } else {
-          // Todas as fases foram concluídas
-          io.emit("game-over");
-        }
-      } else {
-        // Exibe a próxima pergunta na fase atual
-        const nextQuestion =
-          questionsForPhase[nextQuestionIndexes[currentPhase]];
-        io.emit("question", nextQuestion);
-      }
-    } else {
-      // Não há mais fases, emitir 'game-over'
-      io.emit("game-over");
-    }
-  });
-
-  socket.on("answer", ({ playerId, questionId, isCorrect }) => {
-    // Verifica se o jogador já respondeu a esta pergunta
-    if (!data.answeredQuestions.includes(questionId)) {
-      // Adiciona o ID da pergunta à lista de perguntas respondidas
-      data.answeredQuestions.push(questionId);
-
-      // Verifica se o jogador está no objeto de participantes
-      if (!data.participants[playerId]) {
-        // Se não estiver, crie uma entrada para o jogador
-        data.participants[playerId] = {
-          score: 0,
-        };
-      }
-
-      // Atualiza a pontuação do jogador com base na resposta
-      if (isCorrect) {
-        data.participants[playerId].score += 10;
-      } else {
-        data.participants[playerId].score -= 10;
-      }
-
-      // Salva os dados em um arquivo JSON
-      saveDataToJsonFile(data);
-    }
   });
 
   socket.on("joinRoom", (roomCode, studentId) => {
@@ -285,11 +215,12 @@ io.on("connection", (socket) => {
     calculatePointsAndRestartUsersCurrentAnswers();
   });
 
-  socket.on("user-answer", ({ socketId, answerId }) => {
-    if (!getCurrentUserAnswer(socketId)) {
-      io.emit("user-answer-to-presenter", { socketId });
+  socket.on("user-answer", ({ socketId, answerId, ...rest }) => {
+    console.log("socketId", socket.id);
+    if (!getCurrentUserAnswer(socket.id)) {
+      io.emit("user-answer-to-presenter", { id: socket.id });
     }
-    updateUserAnswer({ socketId, answerId });
+    updateUserAnswer({ socketId: socket.id, answerId });
   });
 });
 

@@ -91,9 +91,9 @@ function updateToNextLevel() {
     return { finishedGame: true };
   }
 
-  const nextLevelConfig = phasesConfig[currentPhase.next_level];
+  const nextLevelConfig = phasesConfig[nextLevel];
   currentPhase = {
-    level: currentPhase.next_level,
+    level: nextLevel,
     ...nextLevelConfig,
   };
   currentQuestion = {};
