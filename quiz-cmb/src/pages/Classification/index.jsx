@@ -10,9 +10,6 @@ function Classification({ socket }) {
   return (
     <>
       <div className="container-page-classification">
-        <div>
-          <h1>Classificação</h1>
-        </div>
         <div className="firt-classified">
           <FirstPlaced />
         </div>

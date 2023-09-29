@@ -16,116 +16,124 @@ import IMAGE_CMRJ from '../../../../assets/images/CMRJ.png';
 import IMAGE_CMSM from '../../../../assets/images/CMSM.png';
 import IMAGE_CMSP from '../../../../assets/images/CMSP.png';
 import IMAGE_CMVM from '../../../../assets/images/CMVM.png';
+import logoQuiz from '../../../../assets/images/logo_quiz.png';
 
 
 function FisrtPlaced() {
 
   const arrayColleges = ["CMB", "CMBEL", "CMBH", "CMC", "CMCG", "CMF", "CMM", "CMPA", "CMR", "CMRJ", "CMSM", "CMSP", "CMVM", "CMVM0", "CMVM1", "CMVM2"];
 
-  const images_colleges = {
-    CMB: {
-      name: 'CMB',
-      image: IMAGE_CMB,
-      points: 1
+  const classification = [
+    {
+      name: "CMB",
+      points: 15,
     },
-    CMBEL: {
-      name: 'CMBEL',
-      image: IMAGE_CMBEL,
-      points: 2
+    {
+      name: "CMBEL",
+      points: 18,
     },
-    CMBH: {
-      name: 'CMBH',
-      image: IMAGE_CMBH,
-      points: 3
+    {
+      name: "CMBH",
+      points: 20,
     },
-    CMC: {
-      name: 'CMC',
-      image: IMAGE_CMC,
-      points: 4
+    {
+      name: "CMC",
+      points: 22,
     },
-    CMCG: {
-      name: 'CMCG',
-      image: IMAGE_CMCG,
-      points: 5
+    {
+      name: "CMCG",
+      points: 2,
     },
-    CMF: {
-      name: 'CMF',
-      image: '',
-      points: 6
+    {
+      name: "CMF",
+      points: 2,
     },
-    CMM: {
-      name: 'CMM',
-      image: IMAGE_CMM,
-      points: 7
+    { 
+      name: "CMM",
+      points: 5,
     },
-    CMPA: {
-      name: 'CMPA',
-      image: IMAGE_CMPA,
-      points: 8
+    {
+      name: "CMPA",
+      points: 5,
     },
-    CMR: {
-      name: 'CMR',
-      image: IMAGE_CMR,
-      points: 9
+    {
+      name: "CMR",
+      points: 70,
     },
-    CMRJ: {
-      name: 'CMRJ',
-      image: IMAGE_CMRJ,
-      points: 10
+    {
+      name: "CMRJ",
+      points: 50,
     },
-    CMSM: {
-      name: 'CMSM',
-      image: IMAGE_CMSM,
-      points: 11
+    {
+      name: "CMSM",
+      points: 5,
     },
-    CMSP: {
-      name: 'CMSP',
-      image: IMAGE_CMSP,
+    {
+      name: "CMSP",
+      points: 2,
+    },
+    {
+      name: "CMVM",
+      points: 21,
+    },
+    {
+      name: "CMVM0",
       points: 12
     },
-    CMVM: {
-      name: 'CMVM',
-      image: IMAGE_CMVM,
-      points: 13
+    {
+      name: "CMVM1",
+      points: 30
     },
-    CMVM0: {
-      name: 'CMVM',
-      image: IMAGE_CMVM,
-      points: 14
-    },
-    CMVM1: {
-      name: 'CMVM',
-      image: IMAGE_CMVM,
-      points: 15
-    },
-    CMVM2: {
-      name: 'CMVM',
-      image: IMAGE_CMVM,
-      points: 16
+    {
+      name: "CMVM2",
+      points: 11
     }
+  ];
+
+  const sortPlayers = classification.sort((a, b) => {
+    return b.points - a.points;
+  });
+
+  const images_colleges = {
+    CMB: { image: IMAGE_CMB},
+    CMBEL: { image: IMAGE_CMBEL },
+    CMBH: { image: IMAGE_CMBH },
+    CMC: { image: IMAGE_CMC },
+    CMCG: { image: IMAGE_CMCG },
+    CMF: { image: IMAGE_CMCG },
+    CMM: { image: IMAGE_CMM },
+    CMPA: { image: IMAGE_CMPA },
+    CMR: { image: IMAGE_CMR },
+    CMRJ: { image: IMAGE_CMRJ },
+    CMSM: { image: IMAGE_CMSM },
+    CMSP: { image: IMAGE_CMSP },
+    CMVM: { image: IMAGE_CMVM },
+    CMVM0: { image: IMAGE_CMVM },
+    CMVM1: { image: IMAGE_CMVM },
+    CMVM2: { image: IMAGE_CMVM }
   }
 
-  return (
-    < div className='first-placed-row' >
-      {/* <div>
-        {arrayColleges.slice(0, 8).map((college, index) => (
-          <div key={index} className='first-placed-college'>
-            <div className='first-placed-college-position'>
-              <p>{index + 1}º</p>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div>
-        {arrayColleges.slice(8, 16).map((college, index) => (
-          <div key={index} className='first-placed-college'>
-            <div className='first-placed-college-position'>
-              <p>{index + 9}º</p>
-            </div>
-          </div>
-        ))}
-      </div> */}
+  const addClassThreeFirsts = ["first-player", "second-player", "third-player"];
 
+  return (
+    < div className='first-placed-row'>
+      <span className="classification-title">Classificação</span>
+      {sortPlayers.map((player, index) => {
+        return (
+          <div className={`first-placed ${addClassThreeFirsts[index]}`} key={index}>
+            <div className="first-placed-position">
+              <span>{index + 1}º</span>
+            </div>
+            <div className="first-placed-college">
+              <img src={images_colleges[player.name].image} alt={player.name} />
+              <span>{player.name}</span>
+            </div>
+            <div className="first-placed-points">
+              <span>{player.points} pts</span>
+            </div>
+          </div>
+        )
+      })}
     </div >
   );
 }
