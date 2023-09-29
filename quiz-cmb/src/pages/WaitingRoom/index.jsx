@@ -1,18 +1,20 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
-/**
- * Configs
- */
-import { URL_SOCKET } from '../../configs';
-import io from 'socket.io-client';
+import { useNavigate } from "react-router-dom";
 
-const socket = io(URL_SOCKET);
+function WaitingRoom({ socket }) {
+  const navigate = useNavigate();
 
-function WaitingRoom() {
   React.useEffect(() => {
-    socket.on('initGame', () => {
-      window.location.href = '/question/student';
+    socket.on("show-next-question", ({ question, level }) => {
+      console.log(question);
+      localStorage.setItem(
+        "currentQuestion",
+        JSON.stringify({ question, level })
+      );
+      alert(level);
+      navigate("/question/student");
     });
   }, []);
 

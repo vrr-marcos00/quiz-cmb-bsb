@@ -1,25 +1,17 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React from 'react';
-import './styles.css';
-
-/**
- * Configs
- */
-import { URL_SOCKET } from '../../configs';
-import io from 'socket.io-client';
+import React from "react";
+import "./styles.css";
 
 /**
  * Components
  */
-import CreateRoom from './components/CreateRoom';
+import CreateRoom from "./components/CreateRoom";
 
-const socket = io(URL_SOCKET);
-
-function Home() {
+function Home({ socket }) {
   const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
-    socket.on('currentRoom', (currentRoom) => {
+    socket.on("currentRoom", (currentRoom) => {
       setCurrentRoomInfo(currentRoom);
     });
   }, []);
