@@ -1,33 +1,68 @@
 {
   "easy": {
     "next_level": "medium",
-    "time": 120000,
-    "time_per_question": 10000,
+    "time": 1200000,
+    "time_per_question": 30000,
     "points_to_earn": 10,
     "points_to_lose": 10,
     "questions": [
       {
-        "id": 1,
-        "question": "Qual a capital da Nova Zelândia?",
+        "id": 104,
+        "question": "Pertencem a que autor os versos:  “De tudo, ao meu amor serei atento. Antes, e com tal zelo, e sempre, e tanto  Que mesmo em face do maior encanto  Dele se encante mais meu pensamento.”",
+        "description": "Os versos são de autoria de Vinícius de Morais e pertencem ao Soneto de Fidelidade.",
+        "img_response": "",
+        "img_awnser": "",
+        "theme": "Português",
         "alternatives": [
           {
-            "content": "Auckland",
+            "content": "Vinícius de Morais.",
             "id": 1
           },
           {
-            "content": "Auckland",
+            "content": "Carlos Drummond de Andrade.",
             "id": 2
           },
           {
-            "content": "Auckland",
+            "content": "Thiago de Mello.",
             "id": 3
           },
           {
-            "content": "Auckland",
+            "content": "Fagundes Varela.",
             "id": 4
           },
           {
-            "content": "Auckland",
+            "content": "Mário de Andrade.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 44,
+        "question": "A partir do telescópio Hubble, foi possível obter imagens fantásticas do Universo. Isto se deve ao fato de que o telescópio está em órbita ao redor da Terra, reduzindo assim:",
+        "description": "A atmosfera terrestre gera muita refração da luz proveniente dos astros, o que prejudica a observação destes.",
+        "img_response": "",
+        "img_awnser": "https://img.olhardigital.com.br/wp-content/uploads/2021/07/Telescopio-Espacial-Hubble-fotografado-a-partir-da-Discovery-em-1997.png",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "a interferência da gravidade sobre o seu alinhamento",
+            "id": 1
+          },
+          {
+            "content": "a interferência da atmosfera terrestre",
+            "id": 2
+          },
+          {
+            "content": "a interferência da luz solar",
+            "id": 3
+          },
+          {
+            "content": "a interferência da luz das outras cidades",
+            "id": 4
+          },
+          {
+            "content": "a interferência de outros telescópios na superfície da terra",
             "id": 5
           }
         ],
@@ -36,34 +71,69 @@
     ]
   },
   "medium": {
-    "next_level": "hard",
-    "time": 240000,
-    "time_per_question": 10000,
+    "next_level": "difficult",
+    "time": 2400000,
+    "time_per_question": 30000,
     "points_to_earn": 20,
     "points_to_lose": 10,
     "questions": [
       {
-        "id": 1,
-        "question": "Qual a capital da Nova Zelândia?",
+        "id": 24,
+        "question": "Quais as principais raças de cães usadas pela polícia para rastrear criminosos, farejar materiais ilegais e realizar tarefas difíceis para os humanos?",
+        "description": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler são as raças mais utilizadas pela polícia.",
+        "img_response": "",
+        "img_awnser": "",
+        "theme": "Curiosidades",
         "alternatives": [
           {
-            "content": "Auckland",
+            "content": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler.",
             "id": 1
           },
           {
-            "content": "Auckland",
+            "content": "Basset, Labrador e Yorkshire.",
             "id": 2
           },
           {
-            "content": "Auckland",
+            "content": "Buldogue Francês, Lulu da Pomerândia e Pastor Alemão.",
             "id": 3
           },
           {
-            "content": "Auckland",
+            "content": "Rottweiler, Pastor Alemão e Yorkshire.",
             "id": 4
           },
           {
-            "content": "Auckland",
+            "content": "Doberman, Dogue Alemão e Fila Brasileiro.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 44,
+        "question": "A partir do telescópio Hubble, foi possível obter imagens fantásticas do Universo. Isto se deve ao fato de que o telescópio está em órbita ao redor da Terra, reduzindo assim:",
+        "description": "A atmosfera terrestre gera muita refração da luz proveniente dos astros, o que prejudica a observação destes.",
+        "img_response": "",
+        "img_awnser": "https://img.olhardigital.com.br/wp-content/uploads/2021/07/Telescopio-Espacial-Hubble-fotografado-a-partir-da-Discovery-em-1997.png",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "a interferência da gravidade sobre o seu alinhamento",
+            "id": 1
+          },
+          {
+            "content": "a interferência da atmosfera terrestre",
+            "id": 2
+          },
+          {
+            "content": "a interferência da luz solar",
+            "id": 3
+          },
+          {
+            "content": "a interferência da luz das outras cidades",
+            "id": 4
+          },
+          {
+            "content": "a interferência de outros telescópios na superfície da terra",
             "id": 5
           }
         ],
@@ -71,39 +141,74 @@
       }
     ]
   },
-  "hard": {
-    "next_level": "finish",
-    "time": 120000,
-    "time_per_question": 10000,
+  "difficult": {
+    "next_level": "finished",
+    "time": 1200000,
+    "time_per_question": 30000,
     "points_to_earn": 30,
     "points_to_lose": 10,
     "questions": [
       {
-        "id": 1,
-        "question": "Qual a capital da Nova Zelândia?",
+        "id": 80,
+        "question": "No Brasil, segundo o censo agropecuário do IBGE, o estado maior produtor de Café é:",
+        "description": "O Café é um dos principais produtos da pauta de exportações do Brasil. Historicamente ligado a SP e PR, tem, na atualidade, o estado de MG como maior produtor, conforme censo agropecuário do IBGE.",
+        "img_response": "",
+        "img_awnser": "",
+        "theme": "Geografia",
         "alternatives": [
           {
-            "content": "Auckland",
+            "content": "SP.",
             "id": 1
           },
           {
-            "content": "Auckland",
+            "content": "MG.",
             "id": 2
           },
           {
-            "content": "Auckland",
+            "content": "ES.",
             "id": 3
           },
           {
-            "content": "Auckland",
+            "content": "BA.",
             "id": 4
           },
           {
-            "content": "Auckland",
+            "content": "PR.",
             "id": 5
           }
         ],
         "correct_answer_id": 2
+      },
+      {
+        "id": 36,
+        "question": "Qual o maior túnel do mundo?",
+        "description": "Seikan, no Japão com 53,8 km, enquanto o Eurotunel tem 50,4 km.",
+        "img_response": "",
+        "img_awnser": "",
+        "theme": "Curiosidades",
+        "alternatives": [
+          {
+            "content": "SERPUKHOVSKO-TIMIRYAZEVSKAYA, na Rússia",
+            "id": 1
+          },
+          {
+            "content": "EUROTÚNEL, liga Inglaterra e França",
+            "id": 2
+          },
+          {
+            "content": "SEIKAN, no Japão",
+            "id": 3
+          },
+          {
+            "content": "BASE DE LÖTSCHBERG, na Suíça",
+            "id": 4
+          },
+          {
+            "content": "KALUZHSKO-RIZHSKAYA, na Rússia",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
       }
     ]
   }

@@ -1,4 +1,4 @@
-const phasesConfig = require("./database/phases_config.json");
+const phasesConfig = require("../database/phases_config.json");
 
 // Armazena fase e questão atual
 let currentPhase = {};
@@ -8,7 +8,7 @@ let currentQuestion = {};
 let clientGameState = {};
 
 // Objeto para rastrear as salas
-// const room = require("./database/room.json") || { roomCode: "", users: [] };
+const room = require("../database/room.json") || { roomCode: "", users: [] };
 
 /* ---------------------------------- GAME POINTS CONTROL ---------------------------------- */
 
