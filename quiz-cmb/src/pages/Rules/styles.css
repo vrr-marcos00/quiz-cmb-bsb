@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-page-rules {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #0AABBA;
+  min-height: 100vh;
+}
+
+.divPai {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  background-color: #ffffff ;
+  border-radius: 45px;
+  padding: 35px;
+  gap: 10px;
+  margin: 20px;
+}
+
+p {
+  color: black; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li {
+  width: 100%;
+  color: black;
+  font-size: 17px;
+  list-style-type: none;
+  margin-left: 10%;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.comecarQuiz {
+  width: 100%;
+  padding: 15px 0;
+  border: 3px solid black;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;  
+  padding: 10px;
+  cursor: pointer;
+}
+
+h1 {
+  color: #0AABBA;
+  font-size: 25px;
+  font-weight: bold;
+}

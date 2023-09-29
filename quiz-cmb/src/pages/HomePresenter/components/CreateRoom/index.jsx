@@ -40,7 +40,7 @@ function CreateRoom({ socket }) {
 
   return (
     <div className="container-create-room">
-      <h1 className="create-room-title">QUIZ!</h1>
+      <h1 className="create-room-title">Desafio Global do Conhecimento</h1>
       <div className="create-room-row">
         <div className="room-code">
           <h3>{roomCode}</h3>
