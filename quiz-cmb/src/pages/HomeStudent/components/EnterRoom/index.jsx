@@ -34,6 +34,8 @@ function EnterRoom({ socket }) {
     socket.emit('authenticate', { role: 'student' });
     socket.emit('joinRoom', roomCode, studentId);
   };
+  
+  const schools = ["CMB", "CMBEL", "CMBH", "CMC", "CMCG", "CMF", "CMM", "CMPA", "CMR", "CMRJ", "CMSM", "CMSP", "CMVM", "CMVM0", "CMVM1", "CMVM2"];
 
   return (
     <div className="container-home-student">
@@ -41,7 +43,9 @@ function EnterRoom({ socket }) {
         <h1>QUIZ!</h1>
       </div>
       <div className="home-student-login">
-        <input placeholder="Escola" onChange={(e) => setStudentId(e.target.value)} />
+        <select name="players" id="players" onChange={(e) => setStudentId(e.target.value)}>
+          {schools.map((school) => <option value={school}>{school}</option>)}
+        </select>
         <input placeholder="Código da sala" onChange={(e) => setRoomCode(e.target.value)} />
         <button onClick={handleClickEnterTheRoom}>Entrar na sala</button>
       </div>
