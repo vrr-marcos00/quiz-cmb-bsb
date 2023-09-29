@@ -1,4 +1,4 @@
-const phasesConfig = require("./database/phases_config.json");
+const phasesConfig = require("../database/phases_config.json");
 
 // Armazena fase e questão atual
 let currentPhase = {};
