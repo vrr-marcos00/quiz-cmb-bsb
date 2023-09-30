@@ -63,7 +63,7 @@ function CreateRoom({ socket }) {
             <h3>Usuários conectados</h3>
             <ul>
               {currentRoomInfo.users.map((user) => (
-                <li key={user.socketId}>{user.studentId}</li>
+                <li key={user.userId}>{user.studentId}</li>
               ))}
             </ul>
           </div>
