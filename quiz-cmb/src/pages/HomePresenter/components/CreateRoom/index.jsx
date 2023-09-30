@@ -2,6 +2,11 @@
 import React from "react";
 import "./styles.css";
 
+/**
+ * Components
+ */
+ import LoggedInUsers from "../LoggedInUsers";
+
 function CreateRoom({ socket, currentRoom }) {
   const [roomCode, setRoomCode] = React.useState("Nenhuma sala criada");
 
@@ -15,6 +20,7 @@ function CreateRoom({ socket, currentRoom }) {
   const handleIniteGame = () => {
     socket.emit("init-quiz");
   };
+  const hasUsers = currentRoom && currentRoom.users && currentRoom.users.length > 0;
 
   return (
     <div className="container-create-room">
@@ -26,18 +32,15 @@ function CreateRoom({ socket, currentRoom }) {
 
         <button onClick={handleClickRoomCreate}>Criar Sala</button>
         <button onClick={handleIniteGame}>Iniciar Game</button>
-      </div>
-      <div>
-        {currentRoom && currentRoom.roomCode && (
-          <div>
-            <h3>Usuários conectados</h3>
-            <ul>
-              {currentRoom.users.map((user) => (
-                <li key={user.userId}>{user.studentId}</li>
-              ))}
-            </ul>
+
+        {hasUsers ? (
+          <LoggedInUsers currentRoom={currentRoom} />
+        ) : (
+          <div className="has-user">
+            <h2>Nenhum usuário na sala</h2>
           </div>
         )}
+        
       </div>
     </div>
   );
