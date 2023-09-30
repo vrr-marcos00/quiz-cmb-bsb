@@ -20,9 +20,7 @@ function QuestionPresenter({ socket }) {
   const [allUsers, setAllUsers] = React.useState([]);
 
   React.useEffect(() => {
-    const { currentRoom } = JSON.parse(
-      localStorage.getItem("currentRoom")
-    );
+    const { currentRoom } = JSON.parse(localStorage.getItem("currentRoom"));
     setAllUsers(currentRoom.users);
 
     const { question, level } = JSON.parse(
@@ -44,8 +42,6 @@ function QuestionPresenter({ socket }) {
     setCurrentQuestion(question);
     setCurrentPhase(level);
   }, []);
-
-  console.log(allUsers);
 
   const handleShowQuestion = () => {
     socket.emit("show-answer");
