@@ -16,7 +16,6 @@ import IMAGE_CMRJ from '../../../../assets/images/CMRJ.png';
 import IMAGE_CMSM from '../../../../assets/images/CMSM.png';
 import IMAGE_CMSP from '../../../../assets/images/CMSP.png';
 import IMAGE_CMVM from '../../../../assets/images/CMVM.png';
-import logoQuiz from '../../../../assets/images/logo_quiz.png';
 
 
 function FisrtPlaced() {
