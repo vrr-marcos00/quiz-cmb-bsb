@@ -1,4 +1,9 @@
 {
-  "roomCode": "",
-  "users": []
+  "roomCode": "914928",
+  "users": [
+    {
+      "userId": "kB3-v0rN6WKX84b3AADf",
+      "studentId": "CMSM"
+    }
+  ]
 }

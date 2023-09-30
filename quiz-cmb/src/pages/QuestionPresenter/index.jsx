@@ -17,19 +17,35 @@ function QuestionPresenter({ socket }) {
   const [currentQuestion, setCurrentQuestion] = React.useState({});
   const [currentPhase, setCurrentPhase] = React.useState("easy");
   const [isResponsePage, setIsResponsePage] = React.useState(false);
+  const [allUsers, setAllUsers] = React.useState([]);
 
   React.useEffect(() => {
+    const { currentRoom } = JSON.parse(
+      localStorage.getItem("currentRoom")
+    );
+    setAllUsers(currentRoom.users);
+
     const { question, level } = JSON.parse(
       localStorage.getItem("currentQuestion")
     );
-    setCurrentQuestion(question);
-    setCurrentPhase(level);
 
     socket.on("user-answer-to-presenter", ({ id }) => {
-      console.log("user respondeu ", id);
+      setAllUsers((prevAllUsers) => {
+        const updatedUsers = prevAllUsers.map((user) => {
+          if (user.userId === id) {
+            return { ...user, answered: true };
+          }
+          return user;
+        });
+        return updatedUsers;
+      });
     });
+
+    setCurrentQuestion(question);
+    setCurrentPhase(level);
   }, []);
-  console.log("currentQuestion", currentQuestion);
+
+  console.log(allUsers);
 
   const handleShowQuestion = () => {
     socket.emit("show-answer");
@@ -57,7 +73,7 @@ function QuestionPresenter({ socket }) {
             isResponsePage={isResponsePage}
           />
 
-          <ContainerStudents students={[]} />
+          <ContainerStudents students={allUsers} />
 
           <ContainerButtons
             handleNextQuestion={handleNextQuestion}
