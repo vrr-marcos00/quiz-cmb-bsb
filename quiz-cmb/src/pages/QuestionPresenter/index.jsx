@@ -15,6 +15,7 @@ import ContainerStudents from "./components/ContainerStudents";
 function QuestionPresenter({ socket }) {
   const [currentQuestion, setCurrentQuestion] = React.useState({});
   const [currentPhase, setCurrentPhase] = React.useState("easy");
+  const [isResponsePage, setIsResponsePage] = React.useState(false);
 
   React.useEffect(() => {
     const { question, level } = JSON.parse(
@@ -28,8 +29,15 @@ function QuestionPresenter({ socket }) {
     // });
   }, []);
   console.log("currentQuestion", currentQuestion);
+
+  const handleShowQuestion = () => {
+    socket.emit("show-answer");
+    setIsResponsePage(true);
+  };
+
   const handleNextQuestion = () => {
     socket.emit("next-question");
+    setIsResponsePage(false);
   };
 
   return (
@@ -38,15 +46,16 @@ function QuestionPresenter({ socket }) {
 
       <div className="main-page_container">
         <div className="row-main">
-          <ContainerTitle title={currentQuestion?.theme} />
+          <ContainerTitle title={currentQuestion?.theme} isResponsePage={isResponsePage} />
 
-          <ContainerQuestions question={currentQuestion} />
+          <ContainerQuestions question={currentQuestion} isResponsePage={isResponsePage} />
 
           <ContainerStudents students={[]} />
 
           <ContainerButtons
             handleNextQuestion={handleNextQuestion}
-            handleShowQuestion={handleNextQuestion}
+            handleShowQuestion={handleShowQuestion}
+            isResponsePage={isResponsePage}
           />
         </div>
       </div>

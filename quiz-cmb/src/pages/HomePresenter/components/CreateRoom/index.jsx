@@ -3,7 +3,6 @@ import React from "react";
 import "./styles.css";
 
 function CreateRoom({ socket, currentRoom }) {
-
   const [roomCode, setRoomCode] = React.useState("Nenhuma sala criada");
 
   const handleClickRoomCreate = () => {
