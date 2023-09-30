@@ -1,13 +1,16 @@
 import React from 'react';
 import './styles.css';
 
-function ContainerButtons({ handleNextQuestion, handleShowQuestion, handleStartTimer }) {
-    return (
-      <div className="row-main_buttons">
-        <button onClick={() => handleNextQuestion()}>Mostrar resposta</button>
+function ContainerButtons({ handleNextQuestion, handleShowQuestion, isResponsePage }) {
+  return (
+    <div className="row-main_buttons">
+      {isResponsePage ? (
         <button onClick={() => handleNextQuestion()}>Próxima pergunta</button>
-      </div>
-    )
+      ) : (
+        <button onClick={() => handleShowQuestion()}>Mostrar resposta</button>
+      )}
+    </div>
+  )
 }
 
 export default ContainerButtons;

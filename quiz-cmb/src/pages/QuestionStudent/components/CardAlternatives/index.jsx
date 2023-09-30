@@ -9,7 +9,7 @@ function CardAlternatives({ alternatives, onClickButton }) {
       {alternatives && (
         <div className="card-alternatives_buttons">
           {alternatives.map(({ content, id }, index) => (
-            <button id={`button-${id}`} onClick={(e) => onClickButton(e, id)}>
+            <button id={`button-${id}`} key={`button-${id}`} onClick={(e) => onClickButton(e, id)}>
               {`${alternativesLetter[index]}) ${content}`}
             </button>
           ))}

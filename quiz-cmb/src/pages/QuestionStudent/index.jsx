@@ -11,16 +11,40 @@ import TimeQuestion from "./components/TimeQuestion";
 function QuestionStudent({ socket }) {
   const [currentQuestion, setCurrentQuestion] = React.useState({});
   const [currentPhase, setCurrentPhase] = React.useState("");
+  const [isResponsePage, setIsResponsePage] = React.useState(false);
+
+  const checkIsResponseDescription = currentQuestion?.description || currentQuestion?.question;
 
   React.useEffect(() => {
     const { question, level } = JSON.parse(
       localStorage.getItem("currentQuestion")
     );
 
+    socket.on("show-answer", () => {
+      setIsResponsePage(true);
+    })
+
     setCurrentQuestion(question);
     setCurrentPhase(level);
   }, []);
+
+  React.useEffect(() => {
+    const alternativeCorrect = document.getElementById(`button-${currentQuestion.correct_answer_id}`);
+  
+    if (isResponsePage) {
+      if (alternativeCorrect) {
+        alternativeCorrect.style.backgroundColor = "#0F0";
+      }
+    } else {
+      if (alternativeCorrect) {
+        alternativeCorrect.style.backgroundColor = "#fff";
+      }
+    }
+  }, [isResponsePage, currentQuestion.correct_answer_id]);
+
   console.log("currentQuestion", currentQuestion);
+  console.log("currentPhase", currentPhase);
+  console.log(isResponsePage);
 
   const handleClickAlternative = (event, answerId) => {
     const getbuttons = document.querySelectorAll(
@@ -45,9 +69,9 @@ function QuestionStudent({ socket }) {
       <TimeQuestion currentLevel={currentPhase} />
 
       <CardAwnser
-        theme={currentQuestion?.theme}
-        awnser={currentQuestion?.question}
-        imgAwnser={currentQuestion?.img_response}
+        theme={isResponsePage ? 'Resposta' : currentQuestion?.theme}
+        awnser={isResponsePage ? checkIsResponseDescription : currentQuestion?.question}
+        imgAwnser={isResponsePage ? currentQuestion?.img_response : currentQuestion?.img_awnser}
         alternatives={currentQuestion?.alternatives}
         onClickAlternative={handleClickAlternative}
       />

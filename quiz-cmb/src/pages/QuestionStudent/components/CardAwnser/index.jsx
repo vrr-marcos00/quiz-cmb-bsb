@@ -14,8 +14,8 @@ function CardAwnser({ theme, awnser, imgAwnser, alternatives, onClickAlternative
 
           {awnser && (
             <>
-              {awnser.split(/\r?\n/).map((item) => (
-                <p className="card-awnser_awnser">{item}</p>
+              {awnser.split(/\r?\n/).map((item, index) => (
+                <p key={index} className="card-awnser_awnser">{item}</p>
               ))}
             </>
           )}
