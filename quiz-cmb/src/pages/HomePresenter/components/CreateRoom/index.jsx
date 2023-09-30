@@ -5,7 +5,7 @@ import "./styles.css";
 /**
  * Components
  */
- import LoggedInUsers from "../LoggedInUsers";
+import LoggedInUsers from "../LoggedInUsers";
 
 function CreateRoom({ socket, currentRoom }) {
   const [roomCode, setRoomCode] = React.useState("Nenhuma sala criada");
@@ -19,7 +19,7 @@ function CreateRoom({ socket, currentRoom }) {
 
   const handleInitGame = () => {
     socket.emit("init-quiz");
-    localStorage.setItem('currentRoom', JSON.stringify({currentRoom}));
+    localStorage.setItem('currentRoom', JSON.stringify({ currentRoom }));
   };
   const hasUsers = currentRoom && currentRoom.users && currentRoom.users.length > 0;
 
@@ -31,8 +31,10 @@ function CreateRoom({ socket, currentRoom }) {
           <h3>{roomCode}</h3>
         </div>
 
-        <button onClick={handleClickRoomCreate}>Criar Sala</button>
-        <button onClick={handleInitGame}>Iniciar Game</button>
+        <div className="container-button-home-presenter">
+          <button onClick={handleClickRoomCreate}>Criar Sala</button>
+          <button onClick={handleInitGame}>Iniciar Game</button>
+        </div>
 
         {hasUsers ? (
           <LoggedInUsers currentRoom={currentRoom} />
@@ -41,7 +43,7 @@ function CreateRoom({ socket, currentRoom }) {
             <h2>Nenhum usuário na sala</h2>
           </div>
         )}
-        
+
       </div>
     </div>
   );

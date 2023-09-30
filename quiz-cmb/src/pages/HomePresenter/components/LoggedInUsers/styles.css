@@ -32,6 +32,11 @@
     font-size: 3em;
 }
 
+.college img {
+    width: 130px;
+    height: 175px;
+}
+
 .college span {
     margin-top: 15px;
     margin-bottom: 50px;

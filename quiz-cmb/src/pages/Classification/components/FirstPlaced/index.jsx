@@ -16,6 +16,9 @@ import IMAGE_CMRJ from "../../../../assets/images/CMRJ.png";
 import IMAGE_CMSM from "../../../../assets/images/CMSM.png";
 import IMAGE_CMSP from "../../../../assets/images/CMSP.png";
 import IMAGE_CMVM from "../../../../assets/images/CMVM.png";
+import IMAGE_FORJ from "../../../../assets/images/FORJ.png";
+import IMAGE_CMS from "../../../../assets/images/CMS.png";
+import IMAGE_CMJF from "../../../../assets/images/CMJF.png";
 
 function FisrtPlaced({ classification }) {
   const sortPlayers = classification.sort((a, b) => {
@@ -36,9 +39,9 @@ function FisrtPlaced({ classification }) {
     CMSM: { image: IMAGE_CMSM },
     CMSP: { image: IMAGE_CMSP },
     CMVM: { image: IMAGE_CMVM },
-    CMJF: { image: IMAGE_CMVM },
-    CMS: { image: IMAGE_CMVM },
-    FORJ: { image: IMAGE_CMVM }
+    CMJF: { image: IMAGE_CMJF },
+    CMS: { image: IMAGE_CMS },
+    FORJ: { image: IMAGE_FORJ }
   };
 
   const addClassThreeFirsts = ["first-player", "second-player", "third-player"];
