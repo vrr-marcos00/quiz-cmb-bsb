@@ -1,11 +1,6 @@
 import React from 'react';
 import './styles.css';
 
-
-
-
-
-
 function TimeQuestion({ currentLevel }) {
   let currentLevelPT = "fácil";
   currentLevel === "medium" ? currentLevelPT = "média" : currentLevelPT = "difícil";
