@@ -25,6 +25,9 @@ function Home({ socket }) {
         "currentQuestion",
         JSON.stringify({ question, level })
       );
+
+      localStorage.setItem("isPresenter", true);
+
       navigate("/question/presenter");
     });
 
