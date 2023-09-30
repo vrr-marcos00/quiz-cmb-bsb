@@ -205,7 +205,7 @@ io.on("connection", (socket) => {
     const { finishedGame } = updateToNextLevel();
 
     io.emit("show-classification", {
-      clientPoints: getClientGameState(),
+      classification: Object.values(getClientGameState()),
       finishedGame,
     });
   });
@@ -213,6 +213,10 @@ io.on("connection", (socket) => {
   socket.on("show-answer", () => {
     io.emit("show-answer");
     calculatePointsAndRestartUsersCurrentAnswers();
+
+    io.emit("updated-points", {
+      classification: Object.values(getClientGameState()),
+    });
   });
 
   socket.on("user-answer", ({ userId, answerId }) => {

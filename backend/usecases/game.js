@@ -29,7 +29,8 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
     const points = isAnswerCorrect
       ? currentPhase.points_to_earn
       : -currentPhase.points_to_lose;
-    clientGameState[key].points = clientGameState[key].points + points;
+    const updatedPoints = clientGameState[key].points + points;
+    clientGameState[key].points = updatedPoints > 0 ? updatedPoints : 0;
   }
 
   usersCurrentAnswers = {};
@@ -87,7 +88,7 @@ function setNextQuestion() {
 function updateToNextLevel() {
   const nextLevel = currentPhase.next_level;
 
-  if (nextLevel === "finish") {
+  if (nextLevel === "finished") {
     return { finishedGame: true };
   }
 
