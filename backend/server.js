@@ -150,14 +150,19 @@ io.on("connection", (socket) => {
           (user) => user.studentId === studentId
         );
 
-        if (!userIsExisting) {
+        if (!userIsExisting && !studentIdAlreadyExistis) {
           room.users.push({ userId: socket.id, studentId });
           // Emite um evento de sucesso para o aluno
           socket.emit("studentAuthenticated", {
             userId: socket.id,
             msg: "Você foi autenticado com sucesso na sala.",
           });
-        } else {
+        } else if (studentIdAlreadyExistis) {
+          socket.emit(
+            "userIsExistingInTheRoom",
+            "Você não pode entrar com essa escola, pois ela já foi escolhida."
+          );
+        } else if (userIsExisting) {
           socket.emit(
             "userIsExistingInTheRoom",
             "Você não pode ter dois acessos simultâneos"
