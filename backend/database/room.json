@@ -1,8 +1,12 @@
 {
-  "roomCode": "963132",
+  "roomCode": "181538",
   "users": [
     {
-      "userId": "4LLXUMSLu3o1bNFdAAAX",
+      "userId": "9piln3TqUiLraJM5AAAr",
+      "studentId": "CMBEL"
+    },
+    {
+      "userId": "BtepO2J4bTwauX1oAAAt",
       "studentId": "CMC"
     }
   ]
