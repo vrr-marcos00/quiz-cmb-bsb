@@ -62,6 +62,7 @@ function QuestionPresenter({ socket }) {
   const handleNextQuestion = () => {
     socket.emit("foward");
     setIsResponsePage(false);
+    setAllUsers([]);
   };
 
   return (

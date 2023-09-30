@@ -7,8 +7,8 @@ import './styles.css';
 
 
 function TimeQuestion({ currentLevel }) {
-  let currentLevelPT = "fácil"
-  currentLevel === "medium" ? currentLevelPT = "média" : currentLevelPT = "difícil"
+  let currentLevelPT = "fácil";
+  currentLevel === "medium" ? currentLevelPT = "média" : currentLevelPT = "difícil";
 
   return (
     // <div className="time-question-student">
