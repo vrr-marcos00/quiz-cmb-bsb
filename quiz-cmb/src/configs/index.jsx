@@ -1,1 +1,1 @@
-export const URL_SOCKET = 'http://localhost:4000';
+export const URL_SOCKET = 'https://quiz-cmb-bsb-production.up.railway.app';
