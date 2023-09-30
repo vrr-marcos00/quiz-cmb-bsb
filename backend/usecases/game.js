@@ -22,10 +22,10 @@ function updateUserAnswer({ userId, answerId }) {
 }
 
 function calculatePointsAndRestartUsersCurrentAnswers() {
-  for (const key in usersCurrentAnswers) {
+  for (const key in clientGameState) {
     const currentAnswer = usersCurrentAnswers[key];
     const isAnswerCorrect =
-      currentAnswer.answerId === currentQuestion.correct_answer_id;
+      currentAnswer?.answerId === currentQuestion.correct_answer_id;
     const points = isAnswerCorrect
       ? currentPhase.points_to_earn
       : -currentPhase.points_to_lose;
@@ -71,7 +71,7 @@ function initQuiz() {
 function setNextQuestion() {
   const { questions, ...phaseConfig } = currentPhase;
 
-  if (questions.lenght === 0) {
+  if (questions?.lenght === 0 || !questions) {
     currentQuestion = null;
     return;
   }
@@ -86,9 +86,9 @@ function setNextQuestion() {
 }
 
 function updateToNextLevel() {
-  const nextLevel = currentPhase.next_level;
+  const nextLevel = currentPhase?.next_level;
 
-  if (nextLevel === "finished") {
+  if (nextLevel === "finished" || !nextLevel) {
     return { finishedGame: true };
   }
 

@@ -7,62 +7,412 @@
     "points_to_lose": 10,
     "questions": [
       {
-        "id": 104,
-        "question": "Pertencem a que autor os versos:  “De tudo, ao meu amor serei atento. Antes, e com tal zelo, e sempre, e tanto  Que mesmo em face do maior encanto  Dele se encante mais meu pensamento.”",
-        "description": "Os versos são de autoria de Vinícius de Morais e pertencem ao Soneto de Fidelidade.",
-        "img_response": "",
-        "img_awnser": "",
-        "theme": "Português",
+        "id": 1,
+        "question": "Qual é a característica principal da fase seguinte à mostrada na figura?",
+        "description": "A fase mostrada na figura é metáfase; a fase seguinte é a anáfase, cuja característica principal é a separação das cromátides-irmãs.",
+        "img_question": "https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2016/10/metafase-mitose-divisao-celular.jpg?quality=100&strip=info&w=550",
+        "theme": "Biologia",
         "alternatives": [
           {
-            "content": "Vinícius de Morais.",
+            "content": "separação dos cromossomos homólogos.",
             "id": 1
           },
           {
-            "content": "Carlos Drummond de Andrade.",
+            "content": "condensação dos cromossomos",
             "id": 2
           },
           {
-            "content": "Thiago de Mello.",
+            "content": "alinhamento dos cromossomos na placa equatorial.",
             "id": 3
           },
           {
-            "content": "Fagundes Varela.",
+            "content": "separação das cromátides-irmãs.",
             "id": 4
           },
           {
-            "content": "Mário de Andrade.",
+            "content": "desaparecimento da carioteca.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 3,
+        "question": "Qual composto não é fonte de energia para o ser humano?",
+        "description": "Apesar de ser constituído de monômeros de glicose ligados entre si, a celulose só é aproveitada por alguns animais que possuem associação com micro-organismos em seus tratos digestivos. Esses microrganismos produzem a celulase, capaz de metabolizar esse polímero.",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "glicose",
+            "id": 1
+          },
+          {
+            "content": "amido",
+            "id": 2
+          },
+          {
+            "content": "glicogênio",
+            "id": 3
+          },
+          {
+            "content": "celulose",
+            "id": 4
+          },
+          {
+            "content": "frutose",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 6,
+        "question": "Qual o nome que se dá à passagem de células sanguíneas, em especial os leucócitos, através das paredes dos capilares para o tecido conjuntivo?",
+        "description": "Diapedese é o nome dado ao movimento de saída das células de defesa de um vaso sanguíneo para um tecido próximo. Este processo geralmente ocorre quando uma área é danificada e o processo de inflamação é necessário. Os neutrófilos e monócitos são atraídos até o local da inflamação, passando a englobar e fagocitar os agentes invasores.",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "filtração",
+            "id": 1
+          },
+          {
+            "content": "osmose",
+            "id": 2
+          },
+          {
+            "content": "difusão",
+            "id": 3
+          },
+          {
+            "content": "diálise",
+            "id": 4
+          },
+          {
+            "content": "diapedese",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 14,
+        "question": "O que é citocinina?",
+        "description": "A citocinina é o nome de um hormônio vegetal, produzido no meristema apical da raiz, cuja função é promover a indução da divisão celular. Também atua na quebra de dormência nas sementes, na floração e no crescimento de frutos.",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "uma célula amorfa.",
+            "id": 1
+          },
+          {
+            "content": "omponente do citoesqueleto celular.",
+            "id": 2
+          },
+          {
+            "content": "uma organela celular presente apenas em vegetais.",
+            "id": 3
+          },
+          {
+            "content": "hormônio vegetal responsável por estimular a divisão celular.",
+            "id": 4
+          },
+          {
+            "content": "Processo de separação do citoplasma em duas células distintas, como produto final da meiose.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 7,
+        "question": "Qual mineral presente na molécula de clorofila cuja ausência em animais prejudica o crescimento e causa distúrbios comportamentais?",
+        "description": "O magnésio, além de constituir a molécula de clorofila, é um mineral essencial para o corpo humano, necessário para mais de 300 processos biológicos muito importantes, incluindo a produção de ATP e a contração muscular. Sua deficiência pode causar uma série de complicações como cãibra, fadiga, síndrome pré-menstrual, irritabilidade, insônia, perda de memória, entre outros.",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "magnésio",
+            "id": 1
+          },
+          {
+            "content": "zinco",
+            "id": 2
+          },
+          {
+            "content": "cálcio",
+            "id": 3
+          },
+          {
+            "content": "selênio",
+            "id": 4
+          },
+          {
+            "content": "ferro",
             "id": 5
           }
         ],
         "correct_answer_id": 1
       },
       {
-        "id": 44,
-        "question": "A partir do telescópio Hubble, foi possível obter imagens fantásticas do Universo. Isto se deve ao fato de que o telescópio está em órbita ao redor da Terra, reduzindo assim:",
-        "description": "A atmosfera terrestre gera muita refração da luz proveniente dos astros, o que prejudica a observação destes.",
-        "img_response": "",
-        "img_awnser": "https://img.olhardigital.com.br/wp-content/uploads/2021/07/Telescopio-Espacial-Hubble-fotografado-a-partir-da-Discovery-em-1997.png",
-        "theme": "Física",
+        "id": 2,
+        "question": "Qual o componente nutricional presente no ovo, que é muito procurado pelos frequentadores de academia?",
+        "description": "O ovo é importante por ter a clara rica em proteínas, as quais fortalecem os músculos e favorecem o crescimento.",
+        "theme": "Biologia",
         "alternatives": [
           {
-            "content": "a interferência da gravidade sobre o seu alinhamento",
+            "content": "proteína",
             "id": 1
           },
           {
-            "content": "a interferência da atmosfera terrestre",
+            "content": "lipídeos",
             "id": 2
           },
           {
-            "content": "a interferência da luz solar",
+            "content": "calorias",
             "id": 3
           },
           {
-            "content": "a interferência da luz das outras cidades",
+            "content": "carboidratos",
             "id": 4
           },
           {
-            "content": "a interferência de outros telescópios na superfície da terra",
+            "content": "vitaminas",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 8,
+        "question": "Um cuidado médico que deve ser tomado com relação à febre é não deixá-la subir muito. Sabe-se que a febre acima de 40°C pode ser fatal ao ser humano, pois ocorre modificação das enzimas do sistema nervoso central. Como a temperatura alta modifica essas enzimas?",
+        "description": "Quando as proteínas são submetidas à elevação de temperatura, a variações de pH ou a solutos como a ureia, sofrem alterações na sua configuração espacial, e sua atividade biológica é perdida. Este processo se chama desnaturação.",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "Induzindo a modificação da sequência de aminoácidos das enzimas.",
+            "id": 1
+          },
+          {
+            "content": "Induzindo a autodigestão das enzimas.",
+            "id": 2
+          },
+          {
+            "content": "Quebrando as ligações covalentes das enzimas.",
+            "id": 3
+          },
+          {
+            "content": "Induzindo a desnaturação das enzimas.",
+            "id": 4
+          },
+          {
+            "content": "Induzindo a exocitose das enzimas.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 4,
+        "question": "A qual filo pertence o animal da imagem?",
+        "description": "As aranhas pertencem ao filo Artrópoda, classe Arachnida, ordem Araneae, constituindo um dos maiores grupos animais no que diz respeito à sua diversidade, existindo mais de 12 mil espécies só no Brasil.",
+        "img_question": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/05/1-aranha-marrom.jpg",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "aracnida",
+            "id": 1
+          },
+          {
+            "content": "artrópoda",
+            "id": 2
+          },
+          {
+            "content": "insecta",
+            "id": 3
+          },
+          {
+            "content": "quilópoda",
+            "id": 4
+          },
+          {
+            "content": "animalia",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      },
+      {
+        "id": 5,
+        "question": "Qual é a relação ecológica pela qual certos seres vivos se utilizam de outros como meio de locomoção?",
+        "description": "Forésia é uma relação ecológica harmônica, em que um indivíduo se aproveita de outro para transporte, sem prejudicá-lo.",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "forésia",
+            "id": 1
+          },
+          {
+            "content": "inquilinismo",
+            "id": 2
+          },
+          {
+            "content": "comensalismo",
+            "id": 3
+          },
+          {
+            "content": "caronismo",
+            "id": 4
+          },
+          {
+            "content": "mutualismo",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 13,
+        "question": "Observe o cladograma da imagem. A característica evolutiva de nº 4 é o aparecimento...",
+        "description": "A característica evolutiva de gimnospermas para angiospermas é o aparecimento de flores e frutos.",
+        "img_question": "https://djalmasantos.files.wordpress.com/2011/07/286.jpg",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "do embrião",
+            "id": 1
+          },
+          {
+            "content": "de vasos condutores",
+            "id": 2
+          },
+          {
+            "content": "de flores e frutos",
+            "id": 3
+          },
+          {
+            "content": "de sementes",
+            "id": 4
+          },
+          {
+            "content": "tecidos vasculares",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 10,
+        "question": "Observando a tabela nutricional da imagem, qual é o principal produto que deveria ser evitado por alguém que tem pressão alta dentre as opções de resposta?",
+        "description": "Uma pessoa com pressão alta deve evitar consumir produtos com alto índice de sódio, que faz com que a pressão sanguínea se eleve, podendo ocasionar rompimento dos vasos sanguíneos.",
+        "img_question": "https://4.bp.blogspot.com/-N0dd_xMV-Fc/WNxJlUUhMTI/AAAAAAAAHTg/L8fnTmAmFSE2NQtAMcoJBEigG07vp5A-gCLcB/s1600/00000000000000000000000000000000000000000%2Bqueijos1.png",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "Requeijão",
+            "id": 1
+          },
+          {
+            "content": "Meia Cura",
+            "id": 2
+          },
+          {
+            "content": "Ricota",
+            "id": 3
+          },
+          {
+            "content": "Minas Frescal",
+            "id": 4
+          },
+          {
+            "content": "Prato",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 11,
+        "question": "Qual é o tipo de herança mostrada no heredograma da imagem?",
+        "description": "São características de uma herança ligada ao X dominante: a característica aparece em todas as gerações. Há mais mulheres afetadas do que homens, e filhas de pais afetados são sempre afetadas.",
+        "img_question": "https://files.passeidireto.com/8a0345d1-0aa0-46f1-a2e8-4ed38ce079c3/bg1.png",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "autossômica dominante.",
+            "id": 1
+          },
+          {
+            "content": "autossômica recessiva.",
+            "id": 2
+          },
+          {
+            "content": "ligada ao X dominante.",
+            "id": 3
+          },
+          {
+            "content": "ligada ao X recessiva.",
+            "id": 4
+          },
+          {
+            "content": "Mitocondrial.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 9,
+        "question": "Qual a organela citoplasmática que está presente nas células bacterianas, animais e vegetais?",
+        "description": "Dentre as organelas apresentadas, o ribossomo é o único encontrado simultaneamente nas células bacterianas, animais e vegetais",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "ribossomo",
+            "id": 1
+          },
+          {
+            "content": "retículo endoplasmático",
+            "id": 2
+          },
+          {
+            "content": "mitocôndria",
+            "id": 3
+          },
+          {
+            "content": "lisossomo",
+            "id": 4
+          },
+          {
+            "content": "vacúolo",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 12,
+        "question": "A imagem é um exemplo de...",
+        "description": "Cadeia alimentar é a sequência unidirecional de matéria e energia trocada entre os seres vivos através da alimentação.",
+        "img_question": "https://www.coladaweb.com/wp-content/uploads/2015/01/20170111-cadeia-alimentar.jpg",
+        "theme": "Biologia",
+        "alternatives": [
+          {
+            "content": "hábito alimentar",
+            "id": 1
+          },
+          {
+            "content": "cadeia alimentar",
+            "id": 2
+          },
+          {
+            "content": "teia alimentar",
+            "id": 3
+          },
+          {
+            "content": "fila alimentar",
+            "id": 4
+          },
+          {
+            "content": "comensalismo",
             "id": 5
           }
         ],
@@ -78,113 +428,336 @@
     "points_to_lose": 10,
     "questions": [
       {
-        "id": 24,
-        "question": "Quais as principais raças de cães usadas pela polícia para rastrear criminosos, farejar materiais ilegais e realizar tarefas difíceis para os humanos?",
-        "description": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler são as raças mais utilizadas pela polícia.",
-        "img_response": "",
-        "img_awnser": "",
-        "theme": "Curiosidades",
+        "id": 51,
+        "question": "A imagem ilustra um problema comum na visão e como um óculos pode corrigi-lo. O problema representado e a lente para a correção são:",
+        "description": "O problema da visão é a Miopia e a lente para a correção, a divergente.",
+        "img_question": "https://www.oticaskohls.com.br/wp-content/uploads/2020/09/Miopia-O-que-e-causas-sintomas-tratamentos.jpg",
+        "theme": "Física",
         "alternatives": [
           {
-            "content": "Pastor Alemão, Pastor Belga de Malinois e Rottweiler.",
+            "content": "Astigmatismo e esférica.",
             "id": 1
           },
           {
-            "content": "Basset, Labrador e Yorkshire.",
+            "content": "Presbiopia e convergente.",
             "id": 2
           },
           {
-            "content": "Buldogue Francês, Lulu da Pomerândia e Pastor Alemão.",
+            "content": "Miopia e divergente.",
             "id": 3
           },
           {
-            "content": "Rottweiler, Pastor Alemão e Yorkshire.",
+            "content": "Hipermetropia e convergente.",
             "id": 4
           },
           {
-            "content": "Doberman, Dogue Alemão e Fila Brasileiro.",
+            "content": "Catarata e cilindrica. ",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 38,
+        "question": "Falando sobre período histórico, temos a.C. e d.C. que significam, respectivamente, “antes de Cristo” e “depois de Cristo”. Em latim, como é representada a sigla d.C.?",
+        "description": "A.D. é a abreviação de Anno Domini.",
+        "theme": "Curiosidades",
+        "alternatives": [
+          {
+            "content": "A.C.",
+            "id": 1
+          },
+          {
+            "content": "D.A.",
+            "id": 2
+          },
+          {
+            "content": "A.D.",
+            "id": 3
+          },
+          {
+            "content": "An. Dom.",
+            "id": 4
+          },
+          {
+            "content": "A.J.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 47,
+        "question": "O(s) fenômeno(s) físico(s) que é(são) responsável(eis) pela bela imagem da fotografia é(são):",
+        "description": "Refração e reflexão da luz. É possível observar que o segundo arco-íris apresenta uma ordem invertida das cores.",
+        "img_question": "https://services.meteored.com/img/article/ocorrencia-de-arco-iris-esta-aumentando-um-pessimo-sinal-para-o-clima-1671114527814_1280.jpeg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Refração da luz e Efeito Doppler",
+            "id": 1
+          },
+          {
+            "content": "Refração e reflexão da Luz",
+            "id": 2
+          },
+          {
+            "content": "Dupla reflexão da luz",
+            "id": 3
+          },
+          {
+            "content": "Dupla refração da luz",
+            "id": 4
+          },
+          {
+            "content": "Refração e interferência da luz",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      },
+      {
+        "id": 37,
+        "question": "Quem é o Intruso?",
+        "description": "O número “11” é o único que não é divisível por 3!",
+        "theme": "Curiosidades",
+        "alternatives": [
+          {
+            "content": "303",
+            "id": 1
+          },
+          {
+            "content": "81",
+            "id": 2
+          },
+          {
+            "content": "234",
+            "id": 3
+          },
+          {
+            "content": "11",
+            "id": 4
+          },
+          {
+            "content": "15",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 39,
+        "question": "Quantos degraus há na torre Eiffel?",
+        "description": "Gustave Eiffel criou 1665 degraus para subir ao topo da torre Eiffel.",
+        "theme": "Curiosidades",
+        "alternatives": [
+          {
+            "content": "1420",
+            "id": 1
+          },
+          {
+            "content": "1658",
+            "id": 2
+          },
+          {
+            "content": "2561",
+            "id": 3
+          },
+          {
+            "content": "1665",
+            "id": 4
+          },
+          {
+            "content": "996",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 55,
+        "question": "O fato de o homem, dentro da estrutura metálica, não ser afetado pelas altas descargas elétricas que a atingem é devido ao processo idealizado por:",
+        "description": "Esta estrutura metálica, que funciona como uma blindagem eletrostática, também é conhecida como Gaiola de Faraday.",
+        "img_question": "https://newtoncbraga.com.br/images/stories/almanaque/alm1021_0001.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Marie Ampère.",
+            "id": 1
+          },
+          {
+            "content": "Benjamin Franklin.",
+            "id": 2
+          },
+          {
+            "content": "Charles Coulomb.",
+            "id": 3
+          },
+          {
+            "content": "Thomas Edison.",
+            "id": 4
+          },
+          {
+            "content": "Michael Faraday.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 64,
+        "question": "Durante o horário de verão, pela Copa do Brasil, o jogo entre os times do Rio Branco e Bahia, iniciou-se às 22h na capital acreana e foi visto, ao vivo, a que horas na capital baiana?",
+        "description": "O Acre fica a dois fusos horários a oeste da Bahia, e nenhum dos dois Estados adota o Horário de Verão. Portanto, se o jogo começou às 22h em Rio Branco, foi assistido, ao vivo, com duas horas a mais em Salvador (às 24h).",
+        "img_response": "https://content.prodigioeducacao.com/prodigio/upload/73fd63ba-e233-4d6f-a4fa-3cbee24fb756.jpeg",
+        "theme": "Geografia",
+        "alternatives": [
+          {
+            "content": "às 24h.",
+            "id": 1
+          },
+          {
+            "content": "à 01h do dia seguinte.",
+            "id": 2
+          },
+          {
+            "content": "às 23h.",
+            "id": 3
+          },
+          {
+            "content": "às 22h.",
+            "id": 4
+          },
+          {
+            "content": "às 20h.",
             "id": 5
           }
         ],
         "correct_answer_id": 1
       },
       {
-        "id": 44,
-        "question": "A partir do telescópio Hubble, foi possível obter imagens fantásticas do Universo. Isto se deve ao fato de que o telescópio está em órbita ao redor da Terra, reduzindo assim:",
-        "description": "A atmosfera terrestre gera muita refração da luz proveniente dos astros, o que prejudica a observação destes.",
-        "img_response": "",
-        "img_awnser": "https://img.olhardigital.com.br/wp-content/uploads/2021/07/Telescopio-Espacial-Hubble-fotografado-a-partir-da-Discovery-em-1997.png",
+        "id": 45,
+        "question": "A distância deste ponto, em uma rodovia nos EUA, até a cidade de Las Vegas é de:",
+        "description": "A placa está em Milhas, portanto 72 x 1,6 = 115,2 km",
+        "img_question": "https://i.pinimg.com/originals/35/d6/6f/35d66f2b665726abd74e6e2c3e9f28df.jpg",
         "theme": "Física",
         "alternatives": [
           {
-            "content": "a interferência da gravidade sobre o seu alinhamento",
+            "content": "72 km",
             "id": 1
           },
           {
-            "content": "a interferência da atmosfera terrestre",
+            "content": "259,2 km",
             "id": 2
           },
           {
-            "content": "a interferência da luz solar",
+            "content": "20 km",
             "id": 3
           },
           {
-            "content": "a interferência da luz das outras cidades",
+            "content": "45 km",
             "id": 4
           },
           {
-            "content": "a interferência de outros telescópios na superfície da terra",
+            "content": "115,2 km",
             "id": 5
           }
         ],
-        "correct_answer_id": 2
-      }
-    ]
-  },
-  "difficult": {
-    "next_level": "finished",
-    "time": 1200000,
-    "time_per_question": 30000,
-    "points_to_earn": 30,
-    "points_to_lose": 10,
-    "questions": [
+        "correct_answer_id": 5
+      },
       {
-        "id": 80,
-        "question": "No Brasil, segundo o censo agropecuário do IBGE, o estado maior produtor de Café é:",
-        "description": "O Café é um dos principais produtos da pauta de exportações do Brasil. Historicamente ligado a SP e PR, tem, na atualidade, o estado de MG como maior produtor, conforme censo agropecuário do IBGE.",
-        "img_response": "",
-        "img_awnser": "",
-        "theme": "Geografia",
+        "id": 43,
+        "question": "A energia elétrica consumida pelo chuveiro, quando ele opera em sua máxima potência, durante um banho de 20 min, é igual a:",
+        "description": "P = 5400 W = 5,4 KW    Δt = 20 min = 1/3 h  |   E = P.Δt = 5,4 . 1/3 = 1,8 KWh.",
+        "img_question": "https://www.mundodaeletrica.com.br/y/5118/Slide1-3.jpg",
+        "theme": "Física",
         "alternatives": [
           {
-            "content": "SP.",
+            "content": "1800 J.",
             "id": 1
           },
           {
-            "content": "MG.",
+            "content": "450 J.",
             "id": 2
           },
           {
-            "content": "ES.",
+            "content": "64,8 J.",
             "id": 3
           },
           {
-            "content": "BA.",
+            "content": "27 KWh.",
             "id": 4
           },
           {
-            "content": "PR.",
+            "content": "1,8 KWh.",
             "id": 5
           }
         ],
-        "correct_answer_id": 2
+        "correct_answer_id": 5
+      },
+      {
+        "id": 54,
+        "question": "Para o senhor que está sentado num brinquedo, em um superparque de diversões, que gira em uma trajetória circular de raio igual a 10 m a 25 m/s, ele experimenta uma força G de aproximadamente:",
+        "description": "F = mv2/R      e    F = m.a   , logo a = 252/10 | a = 62,5 m/s2 | Considerando g = 10 m/s2, teremos aproximadamente, 6g.",
+        "img_question": "https://www.fatosdesconhecidos.com.br/wp-content/uploads/2017/06/1-392-1638x1080.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "2,5g.",
+            "id": 1
+          },
+          {
+            "content": "3,0g.",
+            "id": 2
+          },
+          {
+            "content": "4,0g.",
+            "id": 3
+          },
+          {
+            "content": "6,0g.",
+            "id": 4
+          },
+          {
+            "content": "10g.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 57,
+        "question": "A memorável capa do álbum The Dark Side of the Moon, da banda de rock Pink Floyd, ilustra o fenômeno físico da:",
+        "description": "Dispersão da luz, na qual a luz branca, ao passar por um prisma, sofrerá refração e será desviada em um ângulo diferente.",
+        "img_question": "https://www.92rockpop.com.br/wp-content/uploads/2023/03/pink-floyd-dark-side-of-the-moon.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Dispersão da luz.",
+            "id": 1
+          },
+          {
+            "content": "Reflexão interna da luz.",
+            "id": 2
+          },
+          {
+            "content": "Interferência da luz.",
+            "id": 3
+          },
+          {
+            "content": "Birrefringência .",
+            "id": 4
+          },
+          {
+            "content": "Ressonância luminosa.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
       },
       {
         "id": 36,
         "question": "Qual o maior túnel do mundo?",
         "description": "Seikan, no Japão com 53,8 km, enquanto o Eurotunel tem 50,4 km.",
-        "img_response": "",
-        "img_awnser": "",
         "theme": "Curiosidades",
         "alternatives": [
           {
@@ -209,6 +782,958 @@
           }
         ],
         "correct_answer_id": 3
+      },
+      {
+        "id": 40,
+        "question": "Imagine que você foi dar um salto de paraquedas e, de repente, ao saltar, você sai da posição correta e acaba escorregando. O que fazer para se salvar?",
+        "description": "Agarrar as canelas e esperar pelo melhor.",
+        "theme": "Curiosidades",
+        "alternatives": [
+          {
+            "content": "Puxar a corda do paraquedas.",
+            "id": 1
+          },
+          {
+            "content": "Abrir os braços para gerar resistência.",
+            "id": 2
+          },
+          {
+            "content": "Agarrar as canelas e esperar pelo melhor.",
+            "id": 3
+          },
+          {
+            "content": "Fechar a boca e os olhos.",
+            "id": 4
+          },
+          {
+            "content": "Abrir espaço com as pernas para deixar o ar entrar.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 42,
+        "question": "Uma fonte de calor de 500 W foi utilizada para aquecer 50L de água. Sabendo-se que este processo demorou 2h, a variação de temperatura da água foi de:",
+        "description": "Como Q = m.c.ΔT e Q = Potência x tempo  |  (500W).(2x3600s) = (50.000g).(4,0 J/g C). ΔT |  ΔT = 18 C",
+        "img_question": "https://revista.crea-pr.org.br/wp-content/uploads/2022/09/Coletor-telhado.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "5 C.",
+            "id": 1
+          },
+          {
+            "content": "9 C.",
+            "id": 2
+          },
+          {
+            "content": "18 C.",
+            "id": 3
+          },
+          {
+            "content": "36 C.",
+            "id": 4
+          },
+          {
+            "content": "72 C.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 53,
+        "question": "Quando um caça ultrapassa a barreira do som, além de um forte estrondo, observamos esta “nuvem” ao redor do avião, que é devida:",
+        "description": "Ao acúmulo das frentes de onda. Nesta região das “nuvens”, a pressão do ar seria bem maior.",
+        "img_question": "https://tm.ibxk.com.br/2016/02/01/01115727590109.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "ao acúmulo das frentes de onda.",
+            "id": 1
+          },
+          {
+            "content": "à alta velocidade.",
+            "id": 2
+          },
+          {
+            "content": "à queda de pressão.",
+            "id": 3
+          },
+          {
+            "content": "ao aumento da temperatura.",
+            "id": 4
+          },
+          {
+            "content": "à alta aceleração do avião.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 48,
+        "question": "Se o centro de massa da embarcação, também conhecida como veleiro, estiver acima da linha da água, seu equilíbrio será:",
+        "description": "Instável, pois surgirá um torque que não deixará mais o barco voltar à posição de equilíbrio.",
+        "img_question": "https://f.i.uol.com.br/fotografia/2022/11/13/166837319563715acbc7bf4_1668373195_3x2_md.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Instável.",
+            "id": 1
+          },
+          {
+            "content": "Estável.",
+            "id": 2
+          },
+          {
+            "content": "Indiferente.",
+            "id": 3
+          },
+          {
+            "content": "Invariável. ",
+            "id": 4
+          },
+          {
+            "content": "Oscilatório.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 59,
+        "question": "Numa geladeira, o trabalho realizado pelo(sobre) o gás é que possibilita a troca de calor entre o meio interno e externo. No evaporador e no compressor, o trabalho realizado pelo gás é:",
+        "description": "No processo de evaporação, o gás sobre uma expansão adiabática, logo o trabalho será positivo. Na compressão do gás, este sofrerá uma diminuição de volume e o trabalho será negativo.",
+        "img_question": "https://2.bp.blogspot.com/-0BRo1Lwu3pw/VfQa0hU1FvI/AAAAAAAAAH4/9GLWSEzeP4g/s1600/geladeira.png",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Positivo – Negativo.",
+            "id": 1
+          },
+          {
+            "content": "Positivo – Positivo.",
+            "id": 2
+          },
+          {
+            "content": "Negativo – Negativo.",
+            "id": 3
+          },
+          {
+            "content": "Zero – Negativo.",
+            "id": 4
+          },
+          {
+            "content": "Positivo – Zero.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 62,
+        "question": "o plano rodoviário nacional, as rodovias radiais são aquelas que:",
+        "description": "O mapa abaixo mostra algumas da rodovias radiais, que partem de Brasília e variam da BR 010 a 090.",
+        "img_response": "https://www.gov.br/dnit/pt-br/rodovias/rodovias-federais/nomeclatura-das-rodovias-federais/rodovias-radiais.jpg",
+        "theme": "Geografia",
+        "alternatives": [
+          {
+            "content": "“Cortam” o país numa mesma linha longitudinal.",
+            "id": 1
+          },
+          {
+            "content": "Atravessam o país de Norte a sul como a BR 101 e 116.",
+            "id": 2
+          },
+          {
+            "content": "São também chamadas de rodovias de ligação, fazendo “pontes” transversais entre as principais rodovias. ",
+            "id": 3
+          },
+          {
+            "content": "Partem de Brasília.",
+            "id": 4
+          },
+          {
+            "content": "Margeiam a região amazônica.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 50,
+        "question": "A foto mostra a Lua em um eclipse lunar total. A cor laranja da Lua durante o eclipse é devido:",
+        "description": "A cor laranja, proveniente da luz solar, será a que sofrerá um maior desvio ao passar pela atmosfera terrestre, atingindo posteriormente a superficie lunar, deixando-a alaranjada.",
+        "img_question": "https://istoe.com.br/wp-content/uploads/2019/01/2d871074a48503ecbcc7f5dda485ba2dd0cc7d1d.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "à composição química da Lua.",
+            "id": 1
+          },
+          {
+            "content": "ao reflexo da luz solar pela Terra.",
+            "id": 2
+          },
+          {
+            "content": "à interferência da Luz solar com a atmosfera da Lua.",
+            "id": 3
+          },
+          {
+            "content": "ao efeito Doppler, que ocorre devido ao movimento da lua",
+            "id": 4
+          },
+          {
+            "content": "à refração da Luz solar na atmosfera terrestre.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 52,
+        "question": "Nos últimos anos, a sonda Kepler revelou uma grande quantidade de exoplanetas, com um melhor detalhamento de suas propriedades. Um exoplaneta é definido como sendo:",
+        "description": "Um planeta que orbita uma estrela diferente de nosso Sol. Os itens a e b dizem respeito às características de um exoplaneta onde poderia existir vida.",
+        "img_question": "https://hypescience.com/wp-content/uploads/2014/04/kepler-186f-perspective.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Um planeta que tem características próximas às da Terra",
+            "id": 1
+          },
+          {
+            "content": "Um planeta que está na zona habitável de uma estrela",
+            "id": 2
+          },
+          {
+            "content": "Um planeta que orbita uma estrela diferente de nosso Sol",
+            "id": 3
+          },
+          {
+            "content": "Um planeta que tem uma órbita além da órbita de Plutão",
+            "id": 4
+          },
+          {
+            "content": "Um planeta que apresenta uma exocamada sólida.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 44,
+        "question": "A partir do telescópio Hubble, foi possível obter imagens fantásticas do Universo. Isto se deve ao fato de que o telescópio está em órbita ao redor da Terra, reduzindo assim:",
+        "description": "A atmosfera terrestre gera muita refração da luz proveniente dos astros, o que prejudica a observação destes.",
+        "img_question": "https://img.olhardigital.com.br/wp-content/uploads/2021/07/Telescopio-Espacial-Hubble-fotografado-a-partir-da-Discovery-em-1997.png",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "a interferência da gravidade sobre o seu alinhamento",
+            "id": 1
+          },
+          {
+            "content": "a interferência da atmosfera terrestre",
+            "id": 2
+          },
+          {
+            "content": "a interferência da luz solar",
+            "id": 3
+          },
+          {
+            "content": "a interferência da luz das outras cidades",
+            "id": 4
+          },
+          {
+            "content": "a interferência de outros telescópios na superfície da terra",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      },
+      {
+        "id": 56,
+        "question": "A partir do experimento de H. Cavendish, em 1798, foi possível obter a densidade do planeta Terra. Este trabalho foi fundamental para a determinação da:",
+        "description": "A constante G da lei da Gravitação Universal.",
+        "img_question": "https://webfisica.com/imagens-fisica/aulas/aula3-28/caven.png",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Constante de Cavendish.",
+            "id": 1
+          },
+          {
+            "content": "Constante elástica.",
+            "id": 2
+          },
+          {
+            "content": "Constante eletrostática.",
+            "id": 3
+          },
+          {
+            "content": "Constante da gravitação universal.",
+            "id": 4
+          },
+          {
+            "content": "Constante de Planck.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 63,
+        "question": "O deslocamento em linha reta de um ponto de coordenadas (23º30’S e 60ºW) para outro de coordenadas (24ºS e 50º30’W) terá que seguir a direção:",
+        "description": "",
+        "img_response": "https://www.estadosecapitaisdobrasil.com/wp-content/uploads/2016/06/latitude-e-longitude.jpg",
+        "theme": "Geografia",
+        "alternatives": [
+          {
+            "content": "Sudeste.",
+            "id": 1
+          },
+          {
+            "content": "Nordeste.",
+            "id": 2
+          },
+          {
+            "content": "NorSudoeste.",
+            "id": 3
+          },
+          {
+            "content": "EsteNordeste.",
+            "id": 4
+          },
+          {
+            "content": "Noroeste.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 61,
+        "question": "O modelo industrial proposto por Vargas foi apoiado no(a):",
+        "description": "No contexto da Era Vargas, o primeiro grande surto industrial se deu com o forte investimento em indústrias de base de capital estatal e estímulo à SUBSTITUIÇÃO DE IMPORTAÇÕES, modelo que perdurou pelas décadas seguintes.",
+        "theme": "Geografia",
+        "alternatives": [
+          {
+            "content": "Plataforma de exportação",
+            "id": 1
+          },
+          {
+            "content": "Substituição de exportações ",
+            "id": 2
+          },
+          {
+            "content": "Substituição de importações",
+            "id": 3
+          },
+          {
+            "content": "tração de multinacionais",
+            "id": 4
+          },
+          {
+            "content": "Produção nacional de bens de consumo duráveis",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 49,
+        "question": "Em 1971, o comandante David Scott, da Apollo 15, testou na Lua uma teoria de 1589, na qual uma pena e um martelo soltos ao mesmo tempo e da mesma altura chegariam juntos ao solo. Esta teoria é de:",
+        "description": "Galilei Galileo. No experimento realizado na lua, foi possível eliminar o efeito da resistência do ar sobre o movimento dos corpos.",
+        "img_question": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/1200px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Isaac Newton.",
+            "id": 1
+          },
+          {
+            "content": "Johanes Kepler.",
+            "id": 2
+          },
+          {
+            "content": "Nicolau Copérnico.",
+            "id": 3
+          },
+          {
+            "content": "Giordano Bruno.",
+            "id": 4
+          },
+          {
+            "content": "Galilei Galileo.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 58,
+        "question": "O trovão, que ouvimos logo após um relâmpago cruzar o céu, é devido a vários fatores, exceto à(ao):",
+        "description": "Ionização do ar em torno do relâmpago. ",
+        "img_question": "https://4.bp.blogspot.com/-HoNP4kt7Ly8/TcpeebcucdI/AAAAAAAAAVQ/nva_lUy2l94/s1600/raio-arvore.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Aumento da temperatura do ar.",
+            "id": 1
+          },
+          {
+            "content": "Altíssima corrente elétrica passando pelo ar.",
+            "id": 2
+          },
+          {
+            "content": "Aumento da pressão do ar no caminho do relâmpago.",
+            "id": 3
+          },
+          {
+            "content": "Elevadíssima D.D.P entre as nuvens e o solo",
+            "id": 4
+          },
+          {
+            "content": "Ionização do ar em torno do relâmpago.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 60,
+        "question": "De acordo com a Teoria da Relatividade Geral, a definição de buraco negro é:",
+        "description": "De acordo com a Teoria da Relatividade Geral, de Albert Einstein,  um buraco negro é uma região do espaço da qual nada, nem mesmo partículas que se movem à velocidade da luz, podem escapar, pois a sua velocidade é inferior à velocidade de escape desses corpos celestes infinitamente densos.",
+        "img_question": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/260px-Black_hole_-_Messier_87_crop_max_res.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "Uma região do espaço da qual nada pode escapar.",
+            "id": 1
+          },
+          {
+            "content": "Um ponto que atrai toda a luz para si.",
+            "id": 2
+          },
+          {
+            "content": "A deformação gerada no espaço-tempo devido à gravidade de uma estrela.",
+            "id": 3
+          },
+          {
+            "content": "O ponto que gera a maior força gravitacional no universo.",
+            "id": 4
+          },
+          {
+            "content": "A matéria escura que permeia uma galáxia.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 41,
+        "question": "As bicicletas de montanha (montain bikes) evoluíram muito na última década. Passaram a ter rodas de raio 29” ao invés de 26”. Com isso, comparando com os modelos antigos, as novas rodas giram com uma frequência aproximadamente",
+        "description": "V = 2πf.R, na comparação  f1 . R1 = f2 . R2 | f29 . 29 = f 26 . 26 | f29 / f 26  = 26/29  ≈ 0,90  Logo, 10% menor!",
+        "img_question": "https://tse3.mm.bing.net/th?id=OIP.WMKCveSSqBQF3rBeoDpDPQHaE7&pid=Api&P=0&h=180",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "3% maior",
+            "id": 1
+          },
+          {
+            "content": "3% menor",
+            "id": 2
+          },
+          {
+            "content": "10% maior",
+            "id": 3
+          },
+          {
+            "content": "10% menor",
+            "id": 4
+          },
+          {
+            "content": "Igual",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 46,
+        "question": "Um carro que é equipado com o sistema ABS, que não deixa as rodas do carro travarem durante uma frenagem, reduz a distância de frenagem em 30%, quando comparado à situação com o sistema desligado. Logo, podemos concluir que a relação entre os coeficientes de atrito cinético e estático, entre os pneus e o asfalto, vale: ",
+        "description": "v2=v02-2aΔS | a=gμ  | aABS/a = aE/aC = 1/0,7  | ac/aE=0,7",
+        "img_question": "https://www.carangospb.com/wp-content/uploads/Aut%C3%B3dromo-da-Para%C3%ADba-sedia-Track-Day-de-carros-esportivos-no-dia-25-deste-m%C3%AAs.jpg",
+        "theme": "Física",
+        "alternatives": [
+          {
+            "content": "0,90.",
+            "id": 1
+          },
+          {
+            "content": "1,43.",
+            "id": 2
+          },
+          {
+            "content": "1,70.",
+            "id": 3
+          },
+          {
+            "content": "0,70.",
+            "id": 4
+          },
+          {
+            "content": "0,49.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      }
+    ]
+  },
+  "difficult": {
+    "next_level": "finished",
+    "time": 1200000,
+    "time_per_question": 30000,
+    "points_to_earn": 30,
+    "points_to_lose": 10,
+    "questions": [
+      {
+        "id": 109,
+        "question": "Assinale a opção em que ocorre um substantivo feminino.",
+        "description": "Musse é um substantivo feminino.  A musse de maracujá estava deliciosa.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Musse.",
+            "id": 1
+          },
+          {
+            "content": "Eclipse.",
+            "id": 2
+          },
+          {
+            "content": "Dó (pena).",
+            "id": 3
+          },
+          {
+            "content": "trema.",
+            "id": 4
+          },
+          {
+            "content": "Apêndice.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 115,
+        "question": "Em “O casal de índios levou-os à sua aldeia, que estava deserta, onde ofereceu frutas aos convidados”, temos:",
+        "description": "No fragmento temos, um pronome pessoal oblíquo (“os”), um pronome possessivo (“sua”) e dois pronomes relativos (“que” e “onde”).",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "dois pronomes possessivos e dois pronomes pessoais",
+            "id": 1
+          },
+          {
+            "content": "um pronome pessoal, um pronome possessivo e dois pronomes relativos ",
+            "id": 2
+          },
+          {
+            "content": "dois pronomes pessoais e dois pronomes relativos",
+            "id": 3
+          },
+          {
+            "content": "um pronome pessoal, um pronome possessivo, um pronome relativo e um pronome interrogativo",
+            "id": 4
+          },
+          {
+            "content": "dois pronomes possessivos e dois pronomes relativos. ",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      },
+      {
+        "id": 116,
+        "question": "Assinale a opção em que todos os elementos caracterizam a poesia romântica brasileira, respectivamente, em suas três gerações ou fases:",
+        "description": "O Indianismo representa a fase nacionalista e busca do herói nacional; a Melancolia, o pessimismo que caracterizou a 2ª fase romântica ou Mal do Século, enquanto que a Preocupação Social representa, sobretudo, a poesia de Casto Alves, destacatamente em Navio Negreiro.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Nacionalismo, autocompaixão, ambiência lúgubre.",
+            "id": 1
+          },
+          {
+            "content": "Indianismo, melancolia, preocupação social.",
+            "id": 2
+          },
+          {
+            "content": "Preocupação formal, subjetivismo, morbidez acentuada.",
+            "id": 3
+          },
+          {
+            "content": "Imaginação criadora, engajamento político, inspiração clássica.",
+            "id": 4
+          },
+          {
+            "content": "Natureza, pessimismo, cientificismo.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      },
+      {
+        "id": 111,
+        "question": "Assinale a opção que apresenta uma característica que NÃO pertence ao Arcadismo:",
+        "description": "O vocabulário rebuscado (utilização de palavras mais elaboradas e de significado complexo) é uma característica do Barroco.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Antropocentrismo.",
+            "id": 1
+          },
+          {
+            "content": "Paganismo.",
+            "id": 2
+          },
+          {
+            "content": "Influências do Iluminismo.",
+            "id": 3
+          },
+          {
+            "content": "Bucolismo.",
+            "id": 4
+          },
+          {
+            "content": "Rebuscamento do vocabulário.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 106,
+        "question": "Assinale a alternativa em que se encontra a figura de linguagem presente na frase:  Embarcaremos no avião das 21h.",
+        "description": "Consiste na utilização de um termo ⎯ já existente e com significação própria ⎯ em outro sentido em virtude da falta de palavras que expressem o que se quer dizer. Na questão, embora o verbo embarcar tenha-se originado a partir do substantivo barca (embarcar = entrar numa barca, a fim de ser por ela transportado), hoje o seu emprego é extensível para expressar a mesma ideia, porém com outros meios de transporte que não somente a barca. Exemplos: “Embarcar no trem”, “Embarcar no ônibus”.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Anáfora.",
+            "id": 1
+          },
+          {
+            "content": "Catacrese.",
+            "id": 2
+          },
+          {
+            "content": "Metonímia.",
+            "id": 3
+          },
+          {
+            "content": "Antonomásia.",
+            "id": 4
+          },
+          {
+            "content": "Silepse.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
+      },
+      {
+        "id": 108,
+        "question": "Goza, goza da flor da mocidade,  Que o tempo trota a toda ligeireza, E imprime em toda a flor sua pisada.  Oh, não aguardes, que a madura idade  Te converta em flor, essa beleza  Em terra, em cinza, em pó, em sobra, em nada. (Gregório de Matos)  Analisando o fragmento da poesia acima, conclui-se que o agente é a (o)",
+        "description": "É o tempo o responsável pela temática presentes nos versos, pois é ele que “trota”, “imprime”, além de converter toda beleza em “terra, em cinza, em pó, em sobra, em nada”.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "mocidade.",
+            "id": 1
+          },
+          {
+            "content": "terra.",
+            "id": 2
+          },
+          {
+            "content": "beleza.",
+            "id": 3
+          },
+          {
+            "content": "flor",
+            "id": 4
+          },
+          {
+            "content": "tempo. ",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 118,
+        "question": "Considerado pela crítica brasileira o escritor mais bem dotado de sua geração, Álvares de Azevedo, além das poesias, deixou-nos que obra de prosa narrativa?",
+        "description": "Publicada postumamente em 1855, Noite na Taverna é uma antologia de contos do autor ultrarromântico Álvares de Azevedo.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Tenda dos Milagres.",
+            "id": 1
+          },
+          {
+            "content": "Macário.",
+            "id": 2
+          },
+          {
+            "content": "Espumas Flutuantes.",
+            "id": 3
+          },
+          {
+            "content": "Noite na Taverna.",
+            "id": 4
+          },
+          {
+            "content": "O Cortiço.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 119,
+        "question": "Assinale, entre as alternativas a seguir, aquela em que o “se” apresenta a mesma função sintática que em “Abriu-se a porta do apartamento”.",
+        "description": "Em “Abriu-se a porta do apartamento”, o pronome “se” exerce a função de partícula apassivadora, por estar vinculada a um verbo transitivo direto. Fenômeno idêntico encontra-se na alternativa C, em que o pronome “se” está vinculado a um verbo transitivo direto (“Escolheram”), exercendo a mesma função, qual seja, a de partícula apassivadora.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Se vendem as latinhas vazias para reciclagem, eu já não sei.",
+            "id": 1
+          },
+          {
+            "content": "Falam-se uma ou duas vezes por semana, uma gosta muito da outra.",
+            "id": 2
+          },
+          {
+            "content": "Escolheram-se os melhores, mas nem estes eram muito bons. ",
+            "id": 3
+          },
+          {
+            "content": "Lá se vai o amigo, rua acima, meio quieto, parecendo magoado.",
+            "id": 4
+          },
+          {
+            "content": "Despediu-se rapidamente, sonhara a noite toda com aquela viagem.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 3
+      },
+      {
+        "id": 110,
+        "question": "Assinale a opção em que se empregou corretamente a forma verbal:",
+        "description": "Os verbos presentes nas alternativas são irregulares. Portanto, na (A) a forma verbal deveria ser vir, na (B), interveio, na (C), propuser e, na (D), indispuseram. ",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Quando você ver Epaminondas, diga-lhe que preciso muito falar com ele.",
+            "id": 1
+          },
+          {
+            "content": "O policial interviu na discussão, a fim de evitar mal maior.",
+            "id": 2
+          },
+          {
+            "content": "Se a empresa propor vagas de empregos, haverá muitos candidatos.",
+            "id": 3
+          },
+          {
+            "content": "Os funcionários se indisporam com a diretoria.",
+            "id": 4
+          },
+          {
+            "content": "Ficarão alegres, se virem os resultados.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 117,
+        "question": "O pronome oblíquo pode substituir o possessivo, como na frase:",
+        "description": "Em Furtaram-lhe a carteira, o pronome lhe está substituindo ou o pronome sua ou o pronome dele. Assim:  Furtaram a sua carteira.  Ou  Furtaram a carteira dele.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "A esposa pedia-lhe que pusesse a gramática de lado.",
+            "id": 1
+          },
+          {
+            "content": "Arrume-se já.",
+            "id": 2
+          },
+          {
+            "content": "Dei-lhe toda atenção.",
+            "id": 3
+          },
+          {
+            "content": "O professor devolveu-me o livro.",
+            "id": 4
+          },
+          {
+            "content": "Furtaram-lhe a carteira com todos os documentos.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 107,
+        "question": "Assinale a alternativa em que não há conotação. ",
+        "description": "A letra D é a única que não apresenta palavra ou expressão em sentido conotativo.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Construí um abismo de pedra entre mim e ti. ",
+            "id": 1
+          },
+          {
+            "content": "Senti a seda da pele do bebê em meus dedos quando o segurei.",
+            "id": 2
+          },
+          {
+            "content": "Diante do caos estabelecido na empresa, o gerente nadava em ouro. ",
+            "id": 3
+          },
+          {
+            "content": "Eu não me importo com suas dores de cabeça.",
+            "id": 4
+          },
+          {
+            "content": "Estamos mortos de fome. ",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 114,
+        "question": "Leia as afirmações abaixo e, a seguir, responda o que se pede. I - Valoriza-se o ideal burguês da vida sustentada pelo trabalho em detrimento dos valores aristocráticos.  II - Cultiva-se a naturalidade: o homem deve conhecer e exprimir sua sensibilidade e seus sentimentos.  III - Prega-se uma vida mediana e equilibrada, longe do mundo urbano. A linguagem deve ser simples, consistindo apenas no que é essencial.  O movimento literário definido pelas afirmativas é o:",
+        "description": "Os ideais mencionados são características do Arcadismo, o qual defendia a simplicidade da vida, o “fugere urbem” (a fuga da cidade), entre outros aspectos.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Romantismo",
+            "id": 1
+          },
+          {
+            "content": "Barroco",
+            "id": 2
+          },
+          {
+            "content": "Parnasianismo",
+            "id": 3
+          },
+          {
+            "content": "Arcadismo ",
+            "id": 4
+          },
+          {
+            "content": "Simbolismo",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 4
+      },
+      {
+        "id": 112,
+        "question": "Assinale a alternativa em que há um verbo defectivo:",
+        "description": "Verbo defectivo é aquele que não apresenta conjugação para todas as pessoas, tempos e modos. Desse modo, o verbo demolir enquadra-se nesse paradigma, não tendo, por exemplo, a 1ª. Pessoa do singular do presente do indicativo, o que vai redundar na inexistência de todo o presente do subjuntivo.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Demoliram vários prédios naquele local. ",
+            "id": 1
+          },
+          {
+            "content": "Eles se correspondem frequentemente.",
+            "id": 2
+          },
+          {
+            "content": "Estampava no rosto um sorriso, um sorriso de criança.",
+            "id": 3
+          },
+          {
+            "content": "Compramos muitas mercadorias remarcadas.",
+            "id": 4
+          },
+          {
+            "content": "Coube ao juiz julgar o réu. ",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 1
+      },
+      {
+        "id": 120,
+        "question": "O projeto desse movimento literário baseava-se na crença de que a função essencial da arte era produzir o belo, e o lema escolhido para traduzir essa ideia foi “a arte pela arte”. É possível observar, nesse contexto, características como a preocupação com a técnica (metro, ritmo e rima) e o resgate de temas da Antiguidade clássica (referências à mitologia e a personagens históricas). Essa escola literária é conhecida como",
+        "description": "O Parnasianismo caracterizou-se pela busca da perfeição formal, vocabulário culto, gosto pelo soneto e pelas descrições, rimas raras, apego à tradição clássica e à arte pela arte.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Neoclassicismo. ",
+            "id": 1
+          },
+          {
+            "content": "Arcadismo.",
+            "id": 2
+          },
+          {
+            "content": "Classicismo.",
+            "id": 3
+          },
+          {
+            "content": "Expressionismo. ",
+            "id": 4
+          },
+          {
+            "content": "Parnasianismo.",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 5
+      },
+      {
+        "id": 113,
+        "question": "“As pessoas são inteiramente livres, como julgo são aqui.” No trecho sublinhado, ocorre uma omissão de que tipo de palavra?",
+        "description": "Omitiu-se a conjunção integrante “que” no segmento destacado (… como julgo que são aqui.), que é uma oração subordinada substantiva com valor de objeto direto do verbo julgar.",
+        "theme": "Português",
+        "alternatives": [
+          {
+            "content": "Conjunção conclusiva.",
+            "id": 1
+          },
+          {
+            "content": "Conjunção integrante. ",
+            "id": 2
+          },
+          {
+            "content": "Palavra denotativa.",
+            "id": 3
+          },
+          {
+            "content": "Preposição essencial.",
+            "id": 4
+          },
+          {
+            "content": "Pronome relativo. ",
+            "id": 5
+          }
+        ],
+        "correct_answer_id": 2
       }
     ]
   }

@@ -18,6 +18,7 @@ function WaitingRoom({ socket }) {
         JSON.stringify({ question, level })
       );
       localStorage.setItem("userPoints", 10);
+      localStorage.setItem("isPresenter", "");
       navigate("/question/student");
     });
   }, []);
