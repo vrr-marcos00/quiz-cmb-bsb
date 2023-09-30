@@ -2,6 +2,8 @@ import React from "react";
 import "./styles.css";
 
 function ContainerQuestions({ question }) {
+  const alternativesLetter = ["A", "B", "C", "D", "E"];
+
   return (
     <div className="row-main_question">
       <div>
@@ -9,7 +11,7 @@ function ContainerQuestions({ question }) {
           <div className="cointainer-awnser">
             {question?.question && (
               <>
-                {question?.question?.split(/\r?\n/).map((item) => (
+                {question?.question?.split(/\r?\n/).map((item, index) => (
                   <p>{item}</p>
                 ))}
               </>
@@ -30,7 +32,7 @@ function ContainerQuestions({ question }) {
             <>
               {question?.alternatives.map(({ content, id }, index) => (
                 <span className="alternatives_span" key={id}>
-                  {content}
+                  {`${alternativesLetter[index]}) ${content}`}
                 </span>
               ))}
             </>

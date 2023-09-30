@@ -2,17 +2,34 @@
 import React from "react";
 import "./styles.css";
 
+import { useNavigate } from "react-router-dom";
+
 /**
  * Components
  */
 import CreateRoom from "./components/CreateRoom";
 
 function Home({ socket }) {
+  const navigate = useNavigate();
   const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
 
   React.useEffect(() => {
+    socket.emit("clearFileRoom");
+
     socket.on("currentRoom", (currentRoom) => {
       setCurrentRoomInfo(currentRoom);
+    });
+
+    socket.on("show-next-question", ({ question, level }) => {
+      localStorage.setItem(
+        "currentQuestion",
+        JSON.stringify({ question, level })
+      );
+      navigate("/question/presenter");
+    });
+
+    socket.on("initGameError", (message) => {
+      alert(message);
     });
   }, []);
 
