@@ -13,12 +13,10 @@ function WaitingRoom({ socket }) {
 
   React.useEffect(() => {
     socket.on("show-next-question", ({ question, level }) => {
-      console.log(question);
       localStorage.setItem(
         "currentQuestion",
         JSON.stringify({ question, level })
       );
-      alert(level);
       navigate("/question/student");
     });
   }, []);

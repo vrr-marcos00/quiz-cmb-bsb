@@ -215,12 +215,11 @@ io.on("connection", (socket) => {
     calculatePointsAndRestartUsersCurrentAnswers();
   });
 
-  socket.on("user-answer", ({ userId, answerId, ...rest }) => {
-    console.log("userId", socket.id);
-    if (!getCurrentUserAnswer(socket.id)) {
-      io.emit("user-answer-to-presenter", { id: socket.id });
+  socket.on("user-answer", ({ userId, answerId }) => {
+    if (!getCurrentUserAnswer(userId)) {
+      io.emit("user-answer-to-presenter", { id: userId });
     }
-    updateUserAnswer({ userId: socket.id, answerId });
+    updateUserAnswer({ userId, answerId });
   });
 });
 
