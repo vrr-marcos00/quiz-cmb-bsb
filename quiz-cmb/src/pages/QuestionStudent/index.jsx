@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
 
+import { useNavigate } from "react-router-dom";
+
 /**
  * Components
  */
@@ -9,27 +11,55 @@ import CardAwnser from "./components/CardAwnser";
 import TimeQuestion from "./components/TimeQuestion";
 
 function QuestionStudent({ socket }) {
+  const navigate = useNavigate();
+
+  const [userPoints, setUserPoints] = React.useState(
+    localStorage.getItem("userPoints")
+  );
+  const { question: currentQuestion, level: currentPhase } = JSON.parse(
+    localStorage.getItem("currentQuestion")
+  );
   const [userId, setUserId] = React.useState();
-  const [currentQuestion, setCurrentQuestion] = React.useState({});
-  const [currentPhase, setCurrentPhase] = React.useState("");
+  const [userAnswerId, setUserAnswerId] = React.useState();
   const [isResponsePage, setIsResponsePage] = React.useState(false);
 
   const checkIsResponseDescription =
     currentQuestion?.description || currentQuestion?.question;
 
   React.useEffect(() => {
-    const { question, level } = JSON.parse(
-      localStorage.getItem("currentQuestion")
-    );
-
     const { userId } = JSON.parse(localStorage.getItem("roomUserId"));
 
     socket.on("show-answer", () => {
       setIsResponsePage(true);
     });
 
-    setCurrentQuestion(question);
-    setCurrentPhase(level);
+    socket.on("show-next-question", ({ question, level }) => {
+      localStorage.setItem(
+        "currentQuestion",
+        JSON.stringify({ question, level })
+      );
+      setIsResponsePage(false);
+      restartAlternativesColors();
+      setUserAnswerId(null);
+      navigate("/question/student");
+    });
+
+    socket.on("show-classification", ({ classification, finishedGame }) => {
+      localStorage.setItem(
+        "classification",
+        JSON.stringify({ classification, finishedGame })
+      );
+      navigate("/classification");
+    });
+
+    socket.on("updated-points", ({ classification }) => {
+      const points = classification.find(
+        (user) => userId === user.userId
+      )?.points;
+      localStorage.setItem("userPoints", points);
+      setUserPoints(points);
+    });
+
     setUserId(userId);
   }, []);
 
@@ -37,19 +67,25 @@ function QuestionStudent({ socket }) {
     const alternativeCorrect = document.getElementById(
       `button-${currentQuestion.correct_answer_id}`
     );
+    const alternativeSelected = document.getElementById(
+      `button-${userAnswerId}`
+    );
 
     if (isResponsePage) {
       if (alternativeCorrect) {
         alternativeCorrect.style.backgroundColor = "#0F0";
-      }
-    } else {
-      if (alternativeCorrect) {
-        alternativeCorrect.style.backgroundColor = "#fff";
+
+        if (
+          userAnswerId !== currentQuestion.correct_answer_id &&
+          alternativeSelected
+        ) {
+          alternativeSelected.style.backgroundColor = "#ed0f08";
+        }
       }
     }
-  }, [isResponsePage, currentQuestion.correct_answer_id]);
+  }, [isResponsePage, currentQuestion.correct_answer_id, userAnswerId]);
 
-  const handleClickAlternative = (event, answerId) => {
+  const restartAlternativesColors = () => {
     const getbuttons = document.querySelectorAll(
       ".card-alternatives_buttons button"
     );
@@ -57,11 +93,15 @@ function QuestionStudent({ socket }) {
       button.style.backgroundColor = "#fff";
       button.style.color = "#000";
     });
+  };
+
+  const handleClickAlternative = (event, answerId) => {
+    restartAlternativesColors();
 
     const currentButton = document.getElementById(event.target.id);
     currentButton.style.backgroundColor = "#07abb9";
     currentButton.style.color = "#fff";
-
+    setUserAnswerId(answerId);
     socket.emit("user-answer", { answerId, userId });
   };
 
@@ -85,6 +125,7 @@ function QuestionStudent({ socket }) {
         }
         alternatives={currentQuestion?.alternatives}
         onClickAlternative={handleClickAlternative}
+        userPoints={userPoints}
       />
     </div>
   );

@@ -13,19 +13,17 @@ import ContainerTitle from "./components/ContainerTitle";
 import ContainerStudents from "./components/ContainerStudents";
 
 function QuestionPresenter({ socket }) {
-  // const []
-  const [currentQuestion, setCurrentQuestion] = React.useState({});
-  const [currentPhase, setCurrentPhase] = React.useState("easy");
+  const navigate = useNavigate();
+
+  const { question: currentQuestion, level: currentPhase } = JSON.parse(
+    localStorage.getItem("currentQuestion")
+  );
   const [isResponsePage, setIsResponsePage] = React.useState(false);
   const [allUsers, setAllUsers] = React.useState([]);
 
   React.useEffect(() => {
     const { currentRoom } = JSON.parse(localStorage.getItem("currentRoom"));
     setAllUsers(currentRoom.users);
-
-    const { question, level } = JSON.parse(
-      localStorage.getItem("currentQuestion")
-    );
 
     socket.on("user-answer-to-presenter", ({ id }) => {
       setAllUsers((prevAllUsers) => {
@@ -39,8 +37,21 @@ function QuestionPresenter({ socket }) {
       });
     });
 
-    setCurrentQuestion(question);
-    setCurrentPhase(level);
+    socket.on("show-next-question", ({ question, level }) => {
+      localStorage.setItem(
+        "currentQuestion",
+        JSON.stringify({ question, level })
+      );
+      navigate("/question/presenter");
+    });
+
+    socket.on("show-classification", ({ classification, finishedGame }) => {
+      localStorage.setItem(
+        "classification",
+        JSON.stringify({ classification, finishedGame })
+      );
+      navigate("/classification");
+    });
   }, []);
 
   const handleShowQuestion = () => {
@@ -49,7 +60,7 @@ function QuestionPresenter({ socket }) {
   };
 
   const handleNextQuestion = () => {
-    socket.emit("next-question");
+    socket.emit("foward");
     setIsResponsePage(false);
   };
 
