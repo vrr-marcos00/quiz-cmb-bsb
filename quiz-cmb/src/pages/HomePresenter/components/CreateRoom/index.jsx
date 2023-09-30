@@ -17,8 +17,9 @@ function CreateRoom({ socket, currentRoom }) {
     });
   };
 
-  const handleIniteGame = () => {
+  const handleInitGame = () => {
     socket.emit("init-quiz");
+    localStorage.setItem('currentRoom', JSON.stringify({currentRoom}));
   };
   const hasUsers = currentRoom && currentRoom.users && currentRoom.users.length > 0;
 
@@ -31,7 +32,7 @@ function CreateRoom({ socket, currentRoom }) {
         </div>
 
         <button onClick={handleClickRoomCreate}>Criar Sala</button>
-        <button onClick={handleIniteGame}>Iniciar Game</button>
+        <button onClick={handleInitGame}>Iniciar Game</button>
 
         {hasUsers ? (
           <LoggedInUsers currentRoom={currentRoom} />
