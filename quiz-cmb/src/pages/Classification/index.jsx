@@ -33,14 +33,14 @@ function Classification({ socket }) {
   return (
     <>
       <div className="container-page-classification">
-        <div className="row-main_buttons">
-          {isPresenter && !finishedGame && (
-            <button onClick={handleFowardButtonClick}>Avançar</button>
-          )}
-          {finishedGame && <h1>Jogo Finalizado</h1>}
-        </div>
         <div className="firt-classified">
           <FirstPlaced classification={classification} />
+          <div className="row-main_buttons-classification">
+            {isPresenter && !finishedGame && (
+              <button onClick={handleFowardButtonClick}>Avançar</button>
+            )}
+            {finishedGame && <h1 className="finished-game">Jogo Finalizado!</h1>}
+          </div>
         </div>
       </div>
     </>

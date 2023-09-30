@@ -54,9 +54,9 @@ function EnterRoom({ socket }) {
     "CMSM",
     "CMSP",
     "CMVM",
-    "CMVM0",
-    "CMVM1",
-    "CMVM2",
+    "CMJF",
+    'CMS',
+    "FORJ"
   ];
 
   return (

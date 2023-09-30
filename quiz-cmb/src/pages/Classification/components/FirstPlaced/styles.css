@@ -1,8 +1,6 @@
 .first-placed-row {
-    min-height: 100vh;
+    height: 100%;
     width: 100%;
-    background-color: #07abb9;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;

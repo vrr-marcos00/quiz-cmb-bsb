@@ -31,7 +31,7 @@ function CardAwnser({
 
         {imgAwnser && <img src={imgAwnser} alt="imageAwnser" loading="lazy" />}
       </div>
-      <h3 style={{ marginTop: "48px", marginBottom: 0 }}>
+      <h3 className="row-points">
         Pontos: {userPoints}
       </h3>
       <CardAlternatives

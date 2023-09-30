@@ -20,7 +20,7 @@
 
 .card-awnser_theme {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 7%;
+    margin-top: 12%;
     font-size: 24px;
     font-weight: bold;
     color: #07abb9;
@@ -38,4 +38,11 @@
     width: 250px;
     height: 250px;
     margin-bottom: 20px;
+}
+
+.row-points {
+    margin-top: 48px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }
