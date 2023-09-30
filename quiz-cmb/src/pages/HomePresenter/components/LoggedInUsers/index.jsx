@@ -32,9 +32,9 @@ function LoggedInUsers({ currentRoom }) {
     CMSM: { image: IMAGE_CMSM },
     CMSP: { image: IMAGE_CMSP },
     CMVM: { image: IMAGE_CMVM },
-    CMVM0: { image: IMAGE_CMVM },
-    CMVM1: { image: IMAGE_CMVM },
-    CMVM2: { image: IMAGE_CMVM }
+    CMJF: { image: IMAGE_CMVM },
+    CMS: { image: IMAGE_CMVM },
+    FORJ: { image: IMAGE_CMVM }
   }
 
   const hasUsers = currentRoom && currentRoom.users && currentRoom.users.length > 0;

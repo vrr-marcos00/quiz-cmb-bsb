@@ -1,1 +1,45 @@
+.container-page-classification {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #07abb9;
+}
 
+.row-main_buttons-classification {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.row-main_buttons-classification button {
+    border: none;
+    width: 30%;
+    height: 5em;
+    border-radius: 30px;
+    font-size: 1.5em;
+    margin-right: 40px;
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.row-main_buttons-classification button:hover {
+    background-color: #000000d7;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.finished-game {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #fff;
+}

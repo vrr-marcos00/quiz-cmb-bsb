@@ -5,7 +5,7 @@ function Time({ currentLevel }) {
   const getLevel = {
     easy: "Fácil",
     medium: "Médio",
-    hard: "Difícil"
+    difficult: "Difícil"
   }
     return (
     // <div className="time">
