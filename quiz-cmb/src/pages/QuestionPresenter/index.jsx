@@ -13,6 +13,7 @@ import ContainerTitle from "./components/ContainerTitle";
 import ContainerStudents from "./components/ContainerStudents";
 
 function QuestionPresenter({ socket }) {
+  // const []
   const [currentQuestion, setCurrentQuestion] = React.useState({});
   const [currentPhase, setCurrentPhase] = React.useState("easy");
   const [isResponsePage, setIsResponsePage] = React.useState(false);
@@ -23,10 +24,10 @@ function QuestionPresenter({ socket }) {
     );
     setCurrentQuestion(question);
     setCurrentPhase(level);
-    // socket.emit('start-game');
-    // socket.on('question', (data) => {
-    //   setQuestion(data);
-    // });
+
+    socket.on("user-answer-to-presenter", ({ id }) => {
+      console.log("user respondeu ", id);
+    });
   }, []);
   console.log("currentQuestion", currentQuestion);
 
@@ -46,9 +47,15 @@ function QuestionPresenter({ socket }) {
 
       <div className="main-page_container">
         <div className="row-main">
-          <ContainerTitle title={currentQuestion?.theme} isResponsePage={isResponsePage} />
+          <ContainerTitle
+            title={currentQuestion?.theme}
+            isResponsePage={isResponsePage}
+          />
 
-          <ContainerQuestions question={currentQuestion} isResponsePage={isResponsePage} />
+          <ContainerQuestions
+            question={currentQuestion}
+            isResponsePage={isResponsePage}
+          />
 
           <ContainerStudents students={[]} />
 
