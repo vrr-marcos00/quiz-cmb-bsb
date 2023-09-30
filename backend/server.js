@@ -109,7 +109,7 @@ io.on("connection", (socket) => {
 
     if (room.users.length > 0) {
       room.users.forEach((user) => {
-        const clientSocket = connectedClients.get(user.socketId);
+        const clientSocket = connectedClients.get(user.userId);
         if (clientSocket) {
           clientSocket.disconnect();
           console.log(`Cliente desconectado: ${user.studentId}`);
@@ -136,23 +136,23 @@ io.on("connection", (socket) => {
       socket.join(roomCode);
       if (!room.users) {
         room.users = [];
-        room.users.push({ socketId: socket.id, studentId });
-        socket.emit(
-          "studentAuthenticated",
-          "Você foi autenticado com sucesso na sala."
-        );
+        room.users.push({ userId: socket.id, studentId });
+        socket.emit("studentAuthenticated", {
+          userId: socket.id,
+          msg: "Você foi autenticado com sucesso na sala.",
+        });
       } else {
         const userIsExisting = room.users.find(
-          (user) => user.socketId === socket.id
+          (user) => user.userId === socket.id
         );
 
         if (!userIsExisting) {
-          room.users.push({ socketId: socket.id, studentId });
+          room.users.push({ userId: socket.id, studentId });
           // Emite um evento de sucesso para o aluno
-          socket.emit(
-            "studentAuthenticated",
-            "Você foi autenticado com sucesso na sala."
-          );
+          socket.emit("studentAuthenticated", {
+            userId: socket.id,
+            msg: "Você foi autenticado com sucesso na sala.",
+          });
         } else {
           socket.emit(
             "userIsExistingInTheRoom",
@@ -215,12 +215,12 @@ io.on("connection", (socket) => {
     calculatePointsAndRestartUsersCurrentAnswers();
   });
 
-  socket.on("user-answer", ({ socketId, answerId, ...rest }) => {
-    console.log("socketId", socket.id);
+  socket.on("user-answer", ({ userId, answerId, ...rest }) => {
+    console.log("userId", socket.id);
     if (!getCurrentUserAnswer(socket.id)) {
       io.emit("user-answer-to-presenter", { id: socket.id });
     }
-    updateUserAnswer({ socketId: socket.id, answerId });
+    updateUserAnswer({ userId: socket.id, answerId });
   });
 });
 

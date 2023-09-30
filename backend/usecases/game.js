@@ -12,11 +12,11 @@ const room = require("../database/room.json") || { roomCode: "", users: [] };
 
 /* ---------------------------------- GAME POINTS CONTROL ---------------------------------- */
 
-// Respostas da pergunta atual, é um mapa = { [socketId]: { answerId: 0 } }
+// Respostas da pergunta atual, é um mapa = { [userId]: { answerId: 0 } }
 let usersCurrentAnswers = {};
 
-function updateUserAnswer({ socketID, answerId }) {
-  usersCurrentAnswers[socketID] = {
+function updateUserAnswer({ userId, answerId }) {
+  usersCurrentAnswers[userId] = {
     answerId,
   };
 }
@@ -41,7 +41,7 @@ function __createClientGameStateFromRoom() {
   clientGameState = room.users.reduce(
     (accumulator, currentValue) => ({
       ...accumulator,
-      [currentValue.socketId]: {
+      [currentValue.userId]: {
         ...currentValue,
         points: 10,
       },
@@ -115,8 +115,8 @@ function getClientGameState() {
   return clientGameState;
 }
 
-function getCurrentUserAnswer(socketId) {
-  return usersCurrentAnswers[socketId];
+function getCurrentUserAnswer(userId) {
+  return usersCurrentAnswers[userId];
 }
 
 module.exports = {

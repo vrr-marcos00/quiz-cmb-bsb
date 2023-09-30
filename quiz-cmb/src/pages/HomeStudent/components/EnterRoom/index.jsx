@@ -11,7 +11,8 @@ function EnterRoom({ socket }) {
   const [studentId, setStudentId] = React.useState("");
 
   React.useEffect(() => {
-    socket.on("studentAuthenticated", (message) => {
+    socket.on("studentAuthenticated", ({ userId, msg }) => {
+      localStorage.setItem("roomUserId", JSON.stringify({ userId }));
       navigate("/waiting-room");
     });
 

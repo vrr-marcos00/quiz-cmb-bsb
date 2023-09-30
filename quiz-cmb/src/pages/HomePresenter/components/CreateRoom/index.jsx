@@ -3,7 +3,6 @@ import React from "react";
 import "./styles.css";
 
 function CreateRoom({ socket, currentRoom }) {
-
   const [roomCode, setRoomCode] = React.useState("Nenhuma sala criada");
 
   const handleClickRoomCreate = () => {
@@ -34,7 +33,7 @@ function CreateRoom({ socket, currentRoom }) {
             <h3>Usuários conectados</h3>
             <ul>
               {currentRoom.users.map((user) => (
-                <li key={user.socketId}>{user.studentId}</li>
+                <li key={user.userId}>{user.studentId}</li>
               ))}
             </ul>
           </div>
