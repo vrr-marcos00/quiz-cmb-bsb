@@ -19,6 +19,7 @@ import IMAGE_CMVM from '../../../../assets/images/CMVM.png';
 import IMAGE_FORJ from "../../../../assets/images/FORJ.png";
 import IMAGE_CMS from "../../../../assets/images/CMS.png";
 import IMAGE_CMJF from "../../../../assets/images/CMJF.png";
+import IconNegative from '../../../../assets/images/IconNegative.png';
 
 /**
  * Svg
@@ -26,7 +27,7 @@ import IMAGE_CMJF from "../../../../assets/images/CMJF.png";
 import CheckIcon from '../../../../assets/svg/checkIcon';
 
 
-function ContainerStudents({ students }) {
+function ContainerStudents({ students, isResponsePage }) {
   const images_colleges = {
     CMB: { image: IMAGE_CMB },
     CMBEL: { image: IMAGE_CMBEL },
@@ -56,9 +57,14 @@ function ContainerStudents({ students }) {
                 <img src={images_colleges[user.studentId].image} alt="college" />
                 <div className="icon-container">
                   <span className="user-name">{user.studentId}</span>
-                  
-                  {user.answered && <span><CheckIcon /></span>}
-                </div>     
+                  {user.answered ? <span><CheckIcon /></span> : (
+                    <>
+                      {isResponsePage && (
+                        <img className="icon-negative" src={IconNegative} alt="Icon negative" />
+                      )}
+                    </>
+                  )}
+                </div>
               </div>
             ))}
           </div>
