@@ -146,6 +146,10 @@ io.on("connection", (socket) => {
           (user) => user.userId === socket.id
         );
 
+        const studentIdAlreadyExistis = room.users.find(
+          (user) => user.studentId === studentId
+        );
+
         if (!userIsExisting) {
           room.users.push({ userId: socket.id, studentId });
           // Emite um evento de sucesso para o aluno
