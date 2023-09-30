@@ -1,8 +1,6 @@
 import React from "react";
 import "./styles.css";
 
-import { useNavigate } from "react-router-dom";
-
 /**
  * Components
  */
@@ -44,7 +42,7 @@ function QuestionStudent({ socket }) {
     <div className="main-page-question-student">
       <Background />
 
-      <TimeQuestion />
+      <TimeQuestion currentLevel={currentPhase} />
 
       <CardAwnser
         theme={currentQuestion?.theme}

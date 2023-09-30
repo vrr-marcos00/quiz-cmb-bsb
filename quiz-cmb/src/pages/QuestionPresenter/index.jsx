@@ -34,11 +34,10 @@ function QuestionPresenter({ socket }) {
 
   return (
     <div className="main-page-question-presenter">
-      <Time />
+      <Time currentLevel={currentPhase} />
 
       <div className="main-page_container">
         <div className="row-main">
-          {`Level: ${currentPhase}`}
           <ContainerTitle title={currentQuestion?.theme} />
 
           <ContainerQuestions question={currentQuestion} />
@@ -47,7 +46,6 @@ function QuestionPresenter({ socket }) {
 
           <ContainerButtons
             handleNextQuestion={handleNextQuestion}
-            handleStartTimer={handleNextQuestion}
             handleShowQuestion={handleNextQuestion}
           />
         </div>

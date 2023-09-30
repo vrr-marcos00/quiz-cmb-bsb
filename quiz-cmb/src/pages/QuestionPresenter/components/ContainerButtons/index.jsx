@@ -6,7 +6,6 @@ function ContainerButtons({ handleNextQuestion, handleShowQuestion, handleStartT
       <div className="row-main_buttons">
         <button onClick={() => handleNextQuestion()}>Mostrar resposta</button>
         <button onClick={() => handleNextQuestion()}>Próxima pergunta</button>
-        <button onClick={() => handleNextQuestion()}>Iniciar tempo</button>
       </div>
     )
 }

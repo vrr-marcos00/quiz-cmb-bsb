@@ -34,3 +34,26 @@
     font-weight: bold;
     background-color: #fff;
 }
+
+.level {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 25%;
+    top: 40px
+}
+
+.current-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border: 10px solid #07abb9;
+    border-radius: 50%;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+}
