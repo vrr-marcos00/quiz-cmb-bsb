@@ -57,13 +57,29 @@ function QuestionPresenter({ socket }) {
   const handleShowQuestion = () => {
     socket.emit("show-answer");
     setIsResponsePage(true);
+    setAllUsers((prevAllUsers) => {
+      const updatedUsers = prevAllUsers.map((user) => {
+        if (!user?.answered) {
+          return { ...user, answered: false };
+        }
+        return user;
+      });
+      return updatedUsers;
+    });
   };
 
   const handleNextQuestion = () => {
     socket.emit("foward");
     setIsResponsePage(false);
-    setAllUsers([]);
+    setAllUsers((prevAllUsers) => {
+      const updatedUsers = prevAllUsers.map((user) => {
+        return { ...user, answered: false }; // Define 'answered' como false para todos os usuários.
+      });
+      return updatedUsers;
+    });
   };
+
+  console.log(allUsers);
 
   return (
     <div className="main-page-question-presenter">
@@ -81,7 +97,7 @@ function QuestionPresenter({ socket }) {
             isResponsePage={isResponsePage}
           />
 
-          <ContainerStudents students={allUsers} />
+          <ContainerStudents students={allUsers} isResponsePage={isResponsePage}/>
 
           <ContainerButtons
             handleNextQuestion={handleNextQuestion}

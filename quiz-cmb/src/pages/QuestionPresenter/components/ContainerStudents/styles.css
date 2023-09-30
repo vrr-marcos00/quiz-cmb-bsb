@@ -12,3 +12,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.icon-negative {
+    width: 50px !important;
+    height: 65px !important;
+    margin-bottom: 35px;
+}
