@@ -33,9 +33,9 @@ function ContainerQuestions({ question, isResponsePage }) {
             )}
           </div>
           <div className="cointainer-image">
-            {(question?.img_response || question?.img_awnser) && (
+            {(question?.img_response || question?.img_question) && (
               <img
-                src={isResponsePage ? question?.img_response : question?.img_awnser}
+                src={isResponsePage ? question?.img_response : question?.img_question}
                 alt="Imagem da pergunta"
                 loading="lazy"
               />
