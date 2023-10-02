@@ -31,9 +31,6 @@ function CardAwnser({
 
         {imgAwnser && <img src={imgAwnser} alt="imageAwnser" loading="lazy" />}
       </div>
-      <h3 className="row-points">
-        Pontos: {userPoints}
-      </h3>
       <CardAlternatives
         alternatives={alternatives}
         onClickButton={onClickAlternative}

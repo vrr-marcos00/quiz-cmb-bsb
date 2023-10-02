@@ -6,20 +6,28 @@ import { useNavigate } from "react-router-dom";
 /**
  * Components
  */
-import Time from "./components/Time/Index";
+import TimeAndTheme from "./components/TimeAndTheme";
 import ContainerButtons from "./components/ContainerButtons";
-import ContainerQuestions from "./components/ContainerQuestions";
-import ContainerTitle from "./components/ContainerTitle";
+import ContainerAlternatives from "./components/ContainerAlternatives";
+import ContainerAwnser from "./components/ContainerAwnser";
 import ContainerStudents from "./components/ContainerStudents";
+import Background from './components/Background';
 
 function QuestionPresenter({ socket }) {
   const navigate = useNavigate();
+  const mainPageContainerRef = React.useRef(null);
 
-  const { question: currentQuestion, level: currentPhase } = JSON.parse(
+  const { question: currentQuestion} = JSON.parse(
     localStorage.getItem("currentQuestion")
   );
   const [isResponsePage, setIsResponsePage] = React.useState(false);
   const [allUsers, setAllUsers] = React.useState([]);
+  const [topValue, setTopValue] = React.useState("0px");
+
+  function getHeightOfMainPageContainer() {
+    const height = mainPageContainerRef.current.clientHeight / 2 + 45;
+    setTopValue(`${height}px`)
+  }
 
   React.useEffect(() => {
     const { currentRoom } = JSON.parse(localStorage.getItem("currentRoom"));
@@ -54,6 +62,24 @@ function QuestionPresenter({ socket }) {
     });
   }, []);
 
+  React.useEffect(() => {
+    const observer = new MutationObserver(getHeightOfMainPageContainer);
+
+    if (mainPageContainerRef.current) {
+      observer.observe(mainPageContainerRef.current, {
+        attributes: true,
+        childList: true,
+        subtree: true,
+      });
+
+      getHeightOfMainPageContainer();
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   const handleShowQuestion = () => {
     socket.emit("show-answer");
     setIsResponsePage(true);
@@ -79,34 +105,34 @@ function QuestionPresenter({ socket }) {
     });
   };
 
-  console.log(allUsers);
-
   return (
-    <div className="main-page-question-presenter">
-      <Time currentLevel={currentPhase} />
+    <>
+      <div className="main-page-question-presenter">
+        <Background />
 
-      <div className="main-page_container">
-        <div className="row-main">
-          <ContainerTitle
-            title={currentQuestion?.theme}
-            isResponsePage={isResponsePage}
-          />
+        <div className="main-page_container" ref={mainPageContainerRef}>
+          <div className="row-main">
+            <TimeAndTheme theme={currentQuestion?.theme} isResponsePage={isResponsePage} />
 
-          <ContainerQuestions
-            question={currentQuestion}
-            isResponsePage={isResponsePage}
-          />
-
-          <ContainerStudents students={allUsers} isResponsePage={isResponsePage}/>
-
-          <ContainerButtons
-            handleNextQuestion={handleNextQuestion}
-            handleShowQuestion={handleShowQuestion}
-            isResponsePage={isResponsePage}
-          />
+            <ContainerAwnser question={currentQuestion} isResponsePage={isResponsePage} />
+          </div>
         </div>
+
+        <ContainerAlternatives
+          question={currentQuestion}
+          isResponsePage={isResponsePage}
+          className={{ marginTop: topValue }}
+        />
       </div>
-    </div>
+
+      <ContainerStudents students={allUsers} isResponsePage={isResponsePage} />
+
+      <ContainerButtons
+        handleNextQuestion={handleNextQuestion}
+        handleShowQuestion={handleShowQuestion}
+        isResponsePage={isResponsePage}
+      />
+    </>
   );
 }
 
