@@ -108,15 +108,14 @@ function QuestionStudent({ socket }) {
   };
 
   const handleClickAlternative = (event, answerId) => {
-    if (userCanAnswer) {
-      restartAlternativesColors();
+    restartAlternativesColors();
 
-      const currentButton = document.getElementById(event.target.id);
-      currentButton.style.backgroundColor = "#07abb9";
-      currentButton.style.color = "#fff";
-      setUserAnswerId(answerId);
-      socket.emit("user-answer", { answerId, userId });
-    }
+    const currentButton = document.getElementById(event.target.id);
+
+    currentButton.style.backgroundColor = "#07abb9";
+    currentButton.style.color = "#fff";
+    setUserAnswerId(answerId);
+    socket.emit("user-answer", { answerId, userId });
   };
 
   return (
