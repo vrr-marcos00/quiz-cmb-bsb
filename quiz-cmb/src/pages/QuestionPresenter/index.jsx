@@ -11,22 +11,24 @@ import ContainerButtons from "./components/ContainerButtons";
 import ContainerAlternatives from "./components/ContainerAlternatives";
 import ContainerAwnser from "./components/ContainerAwnser";
 import ContainerStudents from "./components/ContainerStudents";
-import Background from './components/Background';
+import Background from "./components/Background";
 
 function QuestionPresenter({ socket }) {
   const navigate = useNavigate();
   const mainPageContainerRef = React.useRef(null);
 
-  const { question: currentQuestion} = JSON.parse(
+  const { question: currentQuestion } = JSON.parse(
     localStorage.getItem("currentQuestion")
   );
+  const [timer, setTimer] = React.useState(currentQuestion.time_per_question);
+  const [isTimerRunning, setIsTimerRunning] = React.useState(false);
   const [isResponsePage, setIsResponsePage] = React.useState(false);
   const [allUsers, setAllUsers] = React.useState([]);
   const [topValue, setTopValue] = React.useState("0px");
 
   function getHeightOfMainPageContainer() {
     const height = mainPageContainerRef.current.clientHeight / 2 + 45;
-    setTopValue(`${height}px`)
+    setTopValue(`${height}px`);
   }
 
   React.useEffect(() => {
@@ -50,6 +52,7 @@ function QuestionPresenter({ socket }) {
         "currentQuestion",
         JSON.stringify({ question, level })
       );
+      setTimer(question.time_per_question);
       navigate("/question/presenter");
     });
 
@@ -59,6 +62,25 @@ function QuestionPresenter({ socket }) {
         JSON.stringify({ classification, finishedGame })
       );
       navigate("/classification");
+    });
+
+    socket.on("question-timeout", ({ classification, finishedGame }) => {
+      socket.emit("show-answer");
+      setIsResponsePage(true);
+      setIsTimerRunning(false);
+      setAllUsers((prevAllUsers) => {
+        const updatedUsers = prevAllUsers.map((user) => {
+          if (!user?.answered) {
+            return { ...user, answered: false };
+          }
+          return user;
+        });
+        return updatedUsers;
+      });
+    });
+
+    socket.on("update-question-time", ({ currentTime }) => {
+      setTimer(currentTime);
     });
   }, []);
 
@@ -105,6 +127,11 @@ function QuestionPresenter({ socket }) {
     });
   };
 
+  const handleInitTimer = () => {
+    socket.emit("init-question-timer");
+    setIsTimerRunning(true);
+  };
+
   return (
     <>
       <div className="main-page-question-presenter">
@@ -112,9 +139,16 @@ function QuestionPresenter({ socket }) {
 
         <div className="main-page_container" ref={mainPageContainerRef}>
           <div className="row-main">
-            <TimeAndTheme theme={currentQuestion?.theme} isResponsePage={isResponsePage} />
+            <TimeAndTheme
+              timer={timer / 1000}
+              theme={currentQuestion?.theme}
+              isResponsePage={isResponsePage}
+            />
 
-            <ContainerAwnser question={currentQuestion} isResponsePage={isResponsePage} />
+            <ContainerAwnser
+              question={currentQuestion}
+              isResponsePage={isResponsePage}
+            />
           </div>
         </div>
 
@@ -128,8 +162,10 @@ function QuestionPresenter({ socket }) {
       <ContainerStudents students={allUsers} isResponsePage={isResponsePage} />
 
       <ContainerButtons
+        isTimerRunning={isTimerRunning}
         handleNextQuestion={handleNextQuestion}
         handleShowQuestion={handleShowQuestion}
+        handleInitTimer={handleInitTimer}
         isResponsePage={isResponsePage}
       />
     </>
