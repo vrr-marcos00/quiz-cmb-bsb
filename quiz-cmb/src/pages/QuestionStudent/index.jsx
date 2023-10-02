@@ -19,6 +19,8 @@ function QuestionStudent({ socket }) {
   const { question: currentQuestion, level: currentPhase } = JSON.parse(
     localStorage.getItem("currentQuestion")
   );
+  const [userCanAnswer, setUserCanAnswer] = React.useState(false);
+  const [timer, setTimer] = React.useState(currentQuestion.time_per_question);
   const [userId, setUserId] = React.useState();
   const [userAnswerId, setUserAnswerId] = React.useState();
   const [isResponsePage, setIsResponsePage] = React.useState(false);
@@ -31,6 +33,7 @@ function QuestionStudent({ socket }) {
 
     socket.on("show-answer", () => {
       setIsResponsePage(true);
+      setUserCanAnswer(false);
     });
 
     socket.on("show-next-question", ({ question, level }) => {
@@ -38,6 +41,7 @@ function QuestionStudent({ socket }) {
         "currentQuestion",
         JSON.stringify({ question, level })
       );
+      setTimer(question.time_per_question);
       setIsResponsePage(false);
       restartAlternativesColors();
       setUserAnswerId(null);
@@ -58,6 +62,14 @@ function QuestionStudent({ socket }) {
       )?.points;
       localStorage.setItem("userPoints", points);
       setUserPoints(points);
+    });
+
+    socket.on("init-question-timer", ({ time_per_question }) => {
+      setUserCanAnswer(true);
+    });
+
+    socket.on("update-question-time", ({ currentTime }) => {
+      setTimer(currentTime);
     });
 
     setUserId(userId);
@@ -96,20 +108,22 @@ function QuestionStudent({ socket }) {
   };
 
   const handleClickAlternative = (event, answerId) => {
-    restartAlternativesColors();
+    if (userCanAnswer) {
+      restartAlternativesColors();
 
-    const currentButton = document.getElementById(event.target.id);
-    currentButton.style.backgroundColor = "#07abb9";
-    currentButton.style.color = "#fff";
-    setUserAnswerId(answerId);
-    socket.emit("user-answer", { answerId, userId });
+      const currentButton = document.getElementById(event.target.id);
+      currentButton.style.backgroundColor = "#07abb9";
+      currentButton.style.color = "#fff";
+      setUserAnswerId(answerId);
+      socket.emit("user-answer", { answerId, userId });
+    }
   };
 
   return (
     <div className="main-page-question-student">
       <Background />
 
-      <TimeQuestion currentLevel={currentPhase} />
+      <TimeQuestion currentLevel={currentPhase} timer={timer / 1000} />
 
       <CardAwnser
         theme={isResponsePage ? "Resposta" : currentQuestion?.theme}
