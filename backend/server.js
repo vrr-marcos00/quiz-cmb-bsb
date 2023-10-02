@@ -195,7 +195,14 @@ io.on("connection", (socket) => {
   socket.on("init-quiz", () => {
     if (room.users.length > 0) {
       const { nextQuestion, level } = initQuiz();
-      io.emit("show-next-question", { question: nextQuestion, level });
+      const phase = getCurrentPhase();
+      io.emit("show-next-question", {
+        question: {
+          ...nextQuestion,
+          time_per_question: phase.time_per_question,
+        },
+        level,
+      });
     } else {
       socket.emit("initGameError", "O jogo deve conter no minímo 1 jogador");
     }
@@ -207,7 +214,10 @@ io.on("connection", (socket) => {
 
     if (question) {
       const phase = getCurrentPhase();
-      io.emit("show-next-question", { question, level: phase.level });
+      io.emit("show-next-question", {
+        question: { ...question, time_per_question: phase.time_per_question },
+        level: phase.level,
+      });
       return;
     }
 
@@ -217,6 +227,30 @@ io.on("connection", (socket) => {
       classification: Object.values(getClientGameState()),
       finishedGame,
     });
+  });
+
+  socket.on("init-question-timer", () => {
+    const phase = getCurrentPhase();
+    io.emit("init-question-timer", {
+      time_per_question: phase.time_per_question,
+    });
+
+    let counter = phase.time_per_question;
+
+    const interval = setInterval(() => {
+      counter = counter - 1000;
+
+      io.emit("update-question-time", {
+        currentTime: counter,
+      });
+
+      if (counter <= 0) {
+        io.emit("question-timeout", {
+          time_per_question: phase.time_per_question,
+        });
+        clearInterval(interval);
+      }
+    }, 1000);
   });
 
   socket.on("show-answer", () => {
