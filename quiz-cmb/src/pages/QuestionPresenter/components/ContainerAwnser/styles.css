@@ -1,0 +1,11 @@
+.container-awnser {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.8em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 75px;
+    padding: 0 40px;
+}
