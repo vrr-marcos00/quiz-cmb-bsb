@@ -132,8 +132,6 @@ function QuestionPresenter({ socket }) {
     setIsTimerRunning(true);
   };
 
-  // <Time timer={timer / 1000} />
-
   return (
     <>
       <div className="main-page-question-presenter">
@@ -142,6 +140,7 @@ function QuestionPresenter({ socket }) {
         <div className="main-page_container" ref={mainPageContainerRef}>
           <div className="row-main">
             <TimeAndTheme
+              timer={timer / 1000}
               theme={currentQuestion?.theme}
               isResponsePage={isResponsePage}
             />
