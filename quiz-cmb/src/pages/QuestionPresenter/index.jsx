@@ -18,6 +18,8 @@ function QuestionPresenter({ socket }) {
   const { question: currentQuestion, level: currentPhase } = JSON.parse(
     localStorage.getItem("currentQuestion")
   );
+  const [timer, setTimer] = React.useState(currentQuestion.time_per_question);
+  const [isTimerRunning, setIsTimerRunning] = React.useState(false);
   const [isResponsePage, setIsResponsePage] = React.useState(false);
   const [allUsers, setAllUsers] = React.useState([]);
 
@@ -42,6 +44,7 @@ function QuestionPresenter({ socket }) {
         "currentQuestion",
         JSON.stringify({ question, level })
       );
+      setTimer(question.time_per_question);
       navigate("/question/presenter");
     });
 
@@ -51,6 +54,25 @@ function QuestionPresenter({ socket }) {
         JSON.stringify({ classification, finishedGame })
       );
       navigate("/classification");
+    });
+
+    socket.on("question-timeout", ({ classification, finishedGame }) => {
+      socket.emit("show-answer");
+      setIsResponsePage(true);
+      setIsTimerRunning(false);
+      setAllUsers((prevAllUsers) => {
+        const updatedUsers = prevAllUsers.map((user) => {
+          if (!user?.answered) {
+            return { ...user, answered: false };
+          }
+          return user;
+        });
+        return updatedUsers;
+      });
+    });
+
+    socket.on("update-question-time", ({ currentTime }) => {
+      setTimer(currentTime);
     });
   }, []);
 
@@ -79,11 +101,14 @@ function QuestionPresenter({ socket }) {
     });
   };
 
-  console.log(allUsers);
+  const handleInitTimer = () => {
+    socket.emit("init-question-timer");
+    setIsTimerRunning(true);
+  };
 
   return (
     <div className="main-page-question-presenter">
-      <Time currentLevel={currentPhase} />
+      <Time timer={timer / 1000} />
 
       <div className="main-page_container">
         <div className="row-main">
@@ -97,11 +122,16 @@ function QuestionPresenter({ socket }) {
             isResponsePage={isResponsePage}
           />
 
-          <ContainerStudents students={allUsers} isResponsePage={isResponsePage}/>
+          <ContainerStudents
+            students={allUsers}
+            isResponsePage={isResponsePage}
+          />
 
           <ContainerButtons
+            isTimerRunning={isTimerRunning}
             handleNextQuestion={handleNextQuestion}
             handleShowQuestion={handleShowQuestion}
+            handleInitTimer={handleInitTimer}
             isResponsePage={isResponsePage}
           />
         </div>
