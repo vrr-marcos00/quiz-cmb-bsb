@@ -135,7 +135,7 @@ function QuestionStudent({ socket }) {
         imgAwnser={
           isResponsePage
             ? currentQuestion?.img_response
-            : currentQuestion?.img_awnser
+            : currentQuestion?.img_question
         }
         alternatives={currentQuestion?.alternatives}
         onClickAlternative={handleClickAlternative}
