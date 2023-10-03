@@ -314,7 +314,7 @@
         "img_response": "https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_1c50c62c73d46bf2b79774159e9703ff_5417670.jpg.png",
         "img_question":   "",
         "correct_answer_id": 2,
-        "description ": "As vantagens do custo das ferrovias em relação às rodovias aparecem nos trajetos de extensão superior a 500 quilômetros. Pequenas distâncias, as vantagens nos transportes rodoviários (áreas de relevo acidentado). A circulação e entrega das mercadorias no interior das cidades é mais viável o sistheme rodoviário."
+        "description ": "As vantagens do custo das ferrovias em relação às rodovias aparecem nos trajetos de extensão superior a 500 quilômetros. Pequenas distâncias, as vantagens nos transportes rodoviários (áreas de relevo acidentado). A circulação e entrega das mercadorias no interior das cidades é mais viável o sistema rodoviário."
       },
       {
         "id": 11,
@@ -2088,7 +2088,7 @@
           }
         ],
         "img_response": "",
-        "img_question": "",
+        "img_question": "https://www.conectas.org/wp-content/uploads/2017/08/BRICS.png",
         "correct_answer_id": 5,
         "description": "Grupo de países com economias emergentes criado em 2006, formado inicialmente por Brasil, Rússia, Índia, China e posteriormente, em 2011, a África do Sul passa a integrar o grupo."
       },
@@ -2428,7 +2428,7 @@
             "content": "E) duas ligações duplas e uma ligação simples."
           }
         ],
-        "img_response": "",
+        "img_response": "https://pt-static.z-dn.net/files/dfd/74ff90975142ad189cfae0c1b15dd7f5.jpeg",
         "img_question": "",
         "correct_answer_id": 2,
         "description": "O FOSGÊNIO APRESENTA UMA LIGAÇÃO DUPLA E DUAS SIMPLES."
@@ -2933,7 +2933,7 @@
       {
         "id": 111,
         "theme": "História",
-        "question": "A chegada da Família Real ao Brasil, em 1808, provocou uma série de transformações na colônia, trasformada em centro do império português.  Era necessário modernizar e embelezar a colônia, são inovações do período:",
+        "question": "A chegada da Família Real ao Brasil, em 1808, provocou uma série de transformações na colônia, transformada em centro do império português.  Era necessário modernizar e embelezar a colônia, são inovações do período:",
         "alternatives": [
           {
             "id": 1,
