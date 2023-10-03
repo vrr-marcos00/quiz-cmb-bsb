@@ -435,8 +435,8 @@
             "content": "E) 1s2; 2p5"
           }
         ],
-        "img_response": "https://static.todamateria.com.br/upload/ta/be/tabela-periodica-og.jpg",
-        "img_question": "",
+        "img_response": "",
+        "img_question": "https://static.todamateria.com.br/upload/ta/be/tabela-periodica-og.jpg",
         "correct_answer_id": 2,
         "description ": "O CARBONO TEM NÚMERO ATÔMICO (Z) IGUAL A 6 E TEM DISTRIBUIÇÃO 1S2, 2S2, 2P2."
       },
@@ -536,7 +536,7 @@
       {
         "id": 82,
         "theme": "Física",
-        "question": "Os ciclistas de bicicleta de estrada descobriram uma nova manobra, a do Super Homem, para poderem atingirem velocidades maiores em descidas. Isso se deve à (ao):",
+        "question": "Os ciclistas de bicicleta de estrada descobriram uma nova manobra, a do Super Homem, para poderem atingir velocidades maiores em descidas. Isso se deve à (ao):",
         "alternatives": [
           {
             "id": 1,
@@ -1188,10 +1188,10 @@
             "content": "E) Um encontro de correntes marítimas."
           }
         ],
-        "img_response": "https://www.dicasondeficar.com.br/wp-content/uploads/2016/07/Sarga%C3%A7o-em-Tulum-M%C3%A9xico.jpg",
+        "img_response": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5XNkm_6DgeFnhzAr56FhK92s9nxN_2jmcUPH56NRgfjYL4m3Z",
         "img_question": "",
         "correct_answer_id": 1,
-        "description": "O Mar dos Sargaços é caracterizado pela existência abundante de um a espécie de algas com o nome de sargaço (sargassum). As algas são tantas que travam as embarcações que por ali passam e juntamente com a total ausência de vento, que por vezes ocorre, torna-se muito difícil navegar, chegando ao ponto de algumas embarcações encalharem."
+        "description": "O Mar dos Sargaços é caracterizado pela existência abundante de uma espécie de algas com o nome de sargaço (sargassum). As algas são tantas que travam as embarcações que por ali passam e juntamente com a total ausência de vento, que por vezes ocorre, torna-se muito difícil navegar, chegando ao ponto de algumas embarcações encalharem."
       },
       {
         "id": 24,
@@ -1374,7 +1374,7 @@
             "content": "E) Dom Pedro I"
           }
         ],
-        "img_response": "https://www.google.com/search?sca_esv=566478814&sxsrf=AM9HkKkFH49Wgd5nFGFGlvajZB7wRS-U3g:1695093507268&q=dom+pedro+ii&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiugvKy27WBAxXMrJUCHa5QAAIQ0pQJegQIDRAB&biw=1366&bih=643&dpr=1#imgrc=frMSwUujfHhaqM",
+        "img_response": "https://static.todamateria.com.br/upload/do/mp/dom-pedro-ii-og.jpg",
         "img_question": "",
         "correct_answer_id": 3,
         "description": "O telefone chegou no Brasil no ano de 1877. O primeiro aparelho foi fabricado para Dom Pedro II e instalado no Palácio Imperial de São Cristovão, localizado na Quinta da Boa Vista, hoje o Museu Nacional no Rio de Janeiro."
@@ -1498,8 +1498,8 @@
             "content": "E) Cinza"
           }
         ],
-        "img_question": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg",
-        "img_response": "",
+        "img_question": "",
+        "img_response": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg",
         "correct_answer_id": 3,
         "description": "As cores da bandeira nacional são: Verde, Amarelo, Azul e Branco, logo a única alternativa correta é Verde, pois o branco não se encontra na faixa branca."
       },
@@ -1653,7 +1653,7 @@
             "content": "E) São Paulo - São Paulo ; Salvador - Bahia ; Manaus - Amazonas ; Macapá – Amapá"
           }
         ],
-        "img_response": "https://static.preparaenem.com/2022/06/mapa-boa-vista.jpg",
+        "img_response": "https://i.pinimg.com/736x/e1/00/a4/e100a48110f90ae517453d58309967cd.jpg",
         "img_question": "",
         "correct_answer_id": 1,
         "description": "Boa Vista é a capital de Roraima."
@@ -1687,7 +1687,7 @@
         "img_response": "https://estado.rs.gov.br/upload/recortes/201707/20075647_1210628_GDO.jpg",
         "img_question": "",
         "correct_answer_id": 5,
-        "description": "Está escrito na Bandeira do Rio Grande do Sul: Liberdade Igualdade - Humanidade."
+        "description": "Está escrito na Bandeira do Rio Grande do Sul: Liberdade - Igualdade - Humanidade."
       },
       {
         "id": 40,
@@ -1777,7 +1777,7 @@
             "content": "E) a partir do litoral até o limite da Plataforma Continental brasileira."
           }
         ],
-        "img_response": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxY07uI7PsGR4sBV-rYDYMWq5A5SN8ZwNZu0Z3VFzau6itcJ77AeskVWubUPOAeVtU9ZQ&usqp=CAU",
+        "img_response": "https://i.ytimg.com/vi/5qe0SNj4BOY/maxresdefault.jpg",
         "img_question": "",
         "correct_answer_id": 5,
         "description": "Amazônia Azul: Mar Territorial + ZEE + extensão da Plataforma Continental (Limite). Foi estabelecida conforme os critérios técnicos e condicionantes do Artigo 76 da Lei do Mar, onde prescreve: “Os direitos do Estado costeiro na plataforma continental são exclusivos no sentido de que, se o Estado costeiro não explora a plataforma continental ou não aproveita os recursos naturais da mesma, ninguém pode empreender estas atividades sem o expresso consentimento desse Estado.”"
@@ -1816,7 +1816,7 @@
       {
         "id": 44,
         "theme": "Geografia",
-        "question": "São alguns elementos de um mapa?",
+        "question": "São alguns elementos de um mapa:",
         "alternatives": [
           {
             "id": 1,
@@ -1847,7 +1847,7 @@
       {
         "id": 45,
         "theme": "Geografia",
-        "question": "As 10 horas um aluno no Colégio Militar de Manaus fez uma ligação. Qual horário será na cidade de Rio Branco/AC e na Ilha de Fernando de Noronha/PE, respectivamente?",
+        "question": "Às 10 horas um aluno no Colégio Militar de Manaus fez uma ligação. Qual horário será na cidade de Rio Branco/AC e na Ilha de Fernando de Noronha/PE, respectivamente?",
         "alternatives": [
           {
             "id": 1,
@@ -1870,7 +1870,7 @@
             "content": "E) 8 horas e 11 horas."
           }
         ],
-        "img_response": "https://1.bp.blogspot.com/-TE9X94Z13Pg/XbYlRXXyCwI/AAAAAAABXiE/Vcld5LFUhJQemFI9JX9lUrJlleCNCtRCgCLcBGAsYHQ/s1600/mundo%2Bfusos%2Bhor%25C3%25A1rios.png",
+        "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo/mapa-dos-fusos-horarios-do-brasil.jpg",
         "img_question": "",
         "correct_answer_id": 2,
         "description": "Existem quatro fusos horários no Brasil, que são GMT -2, GMT -3 (conhecido como horário de Brasília, que é a hora oficial do país), GMT -4 e GMT -5. Como o país está localizado inteiramente no hemisfério ocidental, ou oeste, todos os seus horários se encontram atrasados em relação à zona inicial, que tem como centro o Meridiano de Greenwich. O aluno do Colégio Militar de Manaus fez uma ligação no fuso GMT -4. Estão inseridos nele a totalidade dos territórios de Rondônia, Roraima, Mato Grosso e Mato Grosso do Sul, além da maior porção do Amazonas. Rio Branco/AC está no fuso GMT -5, portanto, será 9 horas e na Ilha de Fernando de Noronha/PE no fuso GMT -2 será 12 horas."
@@ -1963,7 +1963,7 @@
             "content": "E) Subtropical."
           }
         ],
-        "img_response": "https://ufbaconquista.files.wordpress.com/2017/12/imagem-1.jpg",
+        "img_response": "https://static.escolakids.uol.com.br/2020/07/tipos-de-clima.jpg",
         "img_question": "",
         "correct_answer_id": 5,
         "description": "Os principais climas do Brasil são: equatorial, tropical, semiárido, tropical de altitude, tropical atlântico e subtropical. O clima subtropical ocorre nas terras situadas abaixo do Trópico de Capricórnio, portanto, na porção do território nacional situada na Zona Temperada Sul do planeta, que corresponde aos estados da região Sul, ao sudeste de São Paulo e à porção meridional do Mato Grosso do Sul."
@@ -1994,7 +1994,7 @@
             "content": "E) mEa."
           }
         ],
-        "img_response": "https://conteudo.imguol.com.br/c/entretenimento/98/2022/05/18/pessoas-caminham-e-se-protegem-do-frio-em-avenida-da-zona-sul-de-sao-paulo-1652886452107_v2_900x506.jpg",
+        "img_response": "https://s2-g1.glbimg.com/GcAHUQkpiYyp0KxF8cM7zSu9a5I=/0x0:959x640/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/M/n/tLLCELRyGVLNDnM0k0lw/frio.jpg",
         "img_question": "",
         "correct_answer_id": 3,
         "description": "A mPa – Massa Polar Atlântica  é a massa de ar frio que determina, durante o inverno, o estado de tempo ou comportamento atmosférico na Região Sul. Essas ondas de frio são acompanhadas, muitas vezes, por chuvas prolongadas ou garoas, geadas e até por quedas de neve. Até mesmo a Amazônia é atingida por esses avanços da Massa Polar Atlântica durante o inverno austral. É o fenômeno da “friagem“, que ocorre na porção sul da Amazônia e o norte do Mato Grosso."
@@ -2119,7 +2119,7 @@
           }
         ],
         "img_response": "",
-        "img_question": "https://memoria.ebc.com.br/sites/_portalebc2014/files/styles/full_colunm/public/atoms_image/940px-brics.svg_.png?itok=DSGuCuMf",
+        "img_question": "",
         "correct_answer_id": 3,
         "description": "AS REAÇÕES OU MUDANÇAS DE ESTADO FÍSICO QUE ABSORVEM CALOR SÃO DENOMINADAS DE PROCESSOS ENDOTÉRMICOS. A VAPORIZAÇÃO DA PARAFINA É UM PROCESSO ENDOTÉRMICO."
       },
@@ -2711,7 +2711,7 @@
         "correct_answer_id": 5,
         "description": "Como mostra a imagem, uma lente divergente de um óculos para a miopia,  a imagem é menor, direita e virtual. ",
         "img_response":"",
-        "img_question": "https://opticastacna.cl/wp-content/uploads/2021/05/caracteristicas-de-los-lentes-divergentes.jpg"
+        "img_question": "https://portaldrauziovarella.nyc3.digitaloceanspaces.com/wp-content/uploads/2019/07/30234456/201907_drauzio_oculos_23780631_Olegkalina_1000x563.jpg"
       },
       {
         "id": 94,
@@ -2895,7 +2895,7 @@
           }
         ],
         "correct_answer_id": 3,
-        "description": "O contatualismo é uma corrente de pensamento político e filosófico que rompe com a ideia de que a sociedade civil ou o estado é estabalecido por forças externas, dando ao ser humano a responsabilidade na organização do governo e da sociedade.",
+        "description": "O contatualismo é uma corrente de pensamento político e filosófico que rompe com a ideia de que a sociedade civil ou o estado é estabelecido por forças externas, dando ao ser humano a responsabilidade na organização do governo e da sociedade.",
         "img_response": "https://pt-static.z-dn.net/files/d44/30942b343e40846f427db593e0fe8e36.jpg",
         "img_question": ""
       },
@@ -3585,7 +3585,7 @@
             "content": "E) Montes Urais"
           }
         ],
-        "img_response": "https://static.wixstatic.com/media/89a1bf_caa14c24fa6c4c0f8eab31bda0c34127~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/89a1bf_caa14c24fa6c4c0f8eab31bda0c34127~mv2.jpg",
+        "img_response": "https://blog.stoodi.com.br/wp-content/uploads/2020/03/monte-everest-2-1.jpg",
         "img_question": "",
         "correct_answer_id": 2,
         "description": "O Everest encontra-se na Cordilheira do Himalaia, uma cadeia de montanhas localizada na fronteira da China com o Nepal e que se estende por Índia, Butão e Paquistão."
@@ -3960,7 +3960,7 @@
         "correct_answer_id": 2,
         "description": "No equilíbrio μe = tg Θ = h/R ,  logo  0,60 = h/5     h = 3,00 m",
         "img_response":"",
-        "img_question": "https://ibb.co/PcQvW6W"
+        "img_question": "https://i.ibb.co/JvQwpsp/ink.png"
       },
       {
         "id": 98,
@@ -3991,7 +3991,7 @@
         "correct_answer_id": 1,
         "description": "No caso, seria no estado gasoso (terceira rampa no gráfico) Como Q = m.c.ΔT e Q = Pot x tempo   100 (J/s).60(s) = 100(g).c.30(oC)    c =  2,0 J/goC",
         "img_response":"",
-        "img_question": "https://ibb.co/RPNx3y9"
+        "img_question": "https://i.ibb.co/7VQwn4X/ASD.png"
       },
       {
         "id": 99,
@@ -4022,7 +4022,7 @@
         "correct_answer_id": 5,
         "description": "Potência = V2 / Req = 252/100 = 6,25 W    Energia = P.Δt = (6,25 J/s) . (1s) = 6,25 J",
         "img_response":"",
-        "img_question": "https://ibb.co/cFqFy6C"
+        "img_question": "https://i.ibb.co/fpJpXkn/LOP.png"
       },
       {
         "id": 100,
@@ -4058,7 +4058,7 @@
       {
         "id": 116,
         "theme": "História",
-        "question": "O Governo Getúlio Vargas, em especial durante o Estado Novo (1937-1945), percebeu a potencialidade do rádio e criou um programa diário cujo objetivo era fazer propaganda do governo e educar a propulação, seu nome era:",
+        "question": "O Governo Getúlio Vargas, em especial durante o Estado Novo (1937-1945), percebeu a potencialidade do rádio e criou um programa diário cujo objetivo era fazer propaganda do governo e educar a população, seu nome era:",
         "alternatives": [
           {
             "id": 1,
