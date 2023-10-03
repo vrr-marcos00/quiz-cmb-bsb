@@ -32,8 +32,8 @@
             "content": "E) Heteropatia"
           }
         ],
-        "imgAnswer" : "https://i.pinimg.com/474x/cc/e4/b7/cce4b74b7efb7f0f0182984767141e81--amazing-eyes-beautiful-eyes.jpg",
-        "imgQuestion": "",
+        "img_response" : "https://i.pinimg.com/474x/cc/e4/b7/cce4b74b7efb7f0f0182984767141e81--amazing-eyes-beautiful-eyes.jpg",
+        "img_question": "",
         "correct_answer_id": 2,
         "description ": "Heterocromia é o nome que se dá à condição em que a parte colorida de um olho (íris) é diferente do outro."
       },
@@ -63,8 +63,8 @@
             "content": "E) ... se quebre ao toque."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
+        "img_response": "",
+        "img_question": "",
         "correct_answer_id": 4,
         "description ": "Quando colocamos uma fatia de batata no meio hipertônico (água salgada), a água que estava contida no interior da célula da batata atravessa a membrana semipermeável, indo para o lado mais concentrado, ou seja, onde foi colocado o sal. Com isso, a batata ficou mais “mole”, pois sofreu a plasmólise, ou seja, perdeu água."
       },
@@ -94,8 +94,8 @@
             "content": "E) ascomiceto."
           }
         ],
-        "imgAnswer": "https://super.abril.com.br/wp-content/uploads/2023/01/cordyceps_fb.jpg",
-        "imgQuestion": "",
+        "img_response": "https://super.abril.com.br/wp-content/uploads/2023/01/cordyceps_fb.jpg",
+        "img_question": "",
         "correct_answer_id": 5,
         "description ": "O fungo Cordyceps é um gênero de fungos ascomicetos que parasita principalmente insetos e outros artrópodes. Com aproximadamente 400 espécies, cada uma é especializada em um tipo específico de inseto. Esse tipo de fungo não atinge humanos."
       },
@@ -125,8 +125,8 @@
             "content": "E) promover a ovulação durante o período fértil da mulher."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
+        "img_response": "",
+        "img_question": "",
         "correct_answer_id": 1,
         "description ": "A oxitocina é um hormônio secretado pela hipófise que provoca as contrações uterinas durante o parto e promove a liberação do leite no período da lactação."
       },
@@ -156,8 +156,8 @@
             "content": "E) Indonésia."
           }
         ],
-        "imgAnswer": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/cacau.jpg",
-        "imgQuestion": "",
+        "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/cacau.jpg",
+        "img_question": "",
         "correct_answer_id": 2,
         "description ": "A Costa do Marfim é um país localizado no litoral ocidental do continente africano. Com uma produção 2,2 milhões de toneladas de cacau por ano, o país é responsável, sozinho, por 38% da produção global de cacau do mundo. O cacau é um dos itens mais importantes da economia do país."
       },
@@ -187,8 +187,8 @@
             "content": "E) James Joyce."
           }
         ],
-        "imgAnswer": "https://m.media-amazon.com/images/I/41huNvri0bL._SY445_SX342_.jpg",
-        "imgQuestion": "",
+        "img_response": "https://m.media-amazon.com/images/I/41huNvri0bL._SY445_SX342_.jpg",
+        "img_question": "",
         "correct_answer_id": 1,
         "description ": "Cem Anos de Solidão é uma obra do escritor colombiano Gabriel García Márquez, Prêmio Nobel da Literatura em 1982, e é atualmente considerada uma das obras mais importantes da literatura latino-americana."
       },
@@ -218,8 +218,8 @@
             "content": "E) Cavalos em marcha"
           }
         ],
-        "imgAnswer": "https://portalidea.com.br/cursos/xadrez.webp",
-        "imgQuestion": "",
+        "img_response": "https://portalidea.com.br/cursos/xadrez.webp",
+        "img_question": "",
         "correct_answer_id": 3,
         "description ": "Quando um rei é atacado, isso é chamado de xeque. Um xeque-mate (também conhecido como 'mate') ocorre quando um rei é colocado em xeque e não tem lances legais para escapar. Quando acontece um xeque-mate, a partida termina imediatamente e o jogador que deu o xeque-mate vence."
       },
@@ -249,8 +249,8 @@
             "content": "E) Cerca de 180 dentes"
           }
         ],
-        "imgAnswer": "https://s2.static.brasilescola.uol.com.br/be/2021/05/golfinho.jpg",
-        "imgQuestion": "",
+        "img_response": "https://s2.static.brasilescola.uol.com.br/be/2021/05/golfinho.jpg",
+        "img_question": "",
         "correct_answer_id": 1,
         "description ": "252 é o número de dentes do golfinho."
       },
@@ -280,8 +280,8 @@
             "content": "E) usina nuclear."
           }
         ],
-        "imgAnswer": "https://energes.com.br/storage/2021/01/Matriz-El%C3%A9trica-Brasileira.png",
-        "imgQuestion": "",
+        "img_response": "https://energes.com.br/storage/2021/01/Matriz-El%C3%A9trica-Brasileira.png",
+        "img_question": "",
         "correct_answer_id": 2,
         "description ": "A matriz elétrica brasileira é baseada na fonte energética hidráulica, conforme imagem abaixo:"
       },
@@ -311,8 +311,8 @@
             "content": "E) Menor quantidade de acidentes e perdas de carga."
           }
         ],
-        "imgAnswer": "https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_1c50c62c73d46bf2b79774159e9703ff_5417670.jpg.png",
-        "imgQuestion":   "",
+        "img_response": "https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_1c50c62c73d46bf2b79774159e9703ff_5417670.jpg.png",
+        "img_question":   "",
         "correct_answer_id": 2,
         "description ": "As vantagens do custo das ferrovias em relação às rodovias aparecem nos trajetos de extensão superior a 500 quilômetros. Pequenas distâncias, as vantagens nos transportes rodoviários (áreas de relevo acidentado). A circulação e entrega das mercadorias no interior das cidades é mais viável o sistheme rodoviário."
       },
@@ -342,8 +342,8 @@
             "content": "E) desurbanização"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
+        "img_response": "",
+        "img_question": "",
         "correct_answer_id": 4,
         "description ": "Gentrificação é um processo de transformação e supervalorização de uma determinada área da cidade, promovendo um aumento no custo de vida. Essa dinâmica imposta atrai um novo perfil de moradores — uma população de maior poder aquisitivo —, ao mesmo tempo que expulsa seus antigos residentes, que partem em busca de bairros mais acessíveis economicamente. Diante disso, a gentrificação aprofunda a segregação socioespacial e evidencia a falta de um planejamento urbano mais eficaz nas cidades."
       },
@@ -373,8 +373,8 @@
             "content": "E) Divisa."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "https://www.folhadedourados.com.br/wp-content/uploads/2021/01/x-159.jpg",
+        "img_response": "",
+        "img_question": "https://www.folhadedourados.com.br/wp-content/uploads/2021/01/x-159.jpg",
         "correct_answer_id": 3,
         "description ": "Conforme o Ministério da Integração, o conceito de cidades-gêmeas foi definido em 2014 e vincula a termologia aos municípios situados na linha de fronteira, seja seca ou fluvial, integrada ou não por obras de infraestrutura, que apresentem grande potencial de integração econômica e cultural. A definição só é válida para as cidades que tenham, individualmente, uma população superior a dois mil habitantes."
       },
@@ -404,8 +404,8 @@
             "content": "E) Período 3"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
+        "img_response": "",
+        "img_question": "",
         "correct_answer_id": 1,
         "description ": "UM PERÍODO DA TABELA PERIÓDICA CORRESPONDE À COLUNA HORIZONTAL NA QUAL O ELEMENTO QUÍMICO ESTÁ ORGANIZADO. O CARBONO ESTÁ SITUADO NO 2o. PERÍODO."
       },
@@ -435,8 +435,8 @@
             "content": "E) 1s2; 2p5"
           }
         ],
-        "imgAnswer": "https://static.todamateria.com.br/upload/ta/be/tabela-periodica-og.jpg",
-        "imgQuestion": "",
+        "img_response": "https://static.todamateria.com.br/upload/ta/be/tabela-periodica-og.jpg",
+        "img_question": "",
         "correct_answer_id": 2,
         "description ": "O CARBONO TEM NÚMERO ATÔMICO (Z) IGUAL A 6 E TEM DISTRIBUIÇÃO 1S2, 2S2, 2P2."
       },
@@ -466,8 +466,8 @@
             "content": "E) 960,0 L"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
+        "img_response": "",
+        "img_question": "",
         "correct_answer_id": 4,
         "description ": "USANDO A EQUAÇÃO DE CLAPEYRON, PV = nRT, TEREMOS: 1 V = 960/16 x 0,082 x 300 V = 1476 LITROS"
       },
@@ -497,8 +497,8 @@
             "content": "E) Cetona"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
+        "img_response": "",
+        "img_question": "",
         "correct_answer_id": 1,
         "description ": "FENOL É UMA FUNÇÃO ORGÂNICA ESPECIAL. NELA, HÁ A PRESENÇA DE UM ANEL AROMÁTICO COM UMA OU MAIS HIDROXILAS (OH) LIGADAS A ELE."
       },
@@ -530,8 +530,8 @@
         ],
         "correct_answer_id": 1,
         "description ": "O Equilíbrio será instável, se o brinquedo oscilar, não voltará mais para a posição de equílibrio.",
-        "imgAnswer":"",
-        "imgQuestion": "https://http2.mlstatic.com/D_NQ_NP_613305-MLB25007777049_082016-O.jpg"
+        "img_response":"",
+        "img_question": "https://http2.mlstatic.com/D_NQ_NP_613305-MLB25007777049_082016-O.jpg"
       },
       {
         "id": 82,
@@ -561,8 +561,8 @@
         ],
         "correct_answer_id": 3,
         "description ": "Nessa posição, o ciclista reduz sua área, reduzindo assim a resistência do ar.",
-        "imgAnswer":"",
-        "imgQuestion": "https://hypescience.com/wp-content/uploads/2016/08/ciclista-gif-768x348.gif"
+        "img_response":"",
+        "img_question": "https://hypescience.com/wp-content/uploads/2016/08/ciclista-gif-768x348.gif"
       },
       {
         "id": 83,
@@ -592,8 +592,8 @@
         ],
         "correct_answer_id": 4,
         "description ": "O empuxo aumenta devido ao aumento da densidade da água com uma maior concentração de sal.",
-        "imgAnswer":"",
-        "imgQuestion": "https://turismo.ig.com.br/imagens/186/186/85/3369411.mar_morto_educacao_224_299.jpg"
+        "img_response":"",
+        "img_question": "https://turismo.ig.com.br/imagens/186/186/85/3369411.mar_morto_educacao_224_299.jpg"
       },
       {
         "id": 84,
@@ -623,8 +623,8 @@
         ],
         "correct_answer_id": 5,
         "description ": "Teoria da relatividade",
-        "imgAnswer":"",
-        "imgQuestion": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/22625ba02e898a8d48593756b54f93c0.jpg"
+        "img_response":"",
+        "img_question": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/22625ba02e898a8d48593756b54f93c0.jpg"
       },
       {
         "id": 85,
@@ -654,8 +654,8 @@
         ],
         "correct_answer_id": 3,
         "description ": "Pois como a placa está em Milhas/hora , 15 x 1,6 = 24 km/h.",
-        "imgAnswer":"",
-        "imgQuestion": "http://www.hayatgibi.com/wp-content/uploads/2018/05/Speed-limit-15.jpg" 
+        "img_response":"",
+        "img_question": "http://www.hayatgibi.com/wp-content/uploads/2018/05/Speed-limit-15.jpg" 
       },
       {
         "id": 101,
@@ -685,8 +685,8 @@
         ],
         "correct_answer_id": 5,
         "description ":"A cultura helenística foi fruto da fusão do pensamento de vários povos (gregos, persas, egípcios, indianos etc.) e se expressou nas artes, na religião, na política e na filosofia.  A língua de transmissão desta cultura era o grego e foi um fator importante na estabilidade do Mediterrâneo oriental por vários séculos.",
-        "imgAnswer": "https://s1.static.brasilescola.uol.com.br/be/e/alexander.jpg",
-        "imgQuestion": ""
+        "img_response": "https://s1.static.brasilescola.uol.com.br/be/e/alexander.jpg",
+        "img_question": ""
       },
       {
         "id": 102,
@@ -716,8 +716,8 @@
         ],
         "correct_answer_id": 2,
         "description ": "Guerra dos Trinta Anos (1618-1648) – Guerra Franco-Prussiana (1870-1871) – Primeira Guerra Mundial (1814-1818).",
-        "imgAnswer": "https://escolaeducacao.com.br/wp-content/uploads/2020/07/guerra-franco-prussiana-1.jpg",
-        "imgQuestion": ""
+        "img_response": "https://escolaeducacao.com.br/wp-content/uploads/2020/07/guerra-franco-prussiana-1.jpg",
+        "img_question": ""
       },
       {
         "id": 103,
@@ -747,8 +747,8 @@
         ],
         "correct_answer_id": 3,
         "description ": "O Império Britânico foi o único que sobreviveu à 1ª Guerra, ainda assim, saiu abalado do conflito e começou a ter dificuldades em manter algumas de suas possessões.  Os demais impérios (alemão, austro-húngaro, otomano) foram desmembrados.  Já o Império Russo, manteve seu território, mas a revolução socialista derrubou a monarquia.",
-        "imgAnswer": "https://1.bp.blogspot.com/-fVD6OrkhI2M/VQSk-cjGWoI/AAAAAAAACbk/Tubq4BZjhqA/s1600/george%2BV.jpg",
-        "imgQuestion": ""
+        "img_response": "https://1.bp.blogspot.com/-fVD6OrkhI2M/VQSk-cjGWoI/AAAAAAAACbk/Tubq4BZjhqA/s1600/george%2BV.jpg",
+        "img_question": ""
       },
       {
         "id": 104,
@@ -778,8 +778,8 @@
         ],
         "correct_answer_id": 1,
         "description ": "Com o fim da 2ª Guerra e o enfraquecimento das potências europeias, várias e suas colônias conseguiram sua independência.  Alguns desses movimentos eram apoiados por Estados Unidos e URSS dentro do princípio da autodeterminação dos povos e com o intuito de ampliar as suas áreas de influência.",
-        "imgAnswer": "https://www.grupoescolar.com/wp-content/uploads/2021/03/C1FB6.jpg",
-        "imgQuestion": ""
+        "img_response": "https://www.grupoescolar.com/wp-content/uploads/2021/03/C1FB6.jpg",
+        "img_question": ""
       },
       {
         "id": 105,
@@ -809,8 +809,8 @@
         ],
         "correct_answer_id": 2,
         "description ": "Cleópatra VII (69-30 a.C.) era descendente de Ptolomeu, um dos generais de Alexandre, o Grande.  Reinou no Egito do ano 51 a.C. até a sua morte, casou-se sucessivamente com dois de seus irmãos, conforme tradição de sua família, e foi companheira de César e, mais tarde, Marco Antônio.  Tentou garantir a autonomia do Egito e foi derrotada por Otávio.",
-        "imgAnswer": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/800px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
-        "imgQuestion": ""
+        "img_response": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/800px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+        "img_question": ""
       },
       {
         "id": 121,
@@ -840,8 +840,8 @@
         ],
         "correct_answer_id": 3,
         "description ": "O poema I-Juca Pirama, de Gonçalves Dias, é um ícone do romantismo brasileiro. A obra, indianista, está dividida em dez cantos. Publicado em 1851, no livro Últimos cantos, o poema é composto por 484 versos protagonizados pelos índios tupis e timbiras.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 122,
@@ -871,8 +871,8 @@
         ],
         "correct_answer_id": 4,
         "description ": "O Gaúcho é um dos romances do escritor brasileiro José de Alencar. Essa obra foi publicada em 1870.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 123,
@@ -902,8 +902,8 @@
         ],
         "correct_answer_id": 5,
         "description ": "O verbo CONCORDAR desdobra-se com a preposição COM, bem como o pronome relativo CUJAS faz alusão ao termo que lhe é consequente (IDEIAS).",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 124,
@@ -933,8 +933,8 @@
         ],
         "correct_answer_id": 5,
         "description ": "Dífono é um fenômeno fonético no qual uma letra representa, simultaneamente, dois fonemas. No caso, a letra X, representa, simultaneamente, os fonemas K e S.",
-        "imgAnswer": "",
-        "imgQuestion": "" 
+        "img_response": "",
+        "img_question": "" 
       },
       {
         "id": 125,
@@ -964,8 +964,8 @@
         ],
         "correct_answer_id": 1,
         "description ": "A acentuação gráfica de veículo pode ser justificada  tanto por ser proparoxítona  quanto por ser um hiato (acentua-se o “i” tônico dos hiatos, seguidos ou não de “s”.)",
-        "imgAnswer": "",
-        "imgQuestion": ""  
+        "img_response": "",
+        "img_question": ""  
       }
     ]
   },
@@ -978,8 +978,8 @@
     "questions": [
       {
         "id": 17,
-        "tema": "Biologia",
-        "pergunta": "Os menores ossos do corpo humano são martelo, bigorna e estribo, localizados no ouvido médio. A função desses ossos é...",
+        "theme": "Biologia",
+        "question": "Os menores ossos do corpo humano são martelo, bigorna e estribo, localizados no ouvido médio. A função desses ossos é...",
         "alternatives": [
           {
             "id": 1,
@@ -1002,15 +1002,15 @@
             "content": "E) rotacionar o pavilhão auditivo para melhor receber o som vindo do ambiente externo."
           }
         ],
-        "imgAnswer": "https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_bd768984662f68b55348bb89755e54a1_212008.jpg.jpeg",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "A principal função desses ossos é transmitir o som da membrana do tímpano para a orelha interna: as ondas sonoras movem a membrana timpânica que, por sua vez, move os ossículos (martelo, bigorna e estribo, nessa ordem), conduzindo as vibrações sonoras para a orelha interna."
+        "img_response": "https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_bd768984662f68b55348bb89755e54a1_212008.jpg.jpeg",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "A principal função desses ossos é transmitir o som da membrana do tímpano para a orelha interna: as ondas sonoras movem a membrana timpânica que, por sua vez, move os ossículos (martelo, bigorna e estribo, nessa ordem), conduzindo as vibrações sonoras para a orelha interna."
       },
       {
         "id": 18,
-        "tema": "Biologia",
-        "pergunta": "Um processo bastante conhecido para amadurecer bananas verdes rapidamente é colocá-las embrulhadas em um jornal ou dentro de uma sacola. Isso se dá porque aumenta a concentração do(a)...",
+        "theme": "Biologia",
+        "question": "Um processo bastante conhecido para amadurecer bananas verdes rapidamente é colocá-las embrulhadas em um jornal ou dentro de uma sacola. Isso se dá porque aumenta a concentração do(a)...",
         "alternatives": [
           {
             "id": 1,
@@ -1033,15 +1033,15 @@
             "content": "E) citocinina."
           }
         ],
-        "imgAnswer": "https://static.escolakids.uol.com.br/conteudo_legenda/7b3ee0c2e3e0f2a142e49a06f51f5581.jpg",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "O gás etileno é produzido pelos vegetais em diversos tecidos e pode deslocar-se facilmente de célula para célula. Por isso que ele está presente em toda a estrutura do fruto, desde a casca até o seu interior. Basicamente, o etileno desencadeia a produção de algumas enzimas que provocam reações de amadurecimento das frutas, como é o caso da hidrólise do amido. Nessa reação, o amido que está dentro do fruto verde tem a sua molécula “quebrada”, produzindo açúcares, por isso a fruta fica mais doce."
+        "img_response": "https://static.escolakids.uol.com.br/conteudo_legenda/7b3ee0c2e3e0f2a142e49a06f51f5581.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "O gás etileno é produzido pelos vegetais em diversos tecidos e pode deslocar-se facilmente de célula para célula. Por isso que ele está presente em toda a estrutura do fruto, desde a casca até o seu interior. Basicamente, o etileno desencadeia a produção de algumas enzimas que provocam reações de amadurecimento das frutas, como é o caso da hidrólise do amido. Nessa reação, o amido que está dentro do fruto verde tem a sua molécula “quebrada”, produzindo açúcares, por isso a fruta fica mais doce."
       },
       {
         "id": 19,
-        "tema": "Biologia",
-        "pergunta": "Uma célula-tronco TOTIPOTENTE é aquela que pode se diferenciar",
+        "theme": "Biologia",
+        "question": "Uma célula-tronco TOTIPOTENTE é aquela que pode se diferenciar",
         "alternatives": [
           {
             "id": 1,
@@ -1064,15 +1064,15 @@
             "content": "E) em qualquer tipo celular."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "Células-tronco totipotentes: Essas células apresentam a capacidade de se transformar em qualquer tipo celular encontrado no corpo do indivíduo. De uma maneira simplificada, podemos dizer que esse tipo de célula-tronco é capaz de originar um ser por completo."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Células-tronco totipotentes: Essas células apresentam a capacidade de se transformar em qualquer tipo celular encontrado no corpo do indivíduo. De uma maneira simplificada, podemos dizer que esse tipo de célula-tronco é capaz de originar um ser por completo."
       },
       {
         "id": 20,
-        "tema": "Biologia",
-        "pergunta": "No ouvido interno encontramos o utrículo, o sáculo e os canais semicirculares que, juntos, formam o que conhecemos como labirinto, ou aparelho vestibular. O labirinto está relacionado à(ao)",
+        "theme": "Biologia",
+        "question": "No ouvido interno encontramos o utrículo, o sáculo e os canais semicirculares que, juntos, formam o que conhecemos como labirinto, ou aparelho vestibular. O labirinto está relacionado à(ao)",
         "alternatives": [
           {
             "id": 1,
@@ -1095,15 +1095,15 @@
             "content": "E) sustentação do pavilhão auditivo."
           }
         ],
-        "imgAnswer": "https://lirp.cdn-website.com/34216b56/dms3rep/multi/opt/labirinto-320w.jpg",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "Se fizermos algum movimento com a nossa cabeça, os otólitos (pequenos grãos de carbonato de cálcio) também se movimentarão, estimulando as células sensoriais a transmitirem informações de como está a posição do corpo para o cérebro, onde serão interpretadas. É por esse motivo que dizemos que o labirinto é o órgão responsável pelo equilíbrio do corpo."
+        "img_response": "https://lirp.cdn-website.com/34216b56/dms3rep/multi/opt/labirinto-320w.jpg",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "Se fizermos algum movimento com a nossa cabeça, os otólitos (pequenos grãos de carbonato de cálcio) também se movimentarão, estimulando as células sensoriais a transmitirem informações de como está a posição do corpo para o cérebro, onde serão interpretadas. É por esse motivo que dizemos que o labirinto é o órgão responsável pelo equilíbrio do corpo."
       },
       {
         "id": 21,
-        "tema": "Biologia",
-        "pergunta": "Sequoias são árvores de grande porte, que podem atingir mais de cem metros de altura. Algumas são tão famosas por seu tamanho que receberam apelidos, como a Hyperion, tem 115 metros de altura e é maior do que 19 girafas empilhadas. Outra sequoia, apelidada de General Sherman, é uma das árvores mais volumosas do planeta. Sua base, com mais de 30 metros de circunferência, sustenta um peso superior a 1.400 toneladas, ou seja, o equivalente a quase oito baleias-azuis. A que grupo pertence as sequoias?",
+        "theme": "Biologia",
+        "question": "Sequoias são árvores de grande porte, que podem atingir mais de cem metros de altura. Algumas são tão famosas por seu tamanho que receberam apelidos, como a Hyperion, tem 115 metros de altura e é maior do que 19 girafas empilhadas. Outra sequoia, apelidada de General Sherman, é uma das árvores mais volumosas do planeta. Sua base, com mais de 30 metros de circunferência, sustenta um peso superior a 1.400 toneladas, ou seja, o equivalente a quase oito baleias-azuis. A que grupo pertence as sequoias?",
         "alternatives": [
           {
             "id": 1,
@@ -1126,15 +1126,15 @@
             "content": "E) Dicotiledôneas"
           }
         ],
-        "imgAnswer": "https://www.invivo.fiocruz.br/wp-content/uploads/2022/04/sequoias2.jpg",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "As sequoias são “parentes” dos pinheiros, ou seja, pertencem ao grupo das gimnospermas, plantas que têm sementes, mas não têm frutos (a palavra “gimnosperma” tem origem grega e significa “semente nua”, sem proteção)."
+        "img_response": "https://www.invivo.fiocruz.br/wp-content/uploads/2022/04/sequoias2.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "As sequoias são “parentes” dos pinheiros, ou seja, pertencem ao grupo das gimnospermas, plantas que têm sementes, mas não têm frutos (a palavra “gimnosperma” tem origem grega e significa “semente nua”, sem proteção)."
       },
       {
         "id": 22,
-        "tema": "Biologia",
-        "pergunta": "Coração que apresenta quatro câmaras completamente divididas, mas ainda acontece a mistura de sangue em uma região chamada de forame de Panizza, que conecta o arco aórtico sistêmico direito e esquerdo. Esse coração pertence a um...",
+        "theme": "Biologia",
+        "question": "Coração que apresenta quatro câmaras completamente divididas, mas ainda acontece a mistura de sangue em uma região chamada de forame de Panizza, que conecta o arco aórtico sistêmico direito e esquerdo. Esse coração pertence a um...",
         "alternatives": [
           {
             "id": 1,
@@ -1157,15 +1157,15 @@
             "content": "E) elefante."
           }
         ],
-        "imgAnswer": "https://www.explicae.com.br/app/uploads/avatars/51f4bd77-889f-4a1a-8d1b-7bd1d90f762e-1606139196574.png",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "Forame de Panizza é a intercomunicação do arco aórtico sistêmico direito e esquerdo do coração dos répteis crocodilianos."
+        "img_response": "https://www.explicae.com.br/app/uploads/avatars/51f4bd77-889f-4a1a-8d1b-7bd1d90f762e-1606139196574.png",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "Forame de Panizza é a intercomunicação do arco aórtico sistêmico direito e esquerdo do coração dos répteis crocodilianos."
       },
       {
         "id": 23,
-        "tema": "Biologia",
-        "pergunta": "O Mar dos Sargaços é uma região alongada no meio do Atlântico Norte, com cerca de 1100 km de largura e cerca de 3200 km de comprimento, cercado por várias correntes oceânicas, como a Corrente do Golfo, Corrente dos Açores, Correntes das Canárias, Corrente Equatorial Norte e Corrente das Antilhas. O que é sargaço?",
+        "theme": "Biologia",
+        "question": "O Mar dos Sargaços é uma região alongada no meio do Atlântico Norte, com cerca de 1100 km de largura e cerca de 3200 km de comprimento, cercado por várias correntes oceânicas, como a Corrente do Golfo, Corrente dos Açores, Correntes das Canárias, Corrente Equatorial Norte e Corrente das Antilhas. O que é sargaço?",
         "alternatives": [
           {
             "id": 1,
@@ -1188,15 +1188,15 @@
             "content": "E) Um encontro de correntes marítimas."
           }
         ],
-        "imgAnswer": "https://www.dicasondeficar.com.br/wp-content/uploads/2016/07/Sarga%C3%A7o-em-Tulum-M%C3%A9xico.jpg",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "O Mar dos Sargaços é caracterizado pela existência abundante de um a espécie de algas com o nome de sargaço (sargassum). As algas são tantas que travam as embarcações que por ali passam e juntamente com a total ausência de vento, que por vezes ocorre, torna-se muito difícil navegar, chegando ao ponto de algumas embarcações encalharem."
+        "img_response": "https://www.dicasondeficar.com.br/wp-content/uploads/2016/07/Sarga%C3%A7o-em-Tulum-M%C3%A9xico.jpg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "O Mar dos Sargaços é caracterizado pela existência abundante de um a espécie de algas com o nome de sargaço (sargassum). As algas são tantas que travam as embarcações que por ali passam e juntamente com a total ausência de vento, que por vezes ocorre, torna-se muito difícil navegar, chegando ao ponto de algumas embarcações encalharem."
       },
       {
         "id": 24,
-        "tema": "Biologia",
-        "pergunta": "Observe a imagem. Uma pessoa do tipo A poderia receber sangue dos indivíduos...",
+        "theme": "Biologia",
+        "question": "Observe a imagem. Uma pessoa do tipo A poderia receber sangue dos indivíduos...",
         "alternatives": [
           {
             "id": 1,
@@ -1219,15 +1219,15 @@
             "content": "E) 1 e 2."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5NeDIyxLKsmvslchJbziof0Dh_tcHZcUXOssJlwHkIyjZoa4m6EyRtUhhhSsvzyz01x0&usqp=CAU",
-        "resposta": "C",
-        "descricao": "Uma pessoa do tipo A só pode receber sangue de pessoas A ou O, portanto, indivíduos 1 e 4."
+        "img_response": "",
+        "img_question": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5NeDIyxLKsmvslchJbziof0Dh_tcHZcUXOssJlwHkIyjZoa4m6EyRtUhhhSsvzyz01x0&usqp=CAU",
+        "correct_answer_id": 3,
+        "description": "Uma pessoa do tipo A só pode receber sangue de pessoas A ou O, portanto, indivíduos 1 e 4."
       },
       {
         "id": 25,
-        "tema": "Biologia",
-        "pergunta": "No heredograma, os símbolos preenchidos representam pessoas portadoras de um tipo raro de doença genética. Os homens são representados pelos quadrados e as mulheres, pelos círculos. Qual é o padrão de herança observado para essa doença?",
+        "theme": "Biologia",
+        "question": "No heredograma, os símbolos preenchidos representam pessoas portadoras de um tipo raro de doença genética. Os homens são representados pelos quadrados e as mulheres, pelos círculos. Qual é o padrão de herança observado para essa doença?",
         "alternatives": [
           {
             "id": 1,
@@ -1250,15 +1250,15 @@
             "content": "E) Codominante autossômico, pois a doença é herdada pelos filhos de ambos os sexos, tanto do pai quanto da mãe."
           }
         ],
-        "imgAnswer": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145353/Quest%C3%A3o74_Enem2014.jpg",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "Uma das características da herança dominante ligada ao X é os homens afetados transmitem o caráter para todas as suas filhas e nenhum de seus filhos e as mulheres afetadas que são heterozigotas transmitem o caráter para a metade de seus filhos de ambos os sexos."
+        "img_response": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145353/Quest%C3%A3o74_Enem2014.jpg",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "Uma das características da herança dominante ligada ao X é os homens afetados transmitem o caráter para todas as suas filhas e nenhum de seus filhos e as mulheres afetadas que são heterozigotas transmitem o caráter para a metade de seus filhos de ambos os sexos."
       },
       {
         "id": 26,
-        "tema": "Biologia",
-        "pergunta": "Tratamento que introduz no organismo genes saudáveis para substituir, modificar ou suplementar genes inativos ou disfuncionais que causem algum problema de saúde é chamado de...",
+        "theme": "Biologia",
+        "question": "Tratamento que introduz no organismo genes saudáveis para substituir, modificar ou suplementar genes inativos ou disfuncionais que causem algum problema de saúde é chamado de...",
         "alternatives": [
           {
             "id": 1,
@@ -1281,15 +1281,15 @@
             "content": "E) cisgenia."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "A terapia gênica pode ser definida como um procedimento em que são feitas modificações genéticas em células como uma forma de tratar uma doença. Essas modificações são realizadas por meio da inserção de um gene funcional dentro da célula que substituirá o gene defeituoso e promoverá a produção de proteínas corretamente."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "A terapia gênica pode ser definida como um procedimento em que são feitas modificações genéticas em células como uma forma de tratar uma doença. Essas modificações são realizadas por meio da inserção de um gene funcional dentro da célula que substituirá o gene defeituoso e promoverá a produção de proteínas corretamente."
       },
       {
         "id": 27,
-        "tema": "Biologia",
-        "pergunta": "A capacidade de reprodução de uma espécie, avaliada em um ambiente que não impões dificuldades a seu desenvolvimento é conhecido como...",
+        "theme": "Biologia",
+        "question": "A capacidade de reprodução de uma espécie, avaliada em um ambiente que não impões dificuldades a seu desenvolvimento é conhecido como...",
         "alternatives": [
           {
             "id": 1,
@@ -1312,15 +1312,15 @@
             "content": "E) densidade populacional."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "Potencial Biótico é um termo que se refere à capacidade reprodutiva dos organismos, sendo eles animais, plantas, fungos, dentre outros, além de estar relacionado com as condições necessárias para o desenvolvimento das espécies."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "Potencial Biótico é um termo que se refere à capacidade reprodutiva dos organismos, sendo eles animais, plantas, fungos, dentre outros, além de estar relacionado com as condições necessárias para o desenvolvimento das espécies."
       },
       {
         "id": 28,
-        "tema": "Biologia",
-        "pergunta": "A passagem dos leucócitos através da parede dos capilares sanguíneos, vênulas e até arteríolas, penetrando através das junções entre as células endoteliais é chamado de...",
+        "theme": "Biologia",
+        "question": "A passagem dos leucócitos através da parede dos capilares sanguíneos, vênulas e até arteríolas, penetrando através das junções entre as células endoteliais é chamado de...",
         "alternatives": [
           {
             "id": 1,
@@ -1343,15 +1343,15 @@
             "content": "E) osmose"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "A diapedese é o processo da passagem dos leucócitos do sangue, nos capilares sanguíneos, para o tecido conjuntivo devido a uma inflamação que é causada por algum agente externo, como um corte no dedo. Ou seja, do meio intracelular para o extracelular."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "A diapedese é o processo da passagem dos leucócitos do sangue, nos capilares sanguíneos, para o tecido conjuntivo devido a uma inflamação que é causada por algum agente externo, como um corte no dedo. Ou seja, do meio intracelular para o extracelular."
       },
       {
         "id": 29,
-        "tema": "Curiosidades",
-        "pergunta": "Qual o primeiro brasileiro a ter um telefone em casa?",
+        "theme": "Curiosidades",
+        "question": "Qual o primeiro brasileiro a ter um telefone em casa?",
         "alternatives": [
           {
             "id": 1,
@@ -1374,15 +1374,15 @@
             "content": "E) Dom Pedro I"
           }
         ],
-        "imgAnswer": "https://www.google.com/search?sca_esv=566478814&sxsrf=AM9HkKkFH49Wgd5nFGFGlvajZB7wRS-U3g:1695093507268&q=dom+pedro+ii&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiugvKy27WBAxXMrJUCHa5QAAIQ0pQJegQIDRAB&biw=1366&bih=643&dpr=1#imgrc=frMSwUujfHhaqM",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "O telefone chegou no Brasil no ano de 1877. O primeiro aparelho foi fabricado para Dom Pedro II e instalado no Palácio Imperial de São Cristovão, localizado na Quinta da Boa Vista, hoje o Museu Nacional no Rio de Janeiro."
+        "img_response": "https://www.google.com/search?sca_esv=566478814&sxsrf=AM9HkKkFH49Wgd5nFGFGlvajZB7wRS-U3g:1695093507268&q=dom+pedro+ii&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiugvKy27WBAxXMrJUCHa5QAAIQ0pQJegQIDRAB&biw=1366&bih=643&dpr=1#imgrc=frMSwUujfHhaqM",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "O telefone chegou no Brasil no ano de 1877. O primeiro aparelho foi fabricado para Dom Pedro II e instalado no Palácio Imperial de São Cristovão, localizado na Quinta da Boa Vista, hoje o Museu Nacional no Rio de Janeiro."
       },
       {
         "id": 30,
-        "tema": "Curiosidades",
-        "pergunta": "Complete: O 'sangue' (hemolinfa) das aranhas é da cor...",
+        "theme": "Curiosidades",
+        "question": "Complete: O 'sangue' (hemolinfa) das aranhas é da cor...",
         "alternatives": [
           {
             "id": 1,
@@ -1405,15 +1405,15 @@
             "content": "E) Vermelho"
           }
         ],
-        "imgAnswer": "https://img.freepik.com/vetores-premium/desenho-de-aranha-bonito-no-fundo-branco_1639-41781.jpg",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "As aranhas têm sangue circulante em seus corpos. O sangue incolor, chamado hemolinfa, transporta nutrientes, hormônios, oxigênio e células."
+        "img_response": "https://img.freepik.com/vetores-premium/desenho-de-aranha-bonito-no-fundo-branco_1639-41781.jpg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "As aranhas têm sangue circulante em seus corpos. O sangue incolor, chamado hemolinfa, transporta nutrientes, hormônios, oxigênio e células."
       },
       {
         "id": 31,
-        "tema": "Curiosidades",
-        "pergunta": "Qual o significado do nome 'Coala'?",
+        "theme": "Curiosidades",
+        "question": "Qual o significado do nome 'Coala'?",
         "alternatives": [
           {
             "id": 1,
@@ -1436,15 +1436,15 @@
             "content": "E) Colorido"
           }
         ],
-        "imgAnswer": "https://static.escolakids.uol.com.br/2019/07/coala.jpg",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "O nome coala significa 'animal que não bebe' e é uma referência ao fato de que os coalas retiram a água de que necessitam das folhas de que se alimentam."
+        "img_response": "https://static.escolakids.uol.com.br/2019/07/coala.jpg",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "O nome coala significa 'animal que não bebe' e é uma referência ao fato de que os coalas retiram a água de que necessitam das folhas de que se alimentam."
       },
       {
         "id": 32,
-        "tema": "Curiosidades",
-        "pergunta": "Qual o segundo maior órgão do corpo humano?",
+        "theme": "Curiosidades",
+        "question": "Qual o segundo maior órgão do corpo humano?",
         "alternatives": [
           {
             "id": 1,
@@ -1467,15 +1467,15 @@
             "content": "E) O pulmão"
           }
         ],
-        "imgAnswer": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/figado.jpg",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "O fígado é o segundo maior órgão, perdendo apenas para a pele, e a maior glândula do corpo humano. Ele apresenta várias funções essenciais para o funcionamento do organismo, como a eliminação de substâncias tóxicas e a produção da bile, um produto essencial para a digestão de gorduras."
+        "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/figado.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "O fígado é o segundo maior órgão, perdendo apenas para a pele, e a maior glândula do corpo humano. Ele apresenta várias funções essenciais para o funcionamento do organismo, como a eliminação de substâncias tóxicas e a produção da bile, um produto essencial para a digestão de gorduras."
       },
       {
         "id": 33,
-        "tema": "Curiosidades",
-        "pergunta": "Qual a cor da frase 'Ordem e Progresso' na Bandeira do Brasil?",
+        "theme": "Curiosidades",
+        "question": "Qual a cor da frase 'Ordem e Progresso' na Bandeira do Brasil?",
         "alternatives": [
           {
             "id": 1,
@@ -1498,15 +1498,15 @@
             "content": "E) Cinza"
           }
         ],
-        "imgQuestion": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg",
-        "imgAnswer": "",
-        "resposta": "C",
-        "descricao": "As cores da bandeira nacional são: Verde, Amarelo, Azul e Branco, logo a única alternativa correta é Verde, pois o branco não se encontra na faixa branca."
+        "img_question": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg",
+        "img_response": "",
+        "correct_answer_id": 3,
+        "description": "As cores da bandeira nacional são: Verde, Amarelo, Azul e Branco, logo a única alternativa correta é Verde, pois o branco não se encontra na faixa branca."
       },
       {
         "id": 34,
-        "tema": "Curiosidades",
-        "pergunta": "Quais são os pontos extremos do Brasil?",
+        "theme": "Curiosidades",
+        "question": "Quais são os pontos extremos do Brasil?",
         "alternatives": [
           {
             "id": 1,
@@ -1529,15 +1529,15 @@
             "content": "E) Uruguaiana (RS) - Monte Caburaí (RR) - Arroio Chuí (RS) - Nascente do Rio Moa (AC)"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "São os pontos extremos oficiais do Brasil. Ponta do Seixas (PB) - Monte Caburaí (RR) - Arroio Chuí (RS) - Nascente do Rio Moa (AC)"
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "São os pontos extremos oficiais do Brasil. Ponta do Seixas (PB) - Monte Caburaí (RR) - Arroio Chuí (RS) - Nascente do Rio Moa (AC)"
       },
       {
         "id": 35,
-        "tema": "Curiosidades",
-        "pergunta": "Quantos estados fazem divisa com o estado de Tocantins?",
+        "theme": "Curiosidades",
+        "question": "Quantos estados fazem divisa com o estado de Tocantins?",
         "alternatives": [
           {
             "id": 1,
@@ -1560,15 +1560,15 @@
             "content": "E) 5"
           }
         ],
-        "imgAnswer": "https://construcaocivil.info/wp-content/uploads/2014/11/1599640_608814519229236_923943964_n.jpg",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "Seis estados oficialmente (Pará, Mato Grosso, Goiás, Maranhão, Piauí e Bahia), mesmo tendo uma fronteira muito pequena com Piauí."
+        "img_response": "https://construcaocivil.info/wp-content/uploads/2014/11/1599640_608814519229236_923943964_n.jpg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "Seis estados oficialmente (Pará, Mato Grosso, Goiás, Maranhão, Piauí e Bahia), mesmo tendo uma fronteira muito pequena com Piauí."
       },
       {
         "id": 36,
-        "tema": "Curiosidades",
-        "pergunta": "Qual a palavra que está escrita na bandeira do Estado da Paraíba?",
+        "theme": "Curiosidades",
+        "question": "Qual a palavra que está escrita na bandeira do Estado da Paraíba?",
         "alternatives": [
           {
             "id": 1,
@@ -1591,15 +1591,15 @@
             "content": "E) Nordeste"
           }
         ],
-        "imgAnswer": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/300px-Bandeira_da_Para%C3%ADba.svg.png",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "No meio da parte vermelha, há a inscrição 'NEGO', na cor branca e em letras maiúsculas, que é a conjugação do verbo 'negar' no presente do indicativo da primeira pessoa do singular e representa a não aceitação do sucessor à presidência da república indicado pelo presidente brasileiro da época, Washington Luís."
+        "img_response": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/300px-Bandeira_da_Para%C3%ADba.svg.png",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "No meio da parte vermelha, há a inscrição 'NEGO', na cor branca e em letras maiúsculas, que é a conjugação do verbo 'negar' no presente do indicativo da primeira pessoa do singular e representa a não aceitação do sucessor à presidência da república indicado pelo presidente brasileiro da época, Washington Luís."
       },
       {
         "id": 37,
-        "tema": "Curiosidades",
-        "pergunta": "Quais são as duas capitais brasileiras que estão mais próximas?",
+        "theme": "Curiosidades",
+        "question": "Quais são as duas capitais brasileiras que estão mais próximas?",
         "alternatives": [
           {
             "id": 1,
@@ -1622,15 +1622,15 @@
             "content": "E) Goiânia e Brasília"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "João Pessoa e Recife têm aproximadamente 120 Km de distância, a menor entre duas capitais do Brasil."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "João Pessoa e Recife têm aproximadamente 120 Km de distância, a menor entre duas capitais do Brasil."
       },
       {
         "id": 38,
-        "tema": "Curiosidades",
-        "pergunta": "Qual associação está errada?",
+        "theme": "Curiosidades",
+        "question": "Qual associação está errada?",
         "alternatives": [
           {
             "id": 1,
@@ -1653,15 +1653,15 @@
             "content": "E) São Paulo - São Paulo ; Salvador - Bahia ; Manaus - Amazonas ; Macapá – Amapá"
           }
         ],
-        "imgAnswer": "https://static.preparaenem.com/2022/06/mapa-boa-vista.jpg",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "Boa Vista é a capital de Roraima."
+        "img_response": "https://static.preparaenem.com/2022/06/mapa-boa-vista.jpg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "Boa Vista é a capital de Roraima."
       },
       {
         "id": 39,
-        "tema": "Curiosidades",
-        "pergunta": "Em qual bandeira de estado do Brasil aparece a palavra 'Humanidade'?",
+        "theme": "Curiosidades",
+        "question": "Em qual bandeira de estado do Brasil aparece a palavra 'Humanidade'?",
         "alternatives": [
           {
             "id": 1,
@@ -1684,15 +1684,15 @@
             "content": "E) Rio Grande do Sul"
           }
         ],
-        "imgAnswer": "https://estado.rs.gov.br/upload/recortes/201707/20075647_1210628_GDO.jpg",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "Está escrito na Bandeira do Rio Grande do Sul: Liberdade Igualdade - Humanidade."
+        "img_response": "https://estado.rs.gov.br/upload/recortes/201707/20075647_1210628_GDO.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Está escrito na Bandeira do Rio Grande do Sul: Liberdade Igualdade - Humanidade."
       },
       {
         "id": 40,
-        "tema": "Curiosidades",
-        "pergunta": "Dos estados brasileiros banhados pelo Oceano Atlântico, qual deles tem a menor extensão litorânea?",
+        "theme": "Curiosidades",
+        "question": "Dos estados brasileiros banhados pelo Oceano Atlântico, qual deles tem a menor extensão litorânea?",
         "alternatives": [
           {
             "id": 1,
@@ -1715,15 +1715,15 @@
             "content": "E) Brasília"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "Piauí tem apenas 66 km de litoral."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "Piauí tem apenas 66 km de litoral."
       },
       {
         "id": 41,
-        "tema": "Geografia",
-        "pergunta": "A área hachurada na cor verde representa a:",
+        "theme": "Geografia",
+        "question": "A área hachurada na cor verde representa a:",
         "alternatives": [
           {
             "id": 1,
@@ -1746,15 +1746,15 @@
             "content": "E) Amazônia marítima."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Amazonia_legal_brazil_map.PNG/800px-Amazonia_legal_brazil_map.PNG",
-        "resposta": "C",
-        "descricao": "A área representa a Amazônia Legal que é constituída da seguinte forma: Região N, TO, MT e partes do MA."
+        "img_response": "",
+        "img_question": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Amazonia_legal_brazil_map.PNG/800px-Amazonia_legal_brazil_map.PNG",
+        "correct_answer_id": 3,
+        "description": "A área representa a Amazônia Legal que é constituída da seguinte forma: Região N, TO, MT e partes do MA."
       },
       {
         "id": 42,
-        "tema": "Geografia",
-        "pergunta": "A Amazônia Azul é a faixa oceânica que o Brasil tem direito de exploração. Sobre sua extensão, podemos dizer:",
+        "theme": "Geografia",
+        "question": "A Amazônia Azul é a faixa oceânica que o Brasil tem direito de exploração. Sobre sua extensão, podemos dizer:",
         "alternatives": [
           {
             "id": 1,
@@ -1777,15 +1777,15 @@
             "content": "E) a partir do litoral até o limite da Plataforma Continental brasileira."
           }
         ],
-        "imgAnswer": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxY07uI7PsGR4sBV-rYDYMWq5A5SN8ZwNZu0Z3VFzau6itcJ77AeskVWubUPOAeVtU9ZQ&usqp=CAU",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "Amazônia Azul: Mar Territorial + ZEE + extensão da Plataforma Continental (Limite). Foi estabelecida conforme os critérios técnicos e condicionantes do Artigo 76 da Lei do Mar, onde prescreve: “Os direitos do Estado costeiro na plataforma continental são exclusivos no sentido de que, se o Estado costeiro não explora a plataforma continental ou não aproveita os recursos naturais da mesma, ninguém pode empreender estas atividades sem o expresso consentimento desse Estado.”"
+        "img_response": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxY07uI7PsGR4sBV-rYDYMWq5A5SN8ZwNZu0Z3VFzau6itcJ77AeskVWubUPOAeVtU9ZQ&usqp=CAU",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Amazônia Azul: Mar Territorial + ZEE + extensão da Plataforma Continental (Limite). Foi estabelecida conforme os critérios técnicos e condicionantes do Artigo 76 da Lei do Mar, onde prescreve: “Os direitos do Estado costeiro na plataforma continental são exclusivos no sentido de que, se o Estado costeiro não explora a plataforma continental ou não aproveita os recursos naturais da mesma, ninguém pode empreender estas atividades sem o expresso consentimento desse Estado.”"
       },
       {
         "id": 43,
-        "tema": "Geografia",
-        "pergunta": "O que são mapas?",
+        "theme": "Geografia",
+        "question": "O que são mapas?",
         "alternatives": [
           {
             "id": 1,
@@ -1808,15 +1808,15 @@
             "content": "E) representação gráfica de um espaço imaginário, em uma superfície esférica."
           }
         ],
-        "imgAnswer": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "Os mapas correspondem a uma representação gráfica de um espaço real, em uma superfície plana, como um papel. Em um mapa é possível representar diferentes lugares do planeta, partindo do particular como um bairro, cidade ou estado e geral como um país, continente ou o mapa mundi."
+        "img_response": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "Os mapas correspondem a uma representação gráfica de um espaço real, em uma superfície plana, como um papel. Em um mapa é possível representar diferentes lugares do planeta, partindo do particular como um bairro, cidade ou estado e geral como um país, continente ou o mapa mundi."
       },
       {
         "id": 44,
-        "tema": "Geografia",
-        "pergunta": "São alguns elementos de um mapa?",
+        "theme": "Geografia",
+        "question": "São alguns elementos de um mapa?",
         "alternatives": [
           {
             "id": 1,
@@ -1839,15 +1839,15 @@
             "content": "E) legenda, orientação e fotografia."
           }
         ],
-        "imgAnswer": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "Os mapas correspondem a uma representação gráfica de um espaço real, em uma superfície plana, como um papel. Em um mapa é possível representar diferentes lugares do planeta, partindo do particular como um bairro, cidade ou estado e geral como um país, continente ou o mapa mundi. Qualquer que seja sua função, o autor do mapa deve sempre incluir os elementos necessários para a construção de um mapa, que são: título, escala, orientação, legenda e projeção."
+        "img_response": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "Os mapas correspondem a uma representação gráfica de um espaço real, em uma superfície plana, como um papel. Em um mapa é possível representar diferentes lugares do planeta, partindo do particular como um bairro, cidade ou estado e geral como um país, continente ou o mapa mundi. Qualquer que seja sua função, o autor do mapa deve sempre incluir os elementos necessários para a construção de um mapa, que são: título, escala, orientação, legenda e projeção."
       },
       {
         "id": 45,
-        "tema": "Geografia",
-        "pergunta": "As 10 horas um aluno no Colégio Militar de Manaus fez uma ligação. Qual horário será na cidade de Rio Branco/AC e na Ilha de Fernando de Noronha/PE, respectivamente?",
+        "theme": "Geografia",
+        "question": "As 10 horas um aluno no Colégio Militar de Manaus fez uma ligação. Qual horário será na cidade de Rio Branco/AC e na Ilha de Fernando de Noronha/PE, respectivamente?",
         "alternatives": [
           {
             "id": 1,
@@ -1870,15 +1870,15 @@
             "content": "E) 8 horas e 11 horas."
           }
         ],
-        "imgAnswer": "https://1.bp.blogspot.com/-TE9X94Z13Pg/XbYlRXXyCwI/AAAAAAABXiE/Vcld5LFUhJQemFI9JX9lUrJlleCNCtRCgCLcBGAsYHQ/s1600/mundo%2Bfusos%2Bhor%25C3%25A1rios.png",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "Existem quatro fusos horários no Brasil, que são GMT -2, GMT -3 (conhecido como horário de Brasília, que é a hora oficial do país), GMT -4 e GMT -5. Como o país está localizado inteiramente no hemisfério ocidental, ou oeste, todos os seus horários se encontram atrasados em relação à zona inicial, que tem como centro o Meridiano de Greenwich. O aluno do Colégio Militar de Manaus fez uma ligação no fuso GMT -4. Estão inseridos nele a totalidade dos territórios de Rondônia, Roraima, Mato Grosso e Mato Grosso do Sul, além da maior porção do Amazonas. Rio Branco/AC está no fuso GMT -5, portanto, será 9 horas e na Ilha de Fernando de Noronha/PE no fuso GMT -2 será 12 horas."
+        "img_response": "https://1.bp.blogspot.com/-TE9X94Z13Pg/XbYlRXXyCwI/AAAAAAABXiE/Vcld5LFUhJQemFI9JX9lUrJlleCNCtRCgCLcBGAsYHQ/s1600/mundo%2Bfusos%2Bhor%25C3%25A1rios.png",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "Existem quatro fusos horários no Brasil, que são GMT -2, GMT -3 (conhecido como horário de Brasília, que é a hora oficial do país), GMT -4 e GMT -5. Como o país está localizado inteiramente no hemisfério ocidental, ou oeste, todos os seus horários se encontram atrasados em relação à zona inicial, que tem como centro o Meridiano de Greenwich. O aluno do Colégio Militar de Manaus fez uma ligação no fuso GMT -4. Estão inseridos nele a totalidade dos territórios de Rondônia, Roraima, Mato Grosso e Mato Grosso do Sul, além da maior porção do Amazonas. Rio Branco/AC está no fuso GMT -5, portanto, será 9 horas e na Ilha de Fernando de Noronha/PE no fuso GMT -2 será 12 horas."
       },
       {
         "id": 46,
-        "tema": "Geografia",
-        "pergunta": "A Rosa dos Ventos de NE para NO possui quantos graus, tendo o N como 0º e sentido horário?",
+        "theme": "Geografia",
+        "question": "A Rosa dos Ventos de NE para NO possui quantos graus, tendo o N como 0º e sentido horário?",
         "alternatives": [
           {
             "id": 1,
@@ -1901,15 +1901,15 @@
             "content": "E) 315º."
           }
         ],
-        "imgAnswer": "https://static.dicionariodesimbolos.com.br/upload/82/16/significado-da-rosa-dos-ventos-1_xl.jpeg",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "A rosa dos ventos possui 360º. Partindo do Norte como 0º no sentido horário. Ao pegar o ângulo compreendido de NE para NO teremos 270º."
+        "img_response": "https://static.dicionariodesimbolos.com.br/upload/82/16/significado-da-rosa-dos-ventos-1_xl.jpeg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "A rosa dos ventos possui 360º. Partindo do Norte como 0º no sentido horário. Ao pegar o ângulo compreendido de NE para NO teremos 270º."
       },
       {
         "id": 47,
-        "tema": "Geografia",
-        "pergunta": "El Niño é o aquecimento anormal das águas do Pacífico Equatorial, no Brasil ele ocasiona:",
+        "theme": "Geografia",
+        "question": "El Niño é o aquecimento anormal das águas do Pacífico Equatorial, no Brasil ele ocasiona:",
         "alternatives": [
           {
             "id": 1,
@@ -1932,15 +1932,15 @@
             "content": "E) chuvas na região nordeste e seca na região sul no verão."
           }
         ],
-        "imgAnswer": "https://ufbaconquista.files.wordpress.com/2017/12/imagem-1.jpg",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "El Niño é um fenômeno climático, que envolve fatores atmosféricos e oceânicos, caracterizado pelo aumento das temperaturas do oceano Pacífico. No Brasil, o El Niño causa chuvas torrenciais na região Sul, além de secas severas no Norte e Nordeste do país."
+        "img_response": "https://ufbaconquista.files.wordpress.com/2017/12/imagem-1.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "El Niño é um fenômeno climático, que envolve fatores atmosféricos e oceânicos, caracterizado pelo aumento das temperaturas do oceano Pacífico. No Brasil, o El Niño causa chuvas torrenciais na região Sul, além de secas severas no Norte e Nordeste do país."
       },
       {
         "id": 48,
-        "tema": "Geografia",
-        "pergunta": "Qual é o único clima do Brasil que não está na faixa intertropical?",
+        "theme": "Geografia",
+        "question": "Qual é o único clima do Brasil que não está na faixa intertropical?",
         "alternatives": [
           {
             "id": 1,
@@ -1963,15 +1963,15 @@
             "content": "E) Subtropical."
           }
         ],
-        "imgAnswer": "https://ufbaconquista.files.wordpress.com/2017/12/imagem-1.jpg",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "Os principais climas do Brasil são: equatorial, tropical, semiárido, tropical de altitude, tropical atlântico e subtropical. O clima subtropical ocorre nas terras situadas abaixo do Trópico de Capricórnio, portanto, na porção do território nacional situada na Zona Temperada Sul do planeta, que corresponde aos estados da região Sul, ao sudeste de São Paulo e à porção meridional do Mato Grosso do Sul."
+        "img_response": "https://ufbaconquista.files.wordpress.com/2017/12/imagem-1.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Os principais climas do Brasil são: equatorial, tropical, semiárido, tropical de altitude, tropical atlântico e subtropical. O clima subtropical ocorre nas terras situadas abaixo do Trópico de Capricórnio, portanto, na porção do território nacional situada na Zona Temperada Sul do planeta, que corresponde aos estados da região Sul, ao sudeste de São Paulo e à porção meridional do Mato Grosso do Sul."
       },
       {
         "id": 49,
-        "tema": "Geografia",
-        "pergunta": "Friagem mais forte do ano no Acre deixa temperaturas inferiores a 20 graus ao longo desta semana.",
+        "theme": "Geografia",
+        "question": "Friagem mais forte do ano no Acre deixa temperaturas inferiores a 20 graus ao longo desta semana.",
         "alternatives": [
           {
             "id": 1,
@@ -1994,15 +1994,15 @@
             "content": "E) mEa."
           }
         ],
-        "imgAnswer": "https://conteudo.imguol.com.br/c/entretenimento/98/2022/05/18/pessoas-caminham-e-se-protegem-do-frio-em-avenida-da-zona-sul-de-sao-paulo-1652886452107_v2_900x506.jpg",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "A mPa – Massa Polar Atlântica  é a massa de ar frio que determina, durante o inverno, o estado de tempo ou comportamento atmosférico na Região Sul. Essas ondas de frio são acompanhadas, muitas vezes, por chuvas prolongadas ou garoas, geadas e até por quedas de neve. Até mesmo a Amazônia é atingida por esses avanços da Massa Polar Atlântica durante o inverno austral. É o fenômeno da “friagem“, que ocorre na porção sul da Amazônia e o norte do Mato Grosso."
+        "img_response": "https://conteudo.imguol.com.br/c/entretenimento/98/2022/05/18/pessoas-caminham-e-se-protegem-do-frio-em-avenida-da-zona-sul-de-sao-paulo-1652886452107_v2_900x506.jpg",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "A mPa – Massa Polar Atlântica  é a massa de ar frio que determina, durante o inverno, o estado de tempo ou comportamento atmosférico na Região Sul. Essas ondas de frio são acompanhadas, muitas vezes, por chuvas prolongadas ou garoas, geadas e até por quedas de neve. Até mesmo a Amazônia é atingida por esses avanços da Massa Polar Atlântica durante o inverno austral. É o fenômeno da “friagem“, que ocorre na porção sul da Amazônia e o norte do Mato Grosso."
       },
       {
         "id": 50,
-        "tema": "Geografia",
-        "pergunta": "Correlacione o tipo de clima e a região do Brasil, respectivamente:",
+        "theme": "Geografia",
+        "question": "Correlacione o tipo de clima e a região do Brasil, respectivamente:",
         "alternatives": [
           {
             "id": 1,
@@ -2025,15 +2025,15 @@
             "content": "E) Tropical de Altitude / nas partes baixas da região Sudeste."
           }
         ],
-        "imgAnswer": "https://pbs.twimg.com/media/EpZrxEBWwAEXVGF.jpg",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "O clima semiárido caracteriza-se por temperaturas elevadas, baixa amplitude térmica anual e chuvas escassas e mal distribuídas, com longos períodos de seca. No Brasil, esse clima compreende o interior da região Nordeste e o norte de Minas Gerais."
+        "img_response": "https://pbs.twimg.com/media/EpZrxEBWwAEXVGF.jpg",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "O clima semiárido caracteriza-se por temperaturas elevadas, baixa amplitude térmica anual e chuvas escassas e mal distribuídas, com longos períodos de seca. No Brasil, esse clima compreende o interior da região Nordeste e o norte de Minas Gerais."
       },
       {
         "id": 51,
-        "tema": "Geografia",
-        "pergunta": "Observe o climograma e responda:",
+        "theme": "Geografia",
+        "question": "Observe o climograma e responda:",
         "alternatives": [
           {
             "id": 1,
@@ -2056,15 +2056,15 @@
             "content": "E) Possui temperaturas médias e chuvas reduzidas no verão."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "https://images.climate-data.org/location/655/climate-graph.png",
-        "resposta": "D",
-        "descricao": "O climograma possui temperaturas altas no verão e baixas no inverno e na dinâmica pluviométrica possui verão chuvoso e inverno com poucas chuvas."
+        "img_response": "",
+        "img_question": "https://images.climate-data.org/location/655/climate-graph.png",
+        "correct_answer_id": 4,
+        "description": "O climograma possui temperaturas altas no verão e baixas no inverno e na dinâmica pluviométrica possui verão chuvoso e inverno com poucas chuvas."
       },
       {
         "id": 52,
-        "tema": "Geografia",
-        "pergunta": "Observe o mapa-múndi a seguir e selecione a alternativa que aponta as semelhanças entre os países pintados em verde.",
+        "theme": "Geografia",
+        "question": "Observe o mapa-múndi a seguir e selecione a alternativa que aponta as semelhanças entre os países pintados em verde.",
         "alternatives": [
           {
             "id": 1,
@@ -2087,15 +2087,15 @@
             "content": "E) BRICS"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "Grupo de países com economias emergentes criado em 2006, formado inicialmente por Brasil, Rússia, Índia, China e posteriormente, em 2011, a África do Sul passa a integrar o grupo."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Grupo de países com economias emergentes criado em 2006, formado inicialmente por Brasil, Rússia, Índia, China e posteriormente, em 2011, a África do Sul passa a integrar o grupo."
       },
       {
         "id": 53,
-        "tema": "Química",
-        "pergunta": "Considere as seguintes transformações que ocorrem em uma vela acesa: \nI. Solidificação da parafina que escorre da vela. \nII. Queima da parafina. \nIII. Vaporização da parafina. Dessas transformações, APENAS:",
+        "theme": "Química",
+        "question": "Considere as seguintes transformações que ocorrem em uma vela acesa: \nI. Solidificação da parafina que escorre da vela. \nII. Queima da parafina. \nIII. Vaporização da parafina. Dessas transformações, APENAS:",
         "alternatives": [
           {
             "id": 1,
@@ -2118,15 +2118,15 @@
             "content": "E) II e II ѕãо endotérmica."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "https://memoria.ebc.com.br/sites/_portalebc2014/files/styles/full_colunm/public/atoms_image/940px-brics.svg_.png?itok=DSGuCuMf",
-        "resposta": "C",
-        "descricao": "AS REAÇÕES OU MUDANÇAS DE ESTADO FÍSICO QUE ABSORVEM CALOR SÃO DENOMINADAS DE PROCESSOS ENDOTÉRMICOS. A VAPORIZAÇÃO DA PARAFINA É UM PROCESSO ENDOTÉRMICO."
+        "img_response": "",
+        "img_question": "https://memoria.ebc.com.br/sites/_portalebc2014/files/styles/full_colunm/public/atoms_image/940px-brics.svg_.png?itok=DSGuCuMf",
+        "correct_answer_id": 3,
+        "description": "AS REAÇÕES OU MUDANÇAS DE ESTADO FÍSICO QUE ABSORVEM CALOR SÃO DENOMINADAS DE PROCESSOS ENDOTÉRMICOS. A VAPORIZAÇÃO DA PARAFINA É UM PROCESSO ENDOTÉRMICO."
       },
       {
         "id": 54,
-        "tema": "Química",
-        "pergunta": "Reação exotérmica é aquela na qual:\n1 - há liberação de calor.\n2 - há diminuição de energia.\n3 - a entalpia dos reagentes é maior que a dos produtos.\n4 - a variação de entalpia é negativa.\nEstão corretos os seguintes complementos:",
+        "theme": "Química",
+        "question": "Reação exotérmica é aquela na qual:\n1 - há liberação de calor.\n2 - há diminuição de energia.\n3 - a entalpia dos reagentes é maior que a dos produtos.\n4 - a variação de entalpia é negativa.\nEstão corretos os seguintes complementos:",
         "alternatives": [
           {
             "id": 1,
@@ -2149,15 +2149,15 @@
             "content": "E) 1, 2, 3 e 4."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "UMA REAÇÃO EXOTÉRMICA É UMA REAÇÃO QUÍMICA CUJA ENERGIA É TRANSFERIDA DE UM MEIO INTERIOR PARA O MEIO EXTERIOR. OU SEJA, OCORRE LIBERAÇÃO DE CALOR, SENDO, PORTANTO, A ENERGIA FINAL DOS PRODUTOS MENOR QUE A ENERGIA INICIAL DOS REAGENTES."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "UMA REAÇÃO EXOTÉRMICA É UMA REAÇÃO QUÍMICA CUJA ENERGIA É TRANSFERIDA DE UM MEIO INTERIOR PARA O MEIO EXTERIOR. OU SEJA, OCORRE LIBERAÇÃO DE CALOR, SENDO, PORTANTO, A ENERGIA FINAL DOS PRODUTOS MENOR QUE A ENERGIA INICIAL DOS REAGENTES."
       },
       {
         "id": 55,
-        "tema": "Química",
-        "pergunta": "Ao sair molhado em local aberto, mesmo em dias quentes, tem-se uma sensação de frio. Esse fenômeno está relacionado com a evaporação da água que, no caso, está em contato com o corpo humano. Essa sensação de frio explica-se CORRETAMENTE pelo fato de que a evaporação da água...",
+        "theme": "Química",
+        "question": "Ao sair molhado em local aberto, mesmo em dias quentes, tem-se uma sensação de frio. Esse fenômeno está relacionado com a evaporação da água que, no caso, está em contato com o corpo humano. Essa sensação de frio explica-se CORRETAMENTE pelo fato de que a evaporação da água...",
         "alternatives": [
           {
             "id": 1,
@@ -2180,15 +2180,15 @@
             "content": "E) ...é um processo atérmico e não troca calor com o corpo."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "A EVAPORAÇÃO DA ÁGUA É UM PROCESSO ENDOTÉRMICO E RETIRA CALOR DO CORPO."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "A EVAPORAÇÃO DA ÁGUA É UM PROCESSO ENDOTÉRMICO E RETIRA CALOR DO CORPO."
       },
       {
         "id": 56,
-        "tema": "Química",
-        "pergunta": "Quais são as nomenclaturas dos ácidos onde se encontram os ânions cloreto, clorato e clorito, respectivamente",
+        "theme": "Química",
+        "question": "Quais são as nomenclaturas dos ácidos onde se encontram os ânions cloreto, clorato e clorito, respectivamente",
         "alternatives": [
           {
             "id": 1,
@@ -2211,15 +2211,15 @@
             "content": "E) Cloroso, Clorídrico, Clórico"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "ÁCIDO CLORÍDRICO - HCl\nÁCIDO CLOROSO - HClO2\nÁCIDO CLORÍDRICO - HClO3\nESTES ÁCIDOS DÃO ORIGEM AOS ÂNIONS: CLORETO, CLOROSO E CLÓRICO."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "ÁCIDO CLORÍDRICO - HCl\nÁCIDO CLOROSO - HClO2\nÁCIDO CLORÍDRICO - HClO3\nESTES ÁCIDOS DÃO ORIGEM AOS ÂNIONS: CLORETO, CLOROSO E CLÓRICO."
       },
       {
         "id": 57,
-        "tema": "Química",
-        "pergunta": "Qual das alternatives só contem frutas cítricas (frutas ácidas)?",
+        "theme": "Química",
+        "question": "Qual das alternatives só contem frutas cítricas (frutas ácidas)?",
         "alternatives": [
           {
             "id": 1,
@@ -2242,15 +2242,15 @@
             "content": "E) Tomate, Limão, Chuchu"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "AS FRUTAS CÍTRICAS SÃO AQUELAS RICAS EM ÁCIDO CÍTRICO, O GRANDE RESPONSÁVEL PELO SABOR AZEDINHO QUE CAUSA A FAMOSA SENSAÇÃO AO PALADAR."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "AS FRUTAS CÍTRICAS SÃO AQUELAS RICAS EM ÁCIDO CÍTRICO, O GRANDE RESPONSÁVEL PELO SABOR AZEDINHO QUE CAUSA A FAMOSA SENSAÇÃO AO PALADAR."
       },
       {
         "id": 58,
-        "tema": "Química",
-        "pergunta": "A retenção de água na superfície da pele promovida pelos hidratantes é consequência da interação dos grupos hidroxila dos agentes umectantes com a umidade contida no ambiente por meio de:",
+        "theme": "Química",
+        "question": "A retenção de água na superfície da pele promovida pelos hidratantes é consequência da interação dos grupos hidroxila dos agentes umectantes com a umidade contida no ambiente por meio de:",
         "alternatives": [
           {
             "id": 1,
@@ -2273,15 +2273,15 @@
             "content": "E) Ligações de hidrogênio"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "LIGAÇÃO DE HIDROGÊNIO É UM TIPO DE INTERAÇÃO INTERMOLECULAR QUE SE DÁ ENTRE ÁTOMOS DE HIDROGÊNIO DE UMA MOLÉCULA COM ÁTOMOS DE ELEMENTOS ALTAMENTE ELETRONEGATIVOS DE FORMA QUE O HIDROGÊNIO SIRVA COMO UM ELO ENTRE OS ÁTOMOS COM OS QUAIS INTERAGE."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "LIGAÇÃO DE HIDROGÊNIO É UM TIPO DE INTERAÇÃO INTERMOLECULAR QUE SE DÁ ENTRE ÁTOMOS DE HIDROGÊNIO DE UMA MOLÉCULA COM ÁTOMOS DE ELEMENTOS ALTAMENTE ELETRONEGATIVOS DE FORMA QUE O HIDROGÊNIO SIRVA COMO UM ELO ENTRE OS ÁTOMOS COM OS QUAIS INTERAGE."
       },
       {
         "id": 59,
-        "tema": "Química",
-        "pergunta": "O NO2 e o SO2 são gases causadores de poluição atmosférica que, dentre os danos provocados, resulta na formação da chuva ácida quando esses gases reagem com as partículas de água presentes nas nuvens, produzindo HNO3 e H2SO4. Esses compostos, ao serem carregados pela precipitação atmosférica, geram transtornos, tais como contaminação da água potável, corrosão de veículos, de monumentos históricos etc. Os compostos inorgânicos citados no texto correspondem, respectivamente, às funções:",
+        "theme": "Química",
+        "question": "O NO2 e o SO2 são gases causadores de poluição atmosférica que, dentre os danos provocados, resulta na formação da chuva ácida quando esses gases reagem com as partículas de água presentes nas nuvens, produzindo HNO3 e H2SO4. Esses compostos, ao serem carregados pela precipitação atmosférica, geram transtornos, tais como contaminação da água potável, corrosão de veículos, de monumentos históricos etc. Os compostos inorgânicos citados no texto correspondem, respectivamente, às funções:",
         "alternatives": [
           {
             "id": 1,
@@ -2304,15 +2304,15 @@
             "content": "E) Bases e sais"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "UM ÓXIDO É UM COMPOSTO QUÍMICO BINÁRIO FORMADO POR ÁTOMOS DE OXIGÊNIO COM OUTROS ELEMENTOS EM QUE OXIGÊNIO É O MAIS ELETRONEGATIVO. LOGO, NO2 E SO2 SÃO DOIS ÓXIDOS."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "UM ÓXIDO É UM COMPOSTO QUÍMICO BINÁRIO FORMADO POR ÁTOMOS DE OXIGÊNIO COM OUTROS ELEMENTOS EM QUE OXIGÊNIO É O MAIS ELETRONEGATIVO. LOGO, NO2 E SO2 SÃO DOIS ÓXIDOS."
       },
       {
         "id": 60,
-        "tema": "Química",
-        "pergunta": "O metanol pode ser obtido a partir da destilação da madeira, na ausência de ar, a 400ºC, e o etanol, a partir da fermentação do açúcar da cana. Ambos os álcoois podem ser utilizados como combustível, principalmente o etanol. A oxidação parcial do metanol e total do etanol com dicromato de potássio, em meio ácido, pode resultar em compostos orgânicos que contenham as funções orgânicas:",
+        "theme": "Química",
+        "question": "O metanol pode ser obtido a partir da destilação da madeira, na ausência de ar, a 400ºC, e o etanol, a partir da fermentação do açúcar da cana. Ambos os álcoois podem ser utilizados como combustível, principalmente o etanol. A oxidação parcial do metanol e total do etanol com dicromato de potássio, em meio ácido, pode resultar em compostos orgânicos que contenham as funções orgânicas:",
         "alternatives": [
           {
             "id": 1,
@@ -2335,15 +2335,15 @@
             "content": "E) Éter e ácido carboxílico."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "O METANOL AO SER OXIDADO DÁ ORIGEM AO METANAL (ALDEÍDO) ENQUANTO O ETANOL FORMA O ÁCIDO ETANOICO POR OXIDAÇÃO."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "O METANOL AO SER OXIDADO DÁ ORIGEM AO METANAL (ALDEÍDO) ENQUANTO O ETANOL FORMA O ÁCIDO ETANOICO POR OXIDAÇÃO."
       },
       {
         "id": 61,
-        "tema": "Química",
-        "pergunta": "Para preparar o composto butanoato de etila, que possui aroma de abacaxi, usa-se o etanol como um dos reagentes de partida. A função orgânica a qual pertence esse aromatizante e o nome do outro reagente necessário para sua síntese são, respectivamente:",
+        "theme": "Química",
+        "question": "Para preparar o composto butanoato de etila, que possui aroma de abacaxi, usa-se o etanol como um dos reagentes de partida. A função orgânica a qual pertence esse aromatizante e o nome do outro reagente necessário para sua síntese são, respectivamente:",
         "alternatives": [
           {
             "id": 1,
@@ -2366,15 +2366,15 @@
             "content": "E) Éster, ácido butanóico"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "O AROMATIZANTE PERTENCE À FUNÇÃO ÉSTER E É PRODUZIDO PELA REAÇÃO DE ESTERIFICAÇÃO ENTRE O ETANOL E O ÁCIDO BUTANOICO."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "O AROMATIZANTE PERTENCE À FUNÇÃO ÉSTER E É PRODUZIDO PELA REAÇÃO DE ESTERIFICAÇÃO ENTRE O ETANOL E O ÁCIDO BUTANOICO."
       },
       {
         "id": 62,
-        "tema": "Química",
-        "pergunta": "Fazemos uso de vários produtos químicos no nosso cotidiano, como por exemplo, leite de magnésio, vinagre, calcário e soda cáustica. é correto afirmar que estas substâncias citadas pertencem, respectivamente, às funções químicas:",
+        "theme": "Química",
+        "question": "Fazemos uso de vários produtos químicos no nosso cotidiano, como por exemplo, leite de magnésio, vinagre, calcário e soda cáustica. é correto afirmar que estas substâncias citadas pertencem, respectivamente, às funções químicas:",
         "alternatives": [
           {
             "id": 1,
@@ -2397,15 +2397,15 @@
             "content": "E) Base, ácido, sal e base"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "O LEITE DE MAGNÉSIO, Mg(OH)2, DEVIDO À PRESENÇA DA HIDROXILA PERTENCE À FUNÇÃO BASE.\nO VINAGRE POSSUI EN SUA CONSTITUIÇÃO O ÁCIDO ACÉTICO, PERTENCENDO À FUNÇÃO ÁCIDO.\nO CALCÁRIO TEM FÓRMULA CaCO3, PERTENCENDO À FUNÇÃO SAL.\nA SODA CÁUSTICA, DE FÓRMULA NaOH, PERTENCE AO GRUPO DAS BASES."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "O LEITE DE MAGNÉSIO, Mg(OH)2, DEVIDO À PRESENÇA DA HIDROXILA PERTENCE À FUNÇÃO BASE.\nO VINAGRE POSSUI EN SUA CONSTITUIÇÃO O ÁCIDO ACÉTICO, PERTENCENDO À FUNÇÃO ÁCIDO.\nO CALCÁRIO TEM FÓRMULA CaCO3, PERTENCENDO À FUNÇÃO SAL.\nA SODA CÁUSTICA, DE FÓRMULA NaOH, PERTENCE AO GRUPO DAS BASES."
       },
       {
         "id": 63,
-        "tema": "Química",
-        "pergunta": "O fosfogênio (COCI2), um gás, é preparado industrialmente por meio da reação entre o monóxido de carbono e o cloro. A fórmula estrutural da molécula do fosfogênio apresenta:",
+        "theme": "Química",
+        "question": "O fosfogênio (COCI2), um gás, é preparado industrialmente por meio da reação entre o monóxido de carbono e o cloro. A fórmula estrutural da molécula do fosfogênio apresenta:",
         "alternatives": [
           {
             "id": 1,
@@ -2428,15 +2428,15 @@
             "content": "E) duas ligações duplas e uma ligação simples."
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "O FOSGÊNIO APRESENTA UMA LIGAÇÃO DUPLA E DUAS SIMPLES."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "O FOSGÊNIO APRESENTA UMA LIGAÇÃO DUPLA E DUAS SIMPLES."
       },
       {
         "id": 64,
-        "tema": "Química",
-        "pergunta": "A camada mais externa de um elemento X possui 3 elétrons, enquanto a camada mais externa de outro elemento Y tem 7 elétrons. Uma provável fórmula de um composto, formado por esses elementos é:",
+        "theme": "Química",
+        "question": "A camada mais externa de um elemento X possui 3 elétrons, enquanto a camada mais externa de outro elemento Y tem 7 elétrons. Uma provável fórmula de um composto, formado por esses elementos é:",
         "alternatives": [
           {
             "id": 1,
@@ -2459,15 +2459,15 @@
             "content": "E) XY"
           }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "UM ELEMENTO COM 3 ELÉTRONS NA ÚLTIMA CAMADA FAZ LIGAÇÃO IÔNICA COM 3 ELEMENTOS DE 7 ELÉTRONS NA ÚLTIMA CAMADA, FORMANDO UM COMPOSTO DO TIPO XY3."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "UM ELEMENTO COM 3 ELÉTRONS NA ÚLTIMA CAMADA FAZ LIGAÇÃO IÔNICA COM 3 ELEMENTOS DE 7 ELÉTRONS NA ÚLTIMA CAMADA, FORMANDO UM COMPOSTO DO TIPO XY3."
       },
       {
         "id": 86,
-        "tema": "Física",
-        "pergunta": "Um gerador elétrico, de f.e.m igual a 48V e resistência elétrica interna igual a 30Ω, entrega para um aparelho uma potência elétrica máxima. Nessas condições o rendimento desse gerador é de: ",
+        "theme": "Física",
+        "question": "Um gerador elétrico, de f.e.m igual a 48V e resistência elétrica interna igual a 30Ω, entrega para um aparelho uma potência elétrica máxima. Nessas condições o rendimento desse gerador é de: ",
         "alternatives": [
           {
             "id": 1,
@@ -2490,16 +2490,16 @@
             "content": "E) 100%"
           }
         ],
-        "resposta": "B",
-        "descricao": "Todo gerador que opera na potência máxima, ou seja, percorrido por uma corrente igual a metade da corrente de curto circuito, terá rendimento igual a 50%.",
-        "imgAnswer":"",
-        "imgQuestion": "https://static.preparaenem.com/conteudo_legenda/16418f701885e28927a1254c6e0ea25d.jpg"
+        "correct_answer_id": 2,
+        "description": "Todo gerador que opera na potência máxima, ou seja, percorrido por uma corrente igual a metade da corrente de curto circuito, terá rendimento igual a 50%.",
+        "img_response":"",
+        "img_question": "https://static.preparaenem.com/conteudo_legenda/16418f701885e28927a1254c6e0ea25d.jpg"
   
       },
       {
         "id": 87,
-        "tema": "Física",
-        "pergunta": "A temperatura e pressão nas quais podemos encontrar o carbono nos três estados físicos são aproximadamente:",
+        "theme": "Física",
+        "question": "A temperatura e pressão nas quais podemos encontrar o carbono nos três estados físicos são aproximadamente:",
         "alternatives": [
           {
             "id": 1,
@@ -2522,15 +2522,15 @@
             "content": "E) 6000 K e 0,1 GPa."
           }
         ],
-        "resposta": "B",
-        "descricao": "De acordo com o diagrama de fases, os valores aproximados para o ponto triplo do carbono são 4400 K e 0,01 GPa.",
-        "imgAnswer":"",
-        "imgQuestion": "https://2img.net/h/oi65.tinypic.com/2946l29.jpg"
+        "correct_answer_id": 2,
+        "description": "De acordo com o diagrama de fases, os valores aproximados para o ponto triplo do carbono são 4400 K e 0,01 GPa.",
+        "img_response":"",
+        "img_question": "https://2img.net/h/oi65.tinypic.com/2946l29.jpg"
       },
       { 
         "id": 88,
-        "tema": "Física",
-        "pergunta": "Qual dos pesquisadores teve uma grande contribuição, sob o ponto de vista experimental,  na explicação do efeito fotoelétrico?",
+        "theme": "Física",
+        "question": "Qual dos pesquisadores teve uma grande contribuição, sob o ponto de vista experimental,  na explicação do efeito fotoelétrico?",
         "alternatives": [
           {
             "id": 1,
@@ -2553,15 +2553,15 @@
             "content": "E) A. Einstein"
           }
         ],
-        "resposta": "A",
-        "descricao": "Apesar de Einstein ter ganho um Nobel pela explicação do efeito foto elétrico, o experimento foi realizado por R.A. Millikan.",
-        "imgAnswer":"",
-        "imgQuestion": "https://www.colegioweb.com.br/wp-content/uploads/2014/04/Efeito-Fotoel%C3%A9trico.jpg"
+        "correct_answer_id": 1,
+        "description": "Apesar de Einstein ter ganho um Nobel pela explicação do efeito foto elétrico, o experimento foi realizado por R.A. Millikan.",
+        "img_response":"",
+        "img_question": "https://www.colegioweb.com.br/wp-content/uploads/2014/04/Efeito-Fotoel%C3%A9trico.jpg"
       },
       {
         "id": 89,
-        "tema": "Física",
-        "pergunta": "O Titanic foi o maior navio já construído em sua época, e naufragou em 1912 em sua primeira viagem, no norte do Oceano Atlântico. Hoje, seus destroços encontram-se a uma profundidade de 3840 m, assim podemos dizer que a pressão que o navio está sujeito é de aproximadamente ?",
+        "theme": "Física",
+        "question": "O Titanic foi o maior navio já construído em sua época, e naufragou em 1912 em sua primeira viagem, no norte do Oceano Atlântico. Hoje, seus destroços encontram-se a uma profundidade de 3840 m, assim podemos dizer que a pressão que o navio está sujeito é de aproximadamente ?",
         "alternatives": [
           {
             "id": 1,
@@ -2584,15 +2584,15 @@
             "content": "E) 39 atm"
           }
         ],
-        "resposta": "D",
-        "descricao": "Na água, a cada 10 m de profundidade, a pressão aumenta em 1 atm. Logo, para 3840 m, o aumento de pressão será de 384 atm. Adicionando a pressão atmosférica, a pressão total será de 385 atm.",
-        "imgAnswer":"",
-        "imgQuestion": "https://veja.abril.com.br/wp-content/uploads/2020/12/TITANIC-FUNDO-DO-MAR-CAPSULA-TITAN-1.jpg"
+        "correct_answer_id": 4,
+        "description": "Na água, a cada 10 m de profundidade, a pressão aumenta em 1 atm. Logo, para 3840 m, o aumento de pressão será de 384 atm. Adicionando a pressão atmosférica, a pressão total será de 385 atm.",
+        "img_response":"",
+        "img_question": "https://veja.abril.com.br/wp-content/uploads/2020/12/TITANIC-FUNDO-DO-MAR-CAPSULA-TITAN-1.jpg"
       },
       {
         "id": 90,
-        "tema": "Física",
-        "pergunta": "Tem sido recorrente os acidentes domésticos envolvendo panelas de pressão. Uma das recomendações para evitar esses acidentes é diminuir o fogo quando a panela começar a soltar vapor, isso porque:",
+        "theme": "Física",
+        "question": "Tem sido recorrente os acidentes domésticos envolvendo panelas de pressão. Uma das recomendações para evitar esses acidentes é diminuir o fogo quando a panela começar a soltar vapor, isso porque:",
         "alternatives": [
           {
             "id": 1,
@@ -2615,15 +2615,15 @@
             "content": "E) se a água em seu interior já está fervendo o fogo alto não vai mais alterar a temperatura em seu interior."
           }
         ],
-        "resposta": "E",
-        "descricao": " Um líquido em ebulição não varia sua temperatura durante a transição de fases.",
-        "imgAnswer":"",
-        "imgQuestion": ""
+        "correct_answer_id": 5,
+        "description": " Um líquido em ebulição não varia sua temperatura durante a transição de fases.",
+        "img_response":"",
+        "img_question": ""
       },
       {
         "id": 91,
-        "tema": "Física",
-        "pergunta": "No início do século XX tivemos uma grande disputa entre dois grandes cientistas, Thomas Edison e Nikola Tesla. Essa disputa ficou conhecida como Guerra das Correntes, para saber qual sistema seria usado para a distribuição de energia elétrica. O modelo de Tesla foi o sistema que acabou sendo usado para a transmissão de energia elétrica, isso devido à(ao):",
+        "theme": "Física",
+        "question": "No início do século XX tivemos uma grande disputa entre dois grandes cientistas, Thomas Edison e Nikola Tesla. Essa disputa ficou conhecida como Guerra das Correntes, para saber qual sistema seria usado para a distribuição de energia elétrica. O modelo de Tesla foi o sistema que acabou sendo usado para a transmissão de energia elétrica, isso devido à(ao):",
         "alternatives": [
           {
             "id": 1,
@@ -2646,15 +2646,15 @@
             "content": "E) Correntes alternadas naõ geram acidentes."
           }
         ],
-        "resposta": "A",
-        "descricao": "Em um sistema de corrente alternada, transformadores são utilizados o que gera uma menor perda na transmissão da energia elétrica. ",
-        "imgAnswer":"",
-        "imgQuestion": ""
+        "correct_answer_id": 1,
+        "description": "Em um sistema de corrente alternada, transformadores são utilizados o que gera uma menor perda na transmissão da energia elétrica. ",
+        "img_response":"",
+        "img_question": ""
       },
       {
         "id": 92,
-        "tema": "Física",
-        "pergunta": "Na flauta Andina, conhecida como Zapona, o som mais grave é emitido pelo tubo:",
+        "theme": "Física",
+        "question": "Na flauta Andina, conhecida como Zapona, o som mais grave é emitido pelo tubo:",
         "alternatives": [
           {
             "id": 1,
@@ -2677,15 +2677,15 @@
             "content": "E) Maior, pois quanto maior o comprimento do tubo, maior a velocidade da onda emitida."
           }
         ],
-        "resposta": "A",
-        "descricao": "A frequência dos estados estacionários em tubos sonoros é inversamente proporcional ao comprimento do tubo. ",
-        "imgAnswer":"",
-        "imgQuestion": "https://flauta.top/wp-content/uploads/2020/12/Flauta-andina-Gewa-700285-en-Do-300x300.jpg"
+        "correct_answer_id": 1,
+        "description": "A frequência dos estados estacionários em tubos sonoros é inversamente proporcional ao comprimento do tubo. ",
+        "img_response":"",
+        "img_question": "https://flauta.top/wp-content/uploads/2020/12/Flauta-andina-Gewa-700285-en-Do-300x300.jpg"
       },
       {
         "id": 93,
-        "tema": "Física",
-        "pergunta": "Em uma lente divergente, quando o objeto é colocado além da distância focal, a imagem formada será:",
+        "theme": "Física",
+        "question": "Em uma lente divergente, quando o objeto é colocado além da distância focal, a imagem formada será:",
         "alternatives": [
           {
             "id": 1,
@@ -2708,15 +2708,15 @@
             "content": "E) Menor, direita e virtual."
           }
         ],
-        "resposta": "E",
-        "descricao": "Como mostra a imagem, uma lente divergente de um óculos para a miopia,  a imagem é menor, direita e virtual. ",
-        "imgAnswer":"",
-        "imgQuestion": "https://opticastacna.cl/wp-content/uploads/2021/05/caracteristicas-de-los-lentes-divergentes.jpg"
+        "correct_answer_id": 5,
+        "description": "Como mostra a imagem, uma lente divergente de um óculos para a miopia,  a imagem é menor, direita e virtual. ",
+        "img_response":"",
+        "img_question": "https://opticastacna.cl/wp-content/uploads/2021/05/caracteristicas-de-los-lentes-divergentes.jpg"
       },
       {
         "id": 94,
-        "tema": "Física",
-        "pergunta": "No fim do século passado, tínhamos que os motores movidos à gasolina apresentavam um rendimento por volta de 20%, enquanto nos motores movidos à diesel o rendimento aumentava para 30%. Isso significa que: ",
+        "theme": "Física",
+        "question": "No fim do século passado, tínhamos que os motores movidos à gasolina apresentavam um rendimento por volta de 20%, enquanto nos motores movidos à diesel o rendimento aumentava para 30%. Isso significa que: ",
         "alternatives": [
           {
             "id": 1,
@@ -2739,15 +2739,15 @@
             "content": "E)  os motores à gasolina eram menos potentes que os motores à diesel."
           }
         ],
-        "resposta": "C",
-        "descricao": "Um maior rendimento de uma máquina térmica implica uma maior fração da sua potência útil produzida.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 3,
+        "description": "Um maior rendimento de uma máquina térmica implica uma maior fração da sua potência útil produzida.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 95,
-        "tema": "Física",
-        "pergunta": "As estrelas que estão no estágio final da evolução estelar são  conhecidas como Gigantes Vermelhas. Por que elas tem uma cor avermelhada?",
+        "theme": "Física",
+        "question": "As estrelas que estão no estágio final da evolução estelar são  conhecidas como Gigantes Vermelhas. Por que elas tem uma cor avermelhada?",
         "alternatives": [
           {
             "id": 1,
@@ -2770,15 +2770,15 @@
             "content": "E) por serem mais frias, irradiam luz com comprimento de onda menor. "
           }
         ],
-        "resposta": "C",
-        "descricao": "Como seu combustível está acabando, essas estrelas apresentam uma temperatura menor e emitem luz em comprimentos de onda maiores.",
-        "imgAnswer":"",
-        "imgQuestion": "https://2.bp.blogspot.com/-nVc37tmwxcQ/VzvIlbN6L3I/AAAAAAAAZP0/h2gcFXf3nG41mr5RnNmx25liKDCcYZS_ACLcB/s1600/Tamanho%2Bdo%2BSol%2Bquando%2Bestiver%2Bgigante%2Bvermelha.jpg"
+        "correct_answer_id": 3,
+        "description": "Como seu combustível está acabando, essas estrelas apresentam uma temperatura menor e emitem luz em comprimentos de onda maiores.",
+        "img_response":"",
+        "img_question": "https://2.bp.blogspot.com/-nVc37tmwxcQ/VzvIlbN6L3I/AAAAAAAAZP0/h2gcFXf3nG41mr5RnNmx25liKDCcYZS_ACLcB/s1600/Tamanho%2Bdo%2BSol%2Bquando%2Bestiver%2Bgigante%2Bvermelha.jpg"
       },
       {
         "id": 106,
-        "tema": "História",
-        "pergunta": "No século III, Roma enfrentou uma crise sem precedentes e que colocou em risco a unidade do Império.  São características dessa crise:",
+        "theme": "História",
+        "question": "No século III, Roma enfrentou uma crise sem precedentes e que colocou em risco a unidade do Império.  São características dessa crise:",
         "alternatives": [
           {
             "id": 1,
@@ -2801,15 +2801,15 @@
             "content": "E) O fim da escravidão e o êxodo urbano."
           }
         ],
-        "resposta": "A",
-        "descricao": "No século III, Roma passou por uma crise sem precedentes.  A expansão territorial terminara e havia a ameaça das tribos bárbaras e do império persa em suas fronteiras.  Além disso, a estrutura do estado começou a ruir por excessos de gastos e corrupção, era o fim da Pax Romana, havia caos em algumas legiões e falta de mão-de-obra.",
-        "imgAnswer": "https://media.istockphoto.com/id/477898271/photo/detail-from-trajans-column-in-rome.jpg?s=612x612&w=0&k=20&c=LlkELecpIhw9QQ_rjP0zAXYs4MhE3Jz3JHqdK8y6_XM=",
-        "imgQuestion": ""
+        "correct_answer_id": 1,
+        "description": "No século III, Roma passou por uma crise sem precedentes.  A expansão territorial terminara e havia a ameaça das tribos bárbaras e do império persa em suas fronteiras.  Além disso, a estrutura do estado começou a ruir por excessos de gastos e corrupção, era o fim da Pax Romana, havia caos em algumas legiões e falta de mão-de-obra.",
+        "img_response": "https://media.istockphoto.com/id/477898271/photo/detail-from-trajans-column-in-rome.jpg?s=612x612&w=0&k=20&c=LlkELecpIhw9QQ_rjP0zAXYs4MhE3Jz3JHqdK8y6_XM=",
+        "img_question": ""
       },
       {
         "id": 107,
-        "tema": "História",
-        "pergunta": "As ordens de cavalaria foram fundadas no contexto das cruzadas com o intuito de garantir a conquista de Jerusalém e proteger os peregrinos.  Uma das mais importantes ordens de cavalaria foi a:",
+        "theme": "História",
+        "question": "As ordens de cavalaria foram fundadas no contexto das cruzadas com o intuito de garantir a conquista de Jerusalém e proteger os peregrinos.  Uma das mais importantes ordens de cavalaria foi a:",
         "alternatives": [
           {
             "id": 1,
@@ -2832,15 +2832,15 @@
             "content": "E) Dos Mercedários."
           }
         ],
-        "resposta": "D",
-        "descricao": "A Ordem dos Pobres Cavaleiros de Cristo e do Templo de Salomão, conhecida como Cavaleiros Templários, Ordem do Templo ou simplesmente como Templários, foi uma ordem militar de cavalaria fundada durante a a primeira Cruzada, no ano de 1118.  A ordem foi dissolvida sob acusação de heresia no ano de 1312.",
-        "imgAnswer": "https://images.uncyc.org/pt/6/66/Templariofod%C3%A3o.jpg",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "A Ordem dos Pobres Cavaleiros de Cristo e do Templo de Salomão, conhecida como Cavaleiros Templários, Ordem do Templo ou simplesmente como Templários, foi uma ordem militar de cavalaria fundada durante a a primeira Cruzada, no ano de 1118.  A ordem foi dissolvida sob acusação de heresia no ano de 1312.",
+        "img_response": "https://images.uncyc.org/pt/6/66/Templariofod%C3%A3o.jpg",
+        "img_question": ""
       },
       {
         "id": 108,
-        "tema": "História",
-        "pergunta": "O Humanismo está diretamente ligado ao chamado Renascimento Cultural do final da Idade Média e início da Idade Moderna.  Um dos maiores nomes do Humanismo europeu foi:",
+        "theme": "História",
+        "question": "O Humanismo está diretamente ligado ao chamado Renascimento Cultural do final da Idade Média e início da Idade Moderna.  Um dos maiores nomes do Humanismo europeu foi:",
         "alternatives": [
           {
             "id": 1,
@@ -2863,15 +2863,15 @@
             "content": "E) Maquiavel."
           }
         ],
-        "resposta": "D",
-        "descricao": "Os humanistas se preocupavam com o ensino das línguas clássicas, buscando uma tradução mais rigorosa de textos antigos, como a Bíblia, e que fosse permitido o seu acesso nas línguas vernáculas.  Um dos seus maiores expoentes foi Erasmo, nascido em Roterdã, atual Holanda, autor de vários escritos, ele defendia a reforma interna da Igreja Católica.",
-        "imgAnswer": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/640px-Holbein-erasmus.jpg",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "Os humanistas se preocupavam com o ensino das línguas clássicas, buscando uma tradução mais rigorosa de textos antigos, como a Bíblia, e que fosse permitido o seu acesso nas línguas vernáculas.  Um dos seus maiores expoentes foi Erasmo, nascido em Roterdã, atual Holanda, autor de vários escritos, ele defendia a reforma interna da Igreja Católica.",
+        "img_response": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/640px-Holbein-erasmus.jpg",
+        "img_question": ""
       },
       {
         "id": 109,
-        "tema": "História",
-        "pergunta": "No século XVII, autores como Thomas Hobbes e John Locke inauguraram o contratualismo que defendia:",
+        "theme": "História",
+        "question": "No século XVII, autores como Thomas Hobbes e John Locke inauguraram o contratualismo que defendia:",
         "alternatives": [
           {
             "id": 1,
@@ -2894,15 +2894,15 @@
             "content": "E) Que o governo se dava por um pacto entre o rei e a igreja."
           }
         ],
-        "resposta": "C",
-        "descricao": "O contatualismo é uma corrente de pensamento político e filosófico que rompe com a ideia de que a sociedade civil ou o estado é estabalecido por forças externas, dando ao ser humano a responsabilidade na organização do governo e da sociedade.",
-        "imgAnswer": "https://pt-static.z-dn.net/files/d44/30942b343e40846f427db593e0fe8e36.jpg",
-        "imgQuestion": ""
+        "correct_answer_id": 3,
+        "description": "O contatualismo é uma corrente de pensamento político e filosófico que rompe com a ideia de que a sociedade civil ou o estado é estabalecido por forças externas, dando ao ser humano a responsabilidade na organização do governo e da sociedade.",
+        "img_response": "https://pt-static.z-dn.net/files/d44/30942b343e40846f427db593e0fe8e36.jpg",
+        "img_question": ""
       },
       {
         "id": 110,
-        "tema": "História",
-        "pergunta": "A Revolução Francesa, em 1789, abalou a Europa e influenciou todo o mundo.  Dentre os princípios consagrados por esta revolução estão:",
+        "theme": "História",
+        "question": "A Revolução Francesa, em 1789, abalou a Europa e influenciou todo o mundo.  Dentre os princípios consagrados por esta revolução estão:",
         "alternatives": [
           {
             "id": 1,
@@ -2925,15 +2925,15 @@
             "content": "E) A abolição da escravidão negra e a liberdade religiosa."
           }
         ],
-        "resposta": "C",
-        "descricao": "A Revolução Francesa, em todas as suas fases, buscou garantir alguns direitos defendidos pela burguesia, sendo que a igualdade jurídica entre todos os cidadãos do sexo masculino e o direito à propriedade privada.",
-        "imgAnswer": "https://nanquim.com.br/wp-content/uploads/2021/12/Declaracoes-direitos-homem-cidadao-Le_Barbier_Jean-Jacques_1789-1020x1250.jpg",
-        "imgQuestion": ""
+        "correct_answer_id": 3,
+        "description": "A Revolução Francesa, em todas as suas fases, buscou garantir alguns direitos defendidos pela burguesia, sendo que a igualdade jurídica entre todos os cidadãos do sexo masculino e o direito à propriedade privada.",
+        "img_response": "https://nanquim.com.br/wp-content/uploads/2021/12/Declaracoes-direitos-homem-cidadao-Le_Barbier_Jean-Jacques_1789-1020x1250.jpg",
+        "img_question": ""
       },
       {
         "id": 111,
-        "tema": "História",
-        "pergunta": "A chegada da Família Real ao Brasil, em 1808, provocou uma série de transformações na colônia, trasformada em centro do império português.  Era necessário modernizar e embelezar a colônia, são inovações do período:",
+        "theme": "História",
+        "question": "A chegada da Família Real ao Brasil, em 1808, provocou uma série de transformações na colônia, trasformada em centro do império português.  Era necessário modernizar e embelezar a colônia, são inovações do período:",
         "alternatives": [
           {
             "id": 1,
@@ -2956,15 +2956,15 @@
             "content": "E) A introdução o plantio de café no Vale do Paraíba e as primeiras escolas superiores."
           }
         ],
-        "resposta": "C",
-        "descricao": "A Real Biblioteca, antigo nome da Biblioteca Nacional, foi fundada em 1810, no Rio de Janeiro, com livros que foram transferidos de Portugal para o Brasil.  Já as primeiras escolas superiores, a Faculdade de Cirurgia da Bahia e a de Medicina do Rio de Janeiro foram fundadas em 1808. ",
-        "imgAnswer": "https://miro.medium.com/v2/resize:fit:640/1*vR6edgpSg_4SZHc11YHDzA.jpeg",
-        "imgQuestion": ""
+        "correct_answer_id": 3,
+        "description": "A Real Biblioteca, antigo nome da Biblioteca Nacional, foi fundada em 1810, no Rio de Janeiro, com livros que foram transferidos de Portugal para o Brasil.  Já as primeiras escolas superiores, a Faculdade de Cirurgia da Bahia e a de Medicina do Rio de Janeiro foram fundadas em 1808. ",
+        "img_response": "https://miro.medium.com/v2/resize:fit:640/1*vR6edgpSg_4SZHc11YHDzA.jpeg",
+        "img_question": ""
       },
       {
         "id": 112,
-        "tema": "História",
-        "pergunta": "No dia 7 de setembro de 1822, foi proclamada a independência do Brasil, no entanto, nem todas as regiões da antiga colônia aceitaram a ruptura com Portugal e houve guerra.  A resistência foi particularmente forte no/na/em:",
+        "theme": "História",
+        "question": "No dia 7 de setembro de 1822, foi proclamada a independência do Brasil, no entanto, nem todas as regiões da antiga colônia aceitaram a ruptura com Portugal e houve guerra.  A resistência foi particularmente forte no/na/em:",
         "alternatives": [
           {
             "id": 1,
@@ -2987,15 +2987,15 @@
             "content": "E) Pará, Bahia e Cisplatina (atual Uruguai)."
           }
         ],
-        "resposta": "E",
-        "descricao": "No senso comum, a independência do Brasil foi um evento pacífico, um negócio de pai para filho, no entanto, houve resistência em várias regiões da colônia.  Na Bahia, a luta foi sangrenta, no Pará, houve a tragédia do brigue Palhaço e na Cisplatina, as guarnições portuguesas entraram em combate com a recém criada Marinha brasileira.",
-        "imgAnswer": "https://atlas.fgv.br/sites/atlas.fgv.br/files/03-05-a-full.png",
-        "imgQuestion": ""
+        "correct_answer_id": 5,
+        "description": "No senso comum, a independência do Brasil foi um evento pacífico, um negócio de pai para filho, no entanto, houve resistência em várias regiões da colônia.  Na Bahia, a luta foi sangrenta, no Pará, houve a tragédia do brigue Palhaço e na Cisplatina, as guarnições portuguesas entraram em combate com a recém criada Marinha brasileira.",
+        "img_response": "https://atlas.fgv.br/sites/atlas.fgv.br/files/03-05-a-full.png",
+        "img_question": ""
       },
       {
         "id": 113,
-        "tema": "História",
-        "pergunta": "A luta pelo voto feminino começou no final do século XIX e foi reconhecido em 1932 e incorporado à Constituição de 1934.  Este voto, no entanto, era:",
+        "theme": "História",
+        "question": "A luta pelo voto feminino começou no final do século XIX e foi reconhecido em 1932 e incorporado à Constituição de 1934.  Este voto, no entanto, era:",
         "alternatives": [
           {
             "id": 1,
@@ -3018,15 +3018,15 @@
             "content": "E) Obrigatório para as mulheres que tivessem função remunerada."
           }
         ],
-        "resposta": "B",
-        "descricao": "Após intensa campanha feita pelas organizações femininas, as mulheres conseguiram o direito de voto no Código Eleitoral de 1932, sendo o Brasil o pioneiro na América Latina.  No entanto, para as mulheres que não exercessem função remunerada ele permaneceu facultativo até o Código Eleitoral de 1965, quando o voto feminino e o masculino foi equiparado e todas as mulheres passaram a ter o dever de se alistar.",
-        "imgAnswer": "https://www.tre-sp.jus.br/imagens/fotos/dia-da-conquista-do-voto-feminino/@@images/6c540caf-34ca-4c8f-8ff6-81169d2a6f8c.jpeg",
-        "imgQuestion": ""
+        "correct_answer_id": 2,
+        "description": "Após intensa campanha feita pelas organizações femininas, as mulheres conseguiram o direito de voto no Código Eleitoral de 1932, sendo o Brasil o pioneiro na América Latina.  No entanto, para as mulheres que não exercessem função remunerada ele permaneceu facultativo até o Código Eleitoral de 1965, quando o voto feminino e o masculino foi equiparado e todas as mulheres passaram a ter o dever de se alistar.",
+        "img_response": "https://www.tre-sp.jus.br/imagens/fotos/dia-da-conquista-do-voto-feminino/@@images/6c540caf-34ca-4c8f-8ff6-81169d2a6f8c.jpeg",
+        "img_question": ""
       },
       {
         "id": 114,
-        "tema": "História",
-        "pergunta": "Antes da abolição com a Lei Áurea de 1988, houve uma série e leis que anteciparam o fim da escravidão.  Qual a sequência temporal correta das leis abolicionistas brasileiras?",
+        "theme": "História",
+        "question": "Antes da abolição com a Lei Áurea de 1988, houve uma série e leis que anteciparam o fim da escravidão.  Qual a sequência temporal correta das leis abolicionistas brasileiras?",
         "alternatives": [
           {
             "id": 1,
@@ -3049,15 +3049,15 @@
             "content": "E) Lei Eusébio de Queiroz – Lei dos Sexagenários – Lei Feijó."
           }
         ],
-        "resposta": "A",
-        "descricao": "A sequência correta é Lei Feijó (1831) – Lei do Ventre Livre (1871) – Lei dos Sexagenários (1885).",
-        "imgAnswer": "https://static.preparaenem.com/2021/08/revista-lei-sexagenarios.jpg",
-        "imgQuestion": ""
+        "correct_answer_id": 1,
+        "description": "A sequência correta é Lei Feijó (1831) – Lei do Ventre Livre (1871) – Lei dos Sexagenários (1885).",
+        "img_response": "https://static.preparaenem.com/2021/08/revista-lei-sexagenarios.jpg",
+        "img_question": ""
       },
       {
         "id": 115,
-        "tema": "História",
-        "pergunta": "O final do século XVIII e o século XIX foi marcado pelo processo de independência dos países da América.  A maioria das independências foi liderada pelas elites coloniais, sendo a única exceção: ",
+        "theme": "História",
+        "question": "O final do século XVIII e o século XIX foi marcado pelo processo de independência dos países da América.  A maioria das independências foi liderada pelas elites coloniais, sendo a única exceção: ",
         "alternatives": [
           {
             "id": 1,
@@ -3080,15 +3080,15 @@
             "content": "E) Porto Rico."
           }
         ],
-        "resposta": "D",
-        "descricao": "A independência do Haiti foi singular, porque foi liderada por negros e mestiços, escravizados e livres.  A revolução haitiana (1791-1804) despertou o terror nas colônias e nações escravistas do continente, que temiam que a república negra pudesse inspirar movimentos semelhantes entre os escravizados e outras regiões da América.",
-        "imgAnswer": "https://cliohistoriaeliteratura.files.wordpress.com/2019/10/jean-jacques-dessalines.jpg?w=446",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "A independência do Haiti foi singular, porque foi liderada por negros e mestiços, escravizados e livres.  A revolução haitiana (1791-1804) despertou o terror nas colônias e nações escravistas do continente, que temiam que a república negra pudesse inspirar movimentos semelhantes entre os escravizados e outras regiões da América.",
+        "img_response": "https://cliohistoriaeliteratura.files.wordpress.com/2019/10/jean-jacques-dessalines.jpg?w=446",
+        "img_question": ""
       },
       {
         "id": 126,
-        "tema": "Português",
-        "pergunta": "Assinale a alternativa cuja frase apresenta concordância verbal correta.",
+        "theme": "Português",
+        "question": "Assinale a alternativa cuja frase apresenta concordância verbal correta.",
         "alternatives": [
           {
             "id": 1,
@@ -3111,15 +3111,15 @@
             "content": "E) Quem de nós fizemos a tarefa?"
           }
         ],
-        "resposta": "A",
-        "descricao": "Embora a concordância mais comum seja As estrelas parecem brilhar, o verbo “parecer”, seguido de infinitivo, pode assumir a forma flexionada ou a não flexionada. ",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 1,
+        "description": "Embora a concordância mais comum seja As estrelas parecem brilhar, o verbo “parecer”, seguido de infinitivo, pode assumir a forma flexionada ou a não flexionada. ",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 127,
-        "tema": "Português",
-        "pergunta": "Assinale a alternativa cuja frase apresenta ambiguidade.",
+        "theme": "Português",
+        "question": "Assinale a alternativa cuja frase apresenta ambiguidade.",
         "alternatives": [
           {
             "id": 1,
@@ -3142,15 +3142,15 @@
             "content": "E) Leia com muita atenção as frases acima."
           }
         ],
-        "resposta": "B",
-        "descricao": "Em o menino viu o incêndio do prédio,  o duplo sentido está na possibilidade de o menino ter visto o prédio incendiar-se ou de ter visto um incêndio estando ele, o menino, no prédio.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 2,
+        "description": "Em o menino viu o incêndio do prédio,  o duplo sentido está na possibilidade de o menino ter visto o prédio incendiar-se ou de ter visto um incêndio estando ele, o menino, no prédio.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 128,
-        "tema": "Português",
-        "pergunta": "Assinale a alternativa em que a figura de linguagem denominada sinestesia.",
+        "theme": "Português",
+        "question": "Assinale a alternativa em que a figura de linguagem denominada sinestesia.",
         "alternatives": [
           {
             "id": 1,
@@ -3173,15 +3173,15 @@
             "content": "E) Chorei rios de lágrimas de saudades dela."
           }
         ],
-        "resposta": "B",
-        "descricao": "Sabendo que Sinestesia é associação de palavras ou expressões em que ocorre combinação de sensações diferentes, em Aquele homem tem a voz áspera há a mistura de dois sentidos, quais sejam, voz (audição) e áspera (tato).",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 2,
+        "description": "Sabendo que Sinestesia é associação de palavras ou expressões em que ocorre combinação de sensações diferentes, em Aquele homem tem a voz áspera há a mistura de dois sentidos, quais sejam, voz (audição) e áspera (tato).",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 129,
-        "tema": "Português",
-        "pergunta": "Assinale a alternativa em que a supressão da(s) vírgula(s) não altera o significado da frase:",
+        "theme": "Português",
+        "question": "Assinale a alternativa em que a supressão da(s) vírgula(s) não altera o significado da frase:",
         "alternatives": [
           {
             "id": 1,
@@ -3204,15 +3204,15 @@
             "content": "E) Ontem, a rua estava muito barulhenta." 
           }
         ],
-        "resposta": "E",
-        "descricao": "A supressão da vírgula não altera o significado da oração indicada.  Nas demais, o sentido muda completamente. Na (A), de adjetiva explicativa passa para adjetiva restritiva; na (B), histérica deixa de se referir à mãe para se referir  à menina; em (C), Maria deixa de ser vocativo, para ser sujeito; em (D), a supressão da vírgula transforma a oração adjetiva explicativa em adjetiva restritiva.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 5,
+        "description": "A supressão da vírgula não altera o significado da oração indicada.  Nas demais, o sentido muda completamente. Na (A), de adjetiva explicativa passa para adjetiva restritiva; na (B), histérica deixa de se referir à mãe para se referir  à menina; em (C), Maria deixa de ser vocativo, para ser sujeito; em (D), a supressão da vírgula transforma a oração adjetiva explicativa em adjetiva restritiva.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 130,
-        "tema": "Português",
-        "pergunta": "Assinale a alternativa em que o “se” é uma partícula expletiva ou de realce.",
+        "theme": "Português",
+        "question": "Assinale a alternativa em que o “se” é uma partícula expletiva ou de realce.",
         "alternatives": [
           {
             "id": 1,
@@ -3235,15 +3235,15 @@
             "content": "E) Precisa-se de empregadas."
           }
         ],
-        "resposta": "C",
-        "descricao": "Partícula expletiva ou de realce nunca exerce função sintática. Pode ser retirada da frase sem prejuízo sintático ou semântico. É o que ocorre na frase (C), na qual o “se” pode ser retirado sem que haja prejuízo sintático ou semântico. Nas demais, o “se” tem função sintática. Na (A), é conjunção integrante. Na (B), é conjunção subordinativa condicional. Na (D), é partícula apassivadora. Na (E), é índice de indeterminação do sujeito.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 3,
+        "description": "Partícula expletiva ou de realce nunca exerce função sintática. Pode ser retirada da frase sem prejuízo sintático ou semântico. É o que ocorre na frase (C), na qual o “se” pode ser retirado sem que haja prejuízo sintático ou semântico. Nas demais, o “se” tem função sintática. Na (A), é conjunção integrante. Na (B), é conjunção subordinativa condicional. Na (D), é partícula apassivadora. Na (E), é índice de indeterminação do sujeito.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 131,
-        "tema": "Português",
-        "pergunta": "Assinale a alternativa em que a oração destacada exerce a função de sujeito:",
+        "theme": "Português",
+        "question": "Assinale a alternativa em que a oração destacada exerce a função de sujeito:",
         "alternatives": [
           {
             "id": 1,
@@ -3266,15 +3266,15 @@
             "content": "E) Só irei embora quando se confirmar o adiamento da prova."
           }
         ],
-        "resposta":"B",
-        "descricao": "Em Consta que a prova foi adiada, a oração “que a prova foi adiada” exerce a função de sujeito do verbo CONSTAR (Consta isto ou Isto consta.)",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id":2,
+        "description": "Em Consta que a prova foi adiada, a oração “que a prova foi adiada” exerce a função de sujeito do verbo CONSTAR (Consta isto ou Isto consta.)",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 132,
-        "tema": "Português",
-        "pergunta": "Assinale a opção em que o pronome oblíquo destacado tem valor possessivo.",
+        "theme": "Português",
+        "question": "Assinale a opção em que o pronome oblíquo destacado tem valor possessivo.",
         "alternatives": [
           {
             "id": 1,
@@ -3297,15 +3297,15 @@
             "content": "E) Eu lhe peço apenas mais um favor."
           }
         ],
-        "resposta": "D",
-        "descricao": "Em A lama sujou-me a roupa, o pronome me tem valor de “minha”, ou seja, A lama sujou a minha roupa.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "Em A lama sujou-me a roupa, o pronome me tem valor de “minha”, ou seja, A lama sujou a minha roupa.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 133,
-        "tema": "Português",
-        "pergunta": "Assinale  a alternativa na qual o pronome que exerce a função de predicativo do sujeito.",
+        "theme": "Português",
+        "question": "Assinale  a alternativa na qual o pronome que exerce a função de predicativo do sujeito.",
         "alternatives": [
           {
             "id": 1,
@@ -3328,15 +3328,15 @@
             "content": "E) O filme a que assisti era lento."
           }
         ],
-        "resposta": "C",
-        "descricao": "O pronome que refere-se a “curioso” que é o predicativo do sujeito  na oração “fui curioso”, na qual o verbo é de ligação (“ser”).",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 3,
+        "description": "O pronome que refere-se a “curioso” que é o predicativo do sujeito  na oração “fui curioso”, na qual o verbo é de ligação (“ser”).",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 134,
-        "tema": "Português",
-        "pergunta": "Assinale a única alternativa que completa corretamente as lacunas da frase. O rapaz tinha _________ a condição: a luz só seria _________ depois que tudo estivesse _________ e devidamente ___________.",
+        "theme": "Português",
+        "question": "Assinale a única alternativa que completa corretamente as lacunas da frase. O rapaz tinha _________ a condição: a luz só seria _________ depois que tudo estivesse _________ e devidamente ___________.",
         "alternatives": [
           {
             "id": 1,
@@ -3359,15 +3359,15 @@
             "content": "E) aceitado – acendida – limpo – enxuto"
           }
         ],
-        "resposta": "D",
-        "descricao": "A formas regulares de particípio são usadas com os verbos TER e HAVER, enquanto as irregulares são empregadas com os verbos SER e ESTAR, razão pela qual a única resposta certa é a alternativa (D).",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "A formas regulares de particípio são usadas com os verbos TER e HAVER, enquanto as irregulares são empregadas com os verbos SER e ESTAR, razão pela qual a única resposta certa é a alternativa (D).",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 135,
-        "tema": "Português",
-        "pergunta": "Assinale a alternativa em que há um verbo defectivo:",
+        "theme": "Português",
+        "question": "Assinale a alternativa em que há um verbo defectivo:",
         "alternatives": [
           {
             "id": 1,
@@ -3390,10 +3390,10 @@
             "content": "E) Coube ao juiz julgar o réu."
           }
         ],
-        "resposta": "A",
-        "descricao": "Verbos defectivos são aqueles que possuem conjugação incompleta, ou seja, não se conjugam em todos os modos, tempos e pessoas, o que é o caso do verbo demolir, que não tem a 1ª pessoa do singular do presente do indicativo, o que acarretará a inexistência de todo o presente do subjuntivo, por exemplo.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 1,
+        "description": "Verbos defectivos são aqueles que possuem conjugação incompleta, ou seja, não se conjugam em todos os modos, tempos e pessoas, o que é o caso do verbo demolir, que não tem a 1ª pessoa do singular do presente do indicativo, o que acarretará a inexistência de todo o presente do subjuntivo, por exemplo.",
+        "img_response": "",
+        "img_question": ""
       }
     ]
   },
@@ -3406,497 +3406,964 @@
     "questions": [
       {
         "id": 65,
-        "tema": "Biologia",
-        "pergunta": "O personagem Jeca-Tatu foi criado por Monteiro Lobato e, na visão do escritor, representava o trabalhador rural brasileiro. A doença que Jeca-Tatu tinha era amarelão, causada por um verme chamado...",
+        "theme": "Biologia",
+        "question": "O personagem Jeca-Tatu foi criado por Monteiro Lobato e, na visão do escritor, representava o trabalhador rural brasileiro. A doença que Jeca-Tatu tinha era amarelão, causada por um verme chamado...",
         "alternatives": [
-          "A) Taenia solium,",
-          "B) Wuchereria bancrofti",
-          "C) Oxiurus vermicularis.",
-          "D) Ascaris lumbricoides",
-          "E) Ancylostoma duodenale"
+          {
+            "id": 1,
+            "content": "A) Taenia solium,"
+          },
+          {
+            "id": 2,
+            "content": "B) Wuchereria bancrofti"
+          },
+          {
+            "id": 3,
+            "content": "C) Oxiurus vermicularis."
+          },
+          {
+            "id": 4,
+            "content": "D) Ascaris lumbricoides"
+          },
+          {
+            "id": 5,
+            "content": "E) Ancylostoma duodenale"
+          }
         ],
-        "imgAnswer": "https://sociologado.files.wordpress.com/2011/12/uel-2011-q28-jeca.jpg",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "O “amarelão” (ancilostomose) é uma doença causada por vermes das espécies Necator americanus e Ancylostoma duodenale. As formas adultas desses parasitas intestinais se instalam no tubo digestivo dos seres humanos, onde se fixam no intestino delgado, nutrindo-se de sangue do hospedeiro."
+        "img_response": "https://sociologado.files.wordpress.com/2011/12/uel-2011-q28-jeca.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "O “amarelão” (ancilostomose) é uma doença causada por vermes das espécies Necator americanus e Ancylostoma duodenale. As formas adultas desses parasitas intestinais se instalam no tubo digestivo dos seres humanos, onde se fixam no intestino delgado, nutrindo-se de sangue do hospedeiro."
       },
       {
         "id": 66,
-        "tema": "Biologia",
-        "pergunta": "É comum às pessoas que não seguem a prescrição médica ao tomarem antibióticos retornarem ao consultório com a famosa “recaída”. Uma explicação para essa possível recaída é...",
+        "theme": "Biologia",
+        "question": "É comum às pessoas que não seguem a prescrição médica ao tomarem antibióticos retornarem ao consultório com a famosa “recaída”. Uma explicação para essa possível recaída é...",
         "alternatives": [
-          "A) as bactérias tornarem-se imune ao antibiótico sendo necessário prescrever outro.",
-          "B) as bactérias desenvolveram resistência ao antibiótico sendo necessário prescrever outro.",
-          "C) as bactérias mais resistentes ao antibiótico conseguiram sobreviver e reproduzir, ocasionando a recaída.",
-          "D) o antibiótico não foi eficaz e os vírus causadores da doença continuaram vivos no organismo.",
-          "E) as bactérias ganharam, com o passar do tempo, resistência ao antibiótico, tornando-se imune ao mesmo."
+          {
+            "id": 1,
+            "content": "A) as bactérias tornarem-se imune ao antibiótico sendo necessário prescrever outro."
+          },
+          {
+            "id": 2,
+            "content": "B) as bactérias desenvolveram resistência ao antibiótico sendo necessário prescrever outro."
+          },
+          {
+            "id": 3,
+            "content": "C) as bactérias mais resistentes ao antibiótico conseguiram sobreviver e reproduzir, ocasionando a recaída."
+          },
+          {
+            "id": 4,
+            "content": "D) o antibiótico não foi eficaz e os vírus causadores da doença continuaram vivos no organismo."
+          },
+          {
+            "id": 5,
+            "content": "E) as bactérias ganharam, com o passar do tempo, resistência ao antibiótico, tornando-se imune ao mesmo."
+          }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "O uso incorreto dos antibióticos leva à seleção das bactérias mais resistentes ao medicamento."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "O uso incorreto dos antibióticos leva à seleção das bactérias mais resistentes ao medicamento."
       },
       {
         "id": 67,
-        "tema": "Biologia",
-        "pergunta": "Um dos objetivos da biotecnologia moderna é desenvolver produtos para suprir a alimentação da população mundial, que vem aumentando nos últimos anos. Um exemplo desses produtos geneticamente modificados pode ser...",
+        "theme": "Biologia",
+        "question": "Um dos objetivos da biotecnologia moderna é desenvolver produtos para suprir a alimentação da população mundial, que vem aumentando nos últimos anos. Um exemplo desses produtos geneticamente modificados pode ser...",
         "alternatives": [
-          "A) alface cultivado por hidroponia.",
-          "B) variedades de trigo híbridas selecionadas por serem mais produtivas.",
-          "C) morangos produzidos a partir de mudas sem contaminação de fungos.",
-          "D) verduras cultivadas sem agrotóxicos por utilizar o controle biológico de pragas.",
-          "E) o “arroz dourado”, onde o grão produzido contém betacaroteno e ferro, ajudando na alimentação de crianças desnutridas."
+          {
+            "id": 1,
+            "content": "A) alface cultivado por hidroponia."
+          },
+          {
+            "id": 2,
+            "content": "B) variedades de trigo híbridas selecionadas por serem mais produtivas."
+          },
+          {
+            "id": 3,
+            "content": "C) morangos produzidos a partir de mudas sem contaminação de fungos."
+          },
+          {
+            "id": 4,
+            "content": "D) verduras cultivadas sem agrotóxicos por utilizar o controle biológico de pragas."
+          },
+          {
+            "id": 5,
+            "content": "E) o “arroz dourado”, onde o grão produzido contém betacaroteno e ferro, ajudando na alimentação de crianças desnutridas."
+          }
         ],
-        "imgAnswer": "https://s2.glbimg.com/naWD3W-xc4uEpsqMd8uRFBznhVM=/e.glbimg.com/og/ed/f/original/2019/11/22/goldenrice.jpg",
-        "imgQuestion": "",
-        "resposta": "E",
-        "descricao": "Idealizado na década de 1980, o arroz dourado é uma planta transgênica desenvolvida para combater a deficiência de vitamina A, especialmente na Ásia, onde o arroz é considerado um dos principais alimentos, mesmo entre as populações mais pobres."
+        "img_response": "https://s2.glbimg.com/naWD3W-xc4uEpsqMd8uRFBznhVM=/e.glbimg.com/og/ed/f/original/2019/11/22/goldenrice.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Idealizado na década de 1980, o arroz dourado é uma planta transgênica desenvolvida para combater a deficiência de vitamina A, especialmente na Ásia, onde o arroz é considerado um dos principais alimentos, mesmo entre as populações mais pobres."
       },
       {
         "id": 68,
-        "tema": "Biologia",
-        "pergunta": "A morte celular programada ou apoptose celular é imprescindível para o desenvolvimento dos animais. Nos tecidos de um ser humano saudável, a cada dia, bilhões de células ativam um programa de morte intracelular, por mecanismos celulares complexos e variados. As situações ilustram exemplos de apoptose em organismos pluricelulares, EXCETO uma, qual?",
+        "theme": "Biologia",
+        "question": "A morte celular programada ou apoptose celular é imprescindível para o desenvolvimento dos animais. Nos tecidos de um ser humano saudável, a cada dia, bilhões de células ativam um programa de morte intracelular, por mecanismos celulares complexos e variados. As situações ilustram exemplos de apoptose em organismos pluricelulares, EXCETO uma, qual?",
         "alternatives": [
-          "A) A regressão do útero logo após o parto.",
-          "B) A regressão da mama após o desmame.",
-          "C) A morte de um tecido devido a necrose onde foi desencadeado um processo inflamatório.",
-          "D) A reabsorção da cauda do girino durante a metamorfose que leva ao surgimento do sapo adulto.",
-          "E) A eliminação das membranas existentes entre os dedos de um embrião humano durante a modelagem da mão."
+          {
+            "id": 1,
+            "content": "A) A regressão do útero logo após o parto."
+          },
+          {
+            "id": 2,
+            "content": "B) A regressão da mama após o desmame."
+          },
+          {
+            "id": 3,
+            "content": "C) A morte de um tecido devido a necrose onde foi desencadeado um processo inflamatório."
+          },
+          {
+            "id": 4,
+            "content": "D) A reabsorção da cauda do girino durante a metamorfose que leva ao surgimento do sapo adulto."
+          },
+          {
+            "id": 5,
+            "content": "E) A eliminação das membranas existentes entre os dedos de um embrião humano durante a modelagem da mão."
+          }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "NECROSE é o processo de desestruturação de proteínas intracelulares e digestão enzimática de células que já apresentam dano letal, enquanto APOPTOSE é a morte celular programada através da ativação enzimática que desencadeia mecanismos que matam a célula."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "NECROSE é o processo de desestruturação de proteínas intracelulares e digestão enzimática de células que já apresentam dano letal, enquanto APOPTOSE é a morte celular programada através da ativação enzimática que desencadeia mecanismos que matam a célula."
       },
       {
         "id": 69,
-        "tema": "Curiosidades",
-        "pergunta": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita por qual autor brasileiro?",
+        "theme": "Curiosidades",
+        "question": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita por qual autor brasileiro?",
         "alternatives": [
-          "A) Ariano Suassuna em 1955.",
-          "B) Fernanda Montenegro em 1990.",
-          "C) José Paulo Cavalcanti em 1980.",
-          "D) Paulo Coelho em 1965.",
-          "E) Nélida Piñon em 1955."
+          {
+            "id": 1,
+            "content": "A) Ariano Suassuna em 1955."
+          },
+          {
+            "id": 2,
+            "content": "B) Fernanda Montenegro em 1990."
+          },
+          {
+            "id": 3,
+            "content": "C) José Paulo Cavalcanti em 1980."
+          },
+          {
+            "id": 4,
+            "content": "D) Paulo Coelho em 1965."
+          },
+          {
+            "id": 5,
+            "content": "E) Nélida Piñon em 1955."
+          }
         ],
-        "imgAnswer": "https://m.media-amazon.com/images/I/81taSo-m23L._AC_UF1000,1000_QL80_.jpg",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita pelo autor brasileiro Ariano Suassuna em 1955."
+        "img_response": "https://m.media-amazon.com/images/I/81taSo-m23L._AC_UF1000,1000_QL80_.jpg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita pelo autor brasileiro Ariano Suassuna em 1955."
       },
       {
         "id": 70,
-        "tema": "Curiosidades",
-        "pergunta": "Onde fica localizado o monte Everest?",
+        "theme": "Curiosidades",
+        "question": "Onde fica localizado o monte Everest?",
         "alternatives": [
-          "A) Cordilheira dos Andes",
-          "B) Cordilheira do Himalaia",
-          "C) Cordilheira do Tibete",
-          "D) Apalaches",
-          "E) Montes Urais"
+          {
+            "id": 1,
+            "content": "A) Cordilheira dos Andes"
+          },
+          {
+            "id": 2,
+            "content": "B) Cordilheira do Himalaia"
+          },
+          {
+            "id": 3,
+            "content": "C) Cordilheira do Tibete"
+          },
+          {
+            "id": 4,
+            "content": "D) Apalaches"
+          },
+          {
+            "id": 5,
+            "content": "E) Montes Urais"
+          }
         ],
-        "imgAnswer": "https://static.wixstatic.com/media/89a1bf_caa14c24fa6c4c0f8eab31bda0c34127~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/89a1bf_caa14c24fa6c4c0f8eab31bda0c34127~mv2.jpg",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "O Everest encontra-se na Cordilheira do Himalaia, uma cadeia de montanhas localizada na fronteira da China com o Nepal e que se estende por Índia, Butão e Paquistão."
+        "img_response": "https://static.wixstatic.com/media/89a1bf_caa14c24fa6c4c0f8eab31bda0c34127~mv2.jpg/v1/fill/w_600,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/89a1bf_caa14c24fa6c4c0f8eab31bda0c34127~mv2.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "O Everest encontra-se na Cordilheira do Himalaia, uma cadeia de montanhas localizada na fronteira da China com o Nepal e que se estende por Índia, Butão e Paquistão."
       },
       {
         "id": 71,
-        "tema": "Curiosidades",
-        "pergunta": "Ariano Suassuna foi um intelectual, escritor, dramaturgo, romancista, ensaísta, professor, advogado, palestrante entre outras coisas. Em que área artística ele também se destacou?",
+        "theme": "Curiosidades",
+        "question": "Ariano Suassuna foi um intelectual, escritor, dramaturgo, romancista, ensaísta, professor, advogado, palestrante entre outras coisas. Em que área artística ele também se destacou?",
         "alternatives": [
-          "A) artes plásticas",
-          "B) música",
-          "C) dança",
-          "D) artes clássicas",
-          "E) fotografia"
+          {
+            "id": 1,
+            "content": "A) artes plásticas"
+          },
+          {
+            "id": 2,
+            "content": "B) música"
+          },
+          {
+            "id": 3,
+            "content": "C) dança"
+          },
+          {
+            "id": 4,
+            "content": "D) artes clássicas"
+          },
+          {
+            "id": 5,
+            "content": "E) fotografia"
+          }
         ],
-        "imgAnswer": "https://cdn.pensador.com/img/authors/ar/ia/ariano-suassuna-l.jpg",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "Ariano nos brindou com várias pinturas. Frase do Ariano: 'A humanidade se divide em dois grupos, os que concordam comigo e os equivocados.'"
+        "img_response": "https://cdn.pensador.com/img/authors/ar/ia/ariano-suassuna-l.jpg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "Ariano nos brindou com várias pinturas. Frase do Ariano: 'A humanidade se divide em dois grupos, os que concordam comigo e os equivocados.'"
       },
       {
         "id": 72,
-        "tema": "Curiosidades",
-        "pergunta": "Ruy Barbosa (1849-1923), foi um político, diplomata e jurista brasileiro. Grande orador, representou o Brasil na Holanda Como ficou conhecido após essa representação?",
+        "theme": "Curiosidades",
+        "question": "Ruy Barbosa (1849-1923), foi um político, diplomata e jurista brasileiro. Grande orador, representou o Brasil na Holanda Como ficou conhecido após essa representação?",
         "alternatives": [
-          "A) O Águia da Holanda",
-          "B) O Águia de Haia",
-          "C) O Rei de Amsterdã",
-          "D) O príncipe da Holanda",
-          "E) O colosso de Haia"
+          {
+            "id": 1,
+            "content": "A) O Águia da Holanda"
+          },
+          {
+            "id": 2,
+            "content": "B) O Águia de Haia"
+          },
+          {
+            "id": 3,
+            "content": "C) O Rei de Amsterdã"
+          },
+          {
+            "id": 4,
+            "content": "D) O príncipe da Holanda"
+          },
+          {
+            "id": 5,
+            "content": "E) O colosso de Haia"
+          }
         ],
-        "imgAnswer": "https://www.infoescola.com/wp-content/uploads/2021/01/rui-barbosa.jpg",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "Rui Barbosa recebeu o cognome de 'Águia de Haia' do Barão do Rio Branco que era o Ministro das Relações Exteriores na época da 2ª Conferência Internacional da Paz em 19."
+        "img_response": "https://www.infoescola.com/wp-content/uploads/2021/01/rui-barbosa.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "Rui Barbosa recebeu o cognome de 'Águia de Haia' do Barão do Rio Branco que era o Ministro das Relações Exteriores na época da 2ª Conferência Internacional da Paz em 19."
       },
       {
         "id": 73,
-        "tema": "Geografia",
-        "pergunta": "Observe o esquema seguinte que mostra a atuação das massas de ar no Brasil:",
+        "theme": "Geografia",
+        "question": "Observe o esquema seguinte que mostra a atuação das massas de ar no Brasil:",
         "alternatives": [
-          "A) massa Tropical Continental (mTc).",
-          "B) massa Tropical atlântica (mTa).",
-          "C) massa Equatorial atlântica (mEa).",
-          "D) massa Polar atlântica (mPa).",
-          "E) massa Equatorial continental (mEc)."
+          {
+            "id": 1,
+            "content": "A) massa Tropical Continental (mTc)."
+          },
+          {
+            "id": 2,
+            "content": "B) massa Tropical atlântica (mTa)."
+          },
+          {
+            "id": 3,
+            "content": "C) massa Equatorial atlântica (mEa)."
+          },
+          {
+            "id": 4,
+            "content": "D) massa Polar atlântica (mPa)."
+          },
+          {
+            "id": 5,
+            "content": "E) massa Equatorial continental (mEc)."
+          }
         ],
-        "imgQuestion": "https://s2-educacao.glbimg.com/uC3bUAybenbu-wJ-0Vtsc2r0HuE=/7x0:627x295/620x295/s.glbimg.com/po/ek/f/original/2014/12/11/massas_de_ar_brasil_am_sul.png",
-        "resposta": "A",
-        "descricao": "A mTc atua tanto no verão quanto no inverno, atinge o Sul e Centro-Oeste brasileiros e é uma massa quente e seca."
+        "img_response": "",
+        "img_question": "https://s2-educacao.glbimg.com/uC3bUAybenbu-wJ-0Vtsc2r0HuE=/7x0:627x295/620x295/s.glbimg.com/po/ek/f/original/2014/12/11/massas_de_ar_brasil_am_sul.png",
+        "correct_answer_id": 1,
+        "description": "A mTc atua tanto no verão quanto no inverno, atinge o Sul e Centro-Oeste brasileiros e é uma massa quente e seca."
       },
       {
         "id": 74,
-        "tema": "Geografia",
-        "pergunta": "Observe a figura a seguir, a qual está representando:",
+        "theme": "Geografia",
+        "question": "Observe a figura a seguir, a qual está representando:",
         "alternatives": [
-          "A) a ilustração gráfica do mecanismo dos dias e das noites.",
-          "B) a configuração esquemática do meridiano de Greenwich.",
-          "C) a ilustração do que constitui uma projeção cartográfica.",
-          "D) o desenho esquemático da influência da latitude sobre o clima.",
-          "E) o esboço da rotação da Terra em torno de seu eixo imaginário."
+          {
+            "id": 1,
+            "content": "A) a ilustração gráfica do mecanismo dos dias e das noites."
+          },
+          {
+            "id": 2,
+            "content": "B) a configuração esquemática do meridiano de Greenwich."
+          },
+          {
+            "id": 3,
+            "content": "C) a ilustração do que constitui uma projeção cartográfica."
+          },
+          {
+            "id": 4,
+            "content": "D) o desenho esquemático da influência da latitude sobre o clima."
+          },
+          {
+            "id": 5,
+            "content": "E) o esboço da rotação da Terra em torno de seu eixo imaginário."
+          }
         ],
-        "imgQuestion": "https://atlasescolar.ibge.gov.br/images/atlas/cartografia/projecoes_1_plana.jpg",
-        "resposta": "C",
-        "descricao": "Trata-se de uma ilustração didática do que é uma projeção cartográfica num plano."
+        "img_response": "",
+        "img_question": "https://atlasescolar.ibge.gov.br/images/atlas/cartografia/projecoes_1_plana.jpg",
+        "correct_answer_id": 3,
+        "description": "Trata-se de uma ilustração didática do que é uma projeção cartográfica num plano."
       },
       {
         "id": 75,
-        "tema": "Geografia",
-        "pergunta": "Ao planejar uma viagem de férias utilizando o programa GoogleEarth, você anotou as coordenadas geográficas de dois locais que gostaria de visitar na Ilha do Mel (PR), sendo o primeiro de coordenadas 25°33'26,28\"S (latitude) e 48°18'30,75\"O (longitude) e o segundo de coordenadas 25°33'46,27\"S (latitude) e 48°18'10,10\"O (longitude). Com base nos valores das coordenadas, é correto afirmar que do primeiro para o segundo ponto você se deslocou para:",
+        "theme": "Geografia",
+        "question": "Ao planejar uma viagem de férias utilizando o programa GoogleEarth, você anotou as coordenadas geográficas de dois locais que gostaria de visitar na Ilha do Mel (PR), sendo o primeiro de coordenadas 25°33'26,28\"S (latitude) e 48°18'30,75\"O (longitude) e o segundo de coordenadas 25°33'46,27\"S (latitude) e 48°18'10,10\"O (longitude). Com base nos valores das coordenadas, é correto afirmar que do primeiro para o segundo ponto você se deslocou para:",
         "alternatives": [
-          "A) leste.",
-          "B) nordeste.",
-          "C) sudeste.",
-          "D) oeste.",
-          "E) noroeste."
+          {
+            "id": 1,
+            "content": "A) leste."
+          },
+          {
+            "id": 2,
+            "content": "B) nordeste."
+          },
+          {
+            "id": 3,
+            "content": "C) sudeste."
+          },
+          {
+            "id": 4,
+            "content": "D) oeste."
+          },
+          {
+            "id": 5,
+            "content": "E) noroeste."
+          }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "C",
-        "descricao": "Pelas coordenadas geográficas apresentadas, temos que do primeiro para o segundo ponto o deslocamento foi para sudeste."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "Pelas coordenadas geográficas apresentadas, temos que do primeiro para o segundo ponto o deslocamento foi para sudeste."
       },
       {
         "id": 76,
-        "tema": "Geografia",
-        "pergunta": "Leia a descricao seguinte:",
+        "theme": "Geografia",
+        "question": "Leia a descricao seguinte:",
         "alternatives": [
-          "A) O azimute.",
-          "B) A analema.",
-          "C) A declinação.",
-          "D) A latitude.",
-          "E) A longitude."
+          {
+            "id": 1,
+            "content": "A) O azimute."
+          },
+          {
+            "id": 2,
+            "content": "B) A analema."
+          },
+          {
+            "id": 3,
+            "content": "C) A declinação."
+          },
+          {
+            "id": 4,
+            "content": "D) A latitude."
+          },
+          {
+            "id": 5,
+            "content": "E) A longitude."
+          }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "A definição apresentada refere-se ao azimute, em que o norte corresponde a 0º e os graus aumentam no sentido horário. O azimute representa uma direção com base na variação dos graus."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "A definição apresentada refere-se ao azimute, em que o norte corresponde a 0º e os graus aumentam no sentido horário. O azimute representa uma direção com base na variação dos graus."
       },
       {
         "id": 77,
-        "tema": "Química",
-        "pergunta": "Dois jovens adicionaram os seguintes compostos em uma solução aquosa: KOH, HCl, CH4 e HBr. Sofrerá(ão) ionização:",
+        "theme": "Química",
+        "question": "Dois jovens adicionaram os seguintes compostos em uma solução aquosa: KOH, HCl, CH4 e HBr. Sofrerá(ão) ionização:",
         "alternatives": [
-          "A) somente o composto KOH.",
-          "B) somente o composto HCl.",
-          "C) somente o composto HBr",
-          "D) somente os compostos HCl e HBr.",
-          "E) somente os compostos HCl e CH4."
+          {
+            "id": 1,
+            "content": "A) somente o composto KOH."
+          },
+          {
+            "id": 2,
+            "content": "B) somente o composto HCl."
+          },
+          {
+            "id": 3,
+            "content": "C) somente o composto HBr"
+          },
+          {
+            "id": 4,
+            "content": "D) somente os compostos HCl e HBr."
+          },
+          {
+            "id": 5,
+            "content": "E) somente os compostos HCl e CH4."
+          }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "A IONIZAÇÃO É UMA REAÇÃO QUÍMICA QUE ORIGINA ÍONS A PARTIR DE SUBSTÂNCIAS MOLECULARES COLOCADAS NA ÁGUA. HCl e HBr IONIZAM EM SOLUÇÃO AQUOSA."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "A IONIZAÇÃO É UMA REAÇÃO QUÍMICA QUE ORIGINA ÍONS A PARTIR DE SUBSTÂNCIAS MOLECULARES COLOCADAS NA ÁGUA. HCl e HBr IONIZAM EM SOLUÇÃO AQUOSA."
       },
       {
         "id": 78,
-        "tema": "Química",
-        "pergunta": "Durante um experimento, um aluno anotou as seguintes propriedades de um composto: apresente pH abaixo de sete, tem sabor azedo e conduz eletricidade em meio aquoso. Logo após assinalou como sendo NaCl. A atitude do aluno está correta?",
+        "theme": "Química",
+        "question": "Durante um experimento, um aluno anotou as seguintes propriedades de um composto: apresente pH abaixo de sete, tem sabor azedo e conduz eletricidade em meio aquoso. Logo após assinalou como sendo NaCl. A atitude do aluno está correta?",
         "alternatives": [
-          "A) Sim, pois o composto é formado HCl.",
-          "B) Não, pois o composto assinalado é um sal de caráter neutro.",
-          "C) Não, pois o composto não conduz eletricidade em meio aquoso.",
-          "D) Sim, pois o composto é formado por NaOH, cuja propriedade principal é o sabor azedo.",
-          "E) Sim, pois o composto é formado por NaCl, cuja propriedade principal é o sabor doce."
+          {
+            "id": 1,
+            "content": "A) Sim, pois o composto é formado HCl."
+          },
+          {
+            "id": 2,
+            "content": "B) Não, pois o composto assinalado é um sal de caráter neutro."
+          },
+          {
+            "id": 3,
+            "content": "C) Não, pois o composto não conduz eletricidade em meio aquoso."
+          },
+          {
+            "id": 4,
+            "content": "D) Sim, pois o composto é formado por NaOH, cuja propriedade principal é o sabor azedo."
+          },
+          {
+            "id": 5,
+            "content": "E) Sim, pois o composto é formado por NaCl, cuja propriedade principal é o sabor doce."
+          }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "B",
-        "descricao": "NaCl É UM SAL DE pH = 7, de caráter neutro."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "NaCl É UM SAL DE pH = 7, de caráter neutro."
       },
       {
         "id": 79,
-        "tema": "Química",
-        "pergunta": "A fim de diminuir a acidez do solo, emprega-se uma substância:",
+        "theme": "Química",
+        "question": "A fim de diminuir a acidez do solo, emprega-se uma substância:",
         "alternatives": [
-          "A) CaO",
-          "B) HF",
-          "C) NaCl",
-          "D) CH4",
-          "E) CO"
+          {
+            "id": 1,
+            "content": "A) CaO"
+          },
+          {
+            "id": 2,
+            "content": "B) HF"
+          },
+          {
+            "id": 3,
+            "content": "C) NaCl"
+          },
+          {
+            "id": 4,
+            "content": "D) CH4"
+          },
+          {
+            "id": 5,
+            "content": "E) CO"
+          }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "A",
-        "descricao": "PARA DIMINUIR A ACIDEZ DO SOLO É NECESSÁRIO QUE SEJA EMPREGADO UM COMPOSTO DE CARÁTER BÁSICO, OU SEJA, A CAL (CaO)."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "PARA DIMINUIR A ACIDEZ DO SOLO É NECESSÁRIO QUE SEJA EMPREGADO UM COMPOSTO DE CARÁTER BÁSICO, OU SEJA, A CAL (CaO)."
       },
       {
         "id": 80,
-        "tema": "Química",
-        "pergunta": "Joana sofre com dores no estômago devido a presença de ácido clorídrico no estômago. Ao consultar uma farmácia, espera-se que ela compre:",
+        "theme": "Química",
+        "question": "Joana sofre com dores no estômago devido a presença de ácido clorídrico no estômago. Ao consultar uma farmácia, espera-se que ela compre:",
         "alternatives": [
-          "A) remédio à base de suco de limão.",
-          "B) antibiótico.",
-          "C) remédio com propriedade antioxidante.",
-          "D) remédio com propriedades básicas, como leite de magnésia.",
-          "E) remédio antibásico."
+          {
+            "id": 1,
+            "content": "A) remédio à base de suco de limão."
+          },
+          {
+            "id": 2,
+            "content": "B) antibiótico."
+          },
+          {
+            "id": 3,
+            "content": "C) remédio com propriedade antioxidante."
+          },
+          {
+            "id": 4,
+            "content": "D) remédio com propriedades básicas, como leite de magnésia."
+          },
+          {
+            "id": 5,
+            "content": "E) remédio antibásico."
+          }
         ],
-        "imgAnswer": "",
-        "imgQuestion": "",
-        "resposta": "D",
-        "descricao": "PARA COMBATER A ACIDEZ UM REMÉDIO DEVE TER PROPRIEDADES DE UMA BASE."
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "PARA COMBATER A ACIDEZ UM REMÉDIO DEVE TER PROPRIEDADES DE UMA BASE."
       },
       {
         "id": 96,
-        "tema": "Física",
-        "pergunta": "Um experimento muito simples sobre hidrodinâmica consiste em soprar a parte de cima de um papel, como mostra a figura. Quando o homem assopra, o que acontece e por que?",
+        "theme": "Física",
+        "question": "Um experimento muito simples sobre hidrodinâmica consiste em soprar a parte de cima de um papel, como mostra a figura. Quando o homem assopra, o que acontece e por que?",
         "alternatives": [
-          "A) O papel sobe pois a pressão em cima é maior",
-          "B) O papel desce pois a pressão em cima é maior.",
-          "C) O papel sobe pois a pressão em cima é menor.",
-          "D) O papel desce pois a pressão em cima é menor.",
-          "E) Não acontece nada, pois o papel está em equilíbrio."
+          {
+            "id": 1,
+            "content": "A) O papel sobe pois a pressão em cima é maior"
+          },
+          {
+            "id": 2,
+            "content": "B) O papel desce pois a pressão em cima é maior."
+          },
+          {
+            "id": 3,
+            "content": "C) O papel sobe pois a pressão em cima é menor."
+          },
+          {
+            "id": 4,
+            "content": "D) O papel desce pois a pressão em cima é menor."
+          },
+          {
+            "id": 5,
+            "content": "E) Não acontece nada, pois o papel está em equilíbrio."
+          }
         ],
-        "resposta": "C",
-        "descricao": "O papel sobe pois em cima a velocidade do ar será maior que em baixo, logo a pressão será menor.",
-        "imgAnswer":"",
-        "imgQuestion": "https://www.ciensacao.org/fotografia_experimento_mao_na_massa/5049p_flying_2.jpg"
+        "correct_answer_id": 3,
+        "description": "O papel sobe pois em cima a velocidade do ar será maior que em baixo, logo a pressão será menor.",
+        "img_response":"",
+        "img_question": "https://www.ciensacao.org/fotografia_experimento_mao_na_massa/5049p_flying_2.jpg"
       },
       {
-          "id": 97,
-          "tema": "Física",
-          "pergunta": "Se o coeficiente de atrito estático entre os grãos de areia de um monte vale 0,60 e o diâmetro (D) desse monte é igual a 10 m, a altura máxima (h) que esse pode atingir é de:",
-          "alternatives": [
-            "A) 6,00 m.",
-            "B) 3,00 m.",
-            "C) 1,50 m.",
-            "D) 5,00 m.",
-            "E) 8,33 m."
-          ],
-          "resposta": "B",
-          "descricao": "No equílibrio μe = tg Θ = h/R ,  logo  0,60 = h/5     h = 3,00 m",
-          "imgAnswer":"",
-          "imgQuestion": "https://ibb.co/PcQvW6W"
+        "id": 97,
+        "theme": "Física",
+        "question": "Se o coeficiente de atrito estático entre os grãos de areia de um monte vale 0,60 e o diâmetro (D) desse monte é igual a 10 m, a altura máxima (h) que esse pode atingir é de:",
+        "alternatives": [
+          {
+            "id": 1, 
+            "content": "A) 6,00 m."
+          },
+          {
+            "id": 2,
+            "content": "B) 3,00 m."
+          },
+          {
+            "id": 3,
+            "content": "C) 1,50 m."
+          },
+          {
+            "id": 4,
+            "content": "D) 5,00 m."
+          },
+          {
+            "id": 5,
+            "content": "E) 8,33 m."
+          }
+        ],
+        "correct_answer_id": 2,
+        "description": "No equilíbrio μe = tg Θ = h/R ,  logo  0,60 = h/5     h = 3,00 m",
+        "img_response":"",
+        "img_question": "https://ibb.co/PcQvW6W"
       },
       {
-          "id": 98,
-          "tema": "Física",
-          "pergunta": "Uma fonte de calor de 100 W foi utilizada para aquecer 100g de uma substância. De acordo com a sua curva de aquecimento, o calor específico no estado de MENOR agregação das moléculas é:",
-          "alternatives": [
-            "A) 2,0 J/goC.",
-            "B) 1,5 J/goC.",
-            "C) 1,0 J/goC.",
-            "D) 0,5 J/goC.",
-            "E) 4,0 J/goC."
-          ],
-          "resposta": "A",
-          "descricao": "No caso, seria no estado gasoso (terceira rampa no gráfico) Como Q = m.c.ΔT e Q = Pot x tempo   100 (J/s).60(s) = 100(g).c.30(oC)    c =  2,0 J/goC",
-          "imgAnswer":"",
-          "imgQuestion": "https://ibb.co/RPNx3y9"
+        "id": 98,
+        "theme": "Física",
+        "question": "Uma fonte de calor de 100 W foi utilizada para aquecer 100g de uma substância. De acordo com a sua curva de aquecimento, o calor específico no estado de MENOR agregação das moléculas é:",
+        "alternatives": [
+          {
+            "id": 1, 
+            "content": "A) 2,0 J/goC."
+          },
+          {
+            "id": 2,
+            "content": "B) 1,5 J/goC."
+          },
+          {
+            "id": 3,
+            "content": "C) 1,0 J/goC."
+          },
+          {
+            "id": 4,
+            "content": "D) 0,5 J/goC."
+          },
+          {
+            "id": 5,
+            "content": "E) 4,0 J/goC."
+          }
+        ],
+        "correct_answer_id": 1,
+        "description": "No caso, seria no estado gasoso (terceira rampa no gráfico) Como Q = m.c.ΔT e Q = Pot x tempo   100 (J/s).60(s) = 100(g).c.30(oC)    c =  2,0 J/goC",
+        "img_response":"",
+        "img_question": "https://ibb.co/RPNx3y9"
       },
       {
-          "id": 99,
-          "tema": "Física",
-          "pergunta": "A energia elétrica dissipada pelos resistores no circuito, em 1 segundo, é igual a:",
-          "alternatives": [
-            "A)12,50 J",
-            "B)25 J",
-            "C)0,25 J",
-            "D)2,5 J",
-            "E)6,25 J"
-          ],
-          "resposta": "E",
-          "descricao": "Potência = V2 / Req = 252/100 = 6,25 W    Energia = P.Δt = (6,25 J/s) . (1s) = 6,25 J",
-          "imgAnswer":"",
-          "imgQuestion": "https://ibb.co/cFqFy6C"
+        "id": 99,
+        "theme": "Física",
+        "question": "A energia elétrica dissipada pelos resistores no circuito, em 1 segundo, é igual a:",
+        "alternatives": [
+          {
+            "id": 1, 
+            "content":    "A) 12,50 J"
+          },
+          {
+            "id": 2,
+            "content": "B) 25 J"
+          },
+          {
+            "id": 3,
+            "content": "C) 0,25 J"
+          },
+          {
+            "id": 4,
+            "content": "D) 2,5 J"
+          },
+          {
+            "id": 5,
+            "content": "E) 6,25 J"
+          }
+        ],
+        "correct_answer_id": 5,
+        "description": "Potência = V2 / Req = 252/100 = 6,25 W    Energia = P.Δt = (6,25 J/s) . (1s) = 6,25 J",
+        "img_response":"",
+        "img_question": "https://ibb.co/cFqFy6C"
       },
       {
-          "id": 100,
-          "tema": "Física",
-          "pergunta": "Um recarregador de celular consegue fornecer uma corrente elétrica de 3,0 A para uma bateria, inicialmente descarregada, que tem capacidade de 2100 mAh. Desconsiderando as perdas, essa bateria será carregada, aproximadamente, em quanto tempo?",
-          "alternatives": [
-            "A) 11 min",
-            "B) 105 min",
-            "C) 42 min",
-            "D) 30 min",
-            "E) 21 min"
-          ],
-          "resposta": "C",
-          "descricao": "Como a carga é dada por i = ΔQ/Δt  Teremos, Δt = (2,1 Ah)/ (3 A) = 0,7 h ou 42 min",
-          "imgAnswer":"",
-          "imgQuestion": "https://api.netshopinformatica.com.br/uploads/content_manager/contents/161/image/celular-carregando-pode-conduzir-descarga-eletrica-em-tempestades.jpg"
+        "id": 100,
+        "theme": "Física",
+        "question": "Um recarregador de celular consegue fornecer uma corrente elétrica de 3,0 A para uma bateria, inicialmente descarregada, que tem capacidade de 2100 mAh. Desconsiderando as perdas, essa bateria será carregada, aproximadamente, em quanto tempo?",
+        "alternatives": [
+          {
+            "id": 1, 
+            "content": "A) 11 min"
+          },
+          {
+            "id": 2,
+            "content": "B) 105 min"
+          },
+          {
+            "id": 3,
+            "content": "C) 42 min"
+          },
+          {
+            "id": 4,
+            "content": "D) 30 min"
+          },
+          {
+            "id": 5,
+            "content": "E) 21 min"
+          }
+        ],
+        "correct_answer_id": 3,
+        "description": "Como a carga é dada por i = ΔQ/Δt  Teremos, Δt = (2,1 Ah)/ (3 A) = 0,7 h ou 42 min",
+        "img_response":"",
+        "img_question": "https://api.netshopinformatica.com.br/uploads/content_manager/contents/161/image/celular-carregando-pode-conduzir-descarga-eletrica-em-tempestades.jpg"
       },
       {
         "id": 116,
-        "tema": "História",
-        "pergunta": "O Governo Getúlio Vargas, em especial durante o Estado Novo (1937-1945), percebeu a potencialidade do rádio e criou um programa diário cujo objetivo era fazer propaganda do governo e educar a propulação, seu nome era:",
+        "theme": "História",
+        "question": "O Governo Getúlio Vargas, em especial durante o Estado Novo (1937-1945), percebeu a potencialidade do rádio e criou um programa diário cujo objetivo era fazer propaganda do governo e educar a propulação, seu nome era:",
         "alternatives": [
-          "A) A Voz do Brasil.",
-          "B) A Voz da Democracia.",
-          "C) A Hora do Presidente.",
-          "D) A Hora do Brasil.",
-          "E) Brasil Vere-Amarelo."
+          {
+            "id": 1,
+            "content": "A) A Voz do Brasil."
+          },
+          {
+            "id": 2,
+            "content": "B) A Voz da Democracia."
+          },
+          {
+            "id": 3,
+            "content": "C) A Hora do Presidente."
+          },
+          {
+            "id": 4,
+            "content": "D) A Hora do Brasil."
+          },
+          {
+            "id": 5,
+            "content": "E) Brasil Vere-Amarelo."
+          }
         ],
-        "resposta": "D",
-        "descricao": "Em 1935, Getúlio Vargas criou o programa A Hora do Brasil que deveria ser transmitido por todas as estações de rádio, de segunda à sexta-feira (exceto feriado), das 19h às 20h. Todas as quintas-feiras eram transmitidas palestras de 10 minutos dirigidas aos trabalhadores. A partir de 1946, o programa passou a se chamar A Voz do Brasil, nome que mantém até hoje.",
-        "imgAnswer": "https://1.bp.blogspot.com/-XXWhD17yBC4/Wq2gVMgHl9I/AAAAAAAAEGw/wo0_Ru4LO1sLhYZTycNaW_4ZarjWfcjOgCLcBGAs/s1600/getulio%2Bvargas%2Bno%2Bmicrofofone%2Bdo%2BDIP.jpg",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "Em 1935, Getúlio Vargas criou o programa A Hora do Brasil que deveria ser transmitido por todas as estações de rádio, de segunda à sexta-feira (exceto feriado), das 19h às 20h. Todas as quintas-feiras eram transmitidas palestras de 10 minutos dirigidas aos trabalhadores. A partir de 1946, o programa passou a se chamar A Voz do Brasil, nome que mantém até hoje.",
+        "img_response": "https://1.bp.blogspot.com/-XXWhD17yBC4/Wq2gVMgHl9I/AAAAAAAAEGw/wo0_Ru4LO1sLhYZTycNaW_4ZarjWfcjOgCLcBGAs/s1600/getulio%2Bvargas%2Bno%2Bmicrofofone%2Bdo%2BDIP.jpg",
+        "img_question": ""
       },
       {
         "id": 117,
-        "tema": "História",
-        "pergunta": "O teatro nasceu na Grécia e os helenos se destacaram na tragédia e na comédia.  Qual alternativa apresenta corretamente o nome de três autores de teatro da Grécia Antiga:  ",
+        "theme": "História",
+        "question": "O teatro nasceu na Grécia e os helenos se destacaram na tragédia e na comédia.  Qual alternativa apresenta corretamente o nome de três autores de teatro da Grécia Antiga:  ",
         "alternatives": [
-          "A) Aristófanes, Sófocles e Eurípedes.",
-          "B) Heródoto, Eurípedes e Políbio.",
-          "C) Sófocles, Ésquilo e Ptolomeu.",
-          "D) Aristófanes, Ésquilo e Aristóteles.",
-          "E) Heródoto, Aristófanes e Plutarco."
+          {
+            "id": 1,
+            "content": "A) Aristófanes, Sófocles e Eurípedes."
+          },
+          {
+            "id": 2,
+            "content": "B) Heródoto, Eurípedes e Políbio."
+          },
+          {
+            "id": 3,
+            "content": "C) Sófocles, Ésquilo e Ptolomeu."
+          },
+          {
+            "id": 4,
+            "content": "D) Aristófanes, Ésquilo e Aristóteles."
+          },
+          {
+            "id": 5,
+            "content": "E) Heródoto, Aristófanes e Plutarco."
+          }
         ],
-        "resposta": "A",
-        "descricao": "O teatro nasceu em Atenas, no séc. VI a.C., e estava ligado às celebrações aos deuses, em especial Dionísio.  Os atores usavam máscaras (personas) e havia premiações para os melhores autores.  Os mais lembrados até nossos dias são Sófocles, Ésquilo, Eurípedes e Aristófanes.",
-        "imgAnswer": "https://i0.wp.com/descobrindoasicilia.com/wp-content/uploads/2016/11/Teatro-Grego-de-Taormina.jpg?fit=1440%2C1080&ssl=1",
-        "imgQuestion": ""
+        "correct_answer_id": 1,
+        "description": "O teatro nasceu em Atenas, no séc. VI a.C., e estava ligado às celebrações aos deuses, em especial Dionísio.  Os atores usavam máscaras (personas) e havia premiações para os melhores autores.  Os mais lembrados até nossos dias são Sófocles, Ésquilo, Eurípedes e Aristófanes.",
+        "img_response": "https://i0.wp.com/descobrindoasicilia.com/wp-content/uploads/2016/11/Teatro-Grego-de-Taormina.jpg?fit=1440%2C1080&ssl=1",
+        "img_question": ""
       },
       {
         "id": 118,
-        "tema": "História",
-        "pergunta": "O século XVI foi marcado pelas reformas religiosas e os conflitos decorrentes delas.  No Sacro Império um acordo foi travado em 1555 estabelecendo uma paz momentânea entre católicos e luteranos.  O nome deste acordo é: ",
+        "theme": "História",
+        "question": "O século XVI foi marcado pelas reformas religiosas e os conflitos decorrentes delas.  No Sacro Império um acordo foi travado em 1555 estabelecendo uma paz momentânea entre católicos e luteranos.  O nome deste acordo é: ",
         "alternatives": [
-          "A) Paz de Augsburgo." ,
-          "B) Tratado de Latrão.",
-          "C) Ato de Supremacia.",
-          "D) Paz de Vestfália.",
-          "E) Tratado de Nantes."
+          {
+            "id": 1,
+            "content": "A) Paz de Augsburgo." 
+          },
+          {
+            "id": 2,
+            "content": "B) Tratado de Latrão."
+          },
+          {
+            "id": 3,
+            "content": "C) Ato de Supremacia."
+          },
+          {
+            "id": 4,
+            "content": "D) Paz de Vestfália."
+          },
+          {
+            "id": 5,
+            "content": "E) Tratado de Nantes."
+          }
         ],
-        "resposta": "A",
-        "descricao": "A Paz de Augsburgo reconheceu a divisão do império em territórios católicos e luteranos, a partir do princípio “cuius regio, eius religio”, que significa literalmente “De quem (É) a região, dele (se siga) a religião, ou seja, os súditos deveriam seguir a religião do governante.",
-        "imgAnswer": "https://martinttipia.files.wordpress.com/2019/08/augsburg.jpg?w=584&h=979",
-        "imgQuestion": ""
+        "correct_answer_id": 1,
+        "description": "A Paz de Augsburgo reconheceu a divisão do império em territórios católicos e luteranos, a partir do princípio “cuius regio, eius religio”, que significa literalmente “De quem (É) a região, dele (se siga) a religião, ou seja, os súditos deveriam seguir a religião do governante.",
+        "img_response": "https://martinttipia.files.wordpress.com/2019/08/augsburg.jpg?w=584&h=979",
+        "img_question": ""
       },
       {
         "id": 119,
-        "tema": "História",
-        "pergunta": "O território que é hoje o Brasil abrigou no século XVI e XVII as primeiras comunidades protestantes (huguenotes franceses) e judaicas das Américas.  Os grupos se estabeleceram respectivamente:",
+        "theme": "História",
+        "question": "O território que é hoje o Brasil abrigou no século XVI e XVII as primeiras comunidades protestantes (huguenotes franceses) e judaicas das Américas.  Os grupos se estabeleceram respectivamente:",
         "alternatives": [
-          "A) Huguenotes/Bahia e Judeus/Pernambuco.",
-          "B) Huguenotes/Espírito Santo e Judeus/Bahia.",
-          "C) Huguenotes/Rio de Janeiro e Judeus/Maranhão.",
-          "D) Huguenotes/Rio de Janeiro e Judeus/Pernambuco.",
-          "E) Huguenotes/Maranhão e Judeus/Minas Gerais."
+          {
+            "id": 1,
+            "content": "A) Huguenotes/Bahia e Judeus/Pernambuco."
+          },
+          {
+            "id": 2,
+            "content": "B) Huguenotes/Espírito Santo e Judeus/Bahia."
+          },
+          {
+            "id": 3,
+            "content": "C) Huguenotes/Rio de Janeiro e Judeus/Maranhão."
+          },
+          {
+            "id": 4,
+            "content": "D) Huguenotes/Rio de Janeiro e Judeus/Pernambuco."
+          },
+          {
+            "id": 5,
+            "content": "E) Huguenotes/Maranhão e Judeus/Minas Gerais."
+          }
         ],
-        "resposta": "D",
-        "descricao": "Os franceses criaram a chamada França Antártica na região da Baía do Rio de Janeiro (hoje, Baía de Guanabara), entre 1555-1570, para abrigar os huguenotes.  Já os holandeses, ao dominarem o nordeste, deram liberdade religiosa aos judeus e a primeira sinagoga das Américas foi fundada em nosso território.",
-        "imgAnswer": "https://miro.medium.com/v2/resize:fit:750/1*wXTDbJBJZOzevh1F2nul6Q.jpeg",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "Os franceses criaram a chamada França Antártica na região da Baía do Rio de Janeiro (hoje, Baía de Guanabara), entre 1555-1570, para abrigar os huguenotes.  Já os holandeses, ao dominarem o nordeste, deram liberdade religiosa aos judeus e a primeira sinagoga das Américas foi fundada em nosso território.",
+        "img_response": "https://miro.medium.com/v2/resize:fit:750/1*wXTDbJBJZOzevh1F2nul6Q.jpeg",
+        "img_question": ""
       },
       {
         "id": 120,
-        "tema": "História",
-        "pergunta": "Com o fim da ditadura do Estado Novo, em 1945, a democracia foi restaurada em nosso país e foi convocada uma assembleia constituinte.  Esta constituição: ",
+        "theme": "História",
+        "question": "Com o fim da ditadura do Estado Novo, em 1945, a democracia foi restaurada em nosso país e foi convocada uma assembleia constituinte.  Esta constituição: ",
         "alternatives": [
-          "A) Restabeleceu o voto secreto.",
-          "B) Garantiu os direitos individuais.",
-          "C) Aboliu o direito de greve.",
-          "D) Estabeleceu o direito à reeleição presidencial.",
-          "E) Tornou o voto feminino obrigatório."
+          {
+            "id": 1,
+            "content": "A) Restabeleceu o voto secreto."
+          },
+          {
+            "id": 2,
+            "content": "B) Garantiu os direitos individuais."
+          },
+          {
+            "id": 3,
+            "content": "C) Aboliu o direito de greve."
+          },
+          {
+            "id": 4,
+            "content": "D) Estabeleceu o direito à reeleição presidencial."
+          },
+          {
+            "id": 5,
+            "content": "E) Tornou o voto feminino obrigatório."
+          }
         ],
-        "resposta": "B",
-        "descricao": "A constituição de 1946 foi uma carta magna democrática e liberal.  Manteve os direitos trabalhistas da Era Vargas e  buscou salvaguardar os direitos dos individuais dos cidadãos tais como, a liberdade de expressão, livre reunião, propriedade privada e à privacidade.",
-        "imgAnswer": "https://www.unifal-mg.edu.br/remadih/wp-content/uploads/sites/11/2018/09/082FolhaDeJornal-1.jpg",
-        "imgQuestion": ""
+        "correct_answer_id": 2,
+        "description": "A constituição de 1946 foi uma carta magna democrática e liberal.  Manteve os direitos trabalhistas da Era Vargas e  buscou salvaguardar os direitos dos individuais dos cidadãos tais como, a liberdade de expressão, livre reunião, propriedade privada e à privacidade.",
+        "img_response": "https://www.unifal-mg.edu.br/remadih/wp-content/uploads/sites/11/2018/09/082FolhaDeJornal-1.jpg",
+        "img_question": ""
       },
       {
         "id": 136,
-        "tema": "Português",
-        "pergunta": "Movimento poético surgido na década de 1950, revela-se um fruto legítimo da civilização audiovisual, em que à noção de poesia se incorpora, fundamentalmente, o elemento visual. É o:",
+        "theme": "Português",
+        "question": "Movimento poético surgido na década de 1950, revela-se um fruto legítimo da civilização audiovisual, em que à noção de poesia se incorpora, fundamentalmente, o elemento visual. É o:",
         "alternatives": [
-          "A) Verde-amarelismo.",
-          "B) Grupo da Anta.",
-          "C) Grupo Marajás.",
-          "D) Concretismo.",
-          "E) Pau-brasil."
+          {
+            "id": 1,
+            "content": "A) Verde-amarelismo."
+          },
+          {
+            "id": 2,
+            "content": "B) Grupo da Anta."
+          },
+          {
+            "id": 3,
+            "content": "C) Grupo Marajás."
+          },
+          {
+            "id": 4,
+            "content": "D) Concretismo."
+          },
+          {
+            "id": 5,
+            "content": "E) Pau-brasil."
+          }
         ],
-        "resposta": "D",
-        "descricao": "Movimento artístico no qual  se privilegiou a valorização do conteúdo visual e sonoro, enfatizando-se uma estrutura visual em detrimento da discursiva.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "Movimento artístico no qual  se privilegiou a valorização do conteúdo visual e sonoro, enfatizando-se uma estrutura visual em detrimento da discursiva.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 137,
-        "tema": "Português",
-        "pergunta": "A crítica constata, nas metáforas simbolistas de Cruz e Sousa, a obsessão pela cor:",
+        "theme": "Português",
+        "question": "A crítica constata, nas metáforas simbolistas de Cruz e Sousa, a obsessão pela cor:",
         "alternatives": [
-          "A) branca.",
-          "B) negra.",
-          "C) rubra.",
-          "D) roxa.",
-          "E) azul."
+          {
+            "id": 1,
+            "content": "A) branca."
+          },
+          {
+            "id": 2,
+            "content": "B) negra."
+          },
+          {
+            "id": 3,
+            "content": "C) rubra."
+          },
+          {
+            "id": 4,
+            "content": "D) roxa."
+          },
+          {
+            "id": 5,
+            "content": "E) azul."
+          }
         ],
-        "resposta": "A",
-        "descricao": "Suas obras são marcadas pela musicalidade (uso de aliterações), pelo individualismo, pelo sensualismo, ora pelo desespero, ora pelo apaziguamento, além de uma obsessão pela cor branca - manifestada por sua condição racial e a tentativa de superá-la.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 1,
+        "description": "Suas obras são marcadas pela musicalidade (uso de aliterações), pelo individualismo, pelo sensualismo, ora pelo desespero, ora pelo apaziguamento, além de uma obsessão pela cor branca - manifestada por sua condição racial e a tentativa de superá-la.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 138,
-        "tema": "Português",
-        "pergunta": "Interesse pelas zonas profundas da mente e pela loucura; desejo de transcendência e integração cósmica; linguagem vaga, fluida que busca sugerir em vez de nomear. Essas são características que identificam as obras de autores ",
+        "theme": "Português",
+        "question": "Interesse pelas zonas profundas da mente e pela loucura; desejo de transcendência e integração cósmica; linguagem vaga, fluida que busca sugerir em vez de nomear. Essas são características que identificam as obras de autores ",
         "alternatives": [
-          "A) naturalistas.",
-          "B) parnasianistas.",
-          "C) simbolistas.",
-          "D) quinhentistas.",
-          "E) realistas."
+          {
+            "id": 1,
+            "content": "A) naturalistas."
+          },
+          {
+            "id": 2,
+            "content": "B) parnasianistas."
+          },
+          {
+            "id": 3,
+            "content": "C) simbolistas."
+          },
+          {
+            "id": 4,
+            "content": "D) quinhentistas."
+          },
+          {
+            "id": 5,
+            "content": "E) realistas."
+          }
         ],
-        "resposta": "C",
-        "descricao": "O enunciado da questão  apresenta as características norteadoras dos poetas simbolistas, dentre os quais e o mais notável foi Cruz e Souza.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 3,
+        "description": "O enunciado da questão  apresenta as características norteadoras dos poetas simbolistas, dentre os quais e o mais notável foi Cruz e Souza.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 139,
-        "tema": "Português",
-        "pergunta": "Em 1880, Zola publicou suas teorias sobre o romance experimental em que expunha ideias como esta: “o romance experimental substitui o estudo do homem abstrato e metafísico pelo do homem natural, sujeito a leis físico-químicas e determinado pela influência do meio”.",
+        "theme": "Português",
+        "question": "Em 1880, Zola publicou suas teorias sobre o romance experimental em que expunha ideias como esta: “o romance experimental substitui o estudo do homem abstrato e metafísico pelo do homem natural, sujeito a leis físico-químicas e determinado pela influência do meio”.",
         "alternatives": [
-          "A) Arcadismo.",
-          "B) Classicismo.",
-          "C) Realismo.",
-          "D) Naturalismo.",
-          "E) Barroco."
+          {
+            "id": 1,
+            "content": "A) Arcadismo."
+          },
+          {
+            "id": 2,
+            "content": "B) Classicismo."
+          },
+          {
+            "id": 3,
+            "content": "C) Realismo."
+          },
+          {
+            "id": 4,
+            "content": "D) Naturalismo."
+          },
+          {
+            "id": 5,
+            "content": "E) Barroco."
+          }
         ],
-        "resposta": "D",
-        "descricao": "O Naturalismo ancorava-se na  ideia de que as ações do homem eram determinadas pelo meio, ou seja, as condições materiais influenciariam decisivamente o comportamento humano.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 4,
+        "description": "O Naturalismo ancorava-se na  ideia de que as ações do homem eram determinadas pelo meio, ou seja, as condições materiais influenciariam decisivamente o comportamento humano.",
+        "img_response": "",
+        "img_question": ""
       },
       {
         "id": 140,
-        "tema": "Português",
-        "pergunta": "O romance realista brasileiro, tal como o conhecemos, focaliza principalmente:",
+        "theme": "Português",
+        "question": "O romance realista brasileiro, tal como o conhecemos, focaliza principalmente:",
         "alternatives": [
-          "A) as camadas marginalizadas da sociedade.",
-          "B) aspectos sociais e psicológicos nas relações humanas.",
-          "C) o preconceito racial.",
-          "D) a defesa das instituições, como o casamento, por exemplo.",
-          "E) a formação da nacionalidade."
+          {
+            "id": 1,
+            "content": "A) as camadas marginalizadas da sociedade."
+          },
+          {
+            "id": 2,
+            "content": "B) aspectos sociais e psicológicos nas relações humanas."
+          },
+          {
+            "id": 3,
+            "content": "C) o preconceito racial."
+          },
+          {
+            "id": 4,
+            "content": "D) a defesa das instituições, como o casamento, por exemplo."
+          },
+          {
+            "id": 5,
+            "content": "E) a formação da nacionalidade."
+          }
         ],
-        "resposta": "B",
-        "descricao": "O Realismo explorou as relações humanas em seus aspectos psicológicos e o comportamento do homem na sociedade, motivado por interesses nem sempre louváveis.",
-        "imgAnswer": "",
-        "imgQuestion": ""
+        "correct_answer_id": 2,
+        "description": "O Realismo explorou as relações humanas em seus aspectos psicológicos e o comportamento do homem na sociedade, motivado por interesses nem sempre louváveis.",
+        "img_response": "",
+        "img_question": ""
       }
     ]
   }
