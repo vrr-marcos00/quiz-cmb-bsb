@@ -9,33 +9,33 @@
       {
         "id": 1,
         "theme": "Biologia",
-        "question": "Que nome se dá à condição em que os olhos do paciente apresentam uma alteração e cada olho possui uma cor ou um dos olhos possui duas cores?",
+        "question": "As mudanças climáticas são um dos principais problemas ambientais do mundo que tem afetado grande parte da população de pessoas, de animais e de plantas. Esse problema traz diversas consequências negativas para o meio ambiente, da qual se destaca:",
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Heteronomia"
+            "content": "aumento da temperatura do globo terrestre."
           },
           {
             "id": 2,
-            "content": "B) Heterocromia"
+            "content": "diminuição dos níveis dos oceanos."
           },
           {
             "id": 3,
-            "content": "C) Heterologia"
+            "content": "aumento da urbanização."
           },
           {
             "id": 4,
-            "content": "D) Heterozigose"
+            "content": "crescimento da industrialização."
           },
           {
             "id": 5,
-            "content": "E) Heteropatia"
+            "content": "diminuição dos gases de efeito estufa."
           }
         ],
-        "img_response" : "https://i.pinimg.com/474x/cc/e4/b7/cce4b74b7efb7f0f0182984767141e81--amazing-eyes-beautiful-eyes.jpg",
+        "img_response" : "",
         "img_question": "",
-        "correct_answer_id": 2,
-        "description ": "Heterocromia é o nome que se dá à condição em que a parte colorida de um olho (íris) é diferente do outro."
+        "correct_answer_id": 1,
+        "description ": "As mudanças climáticas estão relacionadas com o aumento da temperatura no globo terrestre. Com o aumento dos gases do efeito estufa, o calor é retido e, consequentemente, a temperatura da Terra aumenta."
       },
       {
         "id": 2,
@@ -44,23 +44,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) ... fique dura."
+            "content": "... fique dura."
           },
           {
             "id": 2,
-            "content": "B) ... permaneça igual."
+            "content": "... permaneça igual."
           },
           {
             "id": 3,
-            "content": "C) ... se dissolva."
+            "content": "... se dissolva."
           },
           {
             "id": 4,
-            "content": "D) ... murche."
+            "content": "... murche."
           },
           {
             "id": 5,
-            "content": "E) ... se quebre ao toque."
+            "content": "... se quebre ao toque."
           }
         ],
         "img_response": "",
@@ -69,66 +69,97 @@
         "description ": "Quando colocamos uma fatia de batata no meio hipertônico (água salgada), a água que estava contida no interior da célula da batata atravessa a membrana semipermeável, indo para o lado mais concentrado, ou seja, onde foi colocado o sal. Com isso, a batata ficou mais “mole”, pois sofreu a plasmólise, ou seja, perdeu água."
       },
       {
-        "id": 3,
+        "id": 18,
         "theme": "Biologia",
-        "question": "A série pós-apocalíptica da HBO, The Last of Us, tem como theme um surto causado por um fungo do gênero Cordyceps, que transforma seus hospedeiros humanos em monstros canibais, conhecidos como infectados. O fungo Cordyceps é do tipo...",
+        "question": "Um processo bastante conhecido para amadurecer bananas verdes rapidamente é colocá-las embrulhadas em um jornal ou dentro de uma sacola. Isso se dá porque aumenta a concentração do(a)...",
         "alternatives": [
           {
             "id": 1,
-            "content": "A) basidiomiceto."
+            "content": "ácido abscísico."
           },
           {
             "id": 2,
-            "content": "B) zigomiceto."
+            "content": "etileno."
           },
           {
             "id": 3,
-            "content": "C) levedura."
+            "content": "auxina."
           },
           {
             "id": 4,
-            "content": "D) micomiceto."
+            "content": "giberelina."
           },
           {
             "id": 5,
-            "content": "E) ascomiceto."
+            "content": "citocinina."
           }
         ],
-        "img_response": "https://super.abril.com.br/wp-content/uploads/2023/01/cordyceps_fb.jpg",
+        "img_response": "https://static.escolakids.uol.com.br/conteudo_legenda/7b3ee0c2e3e0f2a142e49a06f51f5581.jpg",
         "img_question": "",
-        "correct_answer_id": 5,
-        "description ": "O fungo Cordyceps é um gênero de fungos ascomicetos que parasita principalmente insetos e outros artrópodes. Com aproximadamente 400 espécies, cada uma é especializada em um tipo específico de inseto. Esse tipo de fungo não atinge humanos."
+        "correct_answer_id": 2,
+        "description": "O gás etileno é produzido pelos vegetais em diversos tecidos e pode deslocar-se facilmente de célula para célula. Por isso que ele está presente em toda a estrutura do fruto, desde a casca até o seu interior. Basicamente, o etileno desencadeia a produção de algumas enzimas que provocam reações de amadurecimento das frutas, como é o caso da hidrólise do amido. Nessa reação, o amido que está dentro do fruto verde tem a sua molécula “quebrada”, produzindo açúcares, por isso a fruta fica mais doce."
       },
       {
-        "id": 4,
+        "id": 20,
         "theme": "Biologia",
-        "question": "Uma das funções da oxitocina, também conhecido como hormônio do amor, é",
+        "question": "No ouvido interno encontramos o utrículo, o sáculo e os canais semicirculares que, juntos, formam o que conhecemos como labirinto, ou aparelho vestibular. O labirinto está relacionado à(ao)",
         "alternatives": [
           {
             "id": 1,
-            "content": "A) promover a contração do útero no momento do parto."
+            "content": "comunicação do ouvido médio com o ouvido interno."
           },
           {
             "id": 2,
-            "content": "B) acelerar o coração em um momento de perigo."
+            "content": "percepção dos sons."
           },
           {
             "id": 3,
-            "content": "C) liberar a glicose que está armazenada no fígado para o sangue."
+            "content": "equilíbrio do corpo."
           },
           {
             "id": 4,
-            "content": "D) controlar o metabolismo a nível basal durante o sono."
+            "content": "vibração dos sons no ouvido interno"
           },
           {
             "id": 5,
-            "content": "E) promover a ovulação durante o período fértil da mulher."
+            "content": "sustentação do pavilhão auditivo."
           }
         ],
-        "img_response": "",
+        "img_response": "https://lirp.cdn-website.com/34216b56/dms3rep/multi/opt/labirinto-320w.jpg",
         "img_question": "",
-        "correct_answer_id": 1,
-        "description ": "A oxitocina é um hormônio secretado pela hipófise que provoca as contrações uterinas durante o parto e promove a liberação do leite no período da lactação."
+        "correct_answer_id": 3,
+        "description": "Se fizermos algum movimento com a nossa cabeça, os otólitos (pequenos grãos de carbonato de cálcio) também se movimentarão, estimulando as células sensoriais a transmitirem informações de como está a posição do corpo para o cérebro, onde serão interpretadas. É por esse motivo que dizemos que o labirinto é o órgão responsável pelo equilíbrio do corpo."
+      },
+      {
+        "id": 22,
+        "theme": "Biologia",
+        "question": "Coração que apresenta quatro câmaras completamente divididas, mas ainda acontece a mistura de sangue em uma região chamada de forame de Panizza, que conecta o arco aórtico sistêmico direito e esquerdo. Esse coração pertence a um...",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "gavião."
+          },
+          {
+            "id": 2,
+            "content": "sapo."
+          },
+          {
+            "id": 3,
+            "content": "jabuti."
+          },
+          {
+            "id": 4,
+            "content": "crocodilo"
+          },
+          {
+            "id": 5,
+            "content": "elefante."
+          }
+        ],
+        "img_response": "https://www.explicae.com.br/app/uploads/avatars/51f4bd77-889f-4a1a-8d1b-7bd1d90f762e-1606139196574.png",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "Forame de Panizza é a intercomunicação do arco aórtico sistêmico direito e esquerdo do coração dos répteis crocodilianos."
       },
       {
         "id": 5,
@@ -137,23 +168,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Brasil"
+            "content": "Brasil"
           },
           {
             "id": 2,
-            "content": "B) Costa do Marfim"
+            "content": "Costa do Marfim"
           },
           {
             "id": 3,
-            "content": "C) Camarões"
+            "content": "Camarões"
           },
           {
             "id": 4,
-            "content": "D) Peru"
+            "content": "Peru"
           },
           {
             "id": 5,
-            "content": "E) Indonésia."
+            "content": "Indonésia."
           }
         ],
         "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/cacau.jpg",
@@ -168,23 +199,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Gabriel García Márquez."
+            "content": "Gabriel García Márquez."
           },
           {
             "id": 2,
-            "content": "B) Raul Pompeu."
+            "content": "Raul Pompeu."
           },
           {
             "id": 3,
-            "content": "C) Machado de Assis."
+            "content": "Machado de Assis."
           },
           {
             "id": 4,
-            "content": "D) Carlos Drumond de Andrade"
+            "content": "Carlos Drumond de Andrade"
           },
           {
             "id": 5,
-            "content": "E) James Joyce."
+            "content": "James Joyce."
           }
         ],
         "img_response": "https://m.media-amazon.com/images/I/41huNvri0bL._SY445_SX342_.jpg",
@@ -199,23 +230,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Jogo interrompido"
+            "content": "Jogo interrompido"
           },
           {
             "id": 2,
-            "content": "B) Eu venço"
+            "content": "Eu venço"
           },
           {
             "id": 3,
-            "content": "C) Rei morto"
+            "content": "Rei morto"
           },
           {
             "id": 4,
-            "content": "D) Adversário eliminado"
+            "content": "Adversário eliminado"
           },
           {
             "id": 5,
-            "content": "E) Cavalos em marcha"
+            "content": "Cavalos em marcha"
           }
         ],
         "img_response": "https://portalidea.com.br/cursos/xadrez.webp",
@@ -230,23 +261,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Cerca de 252 dentes"
+            "content": "Cerca de 252 dentes"
           },
           {
             "id": 2,
-            "content": "B) Cerca de 205 dentes"
+            "content": "Cerca de 205 dentes"
           },
           {
             "id": 3,
-            "content": "C) Cerca de 115 dentes"
+            "content": "Cerca de 115 dentes"
           },
           {
             "id": 4,
-            "content": "D) Cerca de 120 dentes"
+            "content": "Cerca de 120 dentes"
           },
           {
             "id": 5,
-            "content": "E) Cerca de 180 dentes"
+            "content": "Cerca de 180 dentes"
           }
         ],
         "img_response": "https://s2.static.brasilescola.uol.com.br/be/2021/05/golfinho.jpg",
@@ -261,23 +292,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) usinas termoelétricas."
+            "content": "usinas termoelétricas."
           },
           {
             "id": 2,
-            "content": "B) usinas hidrelétricas."
+            "content": "usinas hidrelétricas."
           },
           {
             "id": 3,
-            "content": "C) usinas eólicas."
+            "content": "usinas eólicas."
           },
           {
             "id": 4,
-            "content": "D) usinas a óleo diesel."
+            "content": "usinas a óleo diesel."
           },
           {
             "id": 5,
-            "content": "E) usina nuclear."
+            "content": "usina nuclear."
           }
         ],
         "img_response": "https://energes.com.br/storage/2021/01/Matriz-El%C3%A9trica-Brasileira.png",
@@ -292,23 +323,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Baixo custos de manutenção e consumo."
+            "content": "Baixo custos de manutenção e consumo."
           },
           {
             "id": 2,
-            "content": "B) Executa o transporte porta a porta."
+            "content": "Executa o transporte porta a porta."
           },
           {
             "id": 3,
-            "content": "C) Desafogamento do trânsito nas rodovias."
+            "content": "Desafogamento do trânsito nas rodovias."
           },
           {
             "id": 4,
-            "content": "D) Melhor relação entre cargas transportadas e combustível consumido."
+            "content": "Melhor relação entre cargas transportadas e combustível consumido."
           },
           {
             "id": 5,
-            "content": "E) Menor quantidade de acidentes e perdas de carga."
+            "content": "Menor quantidade de acidentes e perdas de carga."
           }
         ],
         "img_response": "https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_1c50c62c73d46bf2b79774159e9703ff_5417670.jpg.png",
@@ -323,23 +354,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) mobilidade urbana."
+            "content": "mobilidade urbana."
           },
           {
             "id": 2,
-            "content": "B) ressignificação."
+            "content": "ressignificação."
           },
           {
             "id": 3,
-            "content": "C) verticalização."
+            "content": "verticalização."
           },
           {
             "id": 4,
-            "content": "D) gentrificação."
+            "content": "gentrificação."
           },
           {
             "id": 5,
-            "content": "E) desurbanização"
+            "content": "desurbanização"
           }
         ],
         "img_response": "",
@@ -354,23 +385,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Cidades-dormitório."
+            "content": "Cidades-dormitório."
           },
           {
             "id": 2,
-            "content": "B) Zona econômica exclusiva."
+            "content": "Zona econômica exclusiva."
           },
           {
             "id": 3,
-            "content": "C) Cidades-gêmeas."
+            "content": "Cidades-gêmeas."
           },
           {
             "id": 4,
-            "content": "D) Zona de fronteira."
+            "content": "Zona de fronteira."
           },
           {
             "id": 5,
-            "content": "E) Divisa."
+            "content": "Divisa."
           }
         ],
         "img_response": "",
@@ -385,23 +416,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Período 2"
+            "content": "Período 2"
           },
           {
             "id": 2,
-            "content": "B) Período 4"
+            "content": "Período 4"
           },
           {
             "id": 3,
-            "content": "C) Período 7"
+            "content": "Período 7"
           },
           {
             "id": 4,
-            "content": "D) Período 6"
+            "content": "Período 6"
           },
           {
             "id": 5,
-            "content": "E) Período 3"
+            "content": "Período 3"
           }
         ],
         "img_response": "",
@@ -416,23 +447,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 1s2; 2s6"
+            "content": "1s2; 2s6"
           },
           {
             "id": 2,
-            "content": "B) 1s2; 2s2; 2p2"
+            "content": "1s2; 2s2; 2p2"
           },
           {
             "id": 3,
-            "content": "C) 1s6"
+            "content": "1s6"
           },
           {
             "id": 4,
-            "content": "D) 1s4; 2p4"
+            "content": "1s4; 2p4"
           },
           {
             "id": 5,
-            "content": "E) 1s2; 2p5"
+            "content": "1s2; 2p5"
           }
         ],
         "img_response": "",
@@ -447,23 +478,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 60,0 L"
+            "content": "60,0 L"
           },
           {
             "id": 2,
-            "content": "B) 1620,0 L"
+            "content": "1620,0 L"
           },
           {
             "id": 3,
-            "content": "C) 1344,0 L"
+            "content": "1344,0 L"
           },
           {
             "id": 4,
-            "content": "D) 1476,0 L"
+            "content": "1476,0 L"
           },
           {
             "id": 5,
-            "content": "E) 960,0 L"
+            "content": "960,0 L"
           }
         ],
         "img_response": "",
@@ -478,23 +509,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Fenol"
+            "content": "Fenol"
           },
           {
             "id": 2,
-            "content": "B) Álcool"
+            "content": "Álcool"
           },
           {
             "id": 3,
-            "content": "C) Haleto de alquila"
+            "content": "Haleto de alquila"
           },
           {
             "id": 4,
-            "content": "D) Ácido carboxílico"
+            "content": "Ácido carboxílico"
           },
           {
             "id": 5,
-            "content": "E) Cetona"
+            "content": "Cetona"
           }
         ],
         "img_response": "",
@@ -509,23 +540,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Instável"
+            "content": "Instável"
           },
           {
             "id": 2,
-            "content": "B) Estável"
+            "content": "Estável"
           },
           {
             "id": 3,
-            "content": "C) Indiferente"
+            "content": "Indiferente"
           },
           {
             "id": 4,
-            "content": "D) Invariável "
+            "content": "Invariável "
           },
           {
             "id": 5,
-            "content": "E) Oscilatório"
+            "content": "Oscilatório"
           }
         ],
         "correct_answer_id": 1,
@@ -540,23 +571,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) distribuição homogênea da massa do ciclista."
+            "content": "distribuição homogênea da massa do ciclista."
           },
           {
             "id": 2,
-            "content": "B) menor peso da bicicleta nessa condição."
+            "content": "menor peso da bicicleta nessa condição."
           },
           {
             "id": 3,
-            "content": "C) redução do arrasto aerodinâmico."
+            "content": "redução do arrasto aerodinâmico."
           },
           {
             "id": 4,
-            "content": "D) aumento da pressão do ar nas costas do ciclista."
+            "content": "aumento da pressão do ar nas costas do ciclista."
           },
           {
             "id": 5,
-            "content": "E) maior potência."
+            "content": "maior potência."
           }
         ],
         "correct_answer_id": 3,
@@ -571,23 +602,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) redução do peso da pessoa."
+            "content": "redução do peso da pessoa."
           },
           {
             "id": 2,
-            "content": "B) aumento da pressão abaixo da pessoa."
+            "content": "aumento da pressão abaixo da pessoa."
           },
           {
             "id": 3,
-            "content": "C) aumento da densidade da pessoa."
+            "content": "aumento da densidade da pessoa."
           },
           {
             "id": 4,
-            "content": "D) aumento de empuxo"
+            "content": "aumento de empuxo"
           },
           {
             "id": 5,
-            "content": "E) redução da densidade da pessoa."
+            "content": "redução da densidade da pessoa."
           }
         ],
         "correct_answer_id": 4,
@@ -602,23 +633,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Teoria da Simetria."
+            "content": "Teoria da Simetria."
           },
           {
             "id": 2,
-            "content": "B) Teoria da Simultaneidade."
+            "content": "Teoria da Simultaneidade."
           },
           {
             "id": 3,
-            "content": "C) Teoria Quântica."
+            "content": "Teoria Quântica."
           },
           {
             "id": 4,
-            "content": "D) Teoria das cordas."
+            "content": "Teoria das cordas."
           },
           {
             "id": 5,
-            "content": "E) Teoria da Relatividade."
+            "content": "Teoria da Relatividade."
           }
         ],
         "correct_answer_id": 5,
@@ -633,23 +664,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 15 km/h"
+            "content": "15 km/h"
           },
           {
             "id": 2,
-            "content": "B) 54 km/h"
+            "content": "54 km/h"
           },
           {
             "id": 3,
-            "content": "C) 24 km/h"
+            "content": "24 km/h"
           },
           {
             "id": 4,
-            "content": "D) 30 km/h"
+            "content": "30 km/h"
           },
           {
             "id": 5,
-            "content": "E) 48 km/h"
+            "content": "48 km/h"
           }
         ],
         "correct_answer_id": 3,
@@ -664,23 +695,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) priorizar o pensamento e a língua grega."
+            "content": "priorizar o pensamento e a língua grega."
           },
           {
             "id": 2,
-            "content": "B) Favorecer difundir a religião egípcia."
+            "content": "Favorecer difundir a religião egípcia."
           },
           {
             "id": 3,
-            "content": "C) Ter como sua língua de difusão o latim."
+            "content": "Ter como sua língua de difusão o latim."
           },
           {
             "id": 4,
-            "content": "D) Ignorar as contribuições dos povos da Mesopotâmia."
+            "content": "Ignorar as contribuições dos povos da Mesopotâmia."
           },
           {
             "id": 5,
-            "content": "E) Acolher contribuições de vários povos e ter no grego sua língua de difusão."
+            "content": "Acolher contribuições de vários povos e ter no grego sua língua de difusão."
           }
         ],
         "correct_answer_id": 5,
@@ -695,23 +726,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Guerra do Peloponeso – Guerra de Secessão – Guerra da Criméia."
+            "content": "Guerra do Peloponeso – Guerra de Secessão – Guerra da Criméia."
           },
           {
             "id": 2,
-            "content": "B) Guerra dos Trinta Anos – Guerra Franco-Prussiana – Primeira Guerra Mundial."
+            "content": "Guerra dos Trinta Anos – Guerra Franco-Prussiana – Primeira Guerra Mundial."
           },
           {
             "id": 3,
-            "content": "C) Guerra dos Cem Anos – Guerra de Sucessão ao Trono de Espanha – Guerra dos Trinta Anos."
+            "content": "Guerra dos Cem Anos – Guerra de Sucessão ao Trono de Espanha – Guerra dos Trinta Anos."
           },
           {
             "id": 4,
-            "content": "D) Ignorar as contribuições dos povos da Mesopotâmia."
+            "content": "Ignorar as contribuições dos povos da Mesopotâmia."
           },
           {
             "id": 5,
-            "content": "E) Guerra dos Cem Anos – Guerra da Tríplice Aliança – Guerra do Paraguai."
+            "content": "Guerra dos Cem Anos – Guerra da Tríplice Aliança – Guerra do Paraguai."
           }
         ],
         "correct_answer_id": 2,
@@ -726,23 +757,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Império Russo."
+            "content": "Império Russo."
           },
           {
             "id": 2,
-            "content": "B) Favorecer difundir a religião egípcia."
+            "content": "Favorecer difundir a religião egípcia."
           },
           {
             "id": 3,
-            "content": "C) Império Britânico."
+            "content": "Império Britânico."
           },
           {
             "id": 4,
-            "content": "D) Ignorar as contribuições dos povos da Mesopotâmia."
+            "content": "Ignorar as contribuições dos povos da Mesopotâmia."
           },
           {
             "id": 5,
-            "content": "E) Império Austríaco."
+            "content": "Império Austríaco."
           }
         ],
         "correct_answer_id": 3,
@@ -757,23 +788,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Descolonização da Ásia e da África."
+            "content": "Descolonização da Ásia e da África."
           },
           {
             "id": 2,
-            "content": "B) Repartição da África."
+            "content": "Repartição da África."
           },
           {
             "id": 3,
-            "content": "C) Industrialização dos países da América Latina."
+            "content": "Industrialização dos países da América Latina."
           },
           {
             "id": 4,
-            "content": "D) Imperialismo cultural norte-americano."
+            "content": "Imperialismo cultural norte-americano."
           },
           {
             "id": 5,
-            "content": "E) Dissolução do bloco soviético."
+            "content": "Dissolução do bloco soviético."
           }
         ],
         "correct_answer_id": 1,
@@ -788,23 +819,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Era uma mulher negra, como a maioria dos egípcios da época."
+            "content": "Era uma mulher negra, como a maioria dos egípcios da época."
           },
           {
             "id": 2,
-            "content": "B) Tentou garantir a autonomia do Egito frente o avanço dos romanos."
+            "content": "Tentou garantir a autonomia do Egito frente o avanço dos romanos."
           },
           {
             "id": 3,
-            "content": "C) Era descendente direta de Alexandre, o Grande."
+            "content": "Era descendente direta de Alexandre, o Grande."
           },
           {
             "id": 4,
-            "content": "D) Casou-se simultaneamente com César e Marco Antônio."
+            "content": "Casou-se simultaneamente com César e Marco Antônio."
           },
           {
             "id": 5,
-            "content": "E) Foi capturada por Otávio e levada cativa para Roma."
+            "content": "Foi capturada por Otávio e levada cativa para Roma."
           }
         ],
         "correct_answer_id": 2,
@@ -819,23 +850,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) José de Alencar"
+            "content": "José de Alencar"
           },
           {
             "id": 2,
-            "content": "B) Castro Alves"
+            "content": "Castro Alves"
           },
           {
             "id": 3,
-            "content": "C) Gonçalves Dias"
+            "content": "Gonçalves Dias"
           },
           {
             "id": 4,
-            "content": "D) Álvares de Azevedo"
+            "content": "Álvares de Azevedo"
           },
           {
             "id": 5,
-            "content": "E) Sousândrade"
+            "content": "Sousândrade"
           }
         ],
         "correct_answer_id": 3,
@@ -850,23 +881,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Senhora"
+            "content": "Senhora"
           },
           {
             "id": 2,
-            "content": "B) O Cortiço"
+            "content": "O Cortiço"
           },
           {
             "id": 3,
-            "content": "C) Memórias Póstumas de Brás Cubas"
+            "content": "Memórias Póstumas de Brás Cubas"
           },
           {
             "id": 4,
-            "content": "D) O Gaúcho"
+            "content": "O Gaúcho"
           },
           {
             "id": 5,
-            "content": "E) A Moreninha"
+            "content": "A Moreninha"
           }
         ],
         "correct_answer_id": 4,
@@ -881,23 +912,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) que"
+            "content": "que"
           },
           {
             "id": 2,
-            "content": "B) de que"
+            "content": "de que"
           },
           {
             "id": 3,
-            "content": "C) a que"
+            "content": "a que"
           },
           {
             "id": 4,
-            "content": "D) a cujas"
+            "content": "a cujas"
           },
           {
             "id": 5,
-            "content": "E) com cujas"
+            "content": "com cujas"
           }
         ],
         "correct_answer_id": 5,
@@ -912,23 +943,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Exército"
+            "content": "Exército"
           },
           {
             "id": 2,
-            "content": "B) Correio"
+            "content": "Correio"
           },
           {
             "id": 3,
-            "content": "C) Planta"
+            "content": "Planta"
           },
           {
             "id": 4,
-            "content": "D) Abscissa"
+            "content": "Abscissa"
           },
           {
             "id": 5,
-            "content": "E) Inoxidável"
+            "content": "Inoxidável"
           }
         ],
         "correct_answer_id": 5,
@@ -943,23 +974,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Veículo."
+            "content": "Veículo."
           },
           {
             "id": 2,
-            "content": "B) Saída."
+            "content": "Saída."
           },
           {
             "id": 3,
-            "content": "C) Baú."
+            "content": "Baú."
           },
           {
             "id": 4,
-            "content": "D) Dói."
+            "content": "Dói."
           },
           {
             "id": 5,
-            "content": "E) Também."
+            "content": "Também."
           }
         ],
         "correct_answer_id": 1,
@@ -977,29 +1008,153 @@
     "points_to_lose": 10,
     "questions": [
       {
+        "id": 66,
+        "theme": "Biologia",
+        "question": "É comum às pessoas que não seguem a prescrição médica, ao tomarem antibióticos, retornarem ao consultório com a famosa “recaída”. Uma explicação para essa possível recaída é...",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "as bactérias tornaram-se imunes ao antibiótico sendo necessário prescrever outro."
+          },
+          {
+            "id": 2,
+            "content": "as bactérias desenvolveram resistência ao antibiótico sendo necessário prescrever outro."
+          },
+          {
+            "id": 3,
+            "content": "as bactérias mais resistentes ao antibiótico conseguiram sobreviver e reproduzir, ocasionando a recaída."
+          },
+          {
+            "id": 4,
+            "content": "o antibiótico não foi eficaz e os vírus causadores da doença continuaram vivos no organismo."
+          },
+          {
+            "id": 5,
+            "content": "as bactérias ganharam, com o passar do tempo, resistência ao antibiótico, tornando-se imune ao mesmo."
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "O uso incorreto dos antibióticos leva à seleção das bactérias mais resistentes ao medicamento."
+      },
+      {
+        "id": 65,
+        "theme": "Biologia",
+        "question": "O personagem Jeca-Tatu foi criado por Monteiro Lobato e, na visão do escritor, representava o trabalhador rural brasileiro. A doença que Jeca-Tatu tinha era amarelão, causada por um verme chamado...",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Taenia solium,"
+          },
+          {
+            "id": 2,
+            "content": "Wuchereria bancrofti"
+          },
+          {
+            "id": 3,
+            "content": "Oxiurus vermicularis."
+          },
+          {
+            "id": 4,
+            "content": "Ascaris lumbricoides"
+          },
+          {
+            "id": 5,
+            "content": "Ancylostoma duodenale"
+          }
+        ],
+        "img_response": "https://sociologado.files.wordpress.com/2011/12/uel-2011-q28-jeca.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "O “amarelão” (ancilostomose) é uma doença causada por vermes das espécies Necator americanus e Ancylostoma duodenale. As formas adultas desses parasitas intestinais se instalam no tubo digestivo dos seres humanos, onde se fixam no intestino delgado, nutrindo-se de sangue do hospedeiro."
+      },
+      {
+        "id": 4,
+        "theme": "Biologia",
+        "question": "Considerando que todos os seres vivos necessitam de uma fonte de carbono para construir suas moléculas orgânicas, a diferença essencial entre os autotróficos e heterotróficos, respectivamente, é:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "usar carbono orgânico e carbono inorgânico."
+          },
+          {
+            "id": 2,
+            "content": "usar carbono inorgânico e carbono orgânico."
+          },
+          {
+            "id": 3,
+            "content": "usar carbono da água e do ar."
+          },
+          {
+            "id": 4,
+            "content": "usar metano e gás carbônico."
+          },
+          {
+            "id": 5,
+            "content": "realizar respiração aeróbia e fermentação."
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description ": "Seres autotróficos são os que possuem a capacidade de produzir seu próprio alimento. Esses organismos, geralmente verdes por causa do pigmento clorofila, utilizam o gás carbônico (CO2) da atmosfera como fonte de carbono, que é um carbono inorgânico, no processo de fotossíntese para obter nutrientes e energia. Seres heterotróficos conseguem nutrientes e energia ao se alimentar de outros seres vivos, aproveitando suas fontes de carbono, portanto carbono orgânico."
+      },
+      {
+        "id": 3,
+        "theme": "Biologia",
+        "question": "A série pós-apocalíptica da HBO, The Last of Us, tem como theme um surto causado por um fungo do gênero Cordyceps, que transforma seus hospedeiros humanos em monstros canibais, conhecidos como infectados. O fungo Cordyceps é do tipo...",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "basidiomiceto."
+          },
+          {
+            "id": 2,
+            "content": "zigomiceto."
+          },
+          {
+            "id": 3,
+            "content": "levedura."
+          },
+          {
+            "id": 4,
+            "content": "micomiceto."
+          },
+          {
+            "id": 5,
+            "content": "ascomiceto."
+          }
+        ],
+        "img_response": "https://super.abril.com.br/wp-content/uploads/2023/01/cordyceps_fb.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description ": "O fungo Cordyceps é um gênero de fungos ascomicetos que parasita principalmente insetos e outros artrópodes. Com aproximadamente 400 espécies, cada uma é especializada em um tipo específico de inseto. Esse tipo de fungo não atinge humanos."
+      },
+      {
         "id": 17,
         "theme": "Biologia",
         "question": "Os menores ossos do corpo humano são martelo, bigorna e estribo, localizados no ouvido médio. A função desses ossos é...",
         "alternatives": [
           {
             "id": 1,
-            "content": "A) promover o equilíbrio."
+            "content": "promover o equilíbrio."
           },
           {
             "id": 2,
-            "content": "B) sustentar o canal auditivo."
+            "content": "sustentar o canal auditivo."
           },
           {
             "id": 3,
-            "content": "C) regular a altura do pavilhão auditivo."
+            "content": "regular a altura do pavilhão auditivo."
           },
           {
             "id": 4,
-            "content": "D) transmitir o som do tímpano para a orelha interna."
+            "content": "transmitir o som do tímpano para a orelha interna."
           },
           {
             "id": 5,
-            "content": "E) rotacionar o pavilhão auditivo para melhor receber o som vindo do ambiente externo."
+            "content": "rotacionar o pavilhão auditivo para melhor receber o som vindo do ambiente externo."
           }
         ],
         "img_response": "https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_bd768984662f68b55348bb89755e54a1_212008.jpg.jpeg",
@@ -1008,60 +1163,29 @@
         "description": "A principal função desses ossos é transmitir o som da membrana do tímpano para a orelha interna: as ondas sonoras movem a membrana timpânica que, por sua vez, move os ossículos (martelo, bigorna e estribo, nessa ordem), conduzindo as vibrações sonoras para a orelha interna."
       },
       {
-        "id": 18,
-        "theme": "Biologia",
-        "question": "Um processo bastante conhecido para amadurecer bananas verdes rapidamente é colocá-las embrulhadas em um jornal ou dentro de uma sacola. Isso se dá porque aumenta a concentração do(a)...",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "A) ácido abscísico."
-          },
-          {
-            "id": 2,
-            "content": "B) etileno."
-          },
-          {
-            "id": 3,
-            "content": "C) auxina."
-          },
-          {
-            "id": 4,
-            "content": "D) giberelina."
-          },
-          {
-            "id": 5,
-            "content": "E) citocinina."
-          }
-        ],
-        "img_response": "https://static.escolakids.uol.com.br/conteudo_legenda/7b3ee0c2e3e0f2a142e49a06f51f5581.jpg",
-        "img_question": "",
-        "correct_answer_id": 2,
-        "description": "O gás etileno é produzido pelos vegetais em diversos tecidos e pode deslocar-se facilmente de célula para célula. Por isso que ele está presente em toda a estrutura do fruto, desde a casca até o seu interior. Basicamente, o etileno desencadeia a produção de algumas enzimas que provocam reações de amadurecimento das frutas, como é o caso da hidrólise do amido. Nessa reação, o amido que está dentro do fruto verde tem a sua molécula “quebrada”, produzindo açúcares, por isso a fruta fica mais doce."
-      },
-      {
         "id": 19,
         "theme": "Biologia",
         "question": "Uma célula-tronco TOTIPOTENTE é aquela que pode se diferenciar",
         "alternatives": [
           {
             "id": 1,
-            "content": "A) em apenas um tipo celular."
+            "content": "em apenas um tipo celular."
           },
           {
             "id": 2,
-            "content": "B) somente em poucos tipos celulares."
+            "content": "somente em poucos tipos celulares."
           },
           {
             "id": 3,
-            "content": "C) em alguns dos tipos celulares."
+            "content": "em alguns dos tipos celulares."
           },
           {
             "id": 4,
-            "content": "D) na maioria dos tipos celulares."
+            "content": "na maioria dos tipos celulares."
           },
           {
             "id": 5,
-            "content": "E) em qualquer tipo celular."
+            "content": "em qualquer tipo celular."
           }
         ],
         "img_response": "",
@@ -1070,190 +1194,35 @@
         "description": "Células-tronco totipotentes: Essas células apresentam a capacidade de se transformar em qualquer tipo celular encontrado no corpo do indivíduo. De uma maneira simplificada, podemos dizer que esse tipo de célula-tronco é capaz de originar um ser por completo."
       },
       {
-        "id": 20,
-        "theme": "Biologia",
-        "question": "No ouvido interno encontramos o utrículo, o sáculo e os canais semicirculares que, juntos, formam o que conhecemos como labirinto, ou aparelho vestibular. O labirinto está relacionado à(ao)",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "A) comunicação do ouvido médio com o ouvido interno."
-          },
-          {
-            "id": 2,
-            "content": "B) percepção dos sons."
-          },
-          {
-            "id": 3,
-            "content": "C) equilíbrio do corpo."
-          },
-          {
-            "id": 4,
-            "content": "D) vibração dos sons no ouvido interno"
-          },
-          {
-            "id": 5,
-            "content": "E) sustentação do pavilhão auditivo."
-          }
-        ],
-        "img_response": "https://lirp.cdn-website.com/34216b56/dms3rep/multi/opt/labirinto-320w.jpg",
-        "img_question": "",
-        "correct_answer_id": 3,
-        "description": "Se fizermos algum movimento com a nossa cabeça, os otólitos (pequenos grãos de carbonato de cálcio) também se movimentarão, estimulando as células sensoriais a transmitirem informações de como está a posição do corpo para o cérebro, onde serão interpretadas. É por esse motivo que dizemos que o labirinto é o órgão responsável pelo equilíbrio do corpo."
-      },
-      {
-        "id": 21,
-        "theme": "Biologia",
-        "question": "Sequoias são árvores de grande porte, que podem atingir mais de cem metros de altura. Algumas são tão famosas por seu tamanho que receberam apelidos, como a Hyperion, tem 115 metros de altura e é maior do que 19 girafas empilhadas. Outra sequoia, apelidada de General Sherman, é uma das árvores mais volumosas do planeta. Sua base, com mais de 30 metros de circunferência, sustenta um peso superior a 1.400 toneladas, ou seja, o equivalente a quase oito baleias-azuis. A que grupo pertence as sequoias?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "A) Pteridófitas"
-          },
-          {
-            "id": 2,
-            "content": "B) Gimnospermas"
-          },
-          {
-            "id": 3,
-            "content": "C) Angiospermas"
-          },
-          {
-            "id": 4,
-            "content": "D) Monocotiledôneas"
-          },
-          {
-            "id": 5,
-            "content": "E) Dicotiledôneas"
-          }
-        ],
-        "img_response": "https://www.invivo.fiocruz.br/wp-content/uploads/2022/04/sequoias2.jpg",
-        "img_question": "",
-        "correct_answer_id": 2,
-        "description": "As sequoias são “parentes” dos pinheiros, ou seja, pertencem ao grupo das gimnospermas, plantas que têm sementes, mas não têm frutos (a palavra “gimnosperma” tem origem grega e significa “semente nua”, sem proteção)."
-      },
-      {
-        "id": 22,
-        "theme": "Biologia",
-        "question": "Coração que apresenta quatro câmaras completamente divididas, mas ainda acontece a mistura de sangue em uma região chamada de forame de Panizza, que conecta o arco aórtico sistêmico direito e esquerdo. Esse coração pertence a um...",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "A) gavião."
-          },
-          {
-            "id": 2,
-            "content": "B) sapo."
-          },
-          {
-            "id": 3,
-            "content": "C) jabuti."
-          },
-          {
-            "id": 4,
-            "content": "D) crocodilo"
-          },
-          {
-            "id": 5,
-            "content": "E) elefante."
-          }
-        ],
-        "img_response": "https://www.explicae.com.br/app/uploads/avatars/51f4bd77-889f-4a1a-8d1b-7bd1d90f762e-1606139196574.png",
-        "img_question": "",
-        "correct_answer_id": 4,
-        "description": "Forame de Panizza é a intercomunicação do arco aórtico sistêmico direito e esquerdo do coração dos répteis crocodilianos."
-      },
-      {
-        "id": 23,
-        "theme": "Biologia",
-        "question": "O Mar dos Sargaços é uma região alongada no meio do Atlântico Norte, com cerca de 1100 km de largura e cerca de 3200 km de comprimento, cercado por várias correntes oceânicas, como a Corrente do Golfo, Corrente dos Açores, Correntes das Canárias, Corrente Equatorial Norte e Corrente das Antilhas. O que é sargaço?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "A) Uma alga."
-          },
-          {
-            "id": 2,
-            "content": "B) Um recife de coral."
-          },
-          {
-            "id": 3,
-            "content": "C) Um cardume de peixes."
-          },
-          {
-            "id": 4,
-            "content": "D) Um iceberg."
-          },
-          {
-            "id": 5,
-            "content": "E) Um encontro de correntes marítimas."
-          }
-        ],
-        "img_response": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5XNkm_6DgeFnhzAr56FhK92s9nxN_2jmcUPH56NRgfjYL4m3Z",
-        "img_question": "",
-        "correct_answer_id": 1,
-        "description": "O Mar dos Sargaços é caracterizado pela existência abundante de uma espécie de algas com o nome de sargaço (sargassum). As algas são tantas que travam as embarcações que por ali passam e juntamente com a total ausência de vento, que por vezes ocorre, torna-se muito difícil navegar, chegando ao ponto de algumas embarcações encalharem."
-      },
-      {
         "id": 24,
         "theme": "Biologia",
         "question": "Observe a imagem. Uma pessoa do tipo A poderia receber sangue dos indivíduos...",
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 2 e 4."
+            "content": "2 e 4."
           },
           {
             "id": 2,
-            "content": "B) 1 e 3."
+            "content": "1 e 3."
           },
           {
             "id": 3,
-            "content": "C) 1 e 4."
+            "content": "1 e 4."
           },
           {
             "id": 4,
-            "content": "D) 2 e 3."
+            "content": "2 e 3."
           },
           {
             "id": 5,
-            "content": "E) 1 e 2."
+            "content": "1 e 2."
           }
         ],
-        "img_response": "",
-        "img_question": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5NeDIyxLKsmvslchJbziof0Dh_tcHZcUXOssJlwHkIyjZoa4m6EyRtUhhhSsvzyz01x0&usqp=CAU",
+        "img_response": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5NeDIyxLKsmvslchJbziof0Dh_tcHZcUXOssJlwHkIyjZoa4m6EyRtUhhhSsvzyz01x0&usqp=CAU",
+        "img_question": "https://drive.google.com/file/d/1m3YtmgbW-1pFNDn0PUGogXKo4_tDgpgO/view?usp=sharing",
         "correct_answer_id": 3,
         "description": "Uma pessoa do tipo A só pode receber sangue de pessoas A ou O, portanto, indivíduos 1 e 4."
-      },
-      {
-        "id": 25,
-        "theme": "Biologia",
-        "question": "No heredograma, os símbolos preenchidos representam pessoas portadoras de um tipo raro de doença genética. Os homens são representados pelos quadrados e as mulheres, pelos círculos. Qual é o padrão de herança observado para essa doença?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "A) Dominante autossômico, pois a doença aparece em ambos os sexos."
-          },
-          {
-            "id": 2,
-            "content": "B) Recessivo ligado ao sexo, pois não ocorre a transmissão do pai para os filhos."
-          },
-          {
-            "id": 3,
-            "content": "C) Recessivo ligado ao Y, pois a doença é transmitida dos pais heterozigotos para os filhos."
-          },
-          {
-            "id": 4,
-            "content": "D) Dominante ligado ao sexo, pois todas as filhas de homens afetados também apresentam a doença."
-          },
-          {
-            "id": 5,
-            "content": "E) Codominante autossômico, pois a doença é herdada pelos filhos de ambos os sexos, tanto do pai quanto da mãe."
-          }
-        ],
-        "img_response": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145353/Quest%C3%A3o74_Enem2014.jpg",
-        "img_question": "",
-        "correct_answer_id": 4,
-        "description": "Uma das características da herança dominante ligada ao X é os homens afetados transmitem o caráter para todas as suas filhas e nenhum de seus filhos e as mulheres afetadas que são heterozigotas transmitem o caráter para a metade de seus filhos de ambos os sexos."
       },
       {
         "id": 26,
@@ -1262,23 +1231,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) mononuclear"
+            "content": "mononuclear"
           },
           {
             "id": 2,
-            "content": "B) terapia gênica."
+            "content": "terapia gênica."
           },
           {
             "id": 3,
-            "content": "C) mutação sítio-específica."
+            "content": "mutação sítio-específica."
           },
           {
             "id": 4,
-            "content": "D) edição gênica."
+            "content": "edição gênica."
           },
           {
             "id": 5,
-            "content": "E) cisgenia."
+            "content": "cisgenia."
           }
         ],
         "img_response": "",
@@ -1293,23 +1262,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) potencial biótico."
+            "content": "potencial biótico."
           },
           {
             "id": 2,
-            "content": "B) taxa de natalidade"
+            "content": "taxa de natalidade"
           },
           {
             "id": 3,
-            "content": "C) potencial reprodutivo."
+            "content": "potencial reprodutivo."
           },
           {
             "id": 4,
-            "content": "D) dinâmica populacional"
+            "content": "dinâmica populacional"
           },
           {
             "id": 5,
-            "content": "E) densidade populacional."
+            "content": "densidade populacional."
           }
         ],
         "img_response": "",
@@ -1324,23 +1293,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) permissividade"
+            "content": "permissividade"
           },
           {
             "id": 2,
-            "content": "B) seletividade"
+            "content": "seletividade"
           },
           {
             "id": 3,
-            "content": "C) diapedese"
+            "content": "diapedese"
           },
           {
             "id": 4,
-            "content": "D) transferência"
+            "content": "transferência"
           },
           {
             "id": 5,
-            "content": "E) osmose"
+            "content": "osmose"
           }
         ],
         "img_response": "",
@@ -1355,23 +1324,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Tiradentes"
+            "content": "Tiradentes"
           },
           {
             "id": 2,
-            "content": "B) Dom João VI"
+            "content": "Dom João VI"
           },
           {
             "id": 3,
-            "content": "C) Dom Pedro II"
+            "content": "Dom Pedro II"
           },
           {
             "id": 4,
-            "content": "D) Santos Dumont"
+            "content": "Santos Dumont"
           },
           {
             "id": 5,
-            "content": "E) Dom Pedro I"
+            "content": "Dom Pedro I"
           }
         ],
         "img_response": "https://static.todamateria.com.br/upload/do/mp/dom-pedro-ii-og.jpg",
@@ -1386,23 +1355,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) transparente"
+            "content": "transparente"
           },
           {
             "id": 2,
-            "content": "B) Verde"
+            "content": "Verde"
           },
           {
             "id": 3,
-            "content": "C) Azul"
+            "content": "Azul"
           },
           {
             "id": 4,
-            "content": "D) Rosa"
+            "content": "Rosa"
           },
           {
             "id": 5,
-            "content": "E) Vermelho"
+            "content": "Vermelho"
           }
         ],
         "img_response": "https://img.freepik.com/vetores-premium/desenho-de-aranha-bonito-no-fundo-branco_1639-41781.jpg",
@@ -1417,23 +1386,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Charmoso"
+            "content": "Charmoso"
           },
           {
             "id": 2,
-            "content": "B) Sem pelos"
+            "content": "Sem pelos"
           },
           {
             "id": 3,
-            "content": "C) Sem dentes"
+            "content": "Sem dentes"
           },
           {
             "id": 4,
-            "content": "D) Sem água"
+            "content": "Sem água"
           },
           {
             "id": 5,
-            "content": "E) Colorido"
+            "content": "Colorido"
           }
         ],
         "img_response": "https://static.escolakids.uol.com.br/2019/07/coala.jpg",
@@ -1448,23 +1417,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) O Rim"
+            "content": "O Rim"
           },
           {
             "id": 2,
-            "content": "B) O Fígado"
+            "content": "O Fígado"
           },
           {
             "id": 3,
-            "content": "C) O cérebro"
+            "content": "O cérebro"
           },
           {
             "id": 4,
-            "content": "D) A pele"
+            "content": "A pele"
           },
           {
             "id": 5,
-            "content": "E) O pulmão"
+            "content": "O pulmão"
           }
         ],
         "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/figado.jpg",
@@ -1479,23 +1448,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Branco"
+            "content": "Branco"
           },
           {
             "id": 2,
-            "content": "B) Vermelho"
+            "content": "Vermelho"
           },
           {
             "id": 3,
-            "content": "C) Verde"
+            "content": "Verde"
           },
           {
             "id": 4,
-            "content": "D) Preto"
+            "content": "Preto"
           },
           {
             "id": 5,
-            "content": "E) Cinza"
+            "content": "Cinza"
           }
         ],
         "img_question": "",
@@ -1510,23 +1479,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) São Luiz (MA) - Foz do Iguaçu (PR) - Rio Branco (AC) - Recife (PE)"
+            "content": "São Luiz (MA) - Foz do Iguaçu (PR) - Rio Branco (AC) - Recife (PE)"
           },
           {
             "id": 2,
-            "content": "B) Belém (PA) - Uruguaiana (RS) - Cidade de Matupá (AM) - Natal (RN)"
+            "content": "Belém (PA) - Uruguaiana (RS) - Cidade de Matupá (AM) - Natal (RN)"
           },
           {
             "id": 3,
-            "content": "C) Ponta do Seixas (PB) - Monte Caburaí (RR) - Arroio Chuí (RS) - Nascente do Rio Moa (AC)"
+            "content": "Ponta do Seixas (PB) - Monte Caburaí (RR) - Arroio Chuí (RS) - Nascente do Rio Moa (AC)"
           },
           {
             "id": 4,
-            "content": "D) Oiapoque (AP) - Arroio Chuí - (RS) - Foz Rio São Francisco (AL) - Rio Amazonas (AM)"
+            "content": "Oiapoque (AP) - Arroio Chuí - (RS) - Foz Rio São Francisco (AL) - Rio Amazonas (AM)"
           },
           {
             "id": 5,
-            "content": "E) Uruguaiana (RS) - Monte Caburaí (RR) - Arroio Chuí (RS) - Nascente do Rio Moa (AC)"
+            "content": "Uruguaiana (RS) - Monte Caburaí (RR) - Arroio Chuí (RS) - Nascente do Rio Moa (AC)"
           }
         ],
         "img_response": "",
@@ -1541,23 +1510,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 6"
+            "content": "6"
           },
           {
             "id": 2,
-            "content": "B) 8"
+            "content": "8"
           },
           {
             "id": 3,
-            "content": "C) 4"
+            "content": "4"
           },
           {
             "id": 4,
-            "content": "D) 3"
+            "content": "3"
           },
           {
             "id": 5,
-            "content": "E) 5"
+            "content": "5"
           }
         ],
         "img_response": "https://construcaocivil.info/wp-content/uploads/2014/11/1599640_608814519229236_923943964_n.jpg",
@@ -1572,23 +1541,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Aceito"
+            "content": "Aceito"
           },
           {
             "id": 2,
-            "content": "B) Nego"
+            "content": "Nego"
           },
           {
             "id": 3,
-            "content": "C) Paraíba"
+            "content": "Paraíba"
           },
           {
             "id": 4,
-            "content": "D) Luta"
+            "content": "Luta"
           },
           {
             "id": 5,
-            "content": "E) Nordeste"
+            "content": "Nordeste"
           }
         ],
         "img_response": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/300px-Bandeira_da_Para%C3%ADba.svg.png",
@@ -1603,23 +1572,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Rio de Janeiro e São Paulo"
+            "content": "Rio de Janeiro e São Paulo"
           },
           {
             "id": 2,
-            "content": "B) João Pessoa e Recife"
+            "content": "João Pessoa e Recife"
           },
           {
             "id": 3,
-            "content": "C) Rio de Janeiro e Vitória"
+            "content": "Rio de Janeiro e Vitória"
           },
           {
             "id": 4,
-            "content": "D) Belém e Manaus"
+            "content": "Belém e Manaus"
           },
           {
             "id": 5,
-            "content": "E) Goiânia e Brasília"
+            "content": "Goiânia e Brasília"
           }
         ],
         "img_response": "",
@@ -1634,23 +1603,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Palmas - Tocantins ; Aracaju - Sergipe ; Boa Vista - Rondônia ; Porto Alegre - Rio Grande do Sul"
+            "content": "Palmas - Tocantins ; Aracaju - Sergipe ; Boa Vista - Rondônia ; Porto Alegre - Rio Grande do Sul"
           },
           {
             "id": 2,
-            "content": "B) Recife - Pernambuco ; São Luís - Maranhão ; Curitiba - Paraná ; Rio Branco - Acre"
+            "content": "Recife - Pernambuco ; São Luís - Maranhão ; Curitiba - Paraná ; Rio Branco - Acre"
           },
           {
             "id": 3,
-            "content": "C) Natal - Rio Grande do Norte ; Porto Velho - Rondônia ; Vitória - Espírito Santo ; Florianópolis - Santa Catarina"
+            "content": "Natal - Rio Grande do Norte ; Porto Velho - Rondônia ; Vitória - Espírito Santo ; Florianópolis - Santa Catarina"
           },
           {
             "id": 4,
-            "content": "D) Teresina - Piauí ; Fortaleza - Ceará ; Goiânia - Goiás ; Florianópolis - Santa Catarina"
+            "content": "Teresina - Piauí ; Fortaleza - Ceará ; Goiânia - Goiás ; Florianópolis - Santa Catarina"
           },
           {
             "id": 5,
-            "content": "E) São Paulo - São Paulo ; Salvador - Bahia ; Manaus - Amazonas ; Macapá – Amapá"
+            "content": "São Paulo - São Paulo ; Salvador - Bahia ; Manaus - Amazonas ; Macapá – Amapá"
           }
         ],
         "img_response": "https://i.pinimg.com/736x/e1/00/a4/e100a48110f90ae517453d58309967cd.jpg",
@@ -1665,23 +1634,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Rio de Janeiro"
+            "content": "Rio de Janeiro"
           },
           {
             "id": 2,
-            "content": "B) Pará"
+            "content": "Pará"
           },
           {
             "id": 3,
-            "content": "C) Rio Grande do Norte"
+            "content": "Rio Grande do Norte"
           },
           {
             "id": 4,
-            "content": "D) Mato Grosso"
+            "content": "Mato Grosso"
           },
           {
             "id": 5,
-            "content": "E) Rio Grande do Sul"
+            "content": "Rio Grande do Sul"
           }
         ],
         "img_response": "https://estado.rs.gov.br/upload/recortes/201707/20075647_1210628_GDO.jpg",
@@ -1696,23 +1665,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Paraná."
+            "content": "Paraná."
           },
           {
             "id": 2,
-            "content": "B) Piauí"
+            "content": "Piauí"
           },
           {
             "id": 3,
-            "content": "C) Pernambuco"
+            "content": "Pernambuco"
           },
           {
             "id": 4,
-            "content": "D) Bahia"
+            "content": "Bahia"
           },
           {
             "id": 5,
-            "content": "E) Brasília"
+            "content": "Brasília"
           }
         ],
         "img_response": "",
@@ -1727,23 +1696,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Região Norte."
+            "content": "Região Norte."
           },
           {
             "id": 2,
-            "content": "B) Amazônia Internacional."
+            "content": "Amazônia Internacional."
           },
           {
             "id": 3,
-            "content": "C) Amazônia Legal."
+            "content": "Amazônia Legal."
           },
           {
             "id": 4,
-            "content": "D) Amazônia Ocidental."
+            "content": "Amazônia Ocidental."
           },
           {
             "id": 5,
-            "content": "E) Amazônia marítima."
+            "content": "Amazônia marítima."
           }
         ],
         "img_response": "",
@@ -1758,23 +1727,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) do litoral até o mar territorial."
+            "content": "do litoral até o mar territorial."
           },
           {
             "id": 2,
-            "content": "B) entre o mar territorial e a Zona Econômica Exclusiva (ZEE)."
+            "content": "entre o mar territorial e a Zona Econômica Exclusiva (ZEE)."
           },
           {
             "id": 3,
-            "content": "C) somente a parte oceânica até a Zona Econômica (ZEE)"
+            "content": "somente a parte oceânica até a Zona Econômica (ZEE)"
           },
           {
             "id": 4,
-            "content": "D) da Zona Exclusiva Econômica (ZEE) até o limite da Plataforma Continental brasileira."
+            "content": "da Zona Exclusiva Econômica (ZEE) até o limite da Plataforma Continental brasileira."
           },
           {
             "id": 5,
-            "content": "E) a partir do litoral até o limite da Plataforma Continental brasileira."
+            "content": "a partir do litoral até o limite da Plataforma Continental brasileira."
           }
         ],
         "img_response": "https://i.ytimg.com/vi/5qe0SNj4BOY/maxresdefault.jpg",
@@ -1789,23 +1758,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Imagem mental que cada um adquire de uma área."
+            "content": "Imagem mental que cada um adquire de uma área."
           },
           {
             "id": 2,
-            "content": "B) fotografias tiradas através de um satélite."
+            "content": "fotografias tiradas através de um satélite."
           },
           {
             "id": 3,
-            "content": "C) representação gráfica de um espaço real, em uma superfície plana."
+            "content": "representação gráfica de um espaço real, em uma superfície plana."
           },
           {
             "id": 4,
-            "content": "D) representação esférica do planeta Terra."
+            "content": "representação esférica do planeta Terra."
           },
           {
             "id": 5,
-            "content": "E) representação gráfica de um espaço imaginário, em uma superfície esférica."
+            "content": "representação gráfica de um espaço imaginário, em uma superfície esférica."
           }
         ],
         "img_response": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
@@ -1820,23 +1789,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) orientação, relevo e projeção."
+            "content": "orientação, relevo e projeção."
           },
           {
             "id": 2,
-            "content": "B) escala, orientação e sumário."
+            "content": "escala, orientação e sumário."
           },
           {
             "id": 3,
-            "content": "C) título, curva de nível e escala."
+            "content": "título, curva de nível e escala."
           },
           {
             "id": 4,
-            "content": "D) escala, título e projeção."
+            "content": "escala, título e projeção."
           },
           {
             "id": 5,
-            "content": "E) legenda, orientação e fotografia."
+            "content": "legenda, orientação e fotografia."
           }
         ],
         "img_response": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
@@ -1851,23 +1820,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 9 horas e 10 horas."
+            "content": "9 horas e 10 horas."
           },
           {
             "id": 2,
-            "content": "B) 9 horas e 12 horas."
+            "content": "9 horas e 12 horas."
           },
           {
             "id": 3,
-            "content": "C) 11 horas e 12 horas."
+            "content": "11 horas e 12 horas."
           },
           {
             "id": 4,
-            "content": "D) 10 horas e 12 horas."
+            "content": "10 horas e 12 horas."
           },
           {
             "id": 5,
-            "content": "E) 8 horas e 11 horas."
+            "content": "8 horas e 11 horas."
           }
         ],
         "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo/mapa-dos-fusos-horarios-do-brasil.jpg",
@@ -1882,23 +1851,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 270º."
+            "content": "270º."
           },
           {
             "id": 2,
-            "content": "B) 180º."
+            "content": "180º."
           },
           {
             "id": 3,
-            "content": "C) 90º."
+            "content": "90º."
           },
           {
             "id": 4,
-            "content": "D) 225º."
+            "content": "225º."
           },
           {
             "id": 5,
-            "content": "E) 315º."
+            "content": "315º."
           }
         ],
         "img_response": "https://static.dicionariodesimbolos.com.br/upload/82/16/significado-da-rosa-dos-ventos-1_xl.jpeg",
@@ -1913,23 +1882,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) chuvas na região norte e seca na região sul no verão."
+            "content": "chuvas na região norte e seca na região sul no verão."
           },
           {
             "id": 2,
-            "content": "B) seca na região nordeste e chuvas na região sul no verão."
+            "content": "seca na região nordeste e chuvas na região sul no verão."
           },
           {
             "id": 3,
-            "content": "C) seca na região sul durante o verão."
+            "content": "seca na região sul durante o verão."
           },
           {
             "id": 4,
-            "content": "D) chuvas abundantes na região nordeste no verão."
+            "content": "chuvas abundantes na região nordeste no verão."
           },
           {
             "id": 5,
-            "content": "E) chuvas na região nordeste e seca na região sul no verão."
+            "content": "chuvas na região nordeste e seca na região sul no verão."
           }
         ],
         "img_response": "https://ufbaconquista.files.wordpress.com/2017/12/imagem-1.jpg",
@@ -1944,23 +1913,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Tropical de altitude."
+            "content": "Tropical de altitude."
           },
           {
             "id": 2,
-            "content": "B) Tropical."
+            "content": "Tropical."
           },
           {
             "id": 3,
-            "content": "C) Equatorial."
+            "content": "Equatorial."
           },
           {
             "id": 4,
-            "content": "D) Semiárido."
+            "content": "Semiárido."
           },
           {
             "id": 5,
-            "content": "E) Subtropical."
+            "content": "Subtropical."
           }
         ],
         "img_response": "https://static.escolakids.uol.com.br/2020/07/tipos-de-clima.jpg",
@@ -1975,23 +1944,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) mEc."
+            "content": "mEc."
           },
           {
             "id": 2,
-            "content": "B) mTa."
+            "content": "mTa."
           },
           {
             "id": 3,
-            "content": "C) mPa."
+            "content": "mPa."
           },
           {
             "id": 4,
-            "content": "D) mTc."
+            "content": "mTc."
           },
           {
             "id": 5,
-            "content": "E) mEa."
+            "content": "mEa."
           }
         ],
         "img_response": "https://s2-g1.glbimg.com/GcAHUQkpiYyp0KxF8cM7zSu9a5I=/0x0:959x640/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/M/n/tLLCELRyGVLNDnM0k0lw/frio.jpg",
@@ -2006,23 +1975,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Equatorial / toda região norte exceto os estados do AP e RR."
+            "content": "Equatorial / toda região norte exceto os estados do AP e RR."
           },
           {
             "id": 2,
-            "content": "B) Subtropical / região sul e serrana de SP, RJ e MG."
+            "content": "Subtropical / região sul e serrana de SP, RJ e MG."
           },
           {
             "id": 3,
-            "content": "C) Tropical  / predominante na região centro-oeste e nas partes altas da região Sudeste."
+            "content": "Tropical  / predominante na região centro-oeste e nas partes altas da região Sudeste."
           },
           {
             "id": 4,
-            "content": "D) Semiárido / sertão nordestino e norte de Minas Gerais."
+            "content": "Semiárido / sertão nordestino e norte de Minas Gerais."
           },
           {
             "id": 5,
-            "content": "E) Tropical de Altitude / nas partes baixas da região Sudeste."
+            "content": "Tropical de Altitude / nas partes baixas da região Sudeste."
           }
         ],
         "img_response": "https://pbs.twimg.com/media/EpZrxEBWwAEXVGF.jpg",
@@ -2037,23 +2006,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Possui temperaturas elevadas e chuvas concentradas no inverno."
+            "content": "Possui temperaturas elevadas e chuvas concentradas no inverno."
           },
           {
             "id": 2,
-            "content": "B) Possui temperaturas baixas e chuvas bem distribuídas no ano."
+            "content": "Possui temperaturas baixas e chuvas bem distribuídas no ano."
           },
           {
             "id": 3,
-            "content": "C) Possui temperaturas baixas no verão e nenhuma chuva no inverno."
+            "content": "Possui temperaturas baixas no verão e nenhuma chuva no inverno."
           },
           {
             "id": 4,
-            "content": "D) Possui temperatura baixa no inverno e verão chuvoso."
+            "content": "Possui temperatura baixa no inverno e verão chuvoso."
           },
           {
             "id": 5,
-            "content": "E) Possui temperaturas médias e chuvas reduzidas no verão."
+            "content": "Possui temperaturas médias e chuvas reduzidas no verão."
           }
         ],
         "img_response": "",
@@ -2068,23 +2037,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) NAFTA"
+            "content": "NAFTA"
           },
           {
             "id": 2,
-            "content": "B) ALCA"
+            "content": "ALCA"
           },
           {
             "id": 3,
-            "content": "C) MERCOSUL"
+            "content": "MERCOSUL"
           },
           {
             "id": 4,
-            "content": "D) G8"
+            "content": "G8"
           },
           {
             "id": 5,
-            "content": "E) BRICS"
+            "content": "BRICS"
           }
         ],
         "img_response": "",
@@ -2099,23 +2068,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) I é endotérmica."
+            "content": "I é endotérmica."
           },
           {
             "id": 2,
-            "content": "B) II é endotérmica."
+            "content": "II é endotérmica."
           },
           {
             "id": 3,
-            "content": "C) III é endotérmica."
+            "content": "III é endotérmica."
           },
           {
             "id": 4,
-            "content": "D) I e II ѕãо endotérmica."
+            "content": "I e II ѕãо endotérmica."
           },
           {
             "id": 5,
-            "content": "E) II e II ѕãо endotérmica."
+            "content": "II e II ѕãо endotérmica."
           }
         ],
         "img_response": "",
@@ -2130,23 +2099,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) somente 1."
+            "content": "somente 1."
           },
           {
             "id": 2,
-            "content": "B) somente 2 e 4."
+            "content": "somente 2 e 4."
           },
           {
             "id": 3,
-            "content": "C) somente 1 e 3."
+            "content": "somente 1 e 3."
           },
           {
             "id": 4,
-            "content": "D) somente 1 e 4."
+            "content": "somente 1 e 4."
           },
           {
             "id": 5,
-            "content": "E) 1, 2, 3 e 4."
+            "content": "1, 2, 3 e 4."
           }
         ],
         "img_response": "",
@@ -2161,23 +2130,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) ...é um processo endotérmico e cede calor ao corpo."
+            "content": "...é um processo endotérmico e cede calor ao corpo."
           },
           {
             "id": 2,
-            "content": "B) ...é um processo endotérmico e retira calor do corpo."
+            "content": "...é um processo endotérmico e retira calor do corpo."
           },
           {
             "id": 3,
-            "content": "C) ...é um processo exotérmico e cede calor ao corpo."
+            "content": "...é um processo exotérmico e cede calor ao corpo."
           },
           {
             "id": 4,
-            "content": "D) ...é um processo exotérmico e retira calor do corpo."
+            "content": "...é um processo exotérmico e retira calor do corpo."
           },
           {
             "id": 5,
-            "content": "E) ...é um processo atérmico e não troca calor com o corpo."
+            "content": "...é um processo atérmico e não troca calor com o corpo."
           }
         ],
         "img_response": "",
@@ -2192,23 +2161,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Clorídrico, Cloroso, Clórico"
+            "content": "Clorídrico, Cloroso, Clórico"
           },
           {
             "id": 2,
-            "content": "B) Clorídrico, Clórico, Cloroso"
+            "content": "Clorídrico, Clórico, Cloroso"
           },
           {
             "id": 3,
-            "content": "C) Cloroso, Clórico, Clorídrico"
+            "content": "Cloroso, Clórico, Clorídrico"
           },
           {
             "id": 4,
-            "content": "D) Clórico, Clorídrico, Cloroso"
+            "content": "Clórico, Clorídrico, Cloroso"
           },
           {
             "id": 5,
-            "content": "E) Cloroso, Clorídrico, Clórico"
+            "content": "Cloroso, Clorídrico, Clórico"
           }
         ],
         "img_response": "",
@@ -2223,23 +2192,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Azeitona, Laranja, Caju"
+            "content": "Azeitona, Laranja, Caju"
           },
           {
             "id": 2,
-            "content": "B) Manga, Uva Passa, Pêra"
+            "content": "Manga, Uva Passa, Pêra"
           },
           {
             "id": 3,
-            "content": "C) Maracujá, Goiaba, Caqui"
+            "content": "Maracujá, Goiaba, Caqui"
           },
           {
             "id": 4,
-            "content": "D) Romã, Groselha, Cupuaçu"
+            "content": "Romã, Groselha, Cupuaçu"
           },
           {
             "id": 5,
-            "content": "E) Tomate, Limão, Chuchu"
+            "content": "Tomate, Limão, Chuchu"
           }
         ],
         "img_response": "",
@@ -2254,23 +2223,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Ligações iônicas"
+            "content": "Ligações iônicas"
           },
           {
             "id": 2,
-            "content": "B) Forças dipolo-dipolo"
+            "content": "Forças dipolo-dipolo"
           },
           {
             "id": 3,
-            "content": "C) Ligações covalentes"
+            "content": "Ligações covalentes"
           },
           {
             "id": 4,
-            "content": "D) Forças de london"
+            "content": "Forças de london"
           },
           {
             "id": 5,
-            "content": "E) Ligações de hidrogênio"
+            "content": "Ligações de hidrogênio"
           }
         ],
         "img_response": "",
@@ -2285,23 +2254,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Ácidos e bases"
+            "content": "Ácidos e bases"
           },
           {
             "id": 2,
-            "content": "B) Óxidos e ácidos"
+            "content": "Óxidos e ácidos"
           },
           {
             "id": 3,
-            "content": "C) Sais e óxidos"
+            "content": "Sais e óxidos"
           },
           {
             "id": 4,
-            "content": "D) Bases e óxidos"
+            "content": "Bases e óxidos"
           },
           {
             "id": 5,
-            "content": "E) Bases e sais"
+            "content": "Bases e sais"
           }
         ],
         "img_response": "",
@@ -2316,23 +2285,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Cetona e ácido carboxílico."
+            "content": "Cetona e ácido carboxílico."
           },
           {
             "id": 2,
-            "content": "B) Éter e aldeído."
+            "content": "Éter e aldeído."
           },
           {
             "id": 3,
-            "content": "C) Aldeído e ácido carboxílico."
+            "content": "Aldeído e ácido carboxílico."
           },
           {
             "id": 4,
-            "content": "D) Aldeído e cetona."
+            "content": "Aldeído e cetona."
           },
           {
             "id": 5,
-            "content": "E) Éter e ácido carboxílico."
+            "content": "Éter e ácido carboxílico."
           }
         ],
         "img_response": "",
@@ -2347,23 +2316,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Éster, ácido etanoico"
+            "content": "Éster, ácido etanoico"
           },
           {
             "id": 2,
-            "content": "B) Amida, álcool butílico"
+            "content": "Amida, álcool butílico"
           },
           {
             "id": 3,
-            "content": "C) Éter, ácido butanóico"
+            "content": "Éter, ácido butanóico"
           },
           {
             "id": 4,
-            "content": "D) Éter, ácido butílico"
+            "content": "Éter, ácido butílico"
           },
           {
             "id": 5,
-            "content": "E) Éster, ácido butanóico"
+            "content": "Éster, ácido butanóico"
           }
         ],
         "img_response": "",
@@ -2378,23 +2347,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Ácido, base, sal e base"
+            "content": "Ácido, base, sal e base"
           },
           {
             "id": 2,
-            "content": "B) Ácido, base, base e sal"
+            "content": "Ácido, base, base e sal"
           },
           {
             "id": 3,
-            "content": "C) Sal, ácido, base e sal"
+            "content": "Sal, ácido, base e sal"
           },
           {
             "id": 4,
-            "content": "D) Base, sal, ácido e base"
+            "content": "Base, sal, ácido e base"
           },
           {
             "id": 5,
-            "content": "E) Base, ácido, sal e base"
+            "content": "Base, ácido, sal e base"
           }
         ],
         "img_response": "",
@@ -2409,23 +2378,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) uma ligação dupla e três ligações simples."
+            "content": "uma ligação dupla e três ligações simples."
           },
           {
             "id": 2,
-            "content": "B) uma ligação dupla e duas ligações simples."
+            "content": "uma ligação dupla e duas ligações simples."
           },
           {
             "id": 3,
-            "content": "C) duas ligações duplas e duas ligações simples."
+            "content": "duas ligações duplas e duas ligações simples."
           },
           {
             "id": 4,
-            "content": "D) uma ligação tripla e duas ligações simples."
+            "content": "uma ligação tripla e duas ligações simples."
           },
           {
             "id": 5,
-            "content": "E) duas ligações duplas e uma ligação simples."
+            "content": "duas ligações duplas e uma ligação simples."
           }
         ],
         "img_response": "https://pt-static.z-dn.net/files/dfd/74ff90975142ad189cfae0c1b15dd7f5.jpeg",
@@ -2440,23 +2409,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) XY3"
+            "content": "XY3"
           },
           {
             "id": 2,
-            "content": "B) X5Y"
+            "content": "X5Y"
           },
           {
             "id": 3,
-            "content": "C) X3Y"
+            "content": "X3Y"
           },
           {
             "id": 4,
-            "content": "D) X7Y3"
+            "content": "X7Y3"
           },
           {
             "id": 5,
-            "content": "E) XY"
+            "content": "XY"
           }
         ],
         "img_response": "",
@@ -2471,23 +2440,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 20%"
+            "content": "20%"
           },
           {
             "id": 2,
-            "content": "B) 50%"
+            "content": "50%"
           },
           {
             "id": 3,
-            "content": "C) 60%"
+            "content": "60%"
           },
           {
             "id": 4,
-            "content": "D) 96% "
+            "content": "96% "
           },
           {
             "id": 5,
-            "content": "E) 100%"
+            "content": "100%"
           }
         ],
         "correct_answer_id": 2,
@@ -2503,23 +2472,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 4000 K e 10 GPa."
+            "content": "4000 K e 10 GPa."
           },
           {
             "id": 2,
-            "content": "B) 4400 K e 0,01 GPa."
+            "content": "4400 K e 0,01 GPa."
           },
           {
             "id": 3,
-            "content": "C) 8000 K e 0,01 GPa."
+            "content": "8000 K e 0,01 GPa."
           },
           {
             "id": 4,
-            "content": "D) 4400 K e 10 GPa."
+            "content": "4400 K e 10 GPa."
           },
           {
             "id": 5,
-            "content": "E) 6000 K e 0,1 GPa."
+            "content": "6000 K e 0,1 GPa."
           }
         ],
         "correct_answer_id": 2,
@@ -2534,23 +2503,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) R. A. Milikan"
+            "content": "R. A. Milikan"
           },
           {
             "id": 2,
-            "content": "B) E. R. Rutherford"
+            "content": "E. R. Rutherford"
           },
           {
             "id": 3,
-            "content": "C) M. Crookes"
+            "content": "M. Crookes"
           },
           {
             "id": 4,
-            "content": "D) J.J. Thomson"
+            "content": "J.J. Thomson"
           },
           {
             "id": 5,
-            "content": "E) A. Einstein"
+            "content": "A. Einstein"
           }
         ],
         "correct_answer_id": 1,
@@ -2565,23 +2534,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) 7680 atm"
+            "content": "7680 atm"
           },
           {
             "id": 2,
-            "content": "B) 3850 atm"
+            "content": "3850 atm"
           },
           {
             "id": 3,
-            "content": "C) 1000 atm"
+            "content": "1000 atm"
           },
           {
             "id": 4,
-            "content": "D) 385 atm"
+            "content": "385 atm"
           },
           {
             "id": 5,
-            "content": "E) 39 atm"
+            "content": "39 atm"
           }
         ],
         "correct_answer_id": 4,
@@ -2596,23 +2565,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) o aumento da temperatura da água no interior da panela continuará."
+            "content": "o aumento da temperatura da água no interior da panela continuará."
           },
           {
             "id": 2,
-            "content": "B) reduzirá a pressão no interior da panela."
+            "content": "reduzirá a pressão no interior da panela."
           },
           {
             "id": 3,
-            "content": "C) diminuirá a pressão externa."
+            "content": "diminuirá a pressão externa."
           },
           {
             "id": 4,
-            "content": "D) diminuirá a temperatura da água no interior da panela."
+            "content": "diminuirá a temperatura da água no interior da panela."
           },
           {
             "id": 5,
-            "content": "E) se a água em seu interior já está fervendo o fogo alto não vai mais alterar a temperatura em seu interior."
+            "content": "se a água em seu interior já está fervendo o fogo alto não vai mais alterar a temperatura em seu interior."
           }
         ],
         "correct_answer_id": 5,
@@ -2627,23 +2596,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Correntes alternadas podem ser transmitidas melhor para grandes distâncias."
+            "content": "Correntes alternadas podem ser transmitidas melhor para grandes distâncias."
           },
           {
             "id": 2,
-            "content": "B) Correntes contínuas podem ser transmitidas melhor para grandes distâncias."
+            "content": "Correntes contínuas podem ser transmitidas melhor para grandes distâncias."
           },
           {
             "id": 3,
-            "content": "C) Correntes alternadas não geram perdas na transmissão."
+            "content": "Correntes alternadas não geram perdas na transmissão."
           },
           {
             "id": 4,
-            "content": "D) Correntes contínuas não geram perdas na transmissão."
+            "content": "Correntes contínuas não geram perdas na transmissão."
           },
           {
             "id": 5,
-            "content": "E) Correntes alternadas naõ geram acidentes."
+            "content": "Correntes alternadas naõ geram acidentes."
           }
         ],
         "correct_answer_id": 1,
@@ -2658,23 +2627,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Maior, pois quanto maior o comprimento do tubo, menor a frequência da onda sonora emitida"
+            "content": "Maior, pois quanto maior o comprimento do tubo, menor a frequência da onda sonora emitida"
           },
           {
             "id": 2,
-            "content": "B) Menor, pois quanto menor o comprimento do tubo, menor a frequência da onda sonora emitida"
+            "content": "Menor, pois quanto menor o comprimento do tubo, menor a frequência da onda sonora emitida"
           },
           {
             "id": 3,
-            "content": "C)  Menor, pois quanto menor o comprimento do tubo, maior a frequência da onda sonora emitida"
+            "content": " Menor, pois quanto menor o comprimento do tubo, maior a frequência da onda sonora emitida"
           },
           {
             "id": 4,
-            "content": "D) Maior, pois quanto maior o comprimento do tubo, maior a frequência da onda sonora emitida."
+            "content": "Maior, pois quanto maior o comprimento do tubo, maior a frequência da onda sonora emitida."
           },
           {
             "id": 5,
-            "content": "E) Maior, pois quanto maior o comprimento do tubo, maior a velocidade da onda emitida."
+            "content": "Maior, pois quanto maior o comprimento do tubo, maior a velocidade da onda emitida."
           }
         ],
         "correct_answer_id": 1,
@@ -2689,23 +2658,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Maior, invertida e real."
+            "content": "Maior, invertida e real."
           },
           {
             "id": 2,
-            "content": "B) Menor, direita e real."
+            "content": "Menor, direita e real."
           },
           {
             "id": 3,
-            "content": "C) Maior, invertida e virtual."
+            "content": "Maior, invertida e virtual."
           },
           {
             "id": 4,
-            "content": "D) Menor, invertida e real."
+            "content": "Menor, invertida e real."
           },
           {
             "id": 5,
-            "content": "E) Menor, direita e virtual."
+            "content": "Menor, direita e virtual."
           }
         ],
         "correct_answer_id": 5,
@@ -2720,23 +2689,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) os motores à diesel eram mais potentes."
+            "content": "os motores à diesel eram mais potentes."
           },
           {
             "id": 2,
-            "content": "B) os motores à gasolina eram mais econômicos."
+            "content": "os motores à gasolina eram mais econômicos."
           },
           {
             "id": 3,
-            "content": "C) nos motores à diesel uma maior fração da energia do combustível era transformada em energia mecânica."
+            "content": "nos motores à diesel uma maior fração da energia do combustível era transformada em energia mecânica."
           },
           {
             "id": 4,
-            "content": "D) nos motores à gasolina uma maior fração da energia do combustível era transformada em energia mecânica."
+            "content": "nos motores à gasolina uma maior fração da energia do combustível era transformada em energia mecânica."
           },
           {
             "id": 5,
-            "content": "E)  os motores à gasolina eram menos potentes que os motores à diesel."
+            "content": " os motores à gasolina eram menos potentes que os motores à diesel."
           }
         ],
         "correct_answer_id": 3,
@@ -2751,23 +2720,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) É uma influência de nossa atmosfera."
+            "content": "É uma influência de nossa atmosfera."
           },
           {
             "id": 2,
-            "content": "B) Por serem mais quentes, irradiam luz com comprimento de onda menor."
+            "content": "Por serem mais quentes, irradiam luz com comprimento de onda menor."
           },
           {
             "id": 3,
-            "content": "C) por serem mais frias, irradiam luz com comprimento de onda maior."
+            "content": "por serem mais frias, irradiam luz com comprimento de onda maior."
           },
           {
             "id": 4,
-            "content": "D) Por serem mais quentes, irradiam luz com comprimento de onda maior."
+            "content": "Por serem mais quentes, irradiam luz com comprimento de onda maior."
           },
           {
             "id": 5,
-            "content": "E) por serem mais frias, irradiam luz com comprimento de onda menor. "
+            "content": "por serem mais frias, irradiam luz com comprimento de onda menor. "
           }
         ],
         "correct_answer_id": 3,
@@ -2782,23 +2751,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) A anarquia militar e a ameaça de vizinhos poderosos."
+            "content": "A anarquia militar e a ameaça de vizinhos poderosos."
           },
           {
             "id": 2,
-            "content": "B) As invasões bárbaras e o êxodo rural."
+            "content": "As invasões bárbaras e o êxodo rural."
           },
           {
             "id": 3,
-            "content": "C) O reconhecimento do cristianismo como religião oficial e submissão do imperador ao papa."
+            "content": "O reconhecimento do cristianismo como religião oficial e submissão do imperador ao papa."
           },
           {
             "id": 4,
-            "content": "D) A anarquia militar e a transferência da capital para Constantinopla."
+            "content": "A anarquia militar e a transferência da capital para Constantinopla."
           },
           {
             "id": 5,
-            "content": "E) O fim da escravidão e o êxodo urbano."
+            "content": "O fim da escravidão e o êxodo urbano."
           }
         ],
         "correct_answer_id": 1,
@@ -2813,23 +2782,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Dos Dominicanos."
+            "content": "Dos Dominicanos."
           },
           {
             "id": 2,
-            "content": "B) Dos Cistercienses."
+            "content": "Dos Cistercienses."
           },
           {
             "id": 3,
-            "content": "C) De Cristo."
+            "content": "De Cristo."
           },
           {
             "id": 4,
-            "content": "D) Dos Templários."
+            "content": "Dos Templários."
           },
           {
             "id": 5,
-            "content": "E) Dos Mercedários."
+            "content": "Dos Mercedários."
           }
         ],
         "correct_answer_id": 4,
@@ -2844,23 +2813,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) William Shakespeare."
+            "content": "William Shakespeare."
           },
           {
             "id": 2,
-            "content": "B) Martinho Lutero."
+            "content": "Martinho Lutero."
           },
           {
             "id": 3,
-            "content": "C) Elizabeth I."
+            "content": "Elizabeth I."
           },
           {
             "id": 4,
-            "content": "D) Erasmo de Roterdã."
+            "content": "Erasmo de Roterdã."
           },
           {
             "id": 5,
-            "content": "E) Maquiavel."
+            "content": "Maquiavel."
           }
         ],
         "correct_answer_id": 4,
@@ -2875,23 +2844,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) O Direito Divino dos reis."
+            "content": "O Direito Divino dos reis."
           },
           {
             "id": 2,
-            "content": "B) O fim do Absolutismo Monárquico e a o ideal republicano."
+            "content": "O fim do Absolutismo Monárquico e a o ideal republicano."
           },
           {
             "id": 3,
-            "content": "C) A ideia de um pacto social como o momento de surgimento da sociedade civil."
+            "content": "A ideia de um pacto social como o momento de surgimento da sociedade civil."
           },
           {
             "id": 4,
-            "content": "D) Os direitos naturais, a vida, a liberdade e a propriedade."
+            "content": "Os direitos naturais, a vida, a liberdade e a propriedade."
           },
           {
             "id": 5,
-            "content": "E) Que o governo se dava por um pacto entre o rei e a igreja."
+            "content": "Que o governo se dava por um pacto entre o rei e a igreja."
           }
         ],
         "correct_answer_id": 3,
@@ -2906,23 +2875,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) A igualdade entre homens e mulheres e o fim da propriedade privada."
+            "content": "A igualdade entre homens e mulheres e o fim da propriedade privada."
           },
           {
             "id": 2,
-            "content": "B) A abolição dos privilégios feudais e o sufrágio universal."
+            "content": "A abolição dos privilégios feudais e o sufrágio universal."
           },
           {
             "id": 3,
-            "content": "C) Igualdade jurídica entre os cidadãos e o direito à propriedade privada."
+            "content": "Igualdade jurídica entre os cidadãos e o direito à propriedade privada."
           },
           {
             "id": 4,
-            "content": "D) A abolição da monarquia e a consagração do parlamentarismo."
+            "content": "A abolição da monarquia e a consagração do parlamentarismo."
           },
           {
             "id": 5,
-            "content": "E) A abolição da escravidão negra e a liberdade religiosa."
+            "content": "A abolição da escravidão negra e a liberdade religiosa."
           }
         ],
         "correct_answer_id": 3,
@@ -2937,23 +2906,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) As primeiras universidades e o Banco do Brasil."
+            "content": "As primeiras universidades e o Banco do Brasil."
           },
           {
             "id": 2,
-            "content": "B) O Jardim Botânico e a eletrificação do Rio de Janeiro."
+            "content": "O Jardim Botânico e a eletrificação do Rio de Janeiro."
           },
           {
             "id": 3,
-            "content": "C) As primeiras escolas superiores e a Biblioteca Nacional."
+            "content": "As primeiras escolas superiores e a Biblioteca Nacional."
           },
           {
             "id": 4,
-            "content": "D) As primeiras ferrovias e o porto de Santos."
+            "content": "As primeiras ferrovias e o porto de Santos."
           },
           {
             "id": 5,
-            "content": "E) A introdução o plantio de café no Vale do Paraíba e as primeiras escolas superiores."
+            "content": "A introdução o plantio de café no Vale do Paraíba e as primeiras escolas superiores."
           }
         ],
         "correct_answer_id": 3,
@@ -2968,23 +2937,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) São Paulo, Minas Gerais e Cisplatina (atual Uruguai)."
+            "content": "São Paulo, Minas Gerais e Cisplatina (atual Uruguai)."
           },
           {
             "id": 2,
-            "content": "B) Pará, Bahia, Pernambuco e Cisplatina (atual Uruguai)."
+            "content": "Pará, Bahia, Pernambuco e Cisplatina (atual Uruguai)."
           },
           {
             "id": 3,
-            "content": "C) Amazonas, Santa Catarina, Rio Grande do Sul e Bahia."
+            "content": "Amazonas, Santa Catarina, Rio Grande do Sul e Bahia."
           },
           {
             "id": 4,
-            "content": "D) Rio de Janeiro, Pará e Bahia."
+            "content": "Rio de Janeiro, Pará e Bahia."
           },
           {
             "id": 5,
-            "content": "E) Pará, Bahia e Cisplatina (atual Uruguai)."
+            "content": "Pará, Bahia e Cisplatina (atual Uruguai)."
           }
         ],
         "correct_answer_id": 5,
@@ -2999,23 +2968,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Obrigatório para mulheres maiores de 18 anos."
+            "content": "Obrigatório para mulheres maiores de 18 anos."
           },
           {
             "id": 2,
-            "content": "B) Facultativo e somente mulheres com trabalho remunerado eram obrigadas a se alistar."
+            "content": "Facultativo e somente mulheres com trabalho remunerado eram obrigadas a se alistar."
           },
           {
             "id": 3,
-            "content": "C) Obrigatório para todas as mulheres alfabetizadas"
+            "content": "Obrigatório para todas as mulheres alfabetizadas"
           },
           {
             "id": 4,
-            "content": "D) Obrigatório para as mulheres solteiras e facultativo para as casadas."
+            "content": "Obrigatório para as mulheres solteiras e facultativo para as casadas."
           },
           {
             "id": 5,
-            "content": "E) Obrigatório para as mulheres que tivessem função remunerada."
+            "content": "Obrigatório para as mulheres que tivessem função remunerada."
           }
         ],
         "correct_answer_id": 2,
@@ -3030,23 +2999,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Lei Feijó – Lei do Ventre Livre – Lei dos Sexagenários."
+            "content": "Lei Feijó – Lei do Ventre Livre – Lei dos Sexagenários."
           },
           {
             "id": 2,
-            "content": "B) Lei Eusébio de Queiroz – Lei do Ventre Livre – Lei Feijó."
+            "content": "Lei Eusébio de Queiroz – Lei do Ventre Livre – Lei Feijó."
           },
           {
             "id": 3,
-            "content": "C) Lei dos Sexagenários – Lei Feijó – Lei o Ventre Livre."
+            "content": "Lei dos Sexagenários – Lei Feijó – Lei o Ventre Livre."
           },
           {
             "id": 4,
-            "content": "D) Lei Feijó – Lei do Ventre Livre – Lei Eusébio de Queiroz."
+            "content": "Lei Feijó – Lei do Ventre Livre – Lei Eusébio de Queiroz."
           },
           {
             "id": 5,
-            "content": "E) Lei Eusébio de Queiroz – Lei dos Sexagenários – Lei Feijó."
+            "content": "Lei Eusébio de Queiroz – Lei dos Sexagenários – Lei Feijó."
           }
         ],
         "correct_answer_id": 1,
@@ -3061,23 +3030,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) O México."
+            "content": "O México."
           },
           {
             "id": 2,
-            "content": "B)  Uruguai."
+            "content": " Uruguai."
           },
           {
             "id": 3,
-            "content": "C) O Brasil."
+            "content": "O Brasil."
           },
           {
             "id": 4,
-            "content": "D) O Haiti."
+            "content": "O Haiti."
           },
           {
             "id": 5,
-            "content": "E) Porto Rico."
+            "content": "Porto Rico."
           }
         ],
         "correct_answer_id": 4,
@@ -3092,23 +3061,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) As estrelas parece brilharem."
+            "content": "As estrelas parece brilharem."
           },
           {
             "id": 2,
-            "content": "B) Foi eu quem fiz isso."
+            "content": "Foi eu quem fiz isso."
           },
           {
             "id": 3,
-            "content": "C) Cada um de nós faremos o que nos pediram."
+            "content": "Cada um de nós faremos o que nos pediram."
           },
           {
             "id": 4,
-            "content": "D) Quais de nós fez o exercício de Matemática?"
+            "content": "Quais de nós fez o exercício de Matemática?"
           },
           {
             "id": 5,
-            "content": "E) Quem de nós fizemos a tarefa?"
+            "content": "Quem de nós fizemos a tarefa?"
           }
         ],
         "correct_answer_id": 1,
@@ -3123,23 +3092,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Eu sei que estou lendo esta frase."
+            "content": "Eu sei que estou lendo esta frase."
           },
           {
             "id": 2,
-            "content": "B) O menino viu o incêndio do prédio."
+            "content": "O menino viu o incêndio do prédio."
           },
           {
             "id": 3,
-            "content": "C) Ela escorregou e não caiu."
+            "content": "Ela escorregou e não caiu."
           },
           {
             "id": 4,
-            "content": "D) Quanto são dois mais dois?"
+            "content": "Quanto são dois mais dois?"
           },
           {
             "id": 5,
-            "content": "E) Leia com muita atenção as frases acima."
+            "content": "Leia com muita atenção as frases acima."
           }
         ],
         "correct_answer_id": 2,
@@ -3154,23 +3123,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) A noite acalma as emoções cansadas."
+            "content": "A noite acalma as emoções cansadas."
           },
           {
             "id": 2,
-            "content": "B) Meu coração se partiu com essa notícia."
+            "content": "Meu coração se partiu com essa notícia."
           },
           {
             "id": 3,
-            "content": "C) Aquele homem tem uma voz áspera."
+            "content": "Aquele homem tem uma voz áspera."
           },
           {
             "id": 4,
-            "content": "D) Há pessoas que não têm um teto para morar."
+            "content": "Há pessoas que não têm um teto para morar."
           },
           {
             "id": 5,
-            "content": "E) Chorei rios de lágrimas de saudades dela."
+            "content": "Chorei rios de lágrimas de saudades dela."
           }
         ],
         "correct_answer_id": 2,
@@ -3185,23 +3154,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) O deputado, que se mudou para a casa ao lado, tem sete filhos."
+            "content": "O deputado, que se mudou para a casa ao lado, tem sete filhos."
           },
           {
             "id": 2,
-            "content": "B) A mãe da menina, histérica, pedia que alguém a ajudasse."
+            "content": "A mãe da menina, histérica, pedia que alguém a ajudasse."
           },
           {
             "id": 3,
-            "content": "C) “Maria, vem cá mais tarde”."
+            "content": "“Maria, vem cá mais tarde”."
           },
           {
             "id": 4,
-            "content": "D) Perdi a paciência com a secretária, que costuma me desmentir."
+            "content": "Perdi a paciência com a secretária, que costuma me desmentir."
           },
           {
             "id": 5,
-            "content": "E) Ontem, a rua estava muito barulhenta." 
+            "content": "Ontem, a rua estava muito barulhenta." 
           }
         ],
         "correct_answer_id": 5,
@@ -3216,23 +3185,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Não sei se ela vai voltar."
+            "content": "Não sei se ela vai voltar."
           },
           {
             "id": 2,
-            "content": "B) Se chover, pode esfriar."
+            "content": "Se chover, pode esfriar."
           },
           {
             "id": 3,
-            "content": "C) Vão-se embora daqui, rapazes!"
+            "content": "Vão-se embora daqui, rapazes!"
           },
           {
             "id": 4,
-            "content": "D) Alugam-se apartamentos."
+            "content": "Alugam-se apartamentos."
           },
           {
             "id": 5,
-            "content": "E) Precisa-se de empregadas."
+            "content": "Precisa-se de empregadas."
           }
         ],
         "correct_answer_id": 3,
@@ -3247,23 +3216,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) É possível que a prova seja adiada."
+            "content": "É possível que a prova seja adiada."
           },
           {
             "id": 2,
-            "content": "B) Consta que a prova foi adiada."
+            "content": "Consta que a prova foi adiada."
           },
           {
             "id": 3,
-            "content": "C) Não acredito que haja adiamento da prova."
+            "content": "Não acredito que haja adiamento da prova."
           },
           {
             "id": 4,
-            "content": "D) Se a prova for adiada, ficaremos decepcionados."
+            "content": "Se a prova for adiada, ficaremos decepcionados."
           },
           {
             "id": 5,
-            "content": "E) Só irei embora quando se confirmar o adiamento da prova."
+            "content": "Só irei embora quando se confirmar o adiamento da prova."
           }
         ],
         "correct_answer_id":2,
@@ -3278,23 +3247,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Disseram-me a verdade sobre o ocorrido."
+            "content": "Disseram-me a verdade sobre o ocorrido."
           },
           {
             "id": 2,
-            "content": "B) Entregaram-lhe o livro de Física?"
+            "content": "Entregaram-lhe o livro de Física?"
           },
           {
             "id": 3,
-            "content": "C) Deixei-o na minha casa."
+            "content": "Deixei-o na minha casa."
           },
           {
             "id": 4,
-            "content": "D) A lama sujou-me a roupa."
+            "content": "A lama sujou-me a roupa."
           },
           {
             "id": 5,
-            "content": "E) Eu lhe peço apenas mais um favor."
+            "content": "Eu lhe peço apenas mais um favor."
           }
         ],
         "correct_answer_id": 4,
@@ -3309,23 +3278,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) O carro que comprei é usado."
+            "content": "O carro que comprei é usado."
           },
           {
             "id": 2,
-            "content": "B) A mulher com que me casei é esta."
+            "content": "A mulher com que me casei é esta."
           },
           {
             "id": 3,
-            "content": "C) O aluno curioso que fui não existe mais."
+            "content": "O aluno curioso que fui não existe mais."
           },
           {
             "id": 4,
-            "content": "D) Os livros de que o professor falou são muito bons."
+            "content": "Os livros de que o professor falou são muito bons."
           },
           {
             "id": 5,
-            "content": "E) O filme a que assisti era lento."
+            "content": "O filme a que assisti era lento."
           }
         ],
         "correct_answer_id": 3,
@@ -3340,23 +3309,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) aceito – acendida – limpo – enxugado"
+            "content": "aceito – acendida – limpo – enxugado"
           },
           {
             "id": 2,
-            "content": "B) aceitado – acendida – limpado – enxugado"
+            "content": "aceitado – acendida – limpado – enxugado"
           },
           {
             "id": 3,
-            "content": "C) aceitado – acesa – limpo – enxugado"
+            "content": "aceitado – acesa – limpo – enxugado"
           },
           {
             "id": 4,
-            "content": "D) aceitado – acesa – limpo – enxuto"
+            "content": "aceitado – acesa – limpo – enxuto"
           },
           {
             "id": 5,
-            "content": "E) aceitado – acendida – limpo – enxuto"
+            "content": "aceitado – acendida – limpo – enxuto"
           }
         ],
         "correct_answer_id": 4,
@@ -3371,23 +3340,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Demoliram vários prédios naquele local."
+            "content": "Demoliram vários prédios naquele local."
           },
           {
             "id": 2,
-            "content": "B) Eu adiro a essa campanha."
+            "content": "Eu adiro a essa campanha."
           },
           {
             "id": 3,
-            "content": "C) Estampava no rosto um sorriso, um sorriso de criança."
+            "content": "Estampava no rosto um sorriso, um sorriso de criança."
           },
           {
             "id": 4,
-            "content": "D) Compramos muitas mercadorias remarcadas."
+            "content": "Compramos muitas mercadorias remarcadas."
           },
           {
             "id": 5,
-            "content": "E) Coube ao juiz julgar o réu."
+            "content": "Coube ao juiz julgar o réu."
           }
         ],
         "correct_answer_id": 1,
@@ -3405,66 +3374,97 @@
     "points_to_lose": 10,
     "questions": [
       {
-        "id": 65,
+        "id": 25,
         "theme": "Biologia",
-        "question": "O personagem Jeca-Tatu foi criado por Monteiro Lobato e, na visão do escritor, representava o trabalhador rural brasileiro. A doença que Jeca-Tatu tinha era amarelão, causada por um verme chamado...",
+        "question": "No heredograma, os símbolos preenchidos representam pessoas portadoras de um tipo raro de doença genética. Os homens são representados pelos quadrados e as mulheres, pelos círculos. Qual é o padrão de herança observado para essa doença?",
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Taenia solium,"
+            "content": "Dominante autossômico, pois a doença aparece em ambos os sexos."
           },
           {
             "id": 2,
-            "content": "B) Wuchereria bancrofti"
+            "content": "Recessivo ligado ao sexo, pois não ocorre a transmissão do pai para os filhos."
           },
           {
             "id": 3,
-            "content": "C) Oxiurus vermicularis."
+            "content": "Recessivo ligado ao Y, pois a doença é transmitida dos pais heterozigotos para os filhos."
           },
           {
             "id": 4,
-            "content": "D) Ascaris lumbricoides"
+            "content": "Dominante ligado ao sexo, pois todas as filhas de homens afetados também apresentam a doença."
           },
           {
             "id": 5,
-            "content": "E) Ancylostoma duodenale"
+            "content": "Codominante autossômico, pois a doença é herdada pelos filhos de ambos os sexos, tanto do pai quanto da mãe."
           }
         ],
-        "img_response": "https://sociologado.files.wordpress.com/2011/12/uel-2011-q28-jeca.jpg",
+        "img_response": "https://d2q576s0wzfxtl.cloudfront.net/2017/08/08145353/Quest%C3%A3o74_Enem2014.jpg",
         "img_question": "",
-        "correct_answer_id": 5,
-        "description": "O “amarelão” (ancilostomose) é uma doença causada por vermes das espécies Necator americanus e Ancylostoma duodenale. As formas adultas desses parasitas intestinais se instalam no tubo digestivo dos seres humanos, onde se fixam no intestino delgado, nutrindo-se de sangue do hospedeiro."
+        "correct_answer_id": 4,
+        "description": "Uma das características da herança dominante ligada ao X é os homens afetados transmitem o caráter para todas as suas filhas e nenhum de seus filhos e as mulheres afetadas que são heterozigotas transmitem o caráter para a metade de seus filhos de ambos os sexos."
       },
       {
-        "id": 66,
+        "id": 23,
         "theme": "Biologia",
-        "question": "É comum às pessoas que não seguem a prescrição médica ao tomarem antibióticos retornarem ao consultório com a famosa “recaída”. Uma explicação para essa possível recaída é...",
+        "question": "O Mar dos Sargaços é uma região alongada no meio do Atlântico Norte, com cerca de 1100 km de largura e cerca de 3200 km de comprimento, cercado por várias correntes oceânicas, como a Corrente do Golfo, Corrente dos Açores, Correntes das Canárias, Corrente Equatorial Norte e Corrente das Antilhas. O que é sargaço?",
         "alternatives": [
           {
             "id": 1,
-            "content": "A) as bactérias tornarem-se imune ao antibiótico sendo necessário prescrever outro."
+            "content": "Uma alga."
           },
           {
             "id": 2,
-            "content": "B) as bactérias desenvolveram resistência ao antibiótico sendo necessário prescrever outro."
+            "content": "Um recife de coral."
           },
           {
             "id": 3,
-            "content": "C) as bactérias mais resistentes ao antibiótico conseguiram sobreviver e reproduzir, ocasionando a recaída."
+            "content": "Um cardume de peixes."
           },
           {
             "id": 4,
-            "content": "D) o antibiótico não foi eficaz e os vírus causadores da doença continuaram vivos no organismo."
+            "content": "Um iceberg."
           },
           {
             "id": 5,
-            "content": "E) as bactérias ganharam, com o passar do tempo, resistência ao antibiótico, tornando-se imune ao mesmo."
+            "content": "Um encontro de correntes marítimas."
           }
         ],
-        "img_response": "",
+        "img_response": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5XNkm_6DgeFnhzAr56FhK92s9nxN_2jmcUPH56NRgfjYL4m3Z",
         "img_question": "",
-        "correct_answer_id": 3,
-        "description": "O uso incorreto dos antibióticos leva à seleção das bactérias mais resistentes ao medicamento."
+        "correct_answer_id": 1,
+        "description": "O Mar dos Sargaços é caracterizado pela existência abundante de uma espécie de algas com o nome de sargaço (sargassum). As algas são tantas que travam as embarcações que por ali passam e juntamente com a total ausência de vento, que por vezes ocorre, torna-se muito difícil navegar, chegando ao ponto de algumas embarcações encalharem."
+      },
+      {
+        "id": 21,
+        "theme": "Biologia",
+        "question": "Sequoias são árvores de grande porte, que podem atingir mais de cem metros de altura. Algumas são tão famosas por seu tamanho que receberam apelidos, como a Hyperion, tem 115 metros de altura e é maior do que 19 girafas empilhadas. Outra sequoia, apelidada de General Sherman, é uma das árvores mais volumosas do planeta. Sua base, com mais de 30 metros de circunferência, sustenta um peso superior a 1.400 toneladas, ou seja, o equivalente a quase oito baleias-azuis. A que grupo pertence as sequoias?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Pteridófitas"
+          },
+          {
+            "id": 2,
+            "content": "Gimnospermas"
+          },
+          {
+            "id": 3,
+            "content": "Angiospermas"
+          },
+          {
+            "id": 4,
+            "content": "Monocotiledôneas"
+          },
+          {
+            "id": 5,
+            "content": "Dicotiledôneas"
+          }
+        ],
+        "img_response": "https://www.invivo.fiocruz.br/wp-content/uploads/2022/04/sequoias2.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "As sequoias são “parentes” dos pinheiros, ou seja, pertencem ao grupo das gimnospermas, plantas que têm sementes, mas não têm frutos (a palavra “gimnosperma” tem origem grega e significa “semente nua”, sem proteção)."
       },
       {
         "id": 67,
@@ -3473,23 +3473,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) alface cultivado por hidroponia."
+            "content": "alface cultivado por hidroponia."
           },
           {
             "id": 2,
-            "content": "B) variedades de trigo híbridas selecionadas por serem mais produtivas."
+            "content": "variedades de trigo híbridas selecionadas por serem mais produtivas."
           },
           {
             "id": 3,
-            "content": "C) morangos produzidos a partir de mudas sem contaminação de fungos."
+            "content": "morangos produzidos a partir de mudas sem contaminação de fungos."
           },
           {
             "id": 4,
-            "content": "D) verduras cultivadas sem agrotóxicos por utilizar o controle biológico de pragas."
+            "content": "verduras cultivadas sem agrotóxicos por utilizar o controle biológico de pragas."
           },
           {
             "id": 5,
-            "content": "E) o “arroz dourado”, onde o grão produzido contém betacaroteno e ferro, ajudando na alimentação de crianças desnutridas."
+            "content": "o “arroz dourado”, onde o grão produzido contém betacaroteno e ferro, ajudando na alimentação de crianças desnutridas."
           }
         ],
         "img_response": "https://s2.glbimg.com/naWD3W-xc4uEpsqMd8uRFBznhVM=/e.glbimg.com/og/ed/f/original/2019/11/22/goldenrice.jpg",
@@ -3504,23 +3504,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) A regressão do útero logo após o parto."
+            "content": "A regressão do útero logo após o parto."
           },
           {
             "id": 2,
-            "content": "B) A regressão da mama após o desmame."
+            "content": "A regressão da mama após o desmame."
           },
           {
             "id": 3,
-            "content": "C) A morte de um tecido devido a necrose onde foi desencadeado um processo inflamatório."
+            "content": "A morte de um tecido devido a necrose onde foi desencadeado um processo inflamatório."
           },
           {
             "id": 4,
-            "content": "D) A reabsorção da cauda do girino durante a metamorfose que leva ao surgimento do sapo adulto."
+            "content": "A reabsorção da cauda do girino durante a metamorfose que leva ao surgimento do sapo adulto."
           },
           {
             "id": 5,
-            "content": "E) A eliminação das membranas existentes entre os dedos de um embrião humano durante a modelagem da mão."
+            "content": "A eliminação das membranas existentes entre os dedos de um embrião humano durante a modelagem da mão."
           }
         ],
         "img_response": "",
@@ -3535,23 +3535,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Ariano Suassuna em 1955."
+            "content": "Ariano Suassuna em 1955."
           },
           {
             "id": 2,
-            "content": "B) Fernanda Montenegro em 1990."
+            "content": "Fernanda Montenegro em 1990."
           },
           {
             "id": 3,
-            "content": "C) José Paulo Cavalcanti em 1980."
+            "content": "José Paulo Cavalcanti em 1980."
           },
           {
             "id": 4,
-            "content": "D) Paulo Coelho em 1965."
+            "content": "Paulo Coelho em 1965."
           },
           {
             "id": 5,
-            "content": "E) Nélida Piñon em 1955."
+            "content": "Nélida Piñon em 1955."
           }
         ],
         "img_response": "https://m.media-amazon.com/images/I/81taSo-m23L._AC_UF1000,1000_QL80_.jpg",
@@ -3566,23 +3566,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Cordilheira dos Andes"
+            "content": "Cordilheira dos Andes"
           },
           {
             "id": 2,
-            "content": "B) Cordilheira do Himalaia"
+            "content": "Cordilheira do Himalaia"
           },
           {
             "id": 3,
-            "content": "C) Cordilheira do Tibete"
+            "content": "Cordilheira do Tibete"
           },
           {
             "id": 4,
-            "content": "D) Apalaches"
+            "content": "Apalaches"
           },
           {
             "id": 5,
-            "content": "E) Montes Urais"
+            "content": "Montes Urais"
           }
         ],
         "img_response": "https://blog.stoodi.com.br/wp-content/uploads/2020/03/monte-everest-2-1.jpg",
@@ -3597,23 +3597,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) artes plásticas"
+            "content": "artes plásticas"
           },
           {
             "id": 2,
-            "content": "B) música"
+            "content": "música"
           },
           {
             "id": 3,
-            "content": "C) dança"
+            "content": "dança"
           },
           {
             "id": 4,
-            "content": "D) artes clássicas"
+            "content": "artes clássicas"
           },
           {
             "id": 5,
-            "content": "E) fotografia"
+            "content": "fotografia"
           }
         ],
         "img_response": "https://cdn.pensador.com/img/authors/ar/ia/ariano-suassuna-l.jpg",
@@ -3628,23 +3628,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) O Águia da Holanda"
+            "content": "O Águia da Holanda"
           },
           {
             "id": 2,
-            "content": "B) O Águia de Haia"
+            "content": "O Águia de Haia"
           },
           {
             "id": 3,
-            "content": "C) O Rei de Amsterdã"
+            "content": "O Rei de Amsterdã"
           },
           {
             "id": 4,
-            "content": "D) O príncipe da Holanda"
+            "content": "O príncipe da Holanda"
           },
           {
             "id": 5,
-            "content": "E) O colosso de Haia"
+            "content": "O colosso de Haia"
           }
         ],
         "img_response": "https://www.infoescola.com/wp-content/uploads/2021/01/rui-barbosa.jpg",
@@ -3659,23 +3659,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) massa Tropical Continental (mTc)."
+            "content": "massa Tropical Continental (mTc)."
           },
           {
             "id": 2,
-            "content": "B) massa Tropical atlântica (mTa)."
+            "content": "massa Tropical atlântica (mTa)."
           },
           {
             "id": 3,
-            "content": "C) massa Equatorial atlântica (mEa)."
+            "content": "massa Equatorial atlântica (mEa)."
           },
           {
             "id": 4,
-            "content": "D) massa Polar atlântica (mPa)."
+            "content": "massa Polar atlântica (mPa)."
           },
           {
             "id": 5,
-            "content": "E) massa Equatorial continental (mEc)."
+            "content": "massa Equatorial continental (mEc)."
           }
         ],
         "img_response": "",
@@ -3690,23 +3690,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) a ilustração gráfica do mecanismo dos dias e das noites."
+            "content": "a ilustração gráfica do mecanismo dos dias e das noites."
           },
           {
             "id": 2,
-            "content": "B) a configuração esquemática do meridiano de Greenwich."
+            "content": "a configuração esquemática do meridiano de Greenwich."
           },
           {
             "id": 3,
-            "content": "C) a ilustração do que constitui uma projeção cartográfica."
+            "content": "a ilustração do que constitui uma projeção cartográfica."
           },
           {
             "id": 4,
-            "content": "D) o desenho esquemático da influência da latitude sobre o clima."
+            "content": "o desenho esquemático da influência da latitude sobre o clima."
           },
           {
             "id": 5,
-            "content": "E) o esboço da rotação da Terra em torno de seu eixo imaginário."
+            "content": "o esboço da rotação da Terra em torno de seu eixo imaginário."
           }
         ],
         "img_response": "",
@@ -3721,23 +3721,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) leste."
+            "content": "leste."
           },
           {
             "id": 2,
-            "content": "B) nordeste."
+            "content": "nordeste."
           },
           {
             "id": 3,
-            "content": "C) sudeste."
+            "content": "sudeste."
           },
           {
             "id": 4,
-            "content": "D) oeste."
+            "content": "oeste."
           },
           {
             "id": 5,
-            "content": "E) noroeste."
+            "content": "noroeste."
           }
         ],
         "img_response": "",
@@ -3752,23 +3752,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) O azimute."
+            "content": "O azimute."
           },
           {
             "id": 2,
-            "content": "B) A analema."
+            "content": "A analema."
           },
           {
             "id": 3,
-            "content": "C) A declinação."
+            "content": "A declinação."
           },
           {
             "id": 4,
-            "content": "D) A latitude."
+            "content": "A latitude."
           },
           {
             "id": 5,
-            "content": "E) A longitude."
+            "content": "A longitude."
           }
         ],
         "img_response": "",
@@ -3783,23 +3783,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) somente o composto KOH."
+            "content": "somente o composto KOH."
           },
           {
             "id": 2,
-            "content": "B) somente o composto HCl."
+            "content": "somente o composto HCl."
           },
           {
             "id": 3,
-            "content": "C) somente o composto HBr"
+            "content": "somente o composto HBr"
           },
           {
             "id": 4,
-            "content": "D) somente os compostos HCl e HBr."
+            "content": "somente os compostos HCl e HBr."
           },
           {
             "id": 5,
-            "content": "E) somente os compostos HCl e CH4."
+            "content": "somente os compostos HCl e CH4."
           }
         ],
         "img_response": "",
@@ -3814,23 +3814,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Sim, pois o composto é formado HCl."
+            "content": "Sim, pois o composto é formado HCl."
           },
           {
             "id": 2,
-            "content": "B) Não, pois o composto assinalado é um sal de caráter neutro."
+            "content": "Não, pois o composto assinalado é um sal de caráter neutro."
           },
           {
             "id": 3,
-            "content": "C) Não, pois o composto não conduz eletricidade em meio aquoso."
+            "content": "Não, pois o composto não conduz eletricidade em meio aquoso."
           },
           {
             "id": 4,
-            "content": "D) Sim, pois o composto é formado por NaOH, cuja propriedade principal é o sabor azedo."
+            "content": "Sim, pois o composto é formado por NaOH, cuja propriedade principal é o sabor azedo."
           },
           {
             "id": 5,
-            "content": "E) Sim, pois o composto é formado por NaCl, cuja propriedade principal é o sabor doce."
+            "content": "Sim, pois o composto é formado por NaCl, cuja propriedade principal é o sabor doce."
           }
         ],
         "img_response": "",
@@ -3845,23 +3845,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) CaO"
+            "content": "CaO"
           },
           {
             "id": 2,
-            "content": "B) HF"
+            "content": "HF"
           },
           {
             "id": 3,
-            "content": "C) NaCl"
+            "content": "NaCl"
           },
           {
             "id": 4,
-            "content": "D) CH4"
+            "content": "CH4"
           },
           {
             "id": 5,
-            "content": "E) CO"
+            "content": "CO"
           }
         ],
         "img_response": "",
@@ -3876,23 +3876,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) remédio à base de suco de limão."
+            "content": "remédio à base de suco de limão."
           },
           {
             "id": 2,
-            "content": "B) antibiótico."
+            "content": "antibiótico."
           },
           {
             "id": 3,
-            "content": "C) remédio com propriedade antioxidante."
+            "content": "remédio com propriedade antioxidante."
           },
           {
             "id": 4,
-            "content": "D) remédio com propriedades básicas, como leite de magnésia."
+            "content": "remédio com propriedades básicas, como leite de magnésia."
           },
           {
             "id": 5,
-            "content": "E) remédio antibásico."
+            "content": "remédio antibásico."
           }
         ],
         "img_response": "",
@@ -3907,23 +3907,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) O papel sobe pois a pressão em cima é maior"
+            "content": "O papel sobe pois a pressão em cima é maior"
           },
           {
             "id": 2,
-            "content": "B) O papel desce pois a pressão em cima é maior."
+            "content": "O papel desce pois a pressão em cima é maior."
           },
           {
             "id": 3,
-            "content": "C) O papel sobe pois a pressão em cima é menor."
+            "content": "O papel sobe pois a pressão em cima é menor."
           },
           {
             "id": 4,
-            "content": "D) O papel desce pois a pressão em cima é menor."
+            "content": "O papel desce pois a pressão em cima é menor."
           },
           {
             "id": 5,
-            "content": "E) Não acontece nada, pois o papel está em equilíbrio."
+            "content": "Não acontece nada, pois o papel está em equilíbrio."
           }
         ],
         "correct_answer_id": 3,
@@ -3938,23 +3938,23 @@
         "alternatives": [
           {
             "id": 1, 
-            "content": "A) 6,00 m."
+            "content": "6,00 m."
           },
           {
             "id": 2,
-            "content": "B) 3,00 m."
+            "content": "3,00 m."
           },
           {
             "id": 3,
-            "content": "C) 1,50 m."
+            "content": "1,50 m."
           },
           {
             "id": 4,
-            "content": "D) 5,00 m."
+            "content": "5,00 m."
           },
           {
             "id": 5,
-            "content": "E) 8,33 m."
+            "content": "8,33 m."
           }
         ],
         "correct_answer_id": 2,
@@ -3969,23 +3969,23 @@
         "alternatives": [
           {
             "id": 1, 
-            "content": "A) 2,0 J/goC."
+            "content": "2,0 J/goC."
           },
           {
             "id": 2,
-            "content": "B) 1,5 J/goC."
+            "content": "1,5 J/goC."
           },
           {
             "id": 3,
-            "content": "C) 1,0 J/goC."
+            "content": "1,0 J/goC."
           },
           {
             "id": 4,
-            "content": "D) 0,5 J/goC."
+            "content": "0,5 J/goC."
           },
           {
             "id": 5,
-            "content": "E) 4,0 J/goC."
+            "content": "4,0 J/goC."
           }
         ],
         "correct_answer_id": 1,
@@ -4000,23 +4000,23 @@
         "alternatives": [
           {
             "id": 1, 
-            "content":    "A) 12,50 J"
+            "content": "12,50 J"
           },
           {
             "id": 2,
-            "content": "B) 25 J"
+            "content": "25 J"
           },
           {
             "id": 3,
-            "content": "C) 0,25 J"
+            "content": "0,25 J"
           },
           {
             "id": 4,
-            "content": "D) 2,5 J"
+            "content": "2,5 J"
           },
           {
             "id": 5,
-            "content": "E) 6,25 J"
+            "content": "6,25 J"
           }
         ],
         "correct_answer_id": 5,
@@ -4031,23 +4031,23 @@
         "alternatives": [
           {
             "id": 1, 
-            "content": "A) 11 min"
+            "content": "11 min"
           },
           {
             "id": 2,
-            "content": "B) 105 min"
+            "content": "105 min"
           },
           {
             "id": 3,
-            "content": "C) 42 min"
+            "content": "42 min"
           },
           {
             "id": 4,
-            "content": "D) 30 min"
+            "content": "30 min"
           },
           {
             "id": 5,
-            "content": "E) 21 min"
+            "content": "21 min"
           }
         ],
         "correct_answer_id": 3,
@@ -4062,23 +4062,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) A Voz do Brasil."
+            "content": "A Voz do Brasil."
           },
           {
             "id": 2,
-            "content": "B) A Voz da Democracia."
+            "content": "A Voz da Democracia."
           },
           {
             "id": 3,
-            "content": "C) A Hora do Presidente."
+            "content": "A Hora do Presidente."
           },
           {
             "id": 4,
-            "content": "D) A Hora do Brasil."
+            "content": "A Hora do Brasil."
           },
           {
             "id": 5,
-            "content": "E) Brasil Vere-Amarelo."
+            "content": "Brasil Vere-Amarelo."
           }
         ],
         "correct_answer_id": 4,
@@ -4093,23 +4093,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Aristófanes, Sófocles e Eurípedes."
+            "content": "Aristófanes, Sófocles e Eurípedes."
           },
           {
             "id": 2,
-            "content": "B) Heródoto, Eurípedes e Políbio."
+            "content": "Heródoto, Eurípedes e Políbio."
           },
           {
             "id": 3,
-            "content": "C) Sófocles, Ésquilo e Ptolomeu."
+            "content": "Sófocles, Ésquilo e Ptolomeu."
           },
           {
             "id": 4,
-            "content": "D) Aristófanes, Ésquilo e Aristóteles."
+            "content": "Aristófanes, Ésquilo e Aristóteles."
           },
           {
             "id": 5,
-            "content": "E) Heródoto, Aristófanes e Plutarco."
+            "content": "Heródoto, Aristófanes e Plutarco."
           }
         ],
         "correct_answer_id": 1,
@@ -4124,23 +4124,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Paz de Augsburgo." 
+            "content": "Paz de Augsburgo." 
           },
           {
             "id": 2,
-            "content": "B) Tratado de Latrão."
+            "content": "Tratado de Latrão."
           },
           {
             "id": 3,
-            "content": "C) Ato de Supremacia."
+            "content": "Ato de Supremacia."
           },
           {
             "id": 4,
-            "content": "D) Paz de Vestfália."
+            "content": "Paz de Vestfália."
           },
           {
             "id": 5,
-            "content": "E) Tratado de Nantes."
+            "content": "Tratado de Nantes."
           }
         ],
         "correct_answer_id": 1,
@@ -4155,23 +4155,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Huguenotes/Bahia e Judeus/Pernambuco."
+            "content": "Huguenotes/Bahia e Judeus/Pernambuco."
           },
           {
             "id": 2,
-            "content": "B) Huguenotes/Espírito Santo e Judeus/Bahia."
+            "content": "Huguenotes/Espírito Santo e Judeus/Bahia."
           },
           {
             "id": 3,
-            "content": "C) Huguenotes/Rio de Janeiro e Judeus/Maranhão."
+            "content": "Huguenotes/Rio de Janeiro e Judeus/Maranhão."
           },
           {
             "id": 4,
-            "content": "D) Huguenotes/Rio de Janeiro e Judeus/Pernambuco."
+            "content": "Huguenotes/Rio de Janeiro e Judeus/Pernambuco."
           },
           {
             "id": 5,
-            "content": "E) Huguenotes/Maranhão e Judeus/Minas Gerais."
+            "content": "Huguenotes/Maranhão e Judeus/Minas Gerais."
           }
         ],
         "correct_answer_id": 4,
@@ -4186,23 +4186,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Restabeleceu o voto secreto."
+            "content": "Restabeleceu o voto secreto."
           },
           {
             "id": 2,
-            "content": "B) Garantiu os direitos individuais."
+            "content": "Garantiu os direitos individuais."
           },
           {
             "id": 3,
-            "content": "C) Aboliu o direito de greve."
+            "content": "Aboliu o direito de greve."
           },
           {
             "id": 4,
-            "content": "D) Estabeleceu o direito à reeleição presidencial."
+            "content": "Estabeleceu o direito à reeleição presidencial."
           },
           {
             "id": 5,
-            "content": "E) Tornou o voto feminino obrigatório."
+            "content": "Tornou o voto feminino obrigatório."
           }
         ],
         "correct_answer_id": 2,
@@ -4217,23 +4217,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Verde-amarelismo."
+            "content": "Verde-amarelismo."
           },
           {
             "id": 2,
-            "content": "B) Grupo da Anta."
+            "content": "Grupo da Anta."
           },
           {
             "id": 3,
-            "content": "C) Grupo Marajás."
+            "content": "Grupo Marajás."
           },
           {
             "id": 4,
-            "content": "D) Concretismo."
+            "content": "Concretismo."
           },
           {
             "id": 5,
-            "content": "E) Pau-brasil."
+            "content": "Pau-brasil."
           }
         ],
         "correct_answer_id": 4,
@@ -4248,23 +4248,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) branca."
+            "content": "branca."
           },
           {
             "id": 2,
-            "content": "B) negra."
+            "content": "negra."
           },
           {
             "id": 3,
-            "content": "C) rubra."
+            "content": "rubra."
           },
           {
             "id": 4,
-            "content": "D) roxa."
+            "content": "roxa."
           },
           {
             "id": 5,
-            "content": "E) azul."
+            "content": "azul."
           }
         ],
         "correct_answer_id": 1,
@@ -4279,23 +4279,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) naturalistas."
+            "content": "naturalistas."
           },
           {
             "id": 2,
-            "content": "B) parnasianistas."
+            "content": "parnasianistas."
           },
           {
             "id": 3,
-            "content": "C) simbolistas."
+            "content": "simbolistas."
           },
           {
             "id": 4,
-            "content": "D) quinhentistas."
+            "content": "quinhentistas."
           },
           {
             "id": 5,
-            "content": "E) realistas."
+            "content": "realistas."
           }
         ],
         "correct_answer_id": 3,
@@ -4310,23 +4310,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) Arcadismo."
+            "content": "Arcadismo."
           },
           {
             "id": 2,
-            "content": "B) Classicismo."
+            "content": "Classicismo."
           },
           {
             "id": 3,
-            "content": "C) Realismo."
+            "content": "Realismo."
           },
           {
             "id": 4,
-            "content": "D) Naturalismo."
+            "content": "Naturalismo."
           },
           {
             "id": 5,
-            "content": "E) Barroco."
+            "content": "Barroco."
           }
         ],
         "correct_answer_id": 4,
@@ -4341,23 +4341,23 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "A) as camadas marginalizadas da sociedade."
+            "content": "as camadas marginalizadas da sociedade."
           },
           {
             "id": 2,
-            "content": "B) aspectos sociais e psicológicos nas relações humanas."
+            "content": "aspectos sociais e psicológicos nas relações humanas."
           },
           {
             "id": 3,
-            "content": "C) o preconceito racial."
+            "content": "o preconceito racial."
           },
           {
             "id": 4,
-            "content": "D) a defesa das instituições, como o casamento, por exemplo."
+            "content": "a defesa das instituições, como o casamento, por exemplo."
           },
           {
             "id": 5,
-            "content": "E) a formação da nacionalidade."
+            "content": "a formação da nacionalidade."
           }
         ],
         "correct_answer_id": 2,
