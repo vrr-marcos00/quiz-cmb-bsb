@@ -1,5 +1,5 @@
 {
-  "easy": {
+    "easy": {
     "next_level": "medium",
     "time": 1200000,
     "time_per_question":30000,
@@ -534,128 +534,190 @@
         "description": "Pelas coordenadas geográficas apresentadas, temos que do primeiro para o segundo ponto o deslocamento foi para sudeste."
       },
       {
-        "id": 13,
+        "id": 55,
         "theme": "Química",
-        "question": "Em qual período da tabela periódica o elemento Carbono está?",
+        "question": "Ao sair molhado em local aberto, mesmo em dias quentes, tem-se uma sensação de frio. Esse fenômeno está relacionado com a evaporação da água que, no caso, está em contato com o corpo humano. Essa sensação de frio explica-se CORRETAMENTE pelo fato de que a evaporação da água...",
         "alternatives": [
           {
             "id": 1,
-            "content": "Período 2"
+            "content": "...é um processo endotérmico e cede calor ao corpo."
           },
           {
             "id": 2,
-            "content": "Período 4"
+            "content": "...é um processo endotérmico e retira calor do corpo."
           },
           {
             "id": 3,
-            "content": "Período 7"
+            "content": "...é um processo exotérmico e cede calor ao corpo."
           },
           {
             "id": 4,
-            "content": "Período 6"
+            "content": "...é um processo exotérmico e retira calor do corpo."
           },
           {
             "id": 5,
-            "content": "Período 3"
+            "content": "...é um processo atérmico e não troca calor com o corpo."
           }
         ],
         "img_response": "",
         "img_question": "",
-        "correct_answer_id": 1,
-        "description ": "UM PERÍODO DA TABELA PERIÓDICA CORRESPONDE À COLUNA HORIZONTAL NA QUAL O ELEMENTO QUÍMICO ESTÁ ORGANIZADO. O CARBONO ESTÁ SITUADO NO 2o. PERÍODO."
+        "correct_answer_id": 2,
+        "description": "A EVAPORAÇÃO DA ÁGUA É UM PROCESSO ENDOTÉRMICO E RETIRA CALOR DO CORPO."
       },
       {
-        "id": 14,
+        "id": 56,
         "theme": "Química",
-        "question": "Como é a distribuição eletrônica do Carbono, seguindo os conceitos de Linus Pauling",
+        "question": "Quais são as nomenclaturas dos ácidos onde se encontram os ânions cloreto, clorato e clorito, respectivamente",
         "alternatives": [
           {
             "id": 1,
-            "content": "1s2; 2s6"
+            "content": "Clorídrico, Cloroso, Clórico"
           },
           {
             "id": 2,
-            "content": "1s2; 2s2; 2p2"
+            "content": "Clorídrico, Clórico, Cloroso"
           },
           {
             "id": 3,
-            "content": "1s6"
+            "content": "Cloroso, Clórico, Clorídrico"
           },
           {
             "id": 4,
-            "content": "1s4; 2p4"
+            "content": "Clórico, Clorídrico, Cloroso"
           },
           {
             "id": 5,
-            "content": "1s2; 2p5"
+            "content": "Cloroso, Clorídrico, Clórico"
           }
         ],
         "img_response": "",
-        "img_question": "https://static.todamateria.com.br/upload/ta/be/tabela-periodica-og.jpg",
+        "img_question": "",
         "correct_answer_id": 2,
-        "description ": "O CARBONO TEM NÚMERO ATÔMICO (Z) IGUAL A 6 E TEM DISTRIBUIÇÃO 1S2, 2S2, 2P2."
+        "description": "ÁCIDO CLORÍDRICO - HCl\nÁCIDO CLOROSO - HClO2\nÁCIDO CLORÍDRICO - HClO3\nESTES ÁCIDOS DÃO ORIGEM AOS ÂNIONS: CLORETO, CLOROSO E CLÓRICO."
       },
       {
-        "id": 15,
+        "id": 57,
         "theme": "Química",
-        "question": "CH4(g) + 2 O2(g) → CO2(g) + 2 H2O(g). O volume de CO2, medido a 27ºC e 1 atm, produzido na combustão de 960,0 g de metano, é:",
+        "question": "Qual das alternatives só contem frutas cítricas (frutas ácidas)?",
         "alternatives": [
           {
             "id": 1,
-            "content": "60,0 L"
+            "content": "Azeitona, Laranja, Caju"
           },
           {
             "id": 2,
-            "content": "1620,0 L"
+            "content": "Manga, Uva Passa, Pêra"
           },
           {
             "id": 3,
-            "content": "1344,0 L"
+            "content": "Maracujá, Goiaba, Caqui"
           },
           {
             "id": 4,
-            "content": "1476,0 L"
+            "content": "Romã, Groselha, Cupuaçu"
           },
           {
             "id": 5,
-            "content": "960,0 L"
+            "content": "Tomate, Limão, Chuchu"
           }
         ],
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 4,
-        "description ": "USANDO A EQUAÇÃO DE CLAPEYRON, PV = nRT, TEREMOS: 1 V = 960/16 x 0,082 x 300 V = 1476 LITROS"
+        "description": "AS FRUTAS CÍTRICAS SÃO AQUELAS RICAS EM ÁCIDO CÍTRICO, O GRANDE RESPONSÁVEL PELO SABOR AZEDINHO QUE CAUSA A FAMOSA SENSAÇÃO AO PALADAR."
       },
       {
-        "id": 16,
+        "id": 63,
         "theme": "Química",
-        "question": "Como é chamada a função orgânica em que há uma hidroxila (OH-) ligada a um anel benzênico?",
+        "question": "O fosfogênio (COCI2), um gás, é preparado industrialmente por meio da reação entre o monóxido de carbono e o cloro. A fórmula estrutural da molécula do fosfogênio apresenta:",
         "alternatives": [
           {
             "id": 1,
-            "content": "Fenol"
+            "content": "uma ligação dupla e três ligações simples."
           },
           {
             "id": 2,
-            "content": "Álcool"
+            "content": "uma ligação dupla e duas ligações simples."
           },
           {
             "id": 3,
-            "content": "Haleto de alquila"
+            "content": "duas ligações duplas e duas ligações simples."
           },
           {
             "id": 4,
-            "content": "Ácido carboxílico"
+            "content": "uma ligação tripla e duas ligações simples."
           },
           {
             "id": 5,
-            "content": "Cetona"
+            "content": "duas ligações duplas e uma ligação simples."
+          }
+        ],
+        "img_response": "https://pt-static.z-dn.net/files/dfd/74ff90975142ad189cfae0c1b15dd7f5.jpeg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "O FOSGÊNIO APRESENTA UMA LIGAÇÃO DUPLA E DUAS SIMPLES."
+      },
+      {
+        "id": 77,
+        "theme": "Química",
+        "question": "Dois jovens adicionaram os seguintes compostos em uma solução aquosa: KOH, HCl, CH4 e HBr. Sofrerá(ão) ionização:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "somente o composto KOH."
+          },
+          {
+            "id": 2,
+            "content": "somente o composto HCl."
+          },
+          {
+            "id": 3,
+            "content": "somente o composto HBr"
+          },
+          {
+            "id": 4,
+            "content": "somente os compostos HCl e HBr."
+          },
+          {
+            "id": 5,
+            "content": "somente os compostos HCl e CH4."
           }
         ],
         "img_response": "",
         "img_question": "",
-        "correct_answer_id": 1,
-        "description ": "FENOL É UMA FUNÇÃO ORGÂNICA ESPECIAL. NELA, HÁ A PRESENÇA DE UM ANEL AROMÁTICO COM UMA OU MAIS HIDROXILAS (OH) LIGADAS A ELE."
+        "correct_answer_id": 4,
+        "description": "A IONIZAÇÃO É UMA REAÇÃO QUÍMICA QUE ORIGINA ÍONS A PARTIR DE SUBSTÂNCIAS MOLECULARES COLOCADAS NA ÁGUA. HCl e HBr IONIZAM EM SOLUÇÃO AQUOSA."
+      },
+      {
+        "id": 80,
+        "theme": "Química",
+        "question": "Joana sofre com dores no estômago devido a presença de ácido clorídrico no estômago. Ao consultar uma farmácia, espera-se que ela compre:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "remédio à base de suco de limão."
+          },
+          {
+            "id": 2,
+            "content": "antibiótico."
+          },
+          {
+            "id": 3,
+            "content": "remédio com propriedade antioxidante."
+          },
+          {
+            "id": 4,
+            "content": "remédio com propriedades básicas, como leite de magnésia."
+          },
+          {
+            "id": 5,
+            "content": "remédio antibásico."
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "PARA COMBATER A ACIDEZ UM REMÉDIO DEVE TER PROPRIEDADES DE UMA BASE."
       },
       {
         "id": 82,
@@ -1876,6 +1938,37 @@
         "description": "A mTc atua tanto no verão quanto no inverno, atinge o Sul e Centro-Oeste brasileiros e é uma massa quente e seca."
       },
       {
+        "id": 13,
+        "theme": "Química",
+        "question": "Em qual período da tabela periódica o elemento Carbono está?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Período 2"
+          },
+          {
+            "id": 2,
+            "content": "Período 4"
+          },
+          {
+            "id": 3,
+            "content": "Período 7"
+          },
+          {
+            "id": 4,
+            "content": "Período 6"
+          },
+          {
+            "id": 5,
+            "content": "Período 3"
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description ": "UM PERÍODO DA TABELA PERIÓDICA CORRESPONDE À COLUNA HORIZONTAL NA QUAL O ELEMENTO QUÍMICO ESTÁ ORGANIZADO. O CARBONO ESTÁ SITUADO NO 2o. PERÍODO."
+      },
+      {
         "id": 53,
         "theme": "Química",
         "question": "Considere as seguintes transformações que ocorrem em uma vela acesa: \nI. Solidificação da parafina que escorre da vela. \nII. Queima da parafina. \nIII. Vaporização da parafina. Dessas transformações, APENAS:",
@@ -1907,130 +2000,6 @@
         "description": "AS REAÇÕES OU MUDANÇAS DE ESTADO FÍSICO QUE ABSORVEM CALOR SÃO DENOMINADAS DE PROCESSOS ENDOTÉRMICOS. A VAPORIZAÇÃO DA PARAFINA É UM PROCESSO ENDOTÉRMICO."
       },
       {
-        "id": 54,
-        "theme": "Química",
-        "question": "Reação exotérmica é aquela na qual:\n1 - há liberação de calor.\n2 - há diminuição de energia.\n3 - a entalpia dos reagentes é maior que a dos produtos.\n4 - a variação de entalpia é negativa.\nEstão corretos os seguintes complementos:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "somente 1."
-          },
-          {
-            "id": 2,
-            "content": "somente 2 e 4."
-          },
-          {
-            "id": 3,
-            "content": "somente 1 e 3."
-          },
-          {
-            "id": 4,
-            "content": "somente 1 e 4."
-          },
-          {
-            "id": 5,
-            "content": "1, 2, 3 e 4."
-          }
-        ],
-        "img_response": "",
-        "img_question": "",
-        "correct_answer_id": 5,
-        "description": "UMA REAÇÃO EXOTÉRMICA É UMA REAÇÃO QUÍMICA CUJA ENERGIA É TRANSFERIDA DE UM MEIO INTERIOR PARA O MEIO EXTERIOR. OU SEJA, OCORRE LIBERAÇÃO DE CALOR, SENDO, PORTANTO, A ENERGIA FINAL DOS PRODUTOS MENOR QUE A ENERGIA INICIAL DOS REAGENTES."
-      },
-      {
-        "id": 55,
-        "theme": "Química",
-        "question": "Ao sair molhado em local aberto, mesmo em dias quentes, tem-se uma sensação de frio. Esse fenômeno está relacionado com a evaporação da água que, no caso, está em contato com o corpo humano. Essa sensação de frio explica-se CORRETAMENTE pelo fato de que a evaporação da água...",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "...é um processo endotérmico e cede calor ao corpo."
-          },
-          {
-            "id": 2,
-            "content": "...é um processo endotérmico e retira calor do corpo."
-          },
-          {
-            "id": 3,
-            "content": "...é um processo exotérmico e cede calor ao corpo."
-          },
-          {
-            "id": 4,
-            "content": "...é um processo exotérmico e retira calor do corpo."
-          },
-          {
-            "id": 5,
-            "content": "...é um processo atérmico e não troca calor com o corpo."
-          }
-        ],
-        "img_response": "",
-        "img_question": "",
-        "correct_answer_id": 2,
-        "description": "A EVAPORAÇÃO DA ÁGUA É UM PROCESSO ENDOTÉRMICO E RETIRA CALOR DO CORPO."
-      },
-      {
-        "id": 56,
-        "theme": "Química",
-        "question": "Quais são as nomenclaturas dos ácidos onde se encontram os ânions cloreto, clorato e clorito, respectivamente",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Clorídrico, Cloroso, Clórico"
-          },
-          {
-            "id": 2,
-            "content": "Clorídrico, Clórico, Cloroso"
-          },
-          {
-            "id": 3,
-            "content": "Cloroso, Clórico, Clorídrico"
-          },
-          {
-            "id": 4,
-            "content": "Clórico, Clorídrico, Cloroso"
-          },
-          {
-            "id": 5,
-            "content": "Cloroso, Clorídrico, Clórico"
-          }
-        ],
-        "img_response": "",
-        "img_question": "",
-        "correct_answer_id": 2,
-        "description": "ÁCIDO CLORÍDRICO - HCl\nÁCIDO CLOROSO - HClO2\nÁCIDO CLORÍDRICO - HClO3\nESTES ÁCIDOS DÃO ORIGEM AOS ÂNIONS: CLORETO, CLOROSO E CLÓRICO."
-      },
-      {
-        "id": 57,
-        "theme": "Química",
-        "question": "Qual das alternatives só contem frutas cítricas (frutas ácidas)?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Azeitona, Laranja, Caju"
-          },
-          {
-            "id": 2,
-            "content": "Manga, Uva Passa, Pêra"
-          },
-          {
-            "id": 3,
-            "content": "Maracujá, Goiaba, Caqui"
-          },
-          {
-            "id": 4,
-            "content": "Romã, Groselha, Cupuaçu"
-          },
-          {
-            "id": 5,
-            "content": "Tomate, Limão, Chuchu"
-          }
-        ],
-        "img_response": "",
-        "img_question": "",
-        "correct_answer_id": 4,
-        "description": "AS FRUTAS CÍTRICAS SÃO AQUELAS RICAS EM ÁCIDO CÍTRICO, O GRANDE RESPONSÁVEL PELO SABOR AZEDINHO QUE CAUSA A FAMOSA SENSAÇÃO AO PALADAR."
-      },
-      {
         "id": 58,
         "theme": "Química",
         "question": "A retenção de água na superfície da pele promovida pelos hidratantes é consequência da interação dos grupos hidroxila dos agentes umectantes com a umidade contida no ambiente por meio de:",
@@ -2060,37 +2029,6 @@
         "img_question": "",
         "correct_answer_id": 5,
         "description": "LIGAÇÃO DE HIDROGÊNIO É UM TIPO DE INTERAÇÃO INTERMOLECULAR QUE SE DÁ ENTRE ÁTOMOS DE HIDROGÊNIO DE UMA MOLÉCULA COM ÁTOMOS DE ELEMENTOS ALTAMENTE ELETRONEGATIVOS DE FORMA QUE O HIDROGÊNIO SIRVA COMO UM ELO ENTRE OS ÁTOMOS COM OS QUAIS INTERAGE."
-      },
-      {
-        "id": 59,
-        "theme": "Química",
-        "question": "O NO2 e o SO2 são gases causadores de poluição atmosférica que, dentre os danos provocados, resulta na formação da chuva ácida quando esses gases reagem com as partículas de água presentes nas nuvens, produzindo HNO3 e H2SO4. Esses compostos, ao serem carregados pela precipitação atmosférica, geram transtornos, tais como contaminação da água potável, corrosão de veículos, de monumentos históricos etc. Os compostos inorgânicos citados no texto correspondem, respectivamente, às funções:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Ácidos e bases"
-          },
-          {
-            "id": 2,
-            "content": "Óxidos e ácidos"
-          },
-          {
-            "id": 3,
-            "content": "Sais e óxidos"
-          },
-          {
-            "id": 4,
-            "content": "Bases e óxidos"
-          },
-          {
-            "id": 5,
-            "content": "Bases e sais"
-          }
-        ],
-        "img_response": "",
-        "img_question": "",
-        "correct_answer_id": 2,
-        "description": "UM ÓXIDO É UM COMPOSTO QUÍMICO BINÁRIO FORMADO POR ÁTOMOS DE OXIGÊNIO COM OUTROS ELEMENTOS EM QUE OXIGÊNIO É O MAIS ELETRONEGATIVO. LOGO, NO2 E SO2 SÃO DOIS ÓXIDOS."
       },
       {
         "id": 60,
@@ -2186,37 +2124,6 @@
         "description": "O LEITE DE MAGNÉSIO, Mg(OH)2, DEVIDO À PRESENÇA DA HIDROXILA PERTENCE À FUNÇÃO BASE.\nO VINAGRE POSSUI EN SUA CONSTITUIÇÃO O ÁCIDO ACÉTICO, PERTENCENDO À FUNÇÃO ÁCIDO.\nO CALCÁRIO TEM FÓRMULA CaCO3, PERTENCENDO À FUNÇÃO SAL.\nA SODA CÁUSTICA, DE FÓRMULA NaOH, PERTENCE AO GRUPO DAS BASES."
       },
       {
-        "id": 63,
-        "theme": "Química",
-        "question": "O fosfogênio (COCI2), um gás, é preparado industrialmente por meio da reação entre o monóxido de carbono e o cloro. A fórmula estrutural da molécula do fosfogênio apresenta:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "uma ligação dupla e três ligações simples."
-          },
-          {
-            "id": 2,
-            "content": "uma ligação dupla e duas ligações simples."
-          },
-          {
-            "id": 3,
-            "content": "duas ligações duplas e duas ligações simples."
-          },
-          {
-            "id": 4,
-            "content": "uma ligação tripla e duas ligações simples."
-          },
-          {
-            "id": 5,
-            "content": "duas ligações duplas e uma ligação simples."
-          }
-        ],
-        "img_response": "https://pt-static.z-dn.net/files/dfd/74ff90975142ad189cfae0c1b15dd7f5.jpeg",
-        "img_question": "",
-        "correct_answer_id": 2,
-        "description": "O FOSGÊNIO APRESENTA UMA LIGAÇÃO DUPLA E DUAS SIMPLES."
-      },
-      {
         "id": 64,
         "theme": "Química",
         "question": "A camada mais externa de um elemento X possui 3 elétrons, enquanto a camada mais externa de outro elemento Y tem 7 elétrons. Uma provável fórmula de um composto, formado por esses elementos é:",
@@ -2246,6 +2153,37 @@
         "img_question": "",
         "correct_answer_id": 1,
         "description": "UM ELEMENTO COM 3 ELÉTRONS NA ÚLTIMA CAMADA FAZ LIGAÇÃO IÔNICA COM 3 ELEMENTOS DE 7 ELÉTRONS NA ÚLTIMA CAMADA, FORMANDO UM COMPOSTO DO TIPO XY3."
+      },
+      {
+        "id": 78,
+        "theme": "Química",
+        "question": "Durante um experimento, um aluno anotou as seguintes propriedades de um composto: apresente pH abaixo de sete, tem sabor azedo e conduz eletricidade em meio aquoso. Logo após assinalou como sendo NaCl. A atitude do aluno está correta?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Sim, pois o composto é formado HCl."
+          },
+          {
+            "id": 2,
+            "content": "Não, pois o composto assinalado é um sal de caráter neutro."
+          },
+          {
+            "id": 3,
+            "content": "Não, pois o composto não conduz eletricidade em meio aquoso."
+          },
+          {
+            "id": 4,
+            "content": "Sim, pois o composto é formado por NaOH, cuja propriedade principal é o sabor azedo."
+          },
+          {
+            "id": 5,
+            "content": "Sim, pois o composto é formado por NaCl, cuja propriedade principal é o sabor doce."
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "NaCl É UM SAL DE pH = 7, de caráter neutro."
       },
       {
         "id": 84,
@@ -3305,7 +3243,7 @@
     ]
   },
   "hard": {
-    "next_level": "finish",
+    "next_level": "finished",
     "time": 1200000,
     "time_per_question":30000,
     "points_to_earn": 30,
@@ -3808,66 +3746,159 @@
         "description": "A definição apresentada refere-se ao azimute, em que o norte corresponde a 0º e os graus aumentam no sentido horário. O azimute representa uma direção com base na variação dos graus."
       },
       {
-        "id": 77,
+        "id": 14,
         "theme": "Química",
-        "question": "Dois jovens adicionaram os seguintes compostos em uma solução aquosa: KOH, HCl, CH4 e HBr. Sofrerá(ão) ionização:",
+        "question": "Como é a distribuição eletrônica do Carbono, seguindo os conceitos de Linus Pauling",
         "alternatives": [
           {
             "id": 1,
-            "content": "somente o composto KOH."
+            "content": "1s2; 2s6"
           },
           {
             "id": 2,
-            "content": "somente o composto HCl."
+            "content": "1s2; 2s2; 2p2"
           },
           {
             "id": 3,
-            "content": "somente o composto HBr"
+            "content": "1s6"
           },
           {
             "id": 4,
-            "content": "somente os compostos HCl e HBr."
+            "content": "1s4; 2p4"
           },
           {
             "id": 5,
-            "content": "somente os compostos HCl e CH4."
+            "content": "1s2; 2p5"
+          }
+        ],
+        "img_response": "",
+        "img_question": "https://static.todamateria.com.br/upload/ta/be/tabela-periodica-og.jpg",
+        "correct_answer_id": 2,
+        "description ": "O CARBONO TEM NÚMERO ATÔMICO (Z) IGUAL A 6 E TEM DISTRIBUIÇÃO 1S2, 2S2, 2P2."
+      },
+      {
+        "id": 15,
+        "theme": "Química",
+        "question": "CH4(g) + 2 O2(g) → CO2(g) + 2 H2O(g). O volume de CO2, medido a 27ºC e 1 atm, produzido na combustão de 960,0 g de metano, é:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "60,0 L"
+          },
+          {
+            "id": 2,
+            "content": "1620,0 L"
+          },
+          {
+            "id": 3,
+            "content": "1344,0 L"
+          },
+          {
+            "id": 4,
+            "content": "1476,0 L"
+          },
+          {
+            "id": 5,
+            "content": "960,0 L"
           }
         ],
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 4,
-        "description": "A IONIZAÇÃO É UMA REAÇÃO QUÍMICA QUE ORIGINA ÍONS A PARTIR DE SUBSTÂNCIAS MOLECULARES COLOCADAS NA ÁGUA. HCl e HBr IONIZAM EM SOLUÇÃO AQUOSA."
+        "description ": "USANDO A EQUAÇÃO DE CLAPEYRON, PV = nRT, TEREMOS: 1 V = 960/16 x 0,082 x 300 V = 1476 LITROS"
       },
       {
-        "id": 78,
+        "id": 16,
         "theme": "Química",
-        "question": "Durante um experimento, um aluno anotou as seguintes propriedades de um composto: apresente pH abaixo de sete, tem sabor azedo e conduz eletricidade em meio aquoso. Logo após assinalou como sendo NaCl. A atitude do aluno está correta?",
+        "question": "Como é chamada a função orgânica em que há uma hidroxila (OH-) ligada a um anel benzênico?",
         "alternatives": [
           {
             "id": 1,
-            "content": "Sim, pois o composto é formado HCl."
+            "content": "Fenol"
           },
           {
             "id": 2,
-            "content": "Não, pois o composto assinalado é um sal de caráter neutro."
+            "content": "Álcool"
           },
           {
             "id": 3,
-            "content": "Não, pois o composto não conduz eletricidade em meio aquoso."
+            "content": "Haleto de alquila"
           },
           {
             "id": 4,
-            "content": "Sim, pois o composto é formado por NaOH, cuja propriedade principal é o sabor azedo."
+            "content": "Ácido carboxílico"
           },
           {
             "id": 5,
-            "content": "Sim, pois o composto é formado por NaCl, cuja propriedade principal é o sabor doce."
+            "content": "Cetona"
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description ": "FENOL É UMA FUNÇÃO ORGÂNICA ESPECIAL. NELA, HÁ A PRESENÇA DE UM ANEL AROMÁTICO COM UMA OU MAIS HIDROXILAS (OH) LIGADAS A ELE."
+      },
+      {
+        "id": 59,
+        "theme": "Química",
+        "question": "O NO2 e o SO2 são gases causadores de poluição atmosférica que, dentre os danos provocados, resulta na formação da chuva ácida quando esses gases reagem com as partículas de água presentes nas nuvens, produzindo HNO3 e H2SO4. Esses compostos, ao serem carregados pela precipitação atmosférica, geram transtornos, tais como contaminação da água potável, corrosão de veículos, de monumentos históricos etc. Os compostos inorgânicos citados no texto correspondem, respectivamente, às funções:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Ácidos e bases"
+          },
+          {
+            "id": 2,
+            "content": "Óxidos e ácidos"
+          },
+          {
+            "id": 3,
+            "content": "Sais e óxidos"
+          },
+          {
+            "id": 4,
+            "content": "Bases e óxidos"
+          },
+          {
+            "id": 5,
+            "content": "Bases e sais"
           }
         ],
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 2,
-        "description": "NaCl É UM SAL DE pH = 7, de caráter neutro."
+        "description": "UM ÓXIDO É UM COMPOSTO QUÍMICO BINÁRIO FORMADO POR ÁTOMOS DE OXIGÊNIO COM OUTROS ELEMENTOS EM QUE OXIGÊNIO É O MAIS ELETRONEGATIVO. LOGO, NO2 E SO2 SÃO DOIS ÓXIDOS."
+      },
+      {
+        "id": 54,
+        "theme": "Química",
+        "question": "Reação exotérmica é aquela na qual:\n1 - há liberação de calor.\n2 - há diminuição de energia.\n3 - a entalpia dos reagentes é maior que a dos produtos.\n4 - a variação de entalpia é negativa.\nEstão corretos os seguintes complementos:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "somente 1."
+          },
+          {
+            "id": 2,
+            "content": "somente 2 e 4."
+          },
+          {
+            "id": 3,
+            "content": "somente 1 e 3."
+          },
+          {
+            "id": 4,
+            "content": "somente 1 e 4."
+          },
+          {
+            "id": 5,
+            "content": "1, 2, 3 e 4."
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "UMA REAÇÃO EXOTÉRMICA É UMA REAÇÃO QUÍMICA CUJA ENERGIA É TRANSFERIDA DE UM MEIO INTERIOR PARA O MEIO EXTERIOR. OU SEJA, OCORRE LIBERAÇÃO DE CALOR, SENDO, PORTANTO, A ENERGIA FINAL DOS PRODUTOS MENOR QUE A ENERGIA INICIAL DOS REAGENTES."
       },
       {
         "id": 79,
@@ -3899,37 +3930,6 @@
         "img_question": "",
         "correct_answer_id": 1,
         "description": "PARA DIMINUIR A ACIDEZ DO SOLO É NECESSÁRIO QUE SEJA EMPREGADO UM COMPOSTO DE CARÁTER BÁSICO, OU SEJA, A CAL (CaO)."
-      },
-      {
-        "id": 80,
-        "theme": "Química",
-        "question": "Joana sofre com dores no estômago devido a presença de ácido clorídrico no estômago. Ao consultar uma farmácia, espera-se que ela compre:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "remédio à base de suco de limão."
-          },
-          {
-            "id": 2,
-            "content": "antibiótico."
-          },
-          {
-            "id": 3,
-            "content": "remédio com propriedade antioxidante."
-          },
-          {
-            "id": 4,
-            "content": "remédio com propriedades básicas, como leite de magnésia."
-          },
-          {
-            "id": 5,
-            "content": "remédio antibásico."
-          }
-        ],
-        "img_response": "",
-        "img_question": "",
-        "correct_answer_id": 4,
-        "description": "PARA COMBATER A ACIDEZ UM REMÉDIO DEVE TER PROPRIEDADES DE UMA BASE."
       },
       {
         "id": 97,
