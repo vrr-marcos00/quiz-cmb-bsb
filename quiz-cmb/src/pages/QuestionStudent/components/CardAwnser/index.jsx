@@ -12,7 +12,6 @@ function CardAwnser({
   imgAwnser,
   alternatives,
   onClickAlternative,
-  userPoints,
 }) {
   return (
     <div className="main-card-awnser">

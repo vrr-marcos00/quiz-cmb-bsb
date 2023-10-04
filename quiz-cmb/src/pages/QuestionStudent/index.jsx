@@ -43,7 +43,7 @@ function QuestionStudent({ socket }) {
       );
       setTimer(question.time_per_question);
       setIsResponsePage(false);
-      restartAlternativesColors();
+      setAlternativeColorsToAllowedToClick();
       setUserAnswerId(null);
       navigate("/question/student");
     });
@@ -66,6 +66,7 @@ function QuestionStudent({ socket }) {
 
     socket.on("init-question-timer", ({ time_per_question }) => {
       setUserCanAnswer(true);
+      setAlternativeColorsToNotAllowedToClick();
     });
 
     socket.on("update-question-time", ({ currentTime }) => {
@@ -97,25 +98,41 @@ function QuestionStudent({ socket }) {
     }
   }, [isResponsePage, currentQuestion.correct_answer_id, userAnswerId]);
 
-  const restartAlternativesColors = () => {
+  const setAlternativeColorsToNotAllowedToClick = () => {
     const getbuttons = document.querySelectorAll(
       ".card-alternatives_buttons button"
     );
+
     getbuttons.forEach((button) => {
+      button.style.border = "3px solid #07abb9";
       button.style.backgroundColor = "#fff";
       button.style.color = "#000";
     });
   };
 
+  const setAlternativeColorsToAllowedToClick = () => {
+    const getbuttons = document.querySelectorAll(
+      ".card-alternatives_buttons button"
+    );
+
+    getbuttons.forEach((button) => {
+      button.style.backgroundColor = "#c1bfbf";
+      button.style.border = "3px solid #5a6060";
+      button.style.color = "#000";
+    });
+  };
+
   const handleClickAlternative = (event, answerId) => {
-    restartAlternativesColors();
+    if (userCanAnswer) {
+      setAlternativeColorsToNotAllowedToClick();
 
-    const currentButton = document.getElementById(event.target.id);
+      const currentButton = document.getElementById(event.target.id);
 
-    currentButton.style.backgroundColor = "#07abb9";
-    currentButton.style.color = "#fff";
-    setUserAnswerId(answerId);
-    socket.emit("user-answer", { answerId, userId });
+      currentButton.style.backgroundColor = "#07abb9";
+      currentButton.style.color = "#fff";
+      setUserAnswerId(answerId);
+      socket.emit("user-answer", { answerId, userId });
+    }
   };
 
   return (
@@ -138,7 +155,6 @@ function QuestionStudent({ socket }) {
         }
         alternatives={currentQuestion?.alternatives}
         onClickAlternative={handleClickAlternative}
-        userPoints={userPoints}
       />
     </div>
   );
