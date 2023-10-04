@@ -22,7 +22,6 @@ function WaitingRoom({ socket }) {
       navigate("/question/student");
     });
   }, []);
-  // }, [socket]);
 
   return (
     <div className="main-page-waiting-room">

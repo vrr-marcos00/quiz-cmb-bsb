@@ -83,7 +83,6 @@ function QuestionPresenter({ socket }) {
       setTimer(currentTime);
     });
   }, []);
-  // }, [socket]);
 
   React.useEffect(() => {
     const observer = new MutationObserver(getHeightOfMainPageContainer);

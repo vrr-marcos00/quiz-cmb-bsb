@@ -35,7 +35,6 @@ function Home({ socket }) {
       alert(message);
     });
   }, []);
-  // }, [socket]);
 
   return (
     <div className="main-page-home-presenter">
