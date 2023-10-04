@@ -1,44 +1,27 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
-function CreateRoom({ socket }) {
-  const [roomCode, setRoomCode] = React.useState('Nenhuma sala criada');
-  const [currentRoomInfo, setCurrentRoomInfo] = React.useState({});
+/**
+ * Components
+ */
+import LoggedInUsers from "../LoggedInUsers";
 
-  React.useEffect(() => {
-    socket.emit('clearFileRoom');
-
-    socket.on('currentRoom', (currentRoom) => {
-      setCurrentRoomInfo(currentRoom);
-    });
-
-    socket.on('initGame', () => {
-      window.location.href = '/question/presenter';
-    });
-
-    socket.on('initGameError', (message) => {
-      alert(message);
-    });
-  }, []);
-  // }, [socket]);
-
+function CreateRoom({ socket, currentRoom }) {
+  const [roomCode, setRoomCode] = React.useState("Nenhuma sala criada");
 
   const handleClickRoomCreate = () => {
-    socket.emit('authenticate', { role: 'presenter' });
-    socket.on('roomCode', (roomCode) => {
+    socket.emit("authenticate", { role: "presenter" });
+    socket.on("roomCode", (roomCode) => {
       setRoomCode(roomCode);
     });
   };
 
-  const handleDisconnectAllUsers = () => {
-    socket.emit('disconnectAllUsers');
-    socket.emit('forceDisconnect');
+  const handleInitGame = () => {
+    socket.emit("init-quiz");
+    localStorage.setItem('currentRoom', JSON.stringify({ currentRoom }));
   };
-
-  const handleIniteGame = () => {
-    socket.emit('initQuiz');
-  };
+  const hasUsers = currentRoom && currentRoom.users && currentRoom.users.length > 0;
 
   return (
     <div className="container-create-room">
@@ -47,24 +30,23 @@ function CreateRoom({ socket }) {
         <div className="room-code">
           <h3>{roomCode}</h3>
         </div>
-        
-        <button onClick={handleClickRoomCreate}>Criar Sala</button>
-        <button onClick={handleIniteGame}>Iniciar Game</button>
-      </div>
-      {/* <div>
-        {currentRoomInfo && currentRoomInfo.roomCode && (
-          <div>
-            <h3>Usuários conectados</h3>
-            <ul>
-              {currentRoomInfo.users.map((user) => (
-                <li key={user.socketId}>{user.studentId}</li>
-              ))}
-            </ul>
+
+        <div className="container-button-home-presenter">
+          <button onClick={handleClickRoomCreate}>Criar Sala</button>
+          <button onClick={handleInitGame}>Iniciar Game</button>
+        </div>
+
+        {hasUsers ? (
+          <LoggedInUsers currentRoom={currentRoom} />
+        ) : (
+          <div className="has-user">
+            <h2>Nenhum usuário na sala</h2>
           </div>
         )}
-      </div> */}
+
+      </div>
     </div>
-  )
+  );
 }
 
 export default CreateRoom;

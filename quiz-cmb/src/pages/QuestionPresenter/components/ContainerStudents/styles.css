@@ -1,4 +1,25 @@
-.students {
-    height: 20%;
-    background-color: red;
+.colleges-container {
+    height: 5%;
+}
+
+.image-student {
+    width: 100px !important;
+    height: 130px !important;
+}
+
+.user-name {
+    margin-right: 5px;
+    font-size: 0.7em;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-negative {
+    width: 40px !important;
+    height: 55px !important;
+    margin-bottom: 35px;
 }

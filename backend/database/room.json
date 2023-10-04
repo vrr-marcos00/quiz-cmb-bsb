@@ -1,9 +1,13 @@
 {
-  "roomCode": "741978",
+  "roomCode": "181538",
   "users": [
     {
-      "socketId": "1Kg4NYJKtTJuCfgIAAAa",
-      "studentId": "Teste"
+      "userId": "9piln3TqUiLraJM5AAAr",
+      "studentId": "CMBEL"
+    },
+    {
+      "userId": "BtepO2J4bTwauX1oAAAt",
+      "studentId": "CMC"
     }
   ]
 }

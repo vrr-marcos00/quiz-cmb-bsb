@@ -1,5 +1,5 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
 /**
  * Images
@@ -19,15 +19,8 @@ import IMAGE_CMVM from '../../../../assets/images/CMVM.png';
 import IMAGE_FORJ from "../../../../assets/images/FORJ.png";
 import IMAGE_CMS from "../../../../assets/images/CMS.png";
 import IMAGE_CMJF from "../../../../assets/images/CMJF.png";
-import IconNegative from '../../../../assets/images/IconNegative.png';
 
-/**
- * Svg
- */
-import CheckIcon from '../../../../assets/svg/checkIcon';
-
-
-function ContainerStudents({ students, isResponsePage }) {
+function LoggedInUsers({ currentRoom }) {
   const images_colleges = {
     CMB: { image: IMAGE_CMB },
     CMBEL: { image: IMAGE_CMBEL },
@@ -47,31 +40,27 @@ function ContainerStudents({ students, isResponsePage }) {
     FORJ: { image: IMAGE_FORJ }
   };
 
+  const hasUsers = currentRoom && currentRoom.users && currentRoom.users.length > 0;
+
   return (
     <>
-      {students && (
+      {hasUsers && (
         <div className="colleges-container">
+          <p>Usuários conectados</p>
+
           <div className="all-colleges">
-            {students.map((user) => (
+            {currentRoom.users.map((user) => (
               <div className="college">
                 <img src={images_colleges[user.studentId].image} alt="college" />
-                <div className="icon-container">
-                  <span className="user-name">{user.studentId}</span>
-                  {user.answered ? <span><CheckIcon /></span> : (
-                    <>
-                      {isResponsePage && (
-                        <img className="icon-negative" src={IconNegative} alt="Icon negative" />
-                      )}
-                    </>
-                  )}
-                </div>
+                <span>{user.studentId}</span>
               </div>
             ))}
           </div>
         </div>
       )}
     </>
+
   )
 }
 
-export default ContainerStudents;
+export default LoggedInUsers;

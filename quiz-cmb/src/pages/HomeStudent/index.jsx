@@ -1,10 +1,10 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
 /**
  * Components
  */
-import EnterRoom from './components/EnterRoom';
+import EnterRoom from "./components/EnterRoom";
 
 function HomeStudent({ socket }) {
   return (

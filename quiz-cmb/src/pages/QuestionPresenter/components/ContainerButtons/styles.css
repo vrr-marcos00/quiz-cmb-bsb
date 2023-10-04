@@ -1,28 +1,36 @@
 .row-main_buttons {
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10%;
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
 
 .row-main_buttons button {
-    border: none;
-    width: 30%;
-    height: 5em;
-    border-radius: 30px;
-    font-size: 1em;
-    margin-right: 40px;
-    color: #fff;
-    background-color: #000;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
+  border: none;
+  width: 20%;
+  height: 4em;
+  border-radius: 30px;
+  font-size: 2em;
+  margin-right: 40px;
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin-right: 5%;
 }
 
 .row-main_buttons button:hover {
-    background-color: #000000d7;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
+  background-color: #000000d7;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.row-main_buttons button.--disabled {
+  background-color: #8d8d8d;
+}
+
+.row-main_buttons button.--disabled:hover {
+  background-color: #8d8d8d;
+  cursor: not-allowed;
 }

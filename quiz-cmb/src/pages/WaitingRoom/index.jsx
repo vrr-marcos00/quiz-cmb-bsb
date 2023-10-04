@@ -1,15 +1,25 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
+
+import { useNavigate } from "react-router-dom";
 
 /**
  * Images
  */
-import logoQuiz from '../../assets/images/logo_quiz.png';
+import logoQuiz from "../../assets/images/logo_quiz.png";
 
 function WaitingRoom({ socket }) {
+  const navigate = useNavigate();
+
   React.useEffect(() => {
-    socket.on('initGame', () => {
-      window.location.href = '/question/student';
+    socket.on("show-next-question", ({ question, level }) => {
+      localStorage.setItem(
+        "currentQuestion",
+        JSON.stringify({ question, level })
+      );
+      localStorage.setItem("userPoints", 10);
+      localStorage.setItem("isPresenter", "");
+      navigate("/question/student");
     });
   }, []);
   // }, [socket]);

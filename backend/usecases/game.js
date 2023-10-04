@@ -8,28 +8,29 @@ let currentQuestion = {};
 let clientGameState = {};
 
 // Objeto para rastrear as salas
-// const room = require("./database/room.json") || { roomCode: "", users: [] };
+const room = require("../database/room.json") || { roomCode: "", users: [] };
 
 /* ---------------------------------- GAME POINTS CONTROL ---------------------------------- */
 
-// Respostas da pergunta atual, é um mapa = { [socketId]: { answerId: 0 } }
+// Respostas da pergunta atual, é um mapa = { [userId]: { answerId: 0 } }
 let usersCurrentAnswers = {};
 
-function updateUserAnswer({ socketID, answerId }) {
-  usersCurrentAnswers[socketID] = {
+function updateUserAnswer({ userId, answerId }) {
+  usersCurrentAnswers[userId] = {
     answerId,
   };
 }
 
 function calculatePointsAndRestartUsersCurrentAnswers() {
-  for (const key in usersCurrentAnswers) {
+  for (const key in clientGameState) {
     const currentAnswer = usersCurrentAnswers[key];
     const isAnswerCorrect =
-      currentAnswer.answerId === currentQuestion.correct_answer_id;
+      currentAnswer?.answerId === currentQuestion.correct_answer_id;
     const points = isAnswerCorrect
       ? currentPhase.points_to_earn
       : -currentPhase.points_to_lose;
-    clientGameState[key].points = clientGameState[key].points + points;
+    const updatedPoints = clientGameState[key].points + points;
+    clientGameState[key].points = updatedPoints > 0 ? updatedPoints : 0;
   }
 
   usersCurrentAnswers = {};
@@ -41,7 +42,7 @@ function __createClientGameStateFromRoom() {
   clientGameState = room.users.reduce(
     (accumulator, currentValue) => ({
       ...accumulator,
-      [currentValue.socketId]: {
+      [currentValue.userId]: {
         ...currentValue,
         points: 10,
       },
@@ -70,7 +71,7 @@ function initQuiz() {
 function setNextQuestion() {
   const { questions, ...phaseConfig } = currentPhase;
 
-  if (questions.lenght === 0) {
+  if (questions?.lenght === 0 || !questions) {
     currentQuestion = null;
     return;
   }
@@ -85,15 +86,15 @@ function setNextQuestion() {
 }
 
 function updateToNextLevel() {
-  const nextLevel = currentPhase.next_level;
+  const nextLevel = currentPhase?.next_level;
 
-  if (nextLevel === "finish") {
+  if (nextLevel === "finished" || !nextLevel) {
     return { finishedGame: true };
   }
 
-  const nextLevelConfig = phasesConfig[currentPhase.next_level];
+  const nextLevelConfig = phasesConfig[nextLevel];
   currentPhase = {
-    level: currentPhase.next_level,
+    level: nextLevel,
     ...nextLevelConfig,
   };
   currentQuestion = {};
@@ -115,8 +116,8 @@ function getClientGameState() {
   return clientGameState;
 }
 
-function getCurrentUserAnswer(socketId) {
-  return usersCurrentAnswers[socketId];
+function getCurrentUserAnswer(userId) {
+  return usersCurrentAnswers[userId];
 }
 
 module.exports = {

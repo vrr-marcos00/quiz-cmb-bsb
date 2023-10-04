@@ -94,6 +94,7 @@ io.on("connection", (socket) => {
 
   // Manipulador de eventos para quando um cliente se desconecta
   socket.on("disconnect", () => {
+    console.log(socket.id);
     console.log("Um cliente se desconectou");
   });
 
@@ -108,7 +109,7 @@ io.on("connection", (socket) => {
 
     if (room.users.length > 0) {
       room.users.forEach((user) => {
-        const clientSocket = connectedClients.get(user.socketId);
+        const clientSocket = connectedClients.get(user.userId);
         if (clientSocket) {
           clientSocket.disconnect();
           console.log(`Cliente desconectado: ${user.studentId}`);
@@ -129,101 +130,39 @@ io.on("connection", (socket) => {
     socket.emit("clearFileRoomMessage", "Arquivo room limpado!");
   });
 
-  socket.on("start-game", () => {
-    // Inicie o jogo com a primeira pergunta
-    io.emit("question", questions.easy[0]);
-  });
-
-  socket.on("next-question", () => {
-    const currentPhase = phases[currentPhaseIndex];
-    const questionsForPhase = questions[currentPhase];
-
-    // Certifique-se de que a fase atual seja válida
-    if (questionsForPhase) {
-      // Incrementa o índice da próxima pergunta para a fase atual
-      nextQuestionIndexes[currentPhase]++;
-
-      if (nextQuestionIndexes[currentPhase] >= questionsForPhase.length) {
-        // Todas as perguntas da fase atual foram exibidas
-        io.emit("phase-complete", currentPhase);
-
-        // Avança para a próxima fase se houver
-        currentPhaseIndex++;
-        if (currentPhaseIndex < phases.length) {
-          const nextPhase = phases[currentPhaseIndex];
-          io.emit("next-phase", nextPhase);
-          nextQuestionIndexes[nextPhase] = 0;
-          if (questions[nextPhase].length > 0) {
-            io.emit("question", questions[nextPhase][0]);
-          } else {
-            io.emit("game-over");
-          }
-        } else {
-          // Todas as fases foram concluídas
-          io.emit("game-over");
-        }
-      } else {
-        // Exibe a próxima pergunta na fase atual
-        const nextQuestion =
-          questionsForPhase[nextQuestionIndexes[currentPhase]];
-        io.emit("question", nextQuestion);
-      }
-    } else {
-      // Não há mais fases, emitir 'game-over'
-      io.emit("game-over");
-    }
-  });
-
-  socket.on("answer", ({ playerId, questionId, isCorrect }) => {
-    // Verifica se o jogador já respondeu a esta pergunta
-    if (!data.answeredQuestions.includes(questionId)) {
-      // Adiciona o ID da pergunta à lista de perguntas respondidas
-      data.answeredQuestions.push(questionId);
-
-      // Verifica se o jogador está no objeto de participantes
-      if (!data.participants[playerId]) {
-        // Se não estiver, crie uma entrada para o jogador
-        data.participants[playerId] = {
-          score: 0,
-        };
-      }
-
-      // Atualiza a pontuação do jogador com base na resposta
-      if (isCorrect) {
-        data.participants[playerId].score += 10;
-      } else {
-        data.participants[playerId].score -= 10;
-      }
-
-      // Salva os dados em um arquivo JSON
-      saveDataToJsonFile(data);
-    }
-  });
-
   socket.on("joinRoom", (roomCode, studentId) => {
     // Verifica se o código da sala existe
     if (roomCode === room.roomCode) {
       socket.join(roomCode);
       if (!room.users) {
         room.users = [];
-        room.users.push({ socketId: socket.id, studentId });
-        socket.emit(
-          "studentAuthenticated",
-          "Você foi autenticado com sucesso na sala."
-        );
+        room.users.push({ userId: socket.id, studentId });
+        socket.emit("studentAuthenticated", {
+          userId: socket.id,
+          msg: "Você foi autenticado com sucesso na sala.",
+        });
       } else {
         const userIsExisting = room.users.find(
-          (user) => user.socketId === socket.id
+          (user) => user.userId === socket.id
         );
 
-        if (!userIsExisting) {
-          room.users.push({ socketId: socket.id, studentId });
+        const studentIdAlreadyExistis = room.users.find(
+          (user) => user.studentId === studentId
+        );
+
+        if (!userIsExisting && !studentIdAlreadyExistis) {
+          room.users.push({ userId: socket.id, studentId });
           // Emite um evento de sucesso para o aluno
+          socket.emit("studentAuthenticated", {
+            userId: socket.id,
+            msg: "Você foi autenticado com sucesso na sala.",
+          });
+        } else if (studentIdAlreadyExistis) {
           socket.emit(
-            "studentAuthenticated",
-            "Você foi autenticado com sucesso na sala."
+            "userIsExistingInTheRoom",
+            "Você não pode entrar com essa escola, pois ela já foi escolhida."
           );
-        } else {
+        } else if (userIsExisting) {
           socket.emit(
             "userIsExistingInTheRoom",
             "Você não pode ter dois acessos simultâneos"
@@ -256,7 +195,14 @@ io.on("connection", (socket) => {
   socket.on("init-quiz", () => {
     if (room.users.length > 0) {
       const { nextQuestion, level } = initQuiz();
-      io.emit("show-next-question", { question: nextQuestion, level });
+      const phase = getCurrentPhase();
+      io.emit("show-next-question", {
+        question: {
+          ...nextQuestion,
+          time_per_question: phase.time_per_question,
+        },
+        level,
+      });
     } else {
       socket.emit("initGameError", "O jogo deve conter no minímo 1 jogador");
     }
@@ -268,28 +214,59 @@ io.on("connection", (socket) => {
 
     if (question) {
       const phase = getCurrentPhase();
-      io.emit("show-next-question", { question, level: phase.level });
+      io.emit("show-next-question", {
+        question: { ...question, time_per_question: phase.time_per_question },
+        level: phase.level,
+      });
       return;
     }
 
     const { finishedGame } = updateToNextLevel();
 
     io.emit("show-classification", {
-      clientPoints: getClientGameState(),
+      classification: Object.values(getClientGameState()),
       finishedGame,
     });
+  });
+
+  socket.on("init-question-timer", () => {
+    const phase = getCurrentPhase();
+    io.emit("init-question-timer", {
+      time_per_question: phase.time_per_question,
+    });
+
+    let counter = phase.time_per_question;
+
+    const interval = setInterval(() => {
+      counter = counter - 1000;
+
+      io.emit("update-question-time", {
+        currentTime: counter,
+      });
+
+      if (counter <= 0) {
+        io.emit("question-timeout", {
+          time_per_question: phase.time_per_question,
+        });
+        clearInterval(interval);
+      }
+    }, 1000);
   });
 
   socket.on("show-answer", () => {
     io.emit("show-answer");
     calculatePointsAndRestartUsersCurrentAnswers();
+
+    io.emit("updated-points", {
+      classification: Object.values(getClientGameState()),
+    });
   });
 
-  socket.on("user-answer", ({ socketId, answerId }) => {
-    if (!getCurrentUserAnswer(socketId)) {
-      io.emit("user-answer-to-presenter", { socketId });
+  socket.on("user-answer", ({ userId, answerId }) => {
+    if (!getCurrentUserAnswer(userId)) {
+      io.emit("user-answer-to-presenter", { id: userId });
     }
-    updateUserAnswer({ socketId, answerId });
+    updateUserAnswer({ userId, answerId });
   });
 });
 
