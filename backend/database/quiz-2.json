@@ -193,37 +193,6 @@
         "description ": "A Costa do Marfim é um país localizado no litoral ocidental do continente africano. Com uma produção 2,2 milhões de toneladas de cacau por ano, o país é responsável, sozinho, por 38% da produção global de cacau do mundo. O cacau é um dos itens mais importantes da economia do país."
       },
       {
-        "id": 6,
-        "theme": "Curiosidades",
-        "question": "Quem escreveu Cem Anos de Solidão?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Gabriel García Márquez."
-          },
-          {
-            "id": 2,
-            "content": "Raul Pompeu."
-          },
-          {
-            "id": 3,
-            "content": "Machado de Assis."
-          },
-          {
-            "id": 4,
-            "content": "Carlos Drumond de Andrade"
-          },
-          {
-            "id": 5,
-            "content": "James Joyce."
-          }
-        ],
-        "img_response": "https://m.media-amazon.com/images/I/41huNvri0bL._SY445_SX342_.jpg",
-        "img_question": "",
-        "correct_answer_id": 1,
-        "description ": "Cem Anos de Solidão é uma obra do escritor colombiano Gabriel García Márquez, Prêmio Nobel da Literatura em 1982, e é atualmente considerada uma das obras mais importantes da literatura latino-americana."
-      },
-      {
         "id": 7,
         "theme": "Curiosidades",
         "question": "O que significa a expressão do jogo de Xadrez 'Xeque mate'?",
@@ -255,35 +224,97 @@
         "description ": "Quando um rei é atacado, isso é chamado de xeque. Um xeque-mate (também conhecido como 'mate') ocorre quando um rei é colocado em xeque e não tem lances legais para escapar. Quando acontece um xeque-mate, a partida termina imediatamente e o jogador que deu o xeque-mate vence."
       },
       {
-        "id": 8,
+        "id": 69,
         "theme": "Curiosidades",
-        "question": "Quantos dentes um golfinho tem?",
+        "question": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita por qual autor brasileiro?",
         "alternatives": [
           {
             "id": 1,
-            "content": "Cerca de 252 dentes"
+            "content": "Ariano Suassuna em 1955."
           },
           {
             "id": 2,
-            "content": "Cerca de 205 dentes"
+            "content": "Fernanda Montenegro em 1990."
           },
           {
             "id": 3,
-            "content": "Cerca de 115 dentes"
+            "content": "José Paulo Cavalcanti em 1980."
           },
           {
             "id": 4,
-            "content": "Cerca de 120 dentes"
+            "content": "Paulo Coelho em 1965."
           },
           {
             "id": 5,
-            "content": "Cerca de 180 dentes"
+            "content": "Nélida Piñon em 1955."
           }
         ],
-        "img_response": "https://s2.static.brasilescola.uol.com.br/be/2021/05/golfinho.jpg",
+        "img_response": "https://m.media-amazon.com/images/I/81taSo-m23L._AC_UF1000,1000_QL80_.jpg",
         "img_question": "",
         "correct_answer_id": 1,
-        "description ": "252 é o número de dentes do golfinho."
+        "description": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita pelo autor brasileiro Ariano Suassuna em 1955."
+      },
+      {
+        "id": 70,
+        "theme": "Curiosidades",
+        "question": "Onde fica localizado o monte Everest?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Cordilheira dos Andes"
+          },
+          {
+            "id": 2,
+            "content": "Cordilheira do Himalaia"
+          },
+          {
+            "id": 3,
+            "content": "Cordilheira do Tibete"
+          },
+          {
+            "id": 4,
+            "content": "Apalaches"
+          },
+          {
+            "id": 5,
+            "content": "Montes Urais"
+          }
+        ],
+        "img_response": "https://blog.stoodi.com.br/wp-content/uploads/2020/03/monte-everest-2-1.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "O Everest encontra-se na Cordilheira do Himalaia, uma cadeia de montanhas localizada na fronteira da China com o Nepal e que se estende por Índia, Butão e Paquistão."
+      },
+      {
+        "id": 72,
+        "theme": "Curiosidades",
+        "question": "Ruy Barbosa (1849-1923), foi um político, diplomata e jurista brasileiro. Grande orador, representou o Brasil na Holanda Como ficou conhecido após essa representação?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "O Águia da Holanda"
+          },
+          {
+            "id": 2,
+            "content": "O Águia de Haia"
+          },
+          {
+            "id": 3,
+            "content": "O Rei de Amsterdã"
+          },
+          {
+            "id": 4,
+            "content": "O príncipe da Holanda"
+          },
+          {
+            "id": 5,
+            "content": "O colosso de Haia"
+          }
+        ],
+        "img_response": "https://www.infoescola.com/wp-content/uploads/2021/01/rui-barbosa.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "Rui Barbosa recebeu o cognome de 'Águia de Haia' do Barão do Rio Branco que era o Ministro das Relações Exteriores na época da 2ª Conferência Internacional da Paz em 19."
       },
       {
         "id": 9,
@@ -1318,6 +1349,99 @@
         "description": "A diapedese é o processo da passagem dos leucócitos do sangue, nos capilares sanguíneos, para o tecido conjuntivo devido a uma inflamação que é causada por algum agente externo, como um corte no dedo. Ou seja, do meio intracelular para o extracelular."
       },
       {
+        "id": 71,
+        "theme": "Curiosidades",
+        "question": "Ariano Suassuna foi um intelectual, escritor, dramaturgo, romancista, ensaísta, professor, advogado, palestrante entre outras coisas. Em que área artística ele também se destacou?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "artes plásticas"
+          },
+          {
+            "id": 2,
+            "content": "música"
+          },
+          {
+            "id": 3,
+            "content": "dança"
+          },
+          {
+            "id": 4,
+            "content": "artes clássicas"
+          },
+          {
+            "id": 5,
+            "content": "fotografia"
+          }
+        ],
+        "img_response": "https://cdn.pensador.com/img/authors/ar/ia/ariano-suassuna-l.jpg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "Ariano nos brindou com várias pinturas. Frase do Ariano: 'A humanidade se divide em dois grupos, os que concordam comigo e os equivocados.'"
+      },
+      {
+        "id": 6,
+        "theme": "Curiosidades",
+        "question": "Quem escreveu o romance Úrsula?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Lygia Fagundes Telles."
+          },
+          {
+            "id": 2,
+            "content": "Clarice Lispector."
+          },
+          {
+            "id": 3,
+            "content": "Rachel de Queiroz."
+          },
+          {
+            "id": 4,
+            "content": "Maria Firmina dos Reis."
+          },
+          {
+            "id": 5,
+            "content": "Adélia Prado."
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description ": "Úrsula, romance de Maria Firmina dos Reis, foi escrito em 1858 e pode ser considerado o primeiro romance abolicionista brasileiro de autoria feminina."
+      },
+      {
+        "id": 8,
+        "theme": "Curiosidades",
+        "question": "Qual o clube de futebol que tem o maior número de títulos de Campeão Brasileiro?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Flamengo."
+          },
+          {
+            "id": 2,
+            "content": "Santos."
+          },
+          {
+            "id": 3,
+            "content": "Corinthians."
+          },
+          {
+            "id": 4,
+            "content": "Palmeiras."
+          },
+          {
+            "id": 5,
+            "content": "São Paulo."
+          }
+        ],
+        "img_response": "",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description ": " O Palmeira tem 11 títulos de campeão brasileiro, conquistados nos anos de 1960, 1967, 1967, 1969, 1972, 1973, 1993, 1994, 2016, 2018 e 2022."
+      },
+      {
         "id": 29,
         "theme": "Curiosidades",
         "question": "Qual o primeiro brasileiro a ter um telefone em casa?",
@@ -1347,37 +1471,6 @@
         "img_question": "",
         "correct_answer_id": 3,
         "description": "O telefone chegou no Brasil no ano de 1877. O primeiro aparelho foi fabricado para Dom Pedro II e instalado no Palácio Imperial de São Cristovão, localizado na Quinta da Boa Vista, hoje o Museu Nacional no Rio de Janeiro."
-      },
-      {
-        "id": 30,
-        "theme": "Curiosidades",
-        "question": "Complete: O 'sangue' (hemolinfa) das aranhas é da cor...",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "transparente"
-          },
-          {
-            "id": 2,
-            "content": "Verde"
-          },
-          {
-            "id": 3,
-            "content": "Azul"
-          },
-          {
-            "id": 4,
-            "content": "Rosa"
-          },
-          {
-            "id": 5,
-            "content": "Vermelho"
-          }
-        ],
-        "img_response": "https://img.freepik.com/vetores-premium/desenho-de-aranha-bonito-no-fundo-branco_1639-41781.jpg",
-        "img_question": "",
-        "correct_answer_id": 1,
-        "description": "As aranhas têm sangue circulante em seus corpos. O sangue incolor, chamado hemolinfa, transporta nutrientes, hormônios, oxigênio e células."
       },
       {
         "id": 31,
@@ -1504,37 +1597,6 @@
         "description": "São os pontos extremos oficiais do Brasil. Ponta do Seixas (PB) - Monte Caburaí (RR) - Arroio Chuí (RS) - Nascente do Rio Moa (AC)"
       },
       {
-        "id": 35,
-        "theme": "Curiosidades",
-        "question": "Quantos estados fazem divisa com o estado de Tocantins?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "6"
-          },
-          {
-            "id": 2,
-            "content": "8"
-          },
-          {
-            "id": 3,
-            "content": "4"
-          },
-          {
-            "id": 4,
-            "content": "3"
-          },
-          {
-            "id": 5,
-            "content": "5"
-          }
-        ],
-        "img_response": "https://construcaocivil.info/wp-content/uploads/2014/11/1599640_608814519229236_923943964_n.jpg",
-        "img_question": "",
-        "correct_answer_id": 1,
-        "description": "Seis estados oficialmente (Pará, Mato Grosso, Goiás, Maranhão, Piauí e Bahia), mesmo tendo uma fronteira muito pequena com Piauí."
-      },
-      {
         "id": 36,
         "theme": "Curiosidades",
         "question": "Qual a palavra que está escrita na bandeira do Estado da Paraíba?",
@@ -1564,99 +1626,6 @@
         "img_question": "",
         "correct_answer_id": 2,
         "description": "No meio da parte vermelha, há a inscrição 'NEGO', na cor branca e em letras maiúsculas, que é a conjugação do verbo 'negar' no presente do indicativo da primeira pessoa do singular e representa a não aceitação do sucessor à presidência da república indicado pelo presidente brasileiro da época, Washington Luís."
-      },
-      {
-        "id": 37,
-        "theme": "Curiosidades",
-        "question": "Quais são as duas capitais brasileiras que estão mais próximas?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Rio de Janeiro e São Paulo"
-          },
-          {
-            "id": 2,
-            "content": "João Pessoa e Recife"
-          },
-          {
-            "id": 3,
-            "content": "Rio de Janeiro e Vitória"
-          },
-          {
-            "id": 4,
-            "content": "Belém e Manaus"
-          },
-          {
-            "id": 5,
-            "content": "Goiânia e Brasília"
-          }
-        ],
-        "img_response": "",
-        "img_question": "",
-        "correct_answer_id": 2,
-        "description": "João Pessoa e Recife têm aproximadamente 120 Km de distância, a menor entre duas capitais do Brasil."
-      },
-      {
-        "id": 38,
-        "theme": "Curiosidades",
-        "question": "Qual associação está errada?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Palmas - Tocantins ; Aracaju - Sergipe ; Boa Vista - Rondônia ; Porto Alegre - Rio Grande do Sul"
-          },
-          {
-            "id": 2,
-            "content": "Recife - Pernambuco ; São Luís - Maranhão ; Curitiba - Paraná ; Rio Branco - Acre"
-          },
-          {
-            "id": 3,
-            "content": "Natal - Rio Grande do Norte ; Porto Velho - Rondônia ; Vitória - Espírito Santo ; Florianópolis - Santa Catarina"
-          },
-          {
-            "id": 4,
-            "content": "Teresina - Piauí ; Fortaleza - Ceará ; Goiânia - Goiás ; Florianópolis - Santa Catarina"
-          },
-          {
-            "id": 5,
-            "content": "São Paulo - São Paulo ; Salvador - Bahia ; Manaus - Amazonas ; Macapá – Amapá"
-          }
-        ],
-        "img_response": "https://i.pinimg.com/736x/e1/00/a4/e100a48110f90ae517453d58309967cd.jpg",
-        "img_question": "",
-        "correct_answer_id": 1,
-        "description": "Boa Vista é a capital de Roraima."
-      },
-      {
-        "id": 39,
-        "theme": "Curiosidades",
-        "question": "Em qual bandeira de estado do Brasil aparece a palavra 'Humanidade'?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Rio de Janeiro"
-          },
-          {
-            "id": 2,
-            "content": "Pará"
-          },
-          {
-            "id": 3,
-            "content": "Rio Grande do Norte"
-          },
-          {
-            "id": 4,
-            "content": "Mato Grosso"
-          },
-          {
-            "id": 5,
-            "content": "Rio Grande do Sul"
-          }
-        ],
-        "img_response": "https://estado.rs.gov.br/upload/recortes/201707/20075647_1210628_GDO.jpg",
-        "img_question": "",
-        "correct_answer_id": 5,
-        "description": "Está escrito na Bandeira do Rio Grande do Sul: Liberdade - Igualdade - Humanidade."
       },
       {
         "id": 40,
@@ -3529,128 +3498,159 @@
         "description": "NECROSE é o processo de desestruturação de proteínas intracelulares e digestão enzimática de células que já apresentam dano letal, enquanto APOPTOSE é a morte celular programada através da ativação enzimática que desencadeia mecanismos que matam a célula."
       },
       {
-        "id": 69,
+        "id": 30,
         "theme": "Curiosidades",
-        "question": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita por qual autor brasileiro?",
+        "question": "Qual desses filmes ganhou 11 estatuetas dos Oscar, prêmio máximo da Academia de Cinema de Hollywood? ",
         "alternatives": [
           {
             "id": 1,
-            "content": "Ariano Suassuna em 1955."
+            "content": "Ben-Hur"
           },
           {
             "id": 2,
-            "content": "Fernanda Montenegro em 1990."
+            "content": "E o vento levou"
           },
           {
             "id": 3,
-            "content": "José Paulo Cavalcanti em 1980."
+            "content": "O Paciente inglês"
           },
           {
             "id": 4,
-            "content": "Paulo Coelho em 1965."
+            "content": "O Artista"
           },
           {
             "id": 5,
-            "content": "Nélida Piñon em 1955."
+            "content": "O Gladiador"
           }
         ],
-        "img_response": "https://m.media-amazon.com/images/I/81taSo-m23L._AC_UF1000,1000_QL80_.jpg",
+        "img_response": "https://img.freepik.com/vetores-premium/desenho-de-aranha-bonito-no-fundo-branco_1639-41781.jpg",
         "img_question": "",
         "correct_answer_id": 1,
-        "description": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita pelo autor brasileiro Ariano Suassuna em 1955."
+        "description": "O épico de 1959,  de William Wyler,  foi o primeiro filme na história do cinema americano a receber 11 Óscares, em 12 nomeações."
       },
       {
-        "id": 70,
+        "id": 35,
         "theme": "Curiosidades",
-        "question": "Onde fica localizado o monte Everest?",
+        "question": "Quantos estados fazem divisa com o estado de Tocantins?",
         "alternatives": [
           {
             "id": 1,
-            "content": "Cordilheira dos Andes"
+            "content": "6"
           },
           {
             "id": 2,
-            "content": "Cordilheira do Himalaia"
+            "content": "8"
           },
           {
             "id": 3,
-            "content": "Cordilheira do Tibete"
+            "content": "4"
           },
           {
             "id": 4,
-            "content": "Apalaches"
+            "content": "3"
           },
           {
             "id": 5,
-            "content": "Montes Urais"
+            "content": "5"
           }
         ],
-        "img_response": "https://blog.stoodi.com.br/wp-content/uploads/2020/03/monte-everest-2-1.jpg",
-        "img_question": "",
-        "correct_answer_id": 2,
-        "description": "O Everest encontra-se na Cordilheira do Himalaia, uma cadeia de montanhas localizada na fronteira da China com o Nepal e que se estende por Índia, Butão e Paquistão."
-      },
-      {
-        "id": 71,
-        "theme": "Curiosidades",
-        "question": "Ariano Suassuna foi um intelectual, escritor, dramaturgo, romancista, ensaísta, professor, advogado, palestrante entre outras coisas. Em que área artística ele também se destacou?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "artes plásticas"
-          },
-          {
-            "id": 2,
-            "content": "música"
-          },
-          {
-            "id": 3,
-            "content": "dança"
-          },
-          {
-            "id": 4,
-            "content": "artes clássicas"
-          },
-          {
-            "id": 5,
-            "content": "fotografia"
-          }
-        ],
-        "img_response": "https://cdn.pensador.com/img/authors/ar/ia/ariano-suassuna-l.jpg",
+        "img_response": "https://construcaocivil.info/wp-content/uploads/2014/11/1599640_608814519229236_923943964_n.jpg",
         "img_question": "",
         "correct_answer_id": 1,
-        "description": "Ariano nos brindou com várias pinturas. Frase do Ariano: 'A humanidade se divide em dois grupos, os que concordam comigo e os equivocados.'"
+        "description": "Seis estados oficialmente (Pará, Mato Grosso, Goiás, Maranhão, Piauí e Bahia), mesmo tendo uma fronteira muito pequena com Piauí."
       },
       {
-        "id": 72,
+        "id": 37,
         "theme": "Curiosidades",
-        "question": "Ruy Barbosa (1849-1923), foi um político, diplomata e jurista brasileiro. Grande orador, representou o Brasil na Holanda Como ficou conhecido após essa representação?",
+        "question": "Quais são as duas capitais brasileiras que estão mais próximas?",
         "alternatives": [
           {
             "id": 1,
-            "content": "O Águia da Holanda"
+            "content": "Rio de Janeiro e São Paulo"
           },
           {
             "id": 2,
-            "content": "O Águia de Haia"
+            "content": "João Pessoa e Recife"
           },
           {
             "id": 3,
-            "content": "O Rei de Amsterdã"
+            "content": "Rio de Janeiro e Vitória"
           },
           {
             "id": 4,
-            "content": "O príncipe da Holanda"
+            "content": "Belém e Manaus"
           },
           {
             "id": 5,
-            "content": "O colosso de Haia"
+            "content": "Goiânia e Brasília"
           }
         ],
-        "img_response": "https://www.infoescola.com/wp-content/uploads/2021/01/rui-barbosa.jpg",
+        "img_response": "",
         "img_question": "",
         "correct_answer_id": 2,
-        "description": "Rui Barbosa recebeu o cognome de 'Águia de Haia' do Barão do Rio Branco que era o Ministro das Relações Exteriores na época da 2ª Conferência Internacional da Paz em 19."
+        "description": "João Pessoa e Recife têm aproximadamente 120 Km de distância, a menor entre duas capitais do Brasil."
+      },
+      {
+        "id": 38,
+        "theme": "Curiosidades",
+        "question": "Qual associação está errada?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Palmas - Tocantins ; Aracaju - Sergipe ; Boa Vista - Rondônia ; Porto Alegre - Rio Grande do Sul"
+          },
+          {
+            "id": 2,
+            "content": "Recife - Pernambuco ; São Luís - Maranhão ; Curitiba - Paraná ; Rio Branco - Acre"
+          },
+          {
+            "id": 3,
+            "content": "Natal - Rio Grande do Norte ; Porto Velho - Rondônia ; Vitória - Espírito Santo ; Florianópolis - Santa Catarina"
+          },
+          {
+            "id": 4,
+            "content": "Teresina - Piauí ; Fortaleza - Ceará ; Goiânia - Goiás ; Florianópolis - Santa Catarina"
+          },
+          {
+            "id": 5,
+            "content": "São Paulo - São Paulo ; Salvador - Bahia ; Manaus - Amazonas ; Macapá – Amapá"
+          }
+        ],
+        "img_response": "https://i.pinimg.com/736x/e1/00/a4/e100a48110f90ae517453d58309967cd.jpg",
+        "img_question": "",
+        "correct_answer_id": 1,
+        "description": "Boa Vista é a capital de Roraima."
+      },
+      {
+        "id": 39,
+        "theme": "Curiosidades",
+        "question": "Em qual bandeira de estado do Brasil aparece a palavra 'Humanidade'?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Rio de Janeiro"
+          },
+          {
+            "id": 2,
+            "content": "Pará"
+          },
+          {
+            "id": 3,
+            "content": "Rio Grande do Norte"
+          },
+          {
+            "id": 4,
+            "content": "Mato Grosso"
+          },
+          {
+            "id": 5,
+            "content": "Rio Grande do Sul"
+          }
+        ],
+        "img_response": "https://estado.rs.gov.br/upload/recortes/201707/20075647_1210628_GDO.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Está escrito na Bandeira do Rio Grande do Sul: Liberdade - Igualdade - Humanidade."
       },
       {
         "id": 73,
