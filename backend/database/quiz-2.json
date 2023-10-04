@@ -939,161 +939,161 @@
       {
         "id": 121,
         "theme": "Português",
-        "question": "O autor do poema I-Juca-Pirama é:",
+        "question": " Leia o trecho abaixo, retirado de I-Juca Pirama, obra de Gonçalves Dias. \nDa tribo pujante, \nQue agora anda errante \nPor fado inconstante, \nGuerreiros, nasci: \nSou bravo, sou forte, \nsou filho do norte, \nMeu canto de morte, \nGuerreiros, ouvi. \nTrata-se de um:",
         "alternatives": [
           {
             "id": 1,
-            "content": "José de Alencar"
+            "content": "poema lírico"
           },
           {
             "id": 2,
-            "content": "Castro Alves"
+            "content": "poema épico"
           },
           {
             "id": 3,
-            "content": "Gonçalves Dias"
+            "content": "cantiga de amigo"
           },
           {
             "id": 4,
-            "content": "Álvares de Azevedo"
+            "content": "novela de cavalaria"
           },
           {
             "id": 5,
-            "content": "Sousândrade"
+            "content": "auto de fundo religioso"
           }
         ],
-        "correct_answer_id": 3,
-        "description ": "O poema I-Juca Pirama, de Gonçalves Dias, é um ícone do romantismo brasileiro. A obra, indianista, está dividida em dez cantos. Publicado em 1851, no livro Últimos cantos, o poema é composto por 484 versos protagonizados pelos índios tupis e timbiras.",
+        "correct_answer_id": 2,
+        "description ": "O poema I-Juca Pirama, de Gonçalves Dias, é um ícone do romantismo brasileiro. Trata-se de um poema épico, por abordar, de forma grandiosa, os feitos protagonizados por indígenas, tupis e timbiras.",
         "img_response": "",
         "img_question": ""
       },
       {
         "id": 122,
         "theme": "Português",
-        "question": "Assinale a alternativa em que se encontra um poema histórico.",
+        "question": "O soneto é uma das formas poéticas mais tradicionais e difundidas nas literaturas ocidentais; expressa, quase sempre, conteúdo:",
         "alternatives": [
           {
             "id": 1,
-            "content": "Senhora"
+            "content": "dramático."
           },
           {
             "id": 2,
-            "content": "O Cortiço"
+            "content": "satírico."
           },
           {
             "id": 3,
-            "content": "Memórias Póstumas de Brás Cubas"
+            "content": "lírico."
           },
           {
             "id": 4,
-            "content": "O Gaúcho"
+            "content": "épico."
           },
           {
             "id": 5,
-            "content": "A Moreninha"
+            "content": "cronístico."
           }
         ],
-        "correct_answer_id": 4,
-        "description ": "O Gaúcho é um dos romances do escritor brasileiro José de Alencar. Essa obra foi publicada em 1870.",
+        "correct_answer_id": 3,
+        "description ": "Soneto é uma estrutura literária de forma fixa composta por catorze versos, dos quais dois são quartetos (conjunto de quatro versos) e dois tercetos (conjunto de três versos). Seu conteúdo, predominantemente, é de expressão lírica, intimista, subjetiva.",
         "img_response": "",
         "img_question": ""
       },
       {
-        "id": 123,
+        "id": 127,
         "theme": "Português",
-        "question": "Assinale a alternativa que completa adequadamente a lacuna da frase seguinte: Aquele é o professor __________ ideias sobre literatura não concordamos.",
+        "question": "Assinale a alternativa cuja frase apresenta ambiguidade.",
         "alternatives": [
           {
             "id": 1,
-            "content": "que"
+            "content": "Eu sei que estou lendo esta frase."
           },
           {
             "id": 2,
-            "content": "de que"
+            "content": "Ela pegou o ônibus correndo."
           },
           {
             "id": 3,
-            "content": "a que"
+            "content": "Ela escorregou e não caiu."
           },
           {
             "id": 4,
-            "content": "a cujas"
+            "content": "Quanto são dois mais dois?"
           },
           {
             "id": 5,
-            "content": "com cujas"
+            "content": "Você e eu somos amigos."
           }
         ],
-        "correct_answer_id": 5,
-        "description ": "O verbo CONCORDAR desdobra-se com a preposição COM, bem como o pronome relativo CUJAS faz alusão ao termo que lhe é consequente (IDEIAS).",
+        "correct_answer_id": 2,
+        "description": "Em 'Ela pegou o ônibus correndo', o duplo sentido está na possibilidade de 'Ela correr para pegar o ônibus' ou 'O ônibus estar correndo quando ela o pegou'.",
         "img_response": "",
         "img_question": ""
       },
       {
-        "id": 124,
+        "id": 129,
         "theme": "Português",
-        "question": "Assinale a opção em que ocorre um dífono.",
+        "question": "A oração que apresenta complemento nominal é:",
         "alternatives": [
           {
             "id": 1,
-            "content": "Exército"
+            "content": "O povo necessita de alimentos."
           },
           {
             "id": 2,
-            "content": "Correio"
+            "content": "Caminhar a pé lhe era saudável."
           },
           {
             "id": 3,
-            "content": "Planta"
+            "content": "O cigarro prejudica o organismo."
           },
           {
             "id": 4,
-            "content": "Abscissa"
+            "content": "O castelo estava cercado de inimigos."
           },
           {
             "id": 5,
-            "content": "Inoxidável"
+            "content": "As terras foram desapropriadas pelo governo." 
           }
         ],
-        "correct_answer_id": 5,
-        "description ": "Dífono é um fenômeno fonético no qual uma letra representa, simultaneamente, dois fonemas. No caso, a letra X, representa, simultaneamente, os fonemas K e S.",
+        "correct_answer_id": 2,
+        "description": "Na alternativa (B), o adjetivo “saudável” é complementado pelo pronome “lhe” (para ele), ou seja, Caminhar era saudável para ele.",
         "img_response": "",
-        "img_question": "" 
+        "img_question": ""
       },
       {
-        "id": 125,
+        "id": 140,
         "theme": "Português",
-        "question": "Assinale a opção em que a acentuação gráfica da palavra  pode ser justificada, simultaneamente, por duas regras de acentuação.",
+        "question": "Marque a alternativa que apresenta informação correta sobre autor e obra representativos da literatura brasileira.",
         "alternatives": [
           {
             "id": 1,
-            "content": "Veículo."
+            "content": "Aluísio de Azevedo escreveu “O Cortiço”, obra em que fica evidente a zoomorfização das personagens."
           },
           {
             "id": 2,
-            "content": "Saída."
+            "content": "Machado de Assis escreveu “Dom Casmurro”, romance idealista sobre a experiência do amor inacessível."
           },
           {
             "id": 3,
-            "content": "Baú."
+            "content": "Raul Pompéia escreveu “Lira dos Vinte Anos”, e é um representante do mal-do-século no Romantismo."
           },
           {
             "id": 4,
-            "content": "Dói."
+            "content": "Gregório de Matos escreveu peças teatrais populares e de conteúdo religioso para catequizar os indígenas."
           },
           {
             "id": 5,
-            "content": "Também."
+            "content": "Olavo Bilac escreveu “Navio Negreiro” e “Vozes da África”, poemas com evidentes intenções abolicionistas."
           }
         ],
         "correct_answer_id": 1,
-        "description ": "A acentuação gráfica de veículo pode ser justificada  tanto por ser proparoxítona  quanto por ser um hiato (acentua-se o “i” tônico dos hiatos, seguidos ou não de “s”.)",
+        "description": "Na (B) o romance Dom Casmurro não é idealista. Na (C), que escreveu Lira dos Vinte Anos foi Álvares de Azevedo. Na (D), Gregório de Matos, em seus textos, nunca quis catequizar os indígenas e, na (E), quem escreveu Navio Negreiro foi Castro Alves.",
         "img_response": "",
-        "img_question": ""  
+        "img_question": ""
       }
     ]
   },
-  "medium": {
+    "medium": {
     "next_level": "hard",
     "time": 2400000,
     "time_per_question":30000,
@@ -2931,126 +2931,126 @@
         "img_question": ""
       },
       {
-        "id": 126,
+        "id": 124,
         "theme": "Português",
-        "question": "Assinale a alternativa cuja frase apresenta concordância verbal correta.",
+        "question": "Na frase “Deprimido, o atleta desistiu da competição”, o adjetivo estabelece com a oração uma relação de:",
         "alternatives": [
           {
             "id": 1,
-            "content": "As estrelas parece brilharem."
+            "content": "concessão e oposição."
           },
           {
             "id": 2,
-            "content": "Foi eu quem fiz isso."
+            "content": "causa e concessão."
           },
           {
             "id": 3,
-            "content": "Cada um de nós faremos o que nos pediram."
+            "content": "consequência e oposição"
           },
           {
             "id": 4,
-            "content": "Quais de nós fez o exercício de Matemática?"
+            "content": "condição e proporção."
           },
           {
             "id": 5,
-            "content": "Quem de nós fizemos a tarefa?"
+            "content": "causa e efeito. "
           }
         ],
-        "correct_answer_id": 1,
-        "description": "Embora a concordância mais comum seja As estrelas parecem brilhar, o verbo “parecer”, seguido de infinitivo, pode assumir a forma flexionada ou a não flexionada. ",
+        "correct_answer_id": 5,
+        "description ": "Por estar “DEPRIMIDO” (causa), o atleta desistiu da competição (efeito).",
+        "img_response": "",
+        "img_question": "" 
+      },
+      {
+        "id": 123,
+        "theme": "Português",
+        "question": "Assinale a alternativa em que as palavras são antônimas.",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "escrupuloso/diligente"
+          },
+          {
+            "id": 2,
+            "content": "ambicioso/ modesto"
+          },
+          {
+            "id": 3,
+            "content": "didático/facilitador"
+          },
+          {
+            "id": 4,
+            "content": "protocolar/cerimonioso"
+          },
+          {
+            "id": 5,
+            "content": "habilidoso/jeitoso"
+          }
+        ],
+        "correct_answer_id": 5,
+        "description ": "Ambicioso: que ou o que tem ambição; vaidoso. \nModesto: isento de vaidade; que não tem ambição.",
         "img_response": "",
         "img_question": ""
       },
       {
-        "id": 127,
+        "id": 125,
         "theme": "Português",
-        "question": "Assinale a alternativa cuja frase apresenta ambiguidade.",
+        "question": "Assinale a alternativa que completa corretamente as lacunas da frase: \n'Este é o autor _______ obra tenho simpatia e _______ gosto muito.'",
         "alternatives": [
           {
             "id": 1,
-            "content": "Eu sei que estou lendo esta frase."
+            "content": "cuja – que "
           },
           {
             "id": 2,
-            "content": "O menino viu o incêndio do prédio."
+            "content": "de cuja – de que"
           },
           {
             "id": 3,
-            "content": "Ela escorregou e não caiu."
+            "content": "por cuja – de quem"
           },
           {
             "id": 4,
-            "content": "Quanto são dois mais dois?"
+            "content": " cuja a – que"
           },
           {
             "id": 5,
-            "content": "Leia com muita atenção as frases acima."
+            "content": "por cuja a – de quem"
           }
         ],
-        "correct_answer_id": 2,
-        "description": "Em o menino viu o incêndio do prédio,  o duplo sentido está na possibilidade de o menino ter visto o prédio incendiar-se ou de ter visto um incêndio estando ele, o menino, no prédio.",
+        "correct_answer_id": 5,
+        "description ": "O pronome relativo cuja refere-se ao substantivo “obra” (consequente) e deve ser precedido da preposição “por”, uma vez que o substantivo “simpatia” exige essa preposição (“simpatia por”); de igual modo o pronome relativo “quem” se refere ao substantivo “autor” (antecedente) e deve vir precedido da preposição “de”, exigida pelo verbo “gostar” (“gostar de”).",
         "img_response": "",
-        "img_question": ""
+        "img_question": ""  
       },
       {
         "id": 128,
         "theme": "Português",
-        "question": "Assinale a alternativa em que a figura de linguagem denominada sinestesia.",
+        "question": "Na frase 'Se o __________, avisa-me.', a alternativa que completa corretamente a frase é:",
         "alternatives": [
           {
             "id": 1,
-            "content": "A noite acalma as emoções cansadas."
+            "content": "veres "
           },
           {
             "id": 2,
-            "content": "Meu coração se partiu com essa notícia."
+            "content": "vir"
           },
           {
             "id": 3,
-            "content": "Aquele homem tem uma voz áspera."
+            "content": "reverdes"
           },
           {
             "id": 4,
-            "content": "Há pessoas que não têm um teto para morar."
+            "content": " vires"
           },
           {
             "id": 5,
-            "content": "Chorei rios de lágrimas de saudades dela."
+            "content": "ver"
           }
         ],
         "correct_answer_id": 2,
-        "description": "Sabendo que Sinestesia é associação de palavras ou expressões em que ocorre combinação de sensações diferentes, em Aquele homem tem a voz áspera há a mistura de dois sentidos, quais sejam, voz (audição) e áspera (tato).",
-        "img_response": "",
-        "img_question": ""
-      },
-      {
-        "id": 129,
-        "theme": "Português",
-        "question": "Assinale a alternativa em que a supressão da(s) vírgula(s) não altera o significado da frase:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "O deputado, que se mudou para a casa ao lado, tem sete filhos."
-          },
-          {
-            "id": 2,
-            "content": "A mãe da menina, histérica, pedia que alguém a ajudasse."
-          },
-          {
-            "id": 3,
-            "content": "“Maria, vem cá mais tarde”."
-          },
-          {
-            "id": 4,
-            "content": "Perdi a paciência com a secretária, que costuma me desmentir."
-          },
-          {
-            "id": 5,
-            "content": "Ontem, a rua estava muito barulhenta." 
-          }
-        ],
-        "correct_answer_id": 5,
-        "description": "A supressão da vírgula não altera o significado da oração indicada.  Nas demais, o sentido muda completamente. Na (A), de adjetiva explicativa passa para adjetiva restritiva; na (B), histérica deixa de se referir à mãe para se referir  à menina; em (C), Maria deixa de ser vocativo, para ser sujeito; em (D), a supressão da vírgula transforma a oração adjetiva explicativa em adjetiva restritiva.",
+        "description": "O futuro do subjuntivo do verbo VER conjuga-se da seguinte maneira: vir, vires, vir, virmos, virdes, virem.",
         "img_response": "",
         "img_question": ""
       },
@@ -3061,58 +3061,58 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "Não sei se ela vai voltar."
+            "content": "Não sabemos se ela vai voltar."
           },
           {
             "id": 2,
-            "content": "Se chover, pode esfriar."
+            "content": "Lavam-se sofás."
           },
           {
             "id": 3,
-            "content": "Vão-se embora daqui, rapazes!"
+            "content": "Se é bom, não sabemos."
           },
           {
             "id": 4,
-            "content": "Alugam-se apartamentos."
+            "content": "Vão-se os anéis, ficam-se os dedos."
           },
           {
             "id": 5,
-            "content": "Precisa-se de empregadas."
+            "content": "Crê-se em superstições."
           }
         ],
-        "correct_answer_id": 3,
-        "description": "Partícula expletiva ou de realce nunca exerce função sintática. Pode ser retirada da frase sem prejuízo sintático ou semântico. É o que ocorre na frase (C), na qual o “se” pode ser retirado sem que haja prejuízo sintático ou semântico. Nas demais, o “se” tem função sintática. Na (A), é conjunção integrante. Na (B), é conjunção subordinativa condicional. Na (D), é partícula apassivadora. Na (E), é índice de indeterminação do sujeito.",
+        "correct_answer_id": 4,
+        "description": "Partícula expletiva ou de realce nunca exerce função sintática. Pode ser retirada da frase sem prejuízo sintático ou semântico. É o que ocorre na frase (D), na qual o “se” pode ser retirado sem que haja prejuízo sintático ou semântico. Nas demais, o “se” tem função sintática. Na (A), é conjunção integrante. Na (B), é partícula apassivadora. Na (C), é conjunção subordinativa condicional. Na (E), é índice de indeterminação do sujeito.",
         "img_response": "",
         "img_question": ""
       },
       {
         "id": 131,
         "theme": "Português",
-        "question": "Assinale a alternativa em que a oração destacada exerce a função de sujeito:",
+        "question": "Assinale a alternativa na qual o pronome que exerce a função de objeto indireto.",
         "alternatives": [
           {
             "id": 1,
-            "content": "É possível que a prova seja adiada."
+            "content": "O carro que vendi é seminovo."
           },
           {
             "id": 2,
-            "content": "Consta que a prova foi adiada."
+            "content": "A casa em que moro é alugada."
           },
           {
             "id": 3,
-            "content": "Não acredito que haja adiamento da prova."
+            "content": "O aluno curioso que fui não existe mais."
           },
           {
             "id": 4,
-            "content": "Se a prova for adiada, ficaremos decepcionados."
+            "content": "O livro ao qual o professor fez referência é de Machado de Assis."
           },
           {
             "id": 5,
-            "content": "Só irei embora quando se confirmar o adiamento da prova."
+            "content": "O trabalho ao qual dei nota máxima foi o seu."
           }
         ],
-        "correct_answer_id":2,
-        "description": "Em Consta que a prova foi adiada, a oração “que a prova foi adiada” exerce a função de sujeito do verbo CONSTAR (Consta isto ou Isto consta.)",
+        "correct_answer_id": 5,
+        "description": "Na letra (E), o pronome relativo exerce a função sintática de objeto indireto, referindo-se a “trabalho” (Dei nota máxima ao seu trabalho.).",
         "img_response": "",
         "img_question": ""
       },
@@ -3123,58 +3123,27 @@
         "alternatives": [
           {
             "id": 1,
-            "content": "Disseram-me a verdade sobre o ocorrido."
+            "content": "Diga-me sempre a verdade, por favor."
           },
           {
             "id": 2,
-            "content": "Entregaram-lhe o livro de Física?"
+            "content": "Roubaram-me a carteira."
           },
           {
             "id": 3,
-            "content": "Deixei-o na minha casa."
+            "content": "Quem o trouxe até aqui?"
           },
           {
             "id": 4,
-            "content": "A lama sujou-me a roupa."
+            "content": "Disseram-lhe o que queria ouvir."
           },
           {
             "id": 5,
-            "content": "Eu lhe peço apenas mais um favor."
+            "content": "Precisa-se de empregadas domésticas."
           }
         ],
-        "correct_answer_id": 4,
-        "description": "Em A lama sujou-me a roupa, o pronome me tem valor de “minha”, ou seja, A lama sujou a minha roupa.",
-        "img_response": "",
-        "img_question": ""
-      },
-      {
-        "id": 133,
-        "theme": "Português",
-        "question": "Assinale  a alternativa na qual o pronome que exerce a função de predicativo do sujeito.",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "O carro que comprei é usado."
-          },
-          {
-            "id": 2,
-            "content": "A mulher com que me casei é esta."
-          },
-          {
-            "id": 3,
-            "content": "O aluno curioso que fui não existe mais."
-          },
-          {
-            "id": 4,
-            "content": "Os livros de que o professor falou são muito bons."
-          },
-          {
-            "id": 5,
-            "content": "O filme a que assisti era lento."
-          }
-        ],
-        "correct_answer_id": 3,
-        "description": "O pronome que refere-se a “curioso” que é o predicativo do sujeito  na oração “fui curioso”, na qual o verbo é de ligação (“ser”).",
+        "correct_answer_id": 2,
+        "description": "Em 'Roubaram-me a carteira', o pronome 'me' tem valor de “minha”, ou seja, 'Roubaram a minha carteira.'",
         "img_response": "",
         "img_question": ""
       },
@@ -3205,38 +3174,101 @@
           }
         ],
         "correct_answer_id": 4,
-        "description": "A formas regulares de particípio são usadas com os verbos TER e HAVER, enquanto as irregulares são empregadas com os verbos SER e ESTAR, razão pela qual a única resposta certa é a alternativa (D).",
+        "description": "O particípio regular, na norma culta, é precedido dos auxiliares TER e HAVER, ao passo que os particípios irregulares são antecedidos das formas auxiliares SER e ESTAR.",
         "img_response": "",
         "img_question": ""
       },
       {
         "id": 135,
         "theme": "Português",
-        "question": "Assinale a alternativa em que há um verbo defectivo:",
+        "question": "'Pobre velha música! \nNão sei por que agrado, \nEnche-se de lágrimas \nMeu olhar parado.' \nO sujeito de “enche-se”, no 3º verso é:",
         "alternatives": [
           {
             "id": 1,
-            "content": "Demoliram vários prédios naquele local."
+            "content": "pobre velha música "
           },
           {
             "id": 2,
-            "content": "Eu adiro a essa campanha."
+            "content": "lágrimas "
           },
           {
             "id": 3,
-            "content": "Estampava no rosto um sorriso, um sorriso de criança."
+            "content": "meu olhar parado "
           },
           {
             "id": 4,
-            "content": "Compramos muitas mercadorias remarcadas."
+            "content": "música "
           },
           {
             "id": 5,
-            "content": "Coube ao juiz julgar o réu."
+            "content": "eu"
           }
         ],
-        "correct_answer_id": 1,
-        "description": "Verbos defectivos são aqueles que possuem conjugação incompleta, ou seja, não se conjugam em todos os modos, tempos e pessoas, o que é o caso do verbo demolir, que não tem a 1ª pessoa do singular do presente do indicativo, o que acarretará a inexistência de todo o presente do subjuntivo, por exemplo.",
+        "correct_answer_id": 3,
+        "description": "'<u>Meu olhar parado</u> enche-se de lágrimas'. O termo destacado é o sujeito do verbo “encher-se”.",
+        "img_response": "",
+        "img_question": ""
+      },
+
+      {
+        "id": 138,
+        "theme": "Português",
+        "question": "Uma das obras citadas abaixo foi escrita por Lima Barreto. Assinale-a:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Canaã"
+          },
+          {
+            "id": 2,
+            "content": "Os Sertões"
+          },
+          {
+            "id": 3,
+            "content": "Triste fim de Policarpo Quaresma "
+          },
+          {
+            "id": 4,
+            "content": "Eu"
+          },
+          {
+            "id": 5,
+            "content": "Urupês"
+          }
+        ],
+        "correct_answer_id": 3,
+        "description": "'Canaã' foi escrito por Graça Aranha; 'Os Sertões', por Euclides da Cunha; 'Eu', foi escrito pelo poeta Augusto dos Anjos; 'Urupês', por Monteiro Lobato.",
+        "img_response": "",
+        "img_question": ""
+      },
+      {
+        "id": 139,
+        "theme": "Português",
+        "question": "Considerando as características das escolas literárias no Brasil, pode-se afirmar que o(a):",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Arcadismo abordou temas religiosos, revelando profunda angústia existencial."
+          },
+          {
+            "id": 2,
+            "content": "Poesia romântica da 2ª fase apresentou exclusivamente uma tendência nacionalista."
+          },
+          {
+            "id": 3,
+            "content": "Barroco se destacou pelo jogo de palavras e raciocínio, predominando a linguagem figurada. "
+          },
+          {
+            "id": 4,
+            "content": "Literatura Informativa tratava de textos escritos pelos jesuítas sobre as facilidades de conversão dos índios."
+          },
+          {
+            "id": 5,
+            "content": "Simbolista não se preocupava com a forma e seus textos são mais narrativos que poéticos."
+          }
+        ],
+        "correct_answer_id": 3,
+        "description": "A estética barroca caracterizou-se pelo ludismo, pelos jogos de palavras por meio dos quais buscava expressar toda tensão e angustia do homem medieval. Lançou mão da linguagem figurada para exprimir a angústia, bem como o lirismo do qual também foi um representante.",
         "img_response": "",
         "img_question": ""
       }
@@ -4211,157 +4243,126 @@
         "img_question": ""
       },
       {
-        "id": 136,
+        "id": 126,
         "theme": "Português",
-        "question": "Movimento poético surgido na década de 1950, revela-se um fruto legítimo da civilização audiovisual, em que à noção de poesia se incorpora, fundamentalmente, o elemento visual. É o:",
+        "question": "'<u>Aceitemos</u> o labéu, e <u>corrompamos</u> de cabeça erguida o idioma luso, na certeza de <u>estarmos</u> a elaborar obra magnífica.' (Monteiro Lobato, 'A Língua Brasileira') \nPassando os verbos, acima destacados, para a 2ª pessoa do plural e mantendo o mesmo modo, tempo ou forma nominal, a alternativa correta é:",
         "alternatives": [
           {
             "id": 1,
-            "content": "Verde-amarelismo."
+            "content": "aceitais, corrompais, estarvos"
           },
           {
             "id": 2,
-            "content": "Grupo da Anta."
+            "content": "aceite, corrompa, estáreis"
           },
           {
             "id": 3,
-            "content": "Grupo Marajás."
+            "content": "aceitai, corrompa, estardes"
           },
           {
             "id": 4,
-            "content": "Concretismo."
+            "content": "aceites, corrompeis, estais"
           },
           {
             "id": 5,
-            "content": "Pau-brasil."
+            "content": "aceitai, corrompei, estardes"
           }
         ],
-        "correct_answer_id": 4,
-        "description": "Movimento artístico no qual  se privilegiou a valorização do conteúdo visual e sonoro, enfatizando-se uma estrutura visual em detrimento da discursiva.",
+        "correct_answer_id": 5,
+        "description": "A 2ª pessoa do plural dos verbos acima sublinhados, mantendo o mesmo modo, tempo ou forma nominal, encontra-se na alternativa indicada como correta.",
+        "img_response": "",
+        "img_question": ""
+      },
+      {
+        "id": 133,
+        "theme": "Português",
+        "question": "Assinale a alternativa que contém a expressão cuja classificação sintática é a mesma da sublinhada na frase abaixo. \n'Era uma verdadeira casa <u>de ensino.</u>'",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "aviso do ministro"
+          },
+          {
+            "id": 2,
+            "content": "defesa da pátria"
+          },
+          {
+            "id": 3,
+            "content": "perdão da injúria"
+          },
+          {
+            "id": 4,
+            "content": "temor da trovoada"
+          },
+          {
+            "id": 5,
+            "content": "disputa dos papéis"
+          }
+        ],
+        "correct_answer_id": 1,
+        "description": "Na letra (A), ocorre um adjunto adnominal (“do ministro), cuja característica semântica ativa distingue-o dos demais termos preposicionados nas demais alternativas, por serem pacientes.",
+        "img_response": "",
+        "img_question": ""
+      },
+      {
+        "id": 136,
+        "theme": "Português",
+        "question": "Assinale a proposição incorreta:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "O Concretismo fez do espaço um elemento expressivo."
+          },
+          {
+            "id": 2,
+            "content": "No Modernismo havia ingrediente nacionalista."
+          },
+          {
+            "id": 3,
+            "content": "No Realismo não há preocupação com o social. "
+          },
+          {
+            "id": 4,
+            "content": "O Romantismo se caracteriza pelo desejo de libertação."
+          },
+          {
+            "id": 5,
+            "content": "O Barroco tem exagerada preocupação formal."
+          }
+        ],
+        "correct_answer_id": 3,
+        "description": "No Realismo, há preocupação social, o que é demonstrado pela análise psicossocial das personagens, as quais não são idealizadas em suas ações, sentimentos e caráter.",
         "img_response": "",
         "img_question": ""
       },
       {
         "id": 137,
         "theme": "Português",
-        "question": "A crítica constata, nas metáforas simbolistas de Cruz e Sousa, a obsessão pela cor:",
+        "question": "São obras do mesmo autor de Vidas secas:",
         "alternatives": [
           {
             "id": 1,
-            "content": "branca."
+            "content": "Jubiabá, Mar morto."
           },
           {
             "id": 2,
-            "content": "negra."
+            "content": "Usina, Fogo morto."
           },
           {
             "id": 3,
-            "content": "rubra."
+            "content": "Angústia, São Bernardo. "
           },
           {
             "id": 4,
-            "content": "roxa."
+            "content": "A bagaceira, Coiteiro."
           },
           {
             "id": 5,
-            "content": "azul."
-          }
-        ],
-        "correct_answer_id": 1,
-        "description": "Suas obras são marcadas pela musicalidade (uso de aliterações), pelo individualismo, pelo sensualismo, ora pelo desespero, ora pelo apaziguamento, além de uma obsessão pela cor branca - manifestada por sua condição racial e a tentativa de superá-la.",
-        "img_response": "",
-        "img_question": ""
-      },
-      {
-        "id": 138,
-        "theme": "Português",
-        "question": "Interesse pelas zonas profundas da mente e pela loucura; desejo de transcendência e integração cósmica; linguagem vaga, fluida que busca sugerir em vez de nomear. Essas são características que identificam as obras de autores ",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "naturalistas."
-          },
-          {
-            "id": 2,
-            "content": "parnasianistas."
-          },
-          {
-            "id": 3,
-            "content": "simbolistas."
-          },
-          {
-            "id": 4,
-            "content": "quinhentistas."
-          },
-          {
-            "id": 5,
-            "content": "realistas."
+            "content": "O quinze, Caminho de pedras."
           }
         ],
         "correct_answer_id": 3,
-        "description": "O enunciado da questão  apresenta as características norteadoras dos poetas simbolistas, dentre os quais e o mais notável foi Cruz e Souza.",
-        "img_response": "",
-        "img_question": ""
-      },
-      {
-        "id": 139,
-        "theme": "Português",
-        "question": "Em 1880, Zola publicou suas teorias sobre o romance experimental em que expunha ideias como esta: “o romance experimental substitui o estudo do homem abstrato e metafísico pelo do homem natural, sujeito a leis físico-químicas e determinado pela influência do meio”.",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Arcadismo."
-          },
-          {
-            "id": 2,
-            "content": "Classicismo."
-          },
-          {
-            "id": 3,
-            "content": "Realismo."
-          },
-          {
-            "id": 4,
-            "content": "Naturalismo."
-          },
-          {
-            "id": 5,
-            "content": "Barroco."
-          }
-        ],
-        "correct_answer_id": 4,
-        "description": "O Naturalismo ancorava-se na  ideia de que as ações do homem eram determinadas pelo meio, ou seja, as condições materiais influenciariam decisivamente o comportamento humano.",
-        "img_response": "",
-        "img_question": ""
-      },
-      {
-        "id": 140,
-        "theme": "Português",
-        "question": "O romance realista brasileiro, tal como o conhecemos, focaliza principalmente:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "as camadas marginalizadas da sociedade."
-          },
-          {
-            "id": 2,
-            "content": "aspectos sociais e psicológicos nas relações humanas."
-          },
-          {
-            "id": 3,
-            "content": "o preconceito racial."
-          },
-          {
-            "id": 4,
-            "content": "a defesa das instituições, como o casamento, por exemplo."
-          },
-          {
-            "id": 5,
-            "content": "a formação da nacionalidade."
-          }
-        ],
-        "correct_answer_id": 2,
-        "description": "O Realismo explorou as relações humanas em seus aspectos psicológicos e o comportamento do homem na sociedade, motivado por interesses nem sempre louváveis.",
+        "description": "'Angústia' e 'São Bernardo' são obras de Graciliano Ramos, o qual também é autor de Vidas Secas.",
         "img_response": "",
         "img_question": ""
       }
