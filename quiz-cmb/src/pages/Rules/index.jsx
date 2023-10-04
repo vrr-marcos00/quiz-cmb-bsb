@@ -43,7 +43,7 @@ function Rules({socket}) {
         <p>10 - Para a disputa da última fase a pontuação dos classificados será zerada.</p>
         <p>11 - Vencerão os participantes que, ao final da disputa, obtiverem a maior pontuação e, em caso de empate, o menor tempo de resposta.</p>
         
-        <button onClick={handleInitGame}>
+        <button onClick={handleInitGame} className="comecarQuiz">
           Iniciar Game
         </button>
       </div>
