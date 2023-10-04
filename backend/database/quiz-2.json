@@ -379,66 +379,159 @@
         "description ": "As vantagens do custo das ferrovias em relação às rodovias aparecem nos trajetos de extensão superior a 500 quilômetros. Pequenas distâncias, as vantagens nos transportes rodoviários (áreas de relevo acidentado). A circulação e entrega das mercadorias no interior das cidades é mais viável o sistema rodoviário."
       },
       {
-        "id": 11,
+        "id": 48,
         "theme": "Geografia",
-        "question": "Segregação socioespacial vivenciado em áreas urbanas, caracterizado pela valorização acentuada de determinada área, que culmina na saída de moradores antigos em razão do aumento local do custo de vida. Esse processo se denomina:",
+        "question": "Qual é o único clima do Brasil que não está na faixa intertropical?",
         "alternatives": [
           {
             "id": 1,
-            "content": "mobilidade urbana."
+            "content": "Tropical de altitude."
           },
           {
             "id": 2,
-            "content": "ressignificação."
+            "content": "Tropical."
           },
           {
             "id": 3,
-            "content": "verticalização."
+            "content": "Equatorial."
           },
           {
             "id": 4,
-            "content": "gentrificação."
+            "content": "Semiárido."
           },
           {
             "id": 5,
-            "content": "desurbanização"
+            "content": "Subtropical."
+          }
+        ],
+        "img_response": "https://static.escolakids.uol.com.br/2020/07/tipos-de-clima.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Os principais climas do Brasil são: equatorial, tropical, semiárido, tropical de altitude, tropical atlântico e subtropical. O clima subtropical ocorre nas terras situadas abaixo do Trópico de Capricórnio, portanto, na porção do território nacional situada na Zona Temperada Sul do planeta, que corresponde aos estados da região Sul, ao sudeste de São Paulo e à porção meridional do Mato Grosso do Sul."
+      },
+      {
+        "id": 49,
+        "theme": "Geografia",
+        "question": "Friagem mais forte do ano no Acre deixa temperaturas inferiores a 20 graus ao longo desta semana.",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "mEc."
+          },
+          {
+            "id": 2,
+            "content": "mTa."
+          },
+          {
+            "id": 3,
+            "content": "mPa."
+          },
+          {
+            "id": 4,
+            "content": "mTc."
+          },
+          {
+            "id": 5,
+            "content": "mEa."
+          }
+        ],
+        "img_response": "https://s2-g1.glbimg.com/GcAHUQkpiYyp0KxF8cM7zSu9a5I=/0x0:959x640/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/M/n/tLLCELRyGVLNDnM0k0lw/frio.jpg",
+        "img_question": "",
+        "correct_answer_id": 3,
+        "description": "A mPa – Massa Polar Atlântica  é a massa de ar frio que determina, durante o inverno, o estado de tempo ou comportamento atmosférico na Região Sul. Essas ondas de frio são acompanhadas, muitas vezes, por chuvas prolongadas ou garoas, geadas e até por quedas de neve. Até mesmo a Amazônia é atingida por esses avanços da Massa Polar Atlântica durante o inverno austral. É o fenômeno da “friagem“, que ocorre na porção sul da Amazônia e o norte do Mato Grosso."
+      },
+      {
+        "id": 50,
+        "theme": "Geografia",
+        "question": "Correlacione o tipo de clima e a região do Brasil, respectivamente:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Equatorial / toda região norte exceto os estados do AP e RR."
+          },
+          {
+            "id": 2,
+            "content": "Subtropical / região sul e serrana de SP, RJ e MG."
+          },
+          {
+            "id": 3,
+            "content": "Tropical  / predominante na região centro-oeste e nas partes altas da região Sudeste."
+          },
+          {
+            "id": 4,
+            "content": "Semiárido / sertão nordestino e norte de Minas Gerais."
+          },
+          {
+            "id": 5,
+            "content": "Tropical de Altitude / nas partes baixas da região Sudeste."
+          }
+        ],
+        "img_response": "https://pbs.twimg.com/media/EpZrxEBWwAEXVGF.jpg",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "O clima semiárido caracteriza-se por temperaturas elevadas, baixa amplitude térmica anual e chuvas escassas e mal distribuídas, com longos períodos de seca. No Brasil, esse clima compreende o interior da região Nordeste e o norte de Minas Gerais."
+      },
+      {
+        "id": 74,
+        "theme": "Geografia",
+        "question": "Observe a figura a seguir, a qual está representando:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "a ilustração gráfica do mecanismo dos dias e das noites."
+          },
+          {
+            "id": 2,
+            "content": "a configuração esquemática do meridiano de Greenwich."
+          },
+          {
+            "id": 3,
+            "content": "a ilustração do que constitui uma projeção cartográfica."
+          },
+          {
+            "id": 4,
+            "content": "o desenho esquemático da influência da latitude sobre o clima."
+          },
+          {
+            "id": 5,
+            "content": "o esboço da rotação da Terra em torno de seu eixo imaginário."
+          }
+        ],
+        "img_response": "",
+        "img_question": "https://atlasescolar.ibge.gov.br/images/atlas/cartografia/projecoes_1_plana.jpg",
+        "correct_answer_id": 3,
+        "description": "Trata-se de uma ilustração didática do que é uma projeção cartográfica num plano."
+      },
+      {
+        "id": 75,
+        "theme": "Geografia",
+        "question": "Ao planejar uma viagem de férias utilizando o programa GoogleEarth, você anotou as coordenadas geográficas de dois locais que gostaria de visitar na Ilha do Mel (PR), sendo o primeiro de coordenadas 25°33'26,28\"S (latitude) e 48°18'30,75\"O (longitude) e o segundo de coordenadas 25°33'46,27\"S (latitude) e 48°18'10,10\"O (longitude). Com base nos valores das coordenadas, é correto afirmar que do primeiro para o segundo ponto você se deslocou para:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "leste."
+          },
+          {
+            "id": 2,
+            "content": "nordeste."
+          },
+          {
+            "id": 3,
+            "content": "sudeste."
+          },
+          {
+            "id": 4,
+            "content": "oeste."
+          },
+          {
+            "id": 5,
+            "content": "noroeste."
           }
         ],
         "img_response": "",
         "img_question": "",
-        "correct_answer_id": 4,
-        "description ": "Gentrificação é um processo de transformação e supervalorização de uma determinada área da cidade, promovendo um aumento no custo de vida. Essa dinâmica imposta atrai um novo perfil de moradores — uma população de maior poder aquisitivo —, ao mesmo tempo que expulsa seus antigos residentes, que partem em busca de bairros mais acessíveis economicamente. Diante disso, a gentrificação aprofunda a segregação socioespacial e evidencia a falta de um planejamento urbano mais eficaz nas cidades."
-      },
-      {
-        "id": 12,
-        "theme": "Geografia",
-        "question": "A definição apresentada acima é referente, especificamente, ao conceito de:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Cidades-dormitório."
-          },
-          {
-            "id": 2,
-            "content": "Zona econômica exclusiva."
-          },
-          {
-            "id": 3,
-            "content": "Cidades-gêmeas."
-          },
-          {
-            "id": 4,
-            "content": "Zona de fronteira."
-          },
-          {
-            "id": 5,
-            "content": "Divisa."
-          }
-        ],
-        "img_response": "",
-        "img_question": "https://www.folhadedourados.com.br/wp-content/uploads/2021/01/x-159.jpg",
         "correct_answer_id": 3,
-        "description ": "Conforme o Ministério da Integração, o conceito de cidades-gêmeas foi definido em 2014 e vincula a termologia aos municípios situados na linha de fronteira, seja seca ou fluvial, integrada ou não por obras de infraestrutura, que apresentem grande potencial de integração econômica e cultural. A definição só é válida para as cidades que tenham, individualmente, uma população superior a dois mil habitantes."
+        "description": "Pelas coordenadas geográficas apresentadas, temos que do primeiro para o segundo ponto o deslocamento foi para sudeste."
       },
       {
         "id": 13,
@@ -1566,159 +1659,66 @@
         "description": "Piauí tem apenas 66 km de litoral."
       },
       {
-        "id": 41,
+        "id": 11,
         "theme": "Geografia",
-        "question": "A área hachurada na cor verde representa a:",
+        "question": "As ilhas de calor representam um dos problemas ambientais urbanos. Esse fenômeno climático acontece devido:",
         "alternatives": [
           {
             "id": 1,
-            "content": "Região Norte."
+            "content": "ao aumento das queimadas nas zonas rurais."
           },
           {
             "id": 2,
-            "content": "Amazônia Internacional."
+            "content": "a diminuição da densidade demográfica dos centros urbanos."
           },
           {
             "id": 3,
-            "content": "Amazônia Legal."
+            "content": "ao aumento da inversão térmica nas cidades."
           },
           {
             "id": 4,
-            "content": "Amazônia Ocidental."
+            "content": "a elevação das temperaturas em algumas zonas urbanas."
           },
           {
             "id": 5,
-            "content": "Amazônia marítima."
+            "content": "aos microclimas periféricos que afetam diretamente as cidades."
           }
         ],
         "img_response": "",
-        "img_question": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Amazonia_legal_brazil_map.PNG/800px-Amazonia_legal_brazil_map.PNG",
-        "correct_answer_id": 3,
-        "description": "A área representa a Amazônia Legal que é constituída da seguinte forma: Região N, TO, MT e partes do MA."
-      },
-      {
-        "id": 42,
-        "theme": "Geografia",
-        "question": "A Amazônia Azul é a faixa oceânica que o Brasil tem direito de exploração. Sobre sua extensão, podemos dizer:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "do litoral até o mar territorial."
-          },
-          {
-            "id": 2,
-            "content": "entre o mar territorial e a Zona Econômica Exclusiva (ZEE)."
-          },
-          {
-            "id": 3,
-            "content": "somente a parte oceânica até a Zona Econômica (ZEE)"
-          },
-          {
-            "id": 4,
-            "content": "da Zona Exclusiva Econômica (ZEE) até o limite da Plataforma Continental brasileira."
-          },
-          {
-            "id": 5,
-            "content": "a partir do litoral até o limite da Plataforma Continental brasileira."
-          }
-        ],
-        "img_response": "https://i.ytimg.com/vi/5qe0SNj4BOY/maxresdefault.jpg",
-        "img_question": "",
-        "correct_answer_id": 5,
-        "description": "Amazônia Azul: Mar Territorial + ZEE + extensão da Plataforma Continental (Limite). Foi estabelecida conforme os critérios técnicos e condicionantes do Artigo 76 da Lei do Mar, onde prescreve: “Os direitos do Estado costeiro na plataforma continental são exclusivos no sentido de que, se o Estado costeiro não explora a plataforma continental ou não aproveita os recursos naturais da mesma, ninguém pode empreender estas atividades sem o expresso consentimento desse Estado.”"
-      },
-      {
-        "id": 43,
-        "theme": "Geografia",
-        "question": "O que são mapas?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Imagem mental que cada um adquire de uma área."
-          },
-          {
-            "id": 2,
-            "content": "fotografias tiradas através de um satélite."
-          },
-          {
-            "id": 3,
-            "content": "representação gráfica de um espaço real, em uma superfície plana."
-          },
-          {
-            "id": 4,
-            "content": "representação esférica do planeta Terra."
-          },
-          {
-            "id": 5,
-            "content": "representação gráfica de um espaço imaginário, em uma superfície esférica."
-          }
-        ],
-        "img_response": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
-        "img_question": "",
-        "correct_answer_id": 3,
-        "description": "Os mapas correspondem a uma representação gráfica de um espaço real, em uma superfície plana, como um papel. Em um mapa é possível representar diferentes lugares do planeta, partindo do particular como um bairro, cidade ou estado e geral como um país, continente ou o mapa mundi."
-      },
-      {
-        "id": 44,
-        "theme": "Geografia",
-        "question": "São alguns elementos de um mapa:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "orientação, relevo e projeção."
-          },
-          {
-            "id": 2,
-            "content": "escala, orientação e sumário."
-          },
-          {
-            "id": 3,
-            "content": "título, curva de nível e escala."
-          },
-          {
-            "id": 4,
-            "content": "escala, título e projeção."
-          },
-          {
-            "id": 5,
-            "content": "legenda, orientação e fotografia."
-          }
-        ],
-        "img_response": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
         "img_question": "",
         "correct_answer_id": 4,
-        "description": "Os mapas correspondem a uma representação gráfica de um espaço real, em uma superfície plana, como um papel. Em um mapa é possível representar diferentes lugares do planeta, partindo do particular como um bairro, cidade ou estado e geral como um país, continente ou o mapa mundi. Qualquer que seja sua função, o autor do mapa deve sempre incluir os elementos necessários para a construção de um mapa, que são: título, escala, orientação, legenda e projeção."
+        "description ": "A ilha de calor, também chamada de ilha de calor urbana (ICU), são microclimas identificados pelo aumento de temperatura em algumas zonas dos centros urbanos. Isso porque os raios solares que atingem esses locais têm dificuldade de se dissiparem por conta das construções nas grandes cidades. É possível que quando isso acontece, a temperatura das zonas rurais próximas, ou mesmo das áreas periféricas, apresentem uma diferença de 5 a 10 graus."
       },
       {
-        "id": 45,
+        "id": 12,
         "theme": "Geografia",
-        "question": "Às 10 horas um aluno no Colégio Militar de Manaus fez uma ligação. Qual horário será na cidade de Rio Branco/AC e na Ilha de Fernando de Noronha/PE, respectivamente?",
+        "question": "O _________ é um dos principais problemas ambientais no Brasil que acontece desde a chegada dos portugueses em 1500. Das alternativas abaixo, a que preenche corretamente a lacuna é:",
         "alternatives": [
           {
             "id": 1,
-            "content": "9 horas e 10 horas."
+            "content": "assoreamento"
           },
           {
             "id": 2,
-            "content": "9 horas e 12 horas."
+            "content": "efeito estufa"
           },
           {
             "id": 3,
-            "content": "11 horas e 12 horas."
+            "content": "desmatamento"
           },
           {
             "id": 4,
-            "content": "10 horas e 12 horas."
+            "content": "empobrecimento do solo"
           },
           {
             "id": 5,
-            "content": "8 horas e 11 horas."
+            "content": "uso de agrotóxicos"
           }
         ],
-        "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo/mapa-dos-fusos-horarios-do-brasil.jpg",
+        "img_response": "",
         "img_question": "",
-        "correct_answer_id": 2,
-        "description": "Existem quatro fusos horários no Brasil, que são GMT -2, GMT -3 (conhecido como horário de Brasília, que é a hora oficial do país), GMT -4 e GMT -5. Como o país está localizado inteiramente no hemisfério ocidental, ou oeste, todos os seus horários se encontram atrasados em relação à zona inicial, que tem como centro o Meridiano de Greenwich. O aluno do Colégio Militar de Manaus fez uma ligação no fuso GMT -4. Estão inseridos nele a totalidade dos territórios de Rondônia, Roraima, Mato Grosso e Mato Grosso do Sul, além da maior porção do Amazonas. Rio Branco/AC está no fuso GMT -5, portanto, será 9 horas e na Ilha de Fernando de Noronha/PE no fuso GMT -2 será 12 horas."
+        "correct_answer_id": 3,
+        "description ": "O desmatamento, também chamado de desflorestamento, é um dos problemas ambientais mais antigos que acontece no Brasil desde a chegada dos portugueses em 1500. A exploração do pau-Brasil, que ocorreu no período colonial, foi o princípio da eliminação de parte da cobertura vegetal do país. Estima-se que desde 1970, o Brasil já perdeu cerca de 20% das suas florestas por conta do desmatamento."
       },
       {
         "id": 46,
@@ -1783,99 +1783,6 @@
         "description": "El Niño é um fenômeno climático, que envolve fatores atmosféricos e oceânicos, caracterizado pelo aumento das temperaturas do oceano Pacífico. No Brasil, o El Niño causa chuvas torrenciais na região Sul, além de secas severas no Norte e Nordeste do país."
       },
       {
-        "id": 48,
-        "theme": "Geografia",
-        "question": "Qual é o único clima do Brasil que não está na faixa intertropical?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Tropical de altitude."
-          },
-          {
-            "id": 2,
-            "content": "Tropical."
-          },
-          {
-            "id": 3,
-            "content": "Equatorial."
-          },
-          {
-            "id": 4,
-            "content": "Semiárido."
-          },
-          {
-            "id": 5,
-            "content": "Subtropical."
-          }
-        ],
-        "img_response": "https://static.escolakids.uol.com.br/2020/07/tipos-de-clima.jpg",
-        "img_question": "",
-        "correct_answer_id": 5,
-        "description": "Os principais climas do Brasil são: equatorial, tropical, semiárido, tropical de altitude, tropical atlântico e subtropical. O clima subtropical ocorre nas terras situadas abaixo do Trópico de Capricórnio, portanto, na porção do território nacional situada na Zona Temperada Sul do planeta, que corresponde aos estados da região Sul, ao sudeste de São Paulo e à porção meridional do Mato Grosso do Sul."
-      },
-      {
-        "id": 49,
-        "theme": "Geografia",
-        "question": "Friagem mais forte do ano no Acre deixa temperaturas inferiores a 20 graus ao longo desta semana.",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "mEc."
-          },
-          {
-            "id": 2,
-            "content": "mTa."
-          },
-          {
-            "id": 3,
-            "content": "mPa."
-          },
-          {
-            "id": 4,
-            "content": "mTc."
-          },
-          {
-            "id": 5,
-            "content": "mEa."
-          }
-        ],
-        "img_response": "https://s2-g1.glbimg.com/GcAHUQkpiYyp0KxF8cM7zSu9a5I=/0x0:959x640/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/M/n/tLLCELRyGVLNDnM0k0lw/frio.jpg",
-        "img_question": "",
-        "correct_answer_id": 3,
-        "description": "A mPa – Massa Polar Atlântica  é a massa de ar frio que determina, durante o inverno, o estado de tempo ou comportamento atmosférico na Região Sul. Essas ondas de frio são acompanhadas, muitas vezes, por chuvas prolongadas ou garoas, geadas e até por quedas de neve. Até mesmo a Amazônia é atingida por esses avanços da Massa Polar Atlântica durante o inverno austral. É o fenômeno da “friagem“, que ocorre na porção sul da Amazônia e o norte do Mato Grosso."
-      },
-      {
-        "id": 50,
-        "theme": "Geografia",
-        "question": "Correlacione o tipo de clima e a região do Brasil, respectivamente:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Equatorial / toda região norte exceto os estados do AP e RR."
-          },
-          {
-            "id": 2,
-            "content": "Subtropical / região sul e serrana de SP, RJ e MG."
-          },
-          {
-            "id": 3,
-            "content": "Tropical  / predominante na região centro-oeste e nas partes altas da região Sudeste."
-          },
-          {
-            "id": 4,
-            "content": "Semiárido / sertão nordestino e norte de Minas Gerais."
-          },
-          {
-            "id": 5,
-            "content": "Tropical de Altitude / nas partes baixas da região Sudeste."
-          }
-        ],
-        "img_response": "https://pbs.twimg.com/media/EpZrxEBWwAEXVGF.jpg",
-        "img_question": "",
-        "correct_answer_id": 4,
-        "description": "O clima semiárido caracteriza-se por temperaturas elevadas, baixa amplitude térmica anual e chuvas escassas e mal distribuídas, com longos períodos de seca. No Brasil, esse clima compreende o interior da região Nordeste e o norte de Minas Gerais."
-      },
-      {
         "id": 51,
         "theme": "Geografia",
         "question": "Observe o climograma e responda:",
@@ -1936,6 +1843,37 @@
         "img_question": "https://www.conectas.org/wp-content/uploads/2017/08/BRICS.png",
         "correct_answer_id": 5,
         "description": "Grupo de países com economias emergentes criado em 2006, formado inicialmente por Brasil, Rússia, Índia, China e posteriormente, em 2011, a África do Sul passa a integrar o grupo."
+      },
+      {
+        "id": 73,
+        "theme": "Geografia",
+        "question": "Observe o esquema seguinte que mostra a atuação das massas de ar no Brasil:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "massa Tropical Continental (mTc)."
+          },
+          {
+            "id": 2,
+            "content": "massa Tropical atlântica (mTa)."
+          },
+          {
+            "id": 3,
+            "content": "massa Equatorial atlântica (mEa)."
+          },
+          {
+            "id": 4,
+            "content": "massa Polar atlântica (mPa)."
+          },
+          {
+            "id": 5,
+            "content": "massa Equatorial continental (mEc)."
+          }
+        ],
+        "img_response": "",
+        "img_question": "https://s2-educacao.glbimg.com/uC3bUAybenbu-wJ-0Vtsc2r0HuE=/7x0:627x295/620x295/s.glbimg.com/po/ek/f/original/2014/12/11/massas_de_ar_brasil_am_sul.png",
+        "correct_answer_id": 1,
+        "description": "A mTc atua tanto no verão quanto no inverno, atinge o Sul e Centro-Oeste brasileiros e é uma massa quente e seca."
       },
       {
         "id": 53,
@@ -3684,97 +3622,159 @@
         "description": "Está escrito na Bandeira do Rio Grande do Sul: Liberdade - Igualdade - Humanidade."
       },
       {
-        "id": 73,
+        "id": 41,
         "theme": "Geografia",
-        "question": "Observe o esquema seguinte que mostra a atuação das massas de ar no Brasil:",
+        "question": "A área hachurada na cor verde representa a:",
         "alternatives": [
           {
             "id": 1,
-            "content": "massa Tropical Continental (mTc)."
+            "content": "Região Norte."
           },
           {
             "id": 2,
-            "content": "massa Tropical atlântica (mTa)."
+            "content": "Amazônia Internacional."
           },
           {
             "id": 3,
-            "content": "massa Equatorial atlântica (mEa)."
+            "content": "Amazônia Legal."
           },
           {
             "id": 4,
-            "content": "massa Polar atlântica (mPa)."
+            "content": "Amazônia Ocidental."
           },
           {
             "id": 5,
-            "content": "massa Equatorial continental (mEc)."
+            "content": "Amazônia marítima."
           }
         ],
         "img_response": "",
-        "img_question": "https://s2-educacao.glbimg.com/uC3bUAybenbu-wJ-0Vtsc2r0HuE=/7x0:627x295/620x295/s.glbimg.com/po/ek/f/original/2014/12/11/massas_de_ar_brasil_am_sul.png",
-        "correct_answer_id": 1,
-        "description": "A mTc atua tanto no verão quanto no inverno, atinge o Sul e Centro-Oeste brasileiros e é uma massa quente e seca."
-      },
-      {
-        "id": 74,
-        "theme": "Geografia",
-        "question": "Observe a figura a seguir, a qual está representando:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "a ilustração gráfica do mecanismo dos dias e das noites."
-          },
-          {
-            "id": 2,
-            "content": "a configuração esquemática do meridiano de Greenwich."
-          },
-          {
-            "id": 3,
-            "content": "a ilustração do que constitui uma projeção cartográfica."
-          },
-          {
-            "id": 4,
-            "content": "o desenho esquemático da influência da latitude sobre o clima."
-          },
-          {
-            "id": 5,
-            "content": "o esboço da rotação da Terra em torno de seu eixo imaginário."
-          }
-        ],
-        "img_response": "",
-        "img_question": "https://atlasescolar.ibge.gov.br/images/atlas/cartografia/projecoes_1_plana.jpg",
+        "img_question": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Amazonia_legal_brazil_map.PNG/800px-Amazonia_legal_brazil_map.PNG",
         "correct_answer_id": 3,
-        "description": "Trata-se de uma ilustração didática do que é uma projeção cartográfica num plano."
+        "description": "A área representa a Amazônia Legal que é constituída da seguinte forma: Região N, TO, MT e partes do MA."
       },
       {
-        "id": 75,
+        "id": 42,
         "theme": "Geografia",
-        "question": "Ao planejar uma viagem de férias utilizando o programa GoogleEarth, você anotou as coordenadas geográficas de dois locais que gostaria de visitar na Ilha do Mel (PR), sendo o primeiro de coordenadas 25°33'26,28\"S (latitude) e 48°18'30,75\"O (longitude) e o segundo de coordenadas 25°33'46,27\"S (latitude) e 48°18'10,10\"O (longitude). Com base nos valores das coordenadas, é correto afirmar que do primeiro para o segundo ponto você se deslocou para:",
+        "question": "A Amazônia Azul é a faixa oceânica que o Brasil tem direito de exploração. Sobre sua extensão, podemos dizer:",
         "alternatives": [
           {
             "id": 1,
-            "content": "leste."
+            "content": "do litoral até o mar territorial."
           },
           {
             "id": 2,
-            "content": "nordeste."
+            "content": "entre o mar territorial e a Zona Econômica Exclusiva (ZEE)."
           },
           {
             "id": 3,
-            "content": "sudeste."
+            "content": "somente a parte oceânica até a Zona Econômica (ZEE)"
           },
           {
             "id": 4,
-            "content": "oeste."
+            "content": "da Zona Exclusiva Econômica (ZEE) até o limite da Plataforma Continental brasileira."
           },
           {
             "id": 5,
-            "content": "noroeste."
+            "content": "a partir do litoral até o limite da Plataforma Continental brasileira."
           }
         ],
-        "img_response": "",
+        "img_response": "https://i.ytimg.com/vi/5qe0SNj4BOY/maxresdefault.jpg",
+        "img_question": "",
+        "correct_answer_id": 5,
+        "description": "Amazônia Azul: Mar Territorial + ZEE + extensão da Plataforma Continental (Limite). Foi estabelecida conforme os critérios técnicos e condicionantes do Artigo 76 da Lei do Mar, onde prescreve: “Os direitos do Estado costeiro na plataforma continental são exclusivos no sentido de que, se o Estado costeiro não explora a plataforma continental ou não aproveita os recursos naturais da mesma, ninguém pode empreender estas atividades sem o expresso consentimento desse Estado.”"
+      },
+      {
+        "id": 43,
+        "theme": "Geografia",
+        "question": "O que são mapas?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Imagem mental que cada um adquire de uma área."
+          },
+          {
+            "id": 2,
+            "content": "fotografias tiradas através de um satélite."
+          },
+          {
+            "id": 3,
+            "content": "representação gráfica de um espaço real, em uma superfície plana."
+          },
+          {
+            "id": 4,
+            "content": "representação esférica do planeta Terra."
+          },
+          {
+            "id": 5,
+            "content": "representação gráfica de um espaço imaginário, em uma superfície esférica."
+          }
+        ],
+        "img_response": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
         "img_question": "",
         "correct_answer_id": 3,
-        "description": "Pelas coordenadas geográficas apresentadas, temos que do primeiro para o segundo ponto o deslocamento foi para sudeste."
+        "description": "Os mapas correspondem a uma representação gráfica de um espaço real, em uma superfície plana, como um papel. Em um mapa é possível representar diferentes lugares do planeta, partindo do particular como um bairro, cidade ou estado e geral como um país, continente ou o mapa mundi."
+      },
+      {
+        "id": 44,
+        "theme": "Geografia",
+        "question": "São alguns elementos de um mapa:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "orientação, relevo e projeção."
+          },
+          {
+            "id": 2,
+            "content": "escala, orientação e sumário."
+          },
+          {
+            "id": 3,
+            "content": "título, curva de nível e escala."
+          },
+          {
+            "id": 4,
+            "content": "escala, título e projeção."
+          },
+          {
+            "id": 5,
+            "content": "legenda, orientação e fotografia."
+          }
+        ],
+        "img_response": "https://s2.static.brasilescola.uol.com.br/be/2022/06/2-mapa-mundi.jpg",
+        "img_question": "",
+        "correct_answer_id": 4,
+        "description": "Os mapas correspondem a uma representação gráfica de um espaço real, em uma superfície plana, como um papel. Em um mapa é possível representar diferentes lugares do planeta, partindo do particular como um bairro, cidade ou estado e geral como um país, continente ou o mapa mundi. Qualquer que seja sua função, o autor do mapa deve sempre incluir os elementos necessários para a construção de um mapa, que são: título, escala, orientação, legenda e projeção."
+      },
+      {
+        "id": 45,
+        "theme": "Geografia",
+        "question": "Às 10 horas um aluno no Colégio Militar de Manaus fez uma ligação. Qual horário será na cidade de Rio Branco/AC e na Ilha de Fernando de Noronha/PE, respectivamente?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "9 horas e 10 horas."
+          },
+          {
+            "id": 2,
+            "content": "9 horas e 12 horas."
+          },
+          {
+            "id": 3,
+            "content": "11 horas e 12 horas."
+          },
+          {
+            "id": 4,
+            "content": "10 horas e 12 horas."
+          },
+          {
+            "id": 5,
+            "content": "8 horas e 11 horas."
+          }
+        ],
+        "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo/mapa-dos-fusos-horarios-do-brasil.jpg",
+        "img_question": "",
+        "correct_answer_id": 2,
+        "description": "Existem quatro fusos horários no Brasil, que são GMT -2, GMT -3 (conhecido como horário de Brasília, que é a hora oficial do país), GMT -4 e GMT -5. Como o país está localizado inteiramente no hemisfério ocidental, ou oeste, todos os seus horários se encontram atrasados em relação à zona inicial, que tem como centro o Meridiano de Greenwich. O aluno do Colégio Militar de Manaus fez uma ligação no fuso GMT -4. Estão inseridos nele a totalidade dos territórios de Rondônia, Roraima, Mato Grosso e Mato Grosso do Sul, além da maior porção do Amazonas. Rio Branco/AC está no fuso GMT -5, portanto, será 9 horas e na Ilha de Fernando de Noronha/PE no fuso GMT -2 será 12 horas."
       },
       {
         "id": 76,
