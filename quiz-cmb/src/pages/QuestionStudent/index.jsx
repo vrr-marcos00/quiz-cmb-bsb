@@ -43,7 +43,7 @@ function QuestionStudent({ socket }) {
       );
       setTimer(question.time_per_question);
       setIsResponsePage(false);
-      setAlternativeColorsToAllowedToClick();
+      setAlternativeColorsToNotAllowedToClick();
       setUserAnswerId(null);
       navigate("/question/student");
     });
@@ -66,7 +66,7 @@ function QuestionStudent({ socket }) {
 
     socket.on("init-question-timer", ({ time_per_question }) => {
       setUserCanAnswer(true);
-      setAlternativeColorsToNotAllowedToClick();
+      setAlternativeColorsToAllowedToClick();
     });
 
     socket.on("update-question-time", ({ currentTime }) => {
@@ -98,7 +98,7 @@ function QuestionStudent({ socket }) {
     }
   }, [isResponsePage, currentQuestion.correct_answer_id, userAnswerId]);
 
-  const setAlternativeColorsToNotAllowedToClick = () => {
+  const setAlternativeColorsToAllowedToClick = () => {
     const getbuttons = document.querySelectorAll(
       ".card-alternatives_buttons button"
     );
@@ -110,7 +110,7 @@ function QuestionStudent({ socket }) {
     });
   };
 
-  const setAlternativeColorsToAllowedToClick = () => {
+  const setAlternativeColorsToNotAllowedToClick = () => {
     const getbuttons = document.querySelectorAll(
       ".card-alternatives_buttons button"
     );
@@ -124,7 +124,7 @@ function QuestionStudent({ socket }) {
 
   const handleClickAlternative = (event, answerId) => {
     if (userCanAnswer) {
-      setAlternativeColorsToNotAllowedToClick();
+      setAlternativeColorsToAllowedToClick();
 
       const currentButton = document.getElementById(event.target.id);
 
