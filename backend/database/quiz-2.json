@@ -565,37 +565,6 @@
         "description ": "FENOL É UMA FUNÇÃO ORGÂNICA ESPECIAL. NELA, HÁ A PRESENÇA DE UM ANEL AROMÁTICO COM UMA OU MAIS HIDROXILAS (OH) LIGADAS A ELE."
       },
       {
-        "id": 81,
-        "theme": "Física",
-        "question": "De acordo com a figura, se o centro de massa do brinquedo, conhecido como João bobo, estiver acima da cintura da criança seu equilíbrio será:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Instável"
-          },
-          {
-            "id": 2,
-            "content": "Estável"
-          },
-          {
-            "id": 3,
-            "content": "Indiferente"
-          },
-          {
-            "id": 4,
-            "content": "Invariável "
-          },
-          {
-            "id": 5,
-            "content": "Oscilatório"
-          }
-        ],
-        "correct_answer_id": 1,
-        "description ": "O Equilíbrio será instável, se o brinquedo oscilar, não voltará mais para a posição de equílibrio.",
-        "img_response":"",
-        "img_question": "https://http2.mlstatic.com/D_NQ_NP_613305-MLB25007777049_082016-O.jpg"
-      },
-      {
         "id": 82,
         "theme": "Física",
         "question": "Os ciclistas de bicicleta de estrada descobriram uma nova manobra, a do Super Homem, para poderem atingir velocidades maiores em descidas. Isso se deve à (ao):",
@@ -656,68 +625,6 @@
         "description ": "O empuxo aumenta devido ao aumento da densidade da água com uma maior concentração de sal.",
         "img_response":"",
         "img_question": "https://turismo.ig.com.br/imagens/186/186/85/3369411.mar_morto_educacao_224_299.jpg"
-      },
-      {
-        "id": 84,
-        "theme": "Física",
-        "question": "Segundo o paradoxo dos gêmeos, se um dos irmãos viaja quase com a velocidade da luz para uma estrela distante e volta à Terra, quando retornar estará mais jovem que seu gêmeo idêntico que aqui permaneceu. Este fato é explicado pela:",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "Teoria da Simetria."
-          },
-          {
-            "id": 2,
-            "content": "Teoria da Simultaneidade."
-          },
-          {
-            "id": 3,
-            "content": "Teoria Quântica."
-          },
-          {
-            "id": 4,
-            "content": "Teoria das cordas."
-          },
-          {
-            "id": 5,
-            "content": "Teoria da Relatividade."
-          }
-        ],
-        "correct_answer_id": 5,
-        "description ": "Teoria da relatividade",
-        "img_response":"",
-        "img_question": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/22625ba02e898a8d48593756b54f93c0.jpg"
-      },
-      {
-        "id": 85,
-        "theme": "Física",
-        "question": "De acordo com a placa de trânsito, em frente à uma escola nos EUA, qual é a velocidade máxima nessa rua?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "15 km/h"
-          },
-          {
-            "id": 2,
-            "content": "54 km/h"
-          },
-          {
-            "id": 3,
-            "content": "24 km/h"
-          },
-          {
-            "id": 4,
-            "content": "30 km/h"
-          },
-          {
-            "id": 5,
-            "content": "48 km/h"
-          }
-        ],
-        "correct_answer_id": 3,
-        "description ": "Pois como a placa está em Milhas/hora , 15 x 1,6 = 24 km/h.",
-        "img_response":"",
-        "img_question": "http://www.hayatgibi.com/wp-content/uploads/2018/05/Speed-limit-15.jpg" 
       },
       {
         "id": 101,
@@ -2403,6 +2310,37 @@
         "description": "UM ELEMENTO COM 3 ELÉTRONS NA ÚLTIMA CAMADA FAZ LIGAÇÃO IÔNICA COM 3 ELEMENTOS DE 7 ELÉTRONS NA ÚLTIMA CAMADA, FORMANDO UM COMPOSTO DO TIPO XY3."
       },
       {
+        "id": 84,
+        "theme": "Física",
+        "question": "Segundo o paradoxo dos gêmeos, se um dos irmãos viaja quase com a velocidade da luz para uma estrela distante e volta à Terra, quando retornar estará mais jovem que seu gêmeo idêntico que aqui permaneceu. Este fato é explicado pela:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "Teoria da Simetria."
+          },
+          {
+            "id": 2,
+            "content": "Teoria da Simultaneidade."
+          },
+          {
+            "id": 3,
+            "content": "Teoria Quântica."
+          },
+          {
+            "id": 4,
+            "content": "Teoria das cordas."
+          },
+          {
+            "id": 5,
+            "content": "Teoria da Relatividade."
+          }
+        ],
+        "correct_answer_id": 5,
+        "description ": "Teoria da relatividade",
+        "img_response":"",
+        "img_question": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/22625ba02e898a8d48593756b54f93c0.jpg"
+      },
+      {
         "id": 86,
         "theme": "Física",
         "question": "Um gerador elétrico, de f.e.m igual a 48V e resistência elétrica interna igual a 30Ω, entrega para um aparelho uma potência elétrica máxima. Nessas condições o rendimento desse gerador é de: ",
@@ -2433,6 +2371,37 @@
         "img_response":"",
         "img_question": "https://static.preparaenem.com/conteudo_legenda/16418f701885e28927a1254c6e0ea25d.jpg"
   
+      },
+      {
+        "id": 85,
+        "theme": "Física",
+        "question": "Um carrossel gira uniformemente, efetuando uma rotação completa a cada 4,0 segundos. Cada cavalo executa movimento circular uniforme com frequência em rps (rotação por segundo) igual a:",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "8,0"
+          },
+          {
+            "id": 2,
+            "content": "4,0"
+          },
+          {
+            "id": 3,
+            "content": "2,0"
+          },
+          {
+            "id": 4,
+            "content": "0,5"
+          },
+          {
+            "id": 5,
+            "content": "0,25"
+          }
+        ],
+        "correct_answer_id": 5,
+        "description ": "A frequência (f) do movimento é dada em unidade de tempo de acordo com a divisão do número de voltas pelo tempo gasto para executá-las.Para responder essa questão, basta substituir os dados do enunciado na fórmula a seguir.",
+        "img_response":"",
+        "img_question": "" 
       },
       {
         "id": 87,
@@ -2530,7 +2499,7 @@
       {
         "id": 90,
         "theme": "Física",
-        "question": "Tem sido recorrente os acidentes domésticos envolvendo panelas de pressão. Uma das recomendações para evitar esses acidentes é diminuir o fogo quando a panela começar a soltar vapor, isso porque:",
+        "question": "Têm sido recorrente os acidentes domésticos envolvendo panelas de pressão. Uma das recomendações para evitar esses acidentes é diminuir o fogo quando a panela começar a soltar vapor, isso porque:",
         "alternatives": [
           {
             "id": 1,
@@ -2559,6 +2528,37 @@
         "img_question": ""
       },
       {
+        "id": 81,
+        "theme": "Física",
+        "question": "Considere as afirmações abaixo: \nI. Em uma transformação isobárica não varia a pressão. \nII. Em uma transformação isocórica não varia o volume. \nIII. Em uma transformação isométrica não varia a temperatura. \nCom relação às três afirmações acima, podemos dizer que...",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "apenas I é verdadeira"
+          },
+          {
+            "id": 2,
+            "content": "apenas II é verdadeira"
+          },
+          {
+            "id": 3,
+            "content": "apenas III é verdadeira"
+          },
+          {
+            "id": 4,
+            "content": "I e II são verdadeiras"
+          },
+          {
+            "id": 5,
+            "content": "todas são verdadeiras"
+          }
+        ],
+        "correct_answer_id": 4,
+        "description ": "I. CORRETA. A pressão é constante e as grandezas que variam são volume e temperatura. \nII. CORRETA. Também é chamada de isométrica ou isovolumétrica. Nesse tipo de mudança o volume permanece constante e as grandezas que variam são pressão e temperatura. \nIII. ERRADA. A transformação isométrica permanece com o volume constante, enquanto a transformação isotérmica mantém a temperatura constante.",
+        "img_response":"",
+        "img_question": ""
+      },
+      {
         "id": 91,
         "theme": "Física",
         "question": "No início do século XX tivemos uma grande disputa entre dois grandes cientistas, Thomas Edison e Nikola Tesla. Essa disputa ficou conhecida como Guerra das Correntes, para saber qual sistema seria usado para a distribuição de energia elétrica. O modelo de Tesla foi o sistema que acabou sendo usado para a transmissão de energia elétrica, isso devido à(ao):",
@@ -2581,7 +2581,7 @@
           },
           {
             "id": 5,
-            "content": "Correntes alternadas naõ geram acidentes."
+            "content": "Correntes alternadas não geram acidentes."
           }
         ],
         "correct_answer_id": 1,
@@ -2650,6 +2650,37 @@
         "description": "Como mostra a imagem, uma lente divergente de um óculos para a miopia,  a imagem é menor, direita e virtual. ",
         "img_response":"",
         "img_question": "https://portaldrauziovarella.nyc3.digitaloceanspaces.com/wp-content/uploads/2019/07/30234456/201907_drauzio_oculos_23780631_Olegkalina_1000x563.jpg"
+      },
+      {
+        "id": 96,
+        "theme": "Física",
+        "question": "Um experimento muito simples sobre hidrodinâmica consiste em soprar a parte de cima de um papel, como mostra a figura. Quando o homem assopra, o que acontece e por que?",
+        "alternatives": [
+          {
+            "id": 1,
+            "content": "O papel sobe pois a pressão em cima é maior"
+          },
+          {
+            "id": 2,
+            "content": "O papel desce pois a pressão em cima é maior."
+          },
+          {
+            "id": 3,
+            "content": "O papel sobe pois a pressão em cima é menor."
+          },
+          {
+            "id": 4,
+            "content": "O papel desce pois a pressão em cima é menor."
+          },
+          {
+            "id": 5,
+            "content": "Não acontece nada, pois o papel está em equilíbrio."
+          }
+        ],
+        "correct_answer_id": 3,
+        "description": "O papel sobe pois em cima a velocidade do ar será maior que em baixo, logo a pressão será menor.",
+        "img_response":"",
+        "img_question": "https://www.ciensacao.org/fotografia_experimento_mao_na_massa/5049p_flying_2.jpg"
       },
       {
         "id": 94,
@@ -3899,37 +3930,6 @@
         "img_question": "",
         "correct_answer_id": 4,
         "description": "PARA COMBATER A ACIDEZ UM REMÉDIO DEVE TER PROPRIEDADES DE UMA BASE."
-      },
-      {
-        "id": 96,
-        "theme": "Física",
-        "question": "Um experimento muito simples sobre hidrodinâmica consiste em soprar a parte de cima de um papel, como mostra a figura. Quando o homem assopra, o que acontece e por que?",
-        "alternatives": [
-          {
-            "id": 1,
-            "content": "O papel sobe pois a pressão em cima é maior"
-          },
-          {
-            "id": 2,
-            "content": "O papel desce pois a pressão em cima é maior."
-          },
-          {
-            "id": 3,
-            "content": "O papel sobe pois a pressão em cima é menor."
-          },
-          {
-            "id": 4,
-            "content": "O papel desce pois a pressão em cima é menor."
-          },
-          {
-            "id": 5,
-            "content": "Não acontece nada, pois o papel está em equilíbrio."
-          }
-        ],
-        "correct_answer_id": 3,
-        "description": "O papel sobe pois em cima a velocidade do ar será maior que em baixo, logo a pressão será menor.",
-        "img_response":"",
-        "img_question": "https://www.ciensacao.org/fotografia_experimento_mao_na_massa/5049p_flying_2.jpg"
       },
       {
         "id": 97,
