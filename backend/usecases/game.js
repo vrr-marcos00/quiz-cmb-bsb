@@ -26,9 +26,7 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
     const currentAnswer = usersCurrentAnswers[key];
     const isAnswerCorrect =
       currentAnswer?.answerId === currentQuestion.correct_answer_id;
-    const points = isAnswerCorrect
-      ? currentPhase.points_to_earn
-      : -currentPhase.points_to_lose;
+    const points = isAnswerCorrect ? currentPhase.points_to_earn : 0;
     const updatedPoints = clientGameState[key].points + points;
     clientGameState[key].points = updatedPoints > 0 ? updatedPoints : 0;
   }
