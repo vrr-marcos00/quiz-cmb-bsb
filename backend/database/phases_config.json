@@ -4,11 +4,11 @@
     "time": 1200000,
     "time_per_question": 30000,
     "points_to_earn": 10,
-    "points_to_lose": 10,
+    "points_to_lose": 0,
     "questions": [
       {
         "id": 106,
-        "question": "Assinale a alternativa em que se encontra a figura de linguagem presente na frase:  Embarcaremos no avião das 21h.",
+        "question": "Assinale a <u>alternativa em</ul> que se <strong>encontra a figura</strong> de linguagem presente na frase:  Embarcaremos no avião das 21h.",
         "description": "Consiste na utilização de um termo ⎯ já existente e com significação própria ⎯ em outro sentido em virtude da falta de palavras que expressem o que se quer dizer. Na questão, embora o verbo embarcar tenha-se originado a partir do substantivo barca (embarcar = entrar numa barca, a fim de ser por ela transportado), hoje o seu emprego é extensível para expressar a mesma ideia, porém com outros meios de transporte que não somente a barca. Exemplos: “Embarcar no trem”, “Embarcar no ônibus”.",
         "theme": "Português",
         "alternatives": [
@@ -426,7 +426,7 @@
     "time": 2400000,
     "time_per_question": 30000,
     "points_to_earn": 20,
-    "points_to_lose": 10,
+    "points_to_lose": 0,
     "questions": [
       {
         "id": 79,
@@ -1259,7 +1259,7 @@
     "time": 1200000,
     "time_per_question": 30000,
     "points_to_earn": 30,
-    "points_to_lose": 10,
+    "points_to_lose": 0,
     "questions": [
       {
         "id": 99,
