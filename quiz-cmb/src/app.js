@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
  * Pages
  */
 import HomePresenter from "./pages/HomePresenter";
+import Rules from "./pages/Rules";
 import HomeStudent from "./pages/HomeStudent";
 import WaitingRoom from "./pages/WaitingRoom";
 import QuestionStudent from "./pages/QuestionStudent";
@@ -27,6 +28,10 @@ function App() {
         <Route
           path="/home/presenter"
           element={<HomePresenter socket={socket} />}
+        />
+        <Route
+          path="rules/presenter"
+          element={<Rules socket={socket} />}
         />
         <Route path="/home/student" element={<HomeStudent socket={socket} />} />
         <Route path="/waiting-room" element={<WaitingRoom socket={socket} />} />

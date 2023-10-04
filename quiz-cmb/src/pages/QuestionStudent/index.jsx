@@ -75,32 +75,8 @@ function QuestionStudent({ socket }) {
     setUserId(userId);
   }, []);
 
-  React.useEffect(() => {
-    const alternativeCorrect = document.getElementById(
-      `button-${currentQuestion.correct_answer_id}`
-    );
-    const alternativeSelected = document.getElementById(
-      `button-${userAnswerId}`
-    );
-
-    if (isResponsePage) {
-      if (alternativeCorrect) {
-        alternativeCorrect.style.backgroundColor = "#0F0";
-
-        if (
-          userAnswerId !== currentQuestion.correct_answer_id &&
-          alternativeSelected
-        ) {
-          alternativeSelected.style.backgroundColor = "#ed0f08";
-        }
-      }
-    }
-  }, [isResponsePage, currentQuestion.correct_answer_id, userAnswerId]);
-
-  const restartAlternativesColors = () => {
-    const getbuttons = document.querySelectorAll(
-      ".card-alternatives_buttons button"
-    );
+  const handleClickAlternative = (event) => {
+    const getbuttons = document.querySelectorAll('.card-alternatives_buttons button');
     getbuttons.forEach((button) => {
       button.style.backgroundColor = "#fff";
       button.style.color = "#000";
