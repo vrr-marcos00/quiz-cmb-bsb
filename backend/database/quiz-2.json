@@ -1094,7 +1094,7 @@
     ]
   },
     "medium": {
-    "next_level": "hard",
+    "next_level": "difficult",
     "time": 2400000,
     "time_per_question":30000,
     "points_to_earn": 20,
@@ -3119,7 +3119,7 @@
       {
         "id": 132,
         "theme": "Português",
-        "question": "Assinale a opção em que o pronome oblíquo destacado tem valor possessivo.",
+        "question": "Assinale a opção em que o pronome oblíquo tem valor possessivo.",
         "alternatives": [
           {
             "id": 1,
@@ -3274,7 +3274,7 @@
       }
     ]
   },
-  "hard": {
+  "difficult": {
     "next_level": "finished",
     "time": 1200000,
     "time_per_question":30000,
