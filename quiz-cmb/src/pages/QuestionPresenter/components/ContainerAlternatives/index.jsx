@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-function ContainerAlternatives({ className, question, isResponsePage }) {
+function ContainerAlternatives({ question, isResponsePage }) {
   const alternativesLetter = ["A", "B", "C", "D", "E"];
 
   React.useEffect(() => {
@@ -19,7 +19,7 @@ function ContainerAlternatives({ className, question, isResponsePage }) {
   }, [isResponsePage, question.correct_answer_id]);
 
   return (
-    <div className="row-main_alternatives" style={{ ...className }}>
+    <div className="row-main_alternatives">
       <div className="alternatives">
         {question?.alternatives && (
           <>

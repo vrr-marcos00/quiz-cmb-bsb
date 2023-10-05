@@ -7,6 +7,11 @@ import "./styles.css";
  */
 import LoggedInUsers from "../LoggedInUsers";
 
+/**
+ * Images
+ */
+import imageQuiz from "../../../../assets/images/logo_quiz.png"
+
 function CreateRoom({ socket, currentRoom }) {
   const [roomCode, setRoomCode] = React.useState("Nenhuma sala criada");
 
@@ -25,24 +30,33 @@ function CreateRoom({ socket, currentRoom }) {
 
   return (
     <div className="container-create-room">
-      <h1 className="create-room-title">QUIZ!</h1>
+      <div className="create-room-container-title">
+        <p className="create-room-title">Desafio Global do Conhecimento</p>
+        <img src={imageQuiz} alt="Quiz" />
+      </div>
       <div className="create-room-row">
-        <div className="room-code">
-          <h3>{roomCode}</h3>
-        </div>
-
-        <div className="container-button-home-presenter">
-          <button onClick={handleClickRoomCreate}>Criar Sala</button>
-          <button onClick={handleInitGame}>Iniciar Game</button>
-        </div>
-
-        {hasUsers ? (
-          <LoggedInUsers currentRoom={currentRoom} />
-        ) : (
-          <div className="has-user">
-            <h2>Nenhum usuário na sala</h2>
+        <div className="room-code-container">
+          <div className="room-code">
+            <p>{roomCode}</p>
           </div>
-        )}
+
+          <div className="container-button-home-presenter">
+            <button onClick={handleClickRoomCreate}>Criar Sala</button>
+            <button onClick={handleInitGame}>Iniciar Game</button>
+          </div>
+        </div>
+
+        <div className="logged-users-container">
+          {hasUsers ? (
+            <LoggedInUsers currentRoom={currentRoom} />
+          ) : (<div className="has-user">
+            <p>Nenhum usuário na sala</p>
+          </div>
+          )}
+        </div>
+
+
+
 
       </div>
     </div>

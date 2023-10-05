@@ -46,8 +46,6 @@ function LoggedInUsers({ currentRoom }) {
     <>
       {hasUsers && (
         <div className="colleges-container">
-          <p>Usuários conectados</p>
-
           <div className="all-colleges">
             {currentRoom.users.map((user) => (
               <div className="college">
