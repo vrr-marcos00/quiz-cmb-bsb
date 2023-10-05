@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 .total-time {
-    width: 33%;
+    width: 25%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -18,19 +18,7 @@
 }
 
 .theme-presenter {
-    width: 33%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 58px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #07abb9;
-}
-
-.question-time {
-    width: 33%;
+    width: 25%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -38,4 +26,41 @@
     font-size: 46px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: #07abb9;
+}
+
+.level-presenter {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.question-time {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.easy-level {
+    color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+
+.medium-level {
+    color: #037AC7;
+}
+
+.difficult-level {
+    color: rgb(248, 13, 13);
 }

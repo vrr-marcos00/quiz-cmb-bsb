@@ -23,11 +23,24 @@
     font-weight: bold;
     width: 75px;
     height: 75px;
-    background-color: #fff;
     border-radius: 50%;
     position: absolute;
     top: 10%;
     z-index: 10;
     border: 5px solid #07abb9;
     padding: 10px;
+}
+
+.level-easy {
+    background-color: #fff;
+}
+
+.level-medium {
+    background-color: #037AC7;
+    color: #fff;
+}
+
+.level-difficult {
+    background-color: rgb(248, 13, 13);
+    color: #fff;
 }

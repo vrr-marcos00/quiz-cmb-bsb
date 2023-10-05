@@ -36,6 +36,7 @@ function EnterRoom({ socket }) {
       return;
     }
 
+    localStorage.setItem("studentId", studentId);
     socket.emit("authenticate", { role: "student" });
     socket.emit("joinRoom", roomCode, studentId);
   };
