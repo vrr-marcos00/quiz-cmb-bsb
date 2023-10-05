@@ -31,9 +31,9 @@ function Classification({ socket }) {
 
     if (!isPresenter) {
       const { userId } = JSON.parse(localStorage.getItem("roomUserId"));
-      const isUserOnClassification = classification.some(
-        (classificationUser) => classificationUser.userId === userId
-      );
+      const isUserOnClassification = classification
+        .filter((classificationUser) => !classificationUser.eliminated)
+        .some((classificationUser) => classificationUser.userId === userId);
 
       if (!isUserOnClassification) {
         localStorage.setItem("roomUserId", JSON.stringify({ userId: "" }));
@@ -68,7 +68,9 @@ function Classification({ socket }) {
     <>
       <div className="container-page-classification">
         <div className="firt-classified">
-          <FirstPlaced classification={classification} />
+          <FirstPlaced
+            classification={classification.filter((user) => !user.eliminated)}
+          />
           <div className="row-main_buttons-classification">
             {isPresenter && !finishedGame && (
               <button onClick={handleFowardButtonClick}>Avançar</button>
