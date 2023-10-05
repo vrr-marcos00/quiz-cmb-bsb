@@ -36,6 +36,7 @@ body {
   font-weight: bold;
   font-size: 5vh;
   margin-bottom: 3vh;
+  -webkit-text-stroke: 2.5px #e5e5e5;
 }
 
 .secondPhrase {
