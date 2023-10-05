@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -14,31 +15,31 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  text-align: center;
-  gap: 3vh;
+  height: 90vh;
 }
 
 .emoji {
-  font-size: 8vh;
+  font-size: 10vh;
+  margin-bottom: 7vh;
 }
 
 .initFirstPhrase {
   color: #e5e5e5;
-  /* height: 20vh; */
-  /* width: 100%; */
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 2.5vh;
 }
 
 .eliminated {
-  color: #e5e5e5;
+  color: red;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 5vh;
-  /* height: 1vh; */
-  /* width: 100%; */
+  margin-bottom: 3vh;
 }
 
 .secondPhrase {
   color: #e5e5e5;
-  /* height: 1vh; */
-  /* width: 100%; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.77vh;
 }
