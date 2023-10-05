@@ -3,7 +3,11 @@ import "./styles.css";
 
 import logoQuiz from "../../assets/images/logo_quiz.png";
 
-function Eliminated() {
+function Eliminated({ socket }) {
+  React.useEffect(() => {
+    socket.emit("forceDisconnect");
+  }, []);
+
   return (
     <div className="eliminated-main-page">
       <img className="logo" src={logoQuiz} alt="Logo Quiz" />
