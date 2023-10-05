@@ -27,7 +27,8 @@
 }
 
 .card-awnser_awnser {
-    padding: 0 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
     text-align: left;
     font-size: 24px;
     font-weight: bold;
