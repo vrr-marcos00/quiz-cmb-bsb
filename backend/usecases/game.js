@@ -90,7 +90,6 @@ function initPhaseTimer(io) {
     });
 
     if (phaseCounter <= 0) {
-      questionCounter = 0;
       clearInterval(phaseInterval);
     }
   }, 1000);

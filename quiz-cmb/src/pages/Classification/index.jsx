@@ -59,24 +59,9 @@ function Classification({ socket }) {
     }
   }, []);
 
-  React.useEffect(() => {
-    if (finishedGame) {
-      const blob = new Blob([JSON.stringify(classification)], { type: 'application/json' });
-      const url = window.URL.createObjectURL(blob);
-
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'auditsGame.json';
-
-      a.click();
-
-      window.URL.revokeObjectURL(url);
-    }
-  }, []);
-
   const handleFowardButtonClick = () => {
-    socket.emit("foward");
     socket.emit("init-phase-timer");
+    socket.emit("foward");
   };
 
   return (
