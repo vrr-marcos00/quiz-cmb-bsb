@@ -3,16 +3,13 @@ import "./styles.css";
 
 function TimeQuestion({ currentLevel, timer }) {
   const getLevel = {
-    easy: "Fácil",
-    medium: "Médio",
-    difficult: "Difícil",
+    easy: "level-easy",
+    medium: "level-medium",
+    difficult: "level-difficult",
   };
 
   return (
-    // <div className="time-question-student">
-    //   <div>30</div>
-    // </div>
-    <div className="level-student">
+    <div className={`level-student ${getLevel[currentLevel]}`}>
       <div className="current-level-student">{timer}</div>
     </div>
   );

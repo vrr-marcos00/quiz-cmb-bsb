@@ -3,7 +3,6 @@ import "./styles.css";
 
 function ContainerButtons({
   handleNextQuestion,
-  handleShowQuestion,
   handleInitTimer,
   isResponsePage,
   isTimerRunning,
@@ -14,13 +13,6 @@ function ContainerButtons({
         <button onClick={() => handleNextQuestion()}>Próxima pergunta</button>
       ) : (
         <>
-          <button
-            className={`${isTimerRunning ? "--disabled" : ""}`}
-            disabled={isTimerRunning}
-            onClick={() => handleShowQuestion()}
-          >
-            Mostrar resposta
-          </button>
           <button
             className={`${isTimerRunning ? "--disabled" : ""}`}
             disabled={isTimerRunning}
