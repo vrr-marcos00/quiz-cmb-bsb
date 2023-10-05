@@ -18,9 +18,9 @@ body {
   height: 90vh;
 }
 
-.emoji {
-  font-size: 10vh;
-  margin-bottom: 7vh;
+.logo {
+  height: 15vh;
+  margin-bottom: 5vh;
 }
 
 .initFirstPhrase {
@@ -36,7 +36,7 @@ body {
   font-weight: bold;
   font-size: 5vh;
   margin-bottom: 3vh;
-  -webkit-text-stroke: 2.5px #e5e5e5;
+  -webkit-text-stroke: 2.3px #e5e5e5;
 }
 
 .secondPhrase {
