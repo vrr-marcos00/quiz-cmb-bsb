@@ -34,7 +34,7 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
     // mais pontos se recebe
     const pointsToEarn = Math.ceil(
       currentPhase.points_to_earn *
-        (currentAnswer?.timeRemaining || 1 / currentPhase.time_per_question)
+        ((currentAnswer?.timeRemaining || 1) / currentPhase.time_per_question)
     );
 
     const points = isAnswerCorrect ? pointsToEarn : 0;
@@ -62,6 +62,7 @@ function __createClientGameStateFromRoom() {
         ...currentValue,
         points: 10,
         questionsAnswered: [],
+        eliminated: false,
       },
     }),
     {}
@@ -107,6 +108,8 @@ function updateToNextLevel() {
 
   if (nextLevel === "finished" || !nextLevel) {
     return { finishedGame: true };
+  } else if (nextLevel === "difficult") {
+    eliminateUsersOffPodium();
   }
 
   const nextLevelConfig = phasesConfig[nextLevel];
@@ -117,6 +120,18 @@ function updateToNextLevel() {
   currentQuestion = {};
 
   return { finishedGame: false };
+}
+
+function eliminateUsersOffPodium() {
+  Object.values(getClientGameState())
+    .sort((a, b) => {
+      return b.points - a.points;
+    })
+    .forEach((user, index) => {
+      if (index >= 3) {
+        clientGameState[user.userId].eliminated = true;
+      }
+    });
 }
 
 /* ---------------------------------- GETTERS ---------------------------------- */
@@ -137,6 +152,10 @@ function getCurrentUserAnswer(userId) {
   return usersCurrentAnswers[userId];
 }
 
+function getClassification() {
+  return Object.values(getClientGameState()).filter((user) => !user.eliminated);
+}
+
 module.exports = {
   // Game Points Control
   calculatePointsAndRestartUsersCurrentAnswers,
@@ -152,4 +171,5 @@ module.exports = {
   getCurrentPhase,
   getClientGameState,
   getCurrentUserAnswer,
+  getClassification,
 };

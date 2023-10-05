@@ -24,6 +24,35 @@ function Classification({ socket }) {
       );
       navigate(`/question/${isPresenter ? "presenter" : "student"}`);
     });
+
+    if (!isPresenter) {
+      const { userId } = JSON.parse(localStorage.getItem("roomUserId"));
+      const isUserOnClassification = classification.some(
+        (classificationUser) => classificationUser.userId === userId
+      );
+
+      if (!isUserOnClassification) {
+        localStorage.setItem("roomUserId", JSON.stringify({ userId: "" }));
+        navigate("/eliminated");
+      }
+    }
+  }, []);
+
+  React.useEffect(() => {
+    if (finishedGame) {
+      const blob = new Blob([JSON.stringify(classification)], {
+        type: "application/json",
+      });
+      const url = window.URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "auditsGame.json";
+
+      a.click();
+
+      window.URL.revokeObjectURL(url);
+    }
   }, []);
 
   React.useEffect(() => {
@@ -54,7 +83,9 @@ function Classification({ socket }) {
             {isPresenter && !finishedGame && (
               <button onClick={handleFowardButtonClick}>Avançar</button>
             )}
-            {finishedGame && <h1 className="finished-game">Jogo Finalizado!</h1>}
+            {finishedGame && (
+              <h1 className="finished-game">Jogo Finalizado!</h1>
+            )}
           </div>
         </div>
       </div>

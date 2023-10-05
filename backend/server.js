@@ -16,6 +16,7 @@ const {
   updateUserAnswer,
   getCurrentUserAnswer,
   initQuiz,
+  getClassification,
 } = require("./usecases/game.js");
 
 // Cria o aplicativo Express e o servidor HTTP
@@ -223,8 +224,10 @@ io.on("connection", (socket) => {
 
     const { finishedGame } = updateToNextLevel();
 
+    const classification = getClassification();
+
     io.emit("show-classification", {
-      classification: Object.values(getClientGameState()),
+      classification,
       finishedGame,
     });
   });
