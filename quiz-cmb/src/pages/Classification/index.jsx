@@ -26,21 +26,21 @@ function Classification({ socket }) {
         "phaseTimer",
         JSON.stringify({ phaseTimer: phase_timer })
       );
-      
+
       if (!isPresenter) {
         const { userId } = JSON.parse(localStorage.getItem("roomUserId"));
-        const isUserOnClassification = classification.some(
-          (classificationUser) => classificationUser.userId === userId
-        );
-  
+        const isUserOnClassification = classification
+          .filter((classificationUser) => !classificationUser.eliminated)
+          .some((classificationUser) => classificationUser.userId === userId);
+
         if (!isUserOnClassification) {
           localStorage.setItem("roomUserId", JSON.stringify({ userId: "" }));
           navigate("/eliminated");
         } else {
-          navigate(`/question/${isPresenter ? "presenter" : "student"}`);
+          navigate(`/question/student`);
         }
       } else {
-        navigate(`/question/${isPresenter ? "presenter" : "student"}`);
+        navigate(`/question/presenter`);
       }
     });
   }, []);
@@ -71,7 +71,9 @@ function Classification({ socket }) {
     <>
       <div className="container-page-classification">
         <div className="firt-classified">
-          <FirstPlaced classification={classification} />
+          <FirstPlaced
+            classification={classification.filter((user) => !user.eliminated)}
+          />
           <div className="row-main_buttons-classification">
             {isPresenter && !finishedGame && (
               <button onClick={handleFowardButtonClick}>Avançar</button>

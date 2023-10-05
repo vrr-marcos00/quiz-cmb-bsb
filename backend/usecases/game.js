@@ -26,27 +26,29 @@ function updateUserAnswer({ userId, answerId, timeRemaining, questionId }) {
 function calculatePointsAndRestartUsersCurrentAnswers() {
   for (const key in clientGameState) {
     const currentAnswer = usersCurrentAnswers[key];
-    const isAnswerCorrect =
-      currentAnswer?.answerId === currentQuestion.correct_answer_id;
+    if (currentAnswer) {
+      const isAnswerCorrect =
+        currentAnswer?.answerId === currentQuestion.correct_answer_id;
 
-    // Calcula Pontos a se receber baseado nos pontos de cada questão em relação a fase e
-    // baseado no coeficiente de tempo, sendo assim, quanto mais rápida a resposta,
-    // mais pontos se recebe
-    const pointsToEarn = Math.ceil(
-      currentPhase.points_to_earn *
-        ((currentAnswer?.timeRemaining || 1) / currentPhase.time_per_question)
-    );
+      // Calcula Pontos a se receber baseado nos pontos de cada questão em relação a fase e
+      // baseado no coeficiente de tempo, sendo assim, quanto mais rápida a resposta,
+      // mais pontos se recebe
+      const pointsToEarn = Math.ceil(
+        currentPhase.points_to_earn *
+          ((currentAnswer?.timeRemaining || 1) / currentPhase.time_per_question)
+      );
 
-    const points = isAnswerCorrect ? pointsToEarn : 0;
-    const updatedPoints = clientGameState[key].points + points;
-    clientGameState[key].points = updatedPoints > 0 ? updatedPoints : 0;
+      const points = isAnswerCorrect ? pointsToEarn : 0;
+      const updatedPoints = clientGameState[key].points + points;
+      clientGameState[key].points = updatedPoints > 0 ? updatedPoints : 0;
 
-    // Cria um histórico de respostas das questões para cada usuário
-    clientGameState[key].questionsAnswered.push({
-      questionId: currentQuestion?.id,
-      answerId: currentAnswer?.answerId,
-      timeRemaining: currentAnswer?.timeRemaining,
-    });
+      // Cria um histórico de respostas das questões para cada usuário
+      clientGameState[key].questionsAnswered.push({
+        questionId: currentQuestion?.id,
+        answerId: currentAnswer?.answerId,
+        timeRemaining: currentAnswer?.timeRemaining,
+      });
+    }
   }
 
   usersCurrentAnswers = {};
@@ -196,7 +198,7 @@ function getCurrentUserAnswer(userId) {
 }
 
 function getClassification() {
-  return Object.values(getClientGameState()).filter((user) => !user.eliminated);
+  return Object.values(getClientGameState());
 }
 
 function getPhaseCounter() {
