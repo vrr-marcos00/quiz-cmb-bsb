@@ -3,10 +3,6 @@ import "./styles.css";
 
 import logoQuiz from "../../assets/images/logo_quiz.png";
 
-/**
- * Configs
- */
-
 function Eliminated() {
   return (
     <div className="eliminated-main-page">
