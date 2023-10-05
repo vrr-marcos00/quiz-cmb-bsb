@@ -26,20 +26,23 @@ function Classification({ socket }) {
         "phaseTimer",
         JSON.stringify({ phaseTimer: phase_timer })
       );
-      navigate(`/question/${isPresenter ? "presenter" : "student"}`);
-    });
 
-    if (!isPresenter) {
-      const { userId } = JSON.parse(localStorage.getItem("roomUserId"));
-      const isUserOnClassification = classification
-        .filter((classificationUser) => !classificationUser.eliminated)
-        .some((classificationUser) => classificationUser.userId === userId);
+      if (!isPresenter) {
+        const { userId } = JSON.parse(localStorage.getItem("roomUserId"));
+        const isUserOnClassification = classification
+          .filter((classificationUser) => !classificationUser.eliminated)
+          .some((classificationUser) => classificationUser.userId === userId);
 
-      if (!isUserOnClassification) {
-        localStorage.setItem("roomUserId", JSON.stringify({ userId: "" }));
-        navigate("/eliminated");
+        if (!isUserOnClassification) {
+          localStorage.setItem("roomUserId", JSON.stringify({ userId: "" }));
+          navigate("/eliminated");
+        } else {
+          navigate(`/question/student`);
+        }
+      } else {
+        navigate(`/question/presenter`);
       }
-    }
+    });
   }, []);
 
   React.useEffect(() => {
