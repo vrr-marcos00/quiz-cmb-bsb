@@ -131,7 +131,12 @@ function QuestionStudent({ socket }) {
       currentButton.style.backgroundColor = "#07abb9";
       currentButton.style.color = "#fff";
       setUserAnswerId(answerId);
-      socket.emit("user-answer", { answerId, userId });
+      socket.emit("user-answer", {
+        answerId,
+        userId,
+        timeRemaining: timer || 1,
+        questionId: currentQuestion.id,
+      });
     }
   };
 

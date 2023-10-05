@@ -262,12 +262,15 @@ io.on("connection", (socket) => {
     });
   });
 
-  socket.on("user-answer", ({ userId, answerId }) => {
-    if (!getCurrentUserAnswer(userId)) {
-      io.emit("user-answer-to-presenter", { id: userId });
+  socket.on(
+    "user-answer",
+    ({ userId, answerId, timeRemaining, questionId }) => {
+      if (!getCurrentUserAnswer(userId)) {
+        io.emit("user-answer-to-presenter", { id: userId });
+      }
+      updateUserAnswer({ userId, answerId, timeRemaining, questionId });
     }
-    updateUserAnswer({ userId, answerId });
-  });
+  );
 });
 
 // Inicializa o servidor na porta desejada
