@@ -6,6 +6,12 @@ import "./styles.css";
  */
 import CardAlternatives from "../CardAlternatives";
 
+/**
+ * Utils
+ */
+import { interpretStringWithHTMLTag, containsHTMLTags } from "../../../../utils/interpretStringWithHTMLTag";
+
+
 function CardAwnser({
   theme,
   awnser,
@@ -13,6 +19,9 @@ function CardAwnser({
   alternatives,
   onClickAlternative,
 }) {
+  const hasHTMLTags = containsHTMLTags(awnser);
+  const interpretedAwnser = hasHTMLTags ? interpretStringWithHTMLTag(awnser) : awnser;
+
   return (
     <div className="main-card-awnser">
       <div className="card-awnser">
@@ -20,10 +29,12 @@ function CardAwnser({
 
         {awnser && (
           <>
-            {awnser.split(/\r?\n/).map((item, index) => (
-              <p key={index} className="card-awnser_awnser">
-                {item}
-              </p>
+            {interpretedAwnser.split(/\r?\n/).map((item, index) => (
+              hasHTMLTags ? (
+                <p key={index} className="card-awnser_awnser" dangerouslySetInnerHTML={{ __html: item }}></p>
+              ) : (
+                <p key={index} className="card-awnser_awnser">{item}</p>
+              )
             ))}
           </>
         )}
