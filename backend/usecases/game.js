@@ -62,6 +62,7 @@ let questionInterval = undefined;
 function initQuestionTime(io) {
   questionCounter = currentPhase.time_per_question;
 
+  clearInterval(questionInterval);
   questionInterval = setInterval(() => {
     questionCounter = questionCounter - 1000;
 
@@ -84,6 +85,7 @@ let phaseInterval = undefined;
 function initPhaseTimer(io) {
   phaseCounter = currentPhase.time;
 
+  clearInterval(phaseInterval);
   phaseInterval = setInterval(() => {
     phaseCounter = phaseCounter - 1000;
 
@@ -114,7 +116,27 @@ function __createClientGameStateFromRoom() {
   );
 }
 
+function __cleanGlobalVariables() {
+  currentPhase = {};
+  currentQuestion = {};
+  clientGameState = {};
+  usersCurrentAnswers = {};
+  questionCounter = 0;
+  phaseCounter = 0;
+
+  if (questionInterval) {
+    clearInterval(questionInterval);
+  }
+  questionInterval = undefined;
+
+  if (phaseInterval) {
+    clearInterval(phaseInterval);
+  }
+  phaseInterval = undefined;
+}
+
 function initQuiz() {
+  __cleanGlobalVariables();
   __createClientGameStateFromRoom();
   const easyPhase = phasesConfig.easy;
   const { questions, ...phaseConfig } = easyPhase;
