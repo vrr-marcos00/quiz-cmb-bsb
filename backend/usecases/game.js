@@ -48,7 +48,6 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
       timeRemaining: currentAnswer.timeRemaining,
     });
   }
-  console.log(clientGameState);
 
   usersCurrentAnswers = {};
 }
