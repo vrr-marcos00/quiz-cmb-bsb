@@ -15,9 +15,11 @@ const room = require("../database/room.json") || { roomCode: "", users: [] };
 // Respostas da pergunta atual, é um mapa = { [userId]: { answerId: 0 } }
 let usersCurrentAnswers = {};
 
-function updateUserAnswer({ userId, answerId }) {
+function updateUserAnswer({ userId, answerId, timeRemaining, questionId }) {
   usersCurrentAnswers[userId] = {
     answerId,
+    timeRemaining,
+    questionId,
   };
 }
 
@@ -26,10 +28,27 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
     const currentAnswer = usersCurrentAnswers[key];
     const isAnswerCorrect =
       currentAnswer?.answerId === currentQuestion.correct_answer_id;
-    const points = isAnswerCorrect ? currentPhase.points_to_earn : 0;
+
+    // Calcula Pontos a se receber baseado nos pontos de cada questão em relação a fase e
+    // baseado no coeficiente de tempo, sendo assim, quanto mais rápida a resposta,
+    // mais pontos se recebe
+    const pointsToEarn = Math.ceil(
+      currentPhase.points_to_earn *
+        (currentAnswer.timeRemaining / currentPhase.time_per_question)
+    );
+
+    const points = isAnswerCorrect ? pointsToEarn : 0;
     const updatedPoints = clientGameState[key].points + points;
     clientGameState[key].points = updatedPoints > 0 ? updatedPoints : 0;
+
+    // Cria um histórico de respostas das questões para cada usuário
+    clientGameState[key].questionsAnswered.push({
+      questionId: currentAnswer.questionId,
+      answerId: currentAnswer?.answerId,
+      timeRemaining: currentAnswer.timeRemaining,
+    });
   }
+  console.log(clientGameState);
 
   usersCurrentAnswers = {};
 }
@@ -43,6 +62,7 @@ function __createClientGameStateFromRoom() {
       [currentValue.userId]: {
         ...currentValue,
         points: 10,
+        questionsAnswered: [],
       },
     }),
     {}
