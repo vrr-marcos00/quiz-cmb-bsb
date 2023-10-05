@@ -20,10 +20,15 @@ function Home({ socket }) {
       setCurrentRoomInfo(currentRoom);
     });
 
-    socket.on("show-next-question", ({ question, level }) => {
+    socket.on("show-next-question", ({ question, level, phase_timer }) => {
       localStorage.setItem(
         "currentQuestion",
         JSON.stringify({ question, level })
+      );
+
+      localStorage.setItem(
+        "phaseTimer",
+        JSON.stringify({ phaseTimer: phase_timer })
       );
 
       localStorage.setItem("isPresenter", true);

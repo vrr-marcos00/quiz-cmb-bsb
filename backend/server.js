@@ -17,6 +17,9 @@ const {
   getCurrentUserAnswer,
   initQuiz,
   getClassification,
+  initQuestionTime,
+  initPhaseTimer,
+  getPhaseCounter,
 } = require("./usecases/game.js");
 
 // Cria o aplicativo Express e o servidor HTTP
@@ -196,6 +199,7 @@ io.on("connection", (socket) => {
   socket.on("init-quiz", () => {
     if (room.users.length > 0) {
       const { nextQuestion, level } = initQuiz();
+      initPhaseTimer(io);
       const phase = getCurrentPhase();
       io.emit("show-next-question", {
         question: {
@@ -203,6 +207,7 @@ io.on("connection", (socket) => {
           time_per_question: phase.time_per_question,
         },
         level,
+        phase_timer: getPhaseCounter(),
       });
     } else {
       socket.emit("initGameError", "O jogo deve conter no minímo 1 jogador");
@@ -213,11 +218,12 @@ io.on("connection", (socket) => {
     setNextQuestion();
     const question = getCurrentQuestion();
 
-    if (question) {
+    if (question && getPhaseCounter() > 0) {
       const phase = getCurrentPhase();
       io.emit("show-next-question", {
         question: { ...question, time_per_question: phase.time_per_question },
         level: phase.level,
+        phase_timer: getPhaseCounter(),
       });
       return;
     }
@@ -238,22 +244,11 @@ io.on("connection", (socket) => {
       time_per_question: phase.time_per_question,
     });
 
-    let counter = phase.time_per_question;
+    initQuestionTime(io);
+  });
 
-    const interval = setInterval(() => {
-      counter = counter - 1000;
-
-      io.emit("update-question-time", {
-        currentTime: counter,
-      });
-
-      if (counter <= 0) {
-        io.emit("question-timeout", {
-          time_per_question: phase.time_per_question,
-        });
-        clearInterval(interval);
-      }
-    }, 1000);
+  socket.on("init-phase-timer", () => {
+    initPhaseTimer(io);
   });
 
   socket.on("show-answer", () => {

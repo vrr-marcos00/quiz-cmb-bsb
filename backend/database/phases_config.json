@@ -1,7 +1,7 @@
 {
   "easy": {
     "next_level": "medium",
-    "time": 1200000,
+    "time": 50000,
     "time_per_question": 15000,
     "points_to_earn": 10,
     "points_to_lose": 0,
@@ -98,7 +98,7 @@
   },
   "medium": {
     "next_level": "difficult",
-    "time": 2400000,
+    "time": 100000,
     "time_per_question": 15000,
     "points_to_earn": 20,
     "points_to_lose": 0,
@@ -225,8 +225,8 @@
   },
   "difficult": {
     "next_level": "finished",
-    "time": 1200000,
-    "time_per_question": 15000,
+    "time": 50000,
+    "time_per_question": 10000,
     "points_to_earn": 30,
     "points_to_lose": 0,
     "questions": [
