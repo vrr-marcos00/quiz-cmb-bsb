@@ -43,13 +43,57 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
 
     // Cria um histórico de respostas das questões para cada usuário
     clientGameState[key].questionsAnswered.push({
-      questionId: currentAnswer?.questionId,
+      questionId: currentQuestion?.id,
       answerId: currentAnswer?.answerId,
       timeRemaining: currentAnswer?.timeRemaining,
     });
   }
 
   usersCurrentAnswers = {};
+}
+
+/* ---------------------------------- GAME TIME CONTROL ---------------------------------- */
+
+let questionCounter = 0; //phase.time_per_question;
+let questionInterval = undefined;
+
+function initQuestionTime(io) {
+  questionCounter = currentPhase.time_per_question;
+
+  questionInterval = setInterval(() => {
+    questionCounter = questionCounter - 1000;
+
+    io.emit("update-question-time", {
+      currentTime: questionCounter < 0 ? 0 : questionCounter,
+    });
+
+    if (questionCounter <= 0) {
+      io.emit("question-timeout", {
+        time_per_question: currentPhase.time_per_question,
+      });
+      clearInterval(questionInterval);
+    }
+  }, 1000);
+}
+
+let phaseCounter = 0;
+let phaseInterval = undefined;
+
+function initPhaseTimer(io) {
+  phaseCounter = currentPhase.time;
+
+  phaseInterval = setInterval(() => {
+    phaseCounter = phaseCounter - 1000;
+
+    io.emit("update-phase-time", {
+      currentTime: phaseCounter < 0 ? 0 : phaseCounter,
+    });
+
+    if (phaseCounter <= 0) {
+      questionCounter = 0;
+      clearInterval(phaseInterval);
+    }
+  }, 1000);
 }
 
 /* ---------------------------------- GAME FLUX CONTROL ---------------------------------- */
@@ -156,10 +200,18 @@ function getClassification() {
   return Object.values(getClientGameState()).filter((user) => !user.eliminated);
 }
 
+function getPhaseCounter() {
+  return phaseCounter;
+}
+
 module.exports = {
   // Game Points Control
   calculatePointsAndRestartUsersCurrentAnswers,
   updateUserAnswer,
+
+  // Game Time Control
+  initQuestionTime,
+  initPhaseTimer,
 
   // Game Flux Control
   initQuiz,
@@ -172,4 +224,5 @@ module.exports = {
   getClientGameState,
   getCurrentUserAnswer,
   getClassification,
+  getPhaseCounter,
 };
