@@ -12,25 +12,25 @@ function TimeAndTheme({
 }) {
   const mainTitle = isResponsePage ? "Resposta" : theme;
 
-  const getLevelTranslation = {
-    easy: "Fácil",
-    medium: "Médio",
-    difficult: "Difícil",
-  };
+  // const getLevelTranslation = {
+  //   easy: "Fácil",
+  //   medium: "Médio",
+  //   difficult: "Difícil",
+  // };
 
-  const getLevelClass = {
-    easy: "easy-level",
-    medium: "medium-level",
-    difficult: "difficult-level",
-  };
+  // const getLevelClass = {
+  //   easy: "easy-level",
+  //   medium: "medium-level",
+  //   difficult: "difficult-level",
+  // };
 
   return (
     <div className="time-and-themer-container">
       <p className="total-time">{msToMinuteAndSecond(phaseTimer)}</p>
       <p className="theme-presenter">{mainTitle}</p>
-      <p className={`level-presenter ${getLevelClass[currentLevel]}`}>
+      {/* <p className={`level-presenter ${getLevelClass[currentLevel]}`}>
         {getLevelTranslation[currentLevel]}
-      </p>
+      </p> */}
       <p className="question-time">{timer}</p>
     </div>
   );

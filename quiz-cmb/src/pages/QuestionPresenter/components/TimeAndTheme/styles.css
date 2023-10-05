@@ -7,7 +7,7 @@
 }
 
 .total-time {
-    width: 25%;
+    width: 33%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .theme-presenter {
-    width: 25%;
+    width: 33%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
     color: #07abb9;
 }
 
-.level-presenter {
+/* .level-presenter {
     width: 25%;
     height: 100%;
     display: flex;
@@ -38,10 +38,10 @@
     font-size: 46px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-}
+} */
 
 .question-time {
-    width: 25%;
+    width: 33%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@
     font-weight: bold;
 }
 
-.easy-level {
+/* .easy-level {
     color: #fff;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000;
@@ -63,4 +63,4 @@
 
 .difficult-level {
     color: rgb(248, 13, 13);
-}
+} */
