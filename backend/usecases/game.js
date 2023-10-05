@@ -34,7 +34,7 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
     // mais pontos se recebe
     const pointsToEarn = Math.ceil(
       currentPhase.points_to_earn *
-        (currentAnswer.timeRemaining / currentPhase.time_per_question)
+        (currentAnswer?.timeRemaining || 1 / currentPhase.time_per_question)
     );
 
     const points = isAnswerCorrect ? pointsToEarn : 0;
@@ -43,9 +43,9 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
 
     // Cria um histórico de respostas das questões para cada usuário
     clientGameState[key].questionsAnswered.push({
-      questionId: currentAnswer.questionId,
+      questionId: currentAnswer?.questionId,
       answerId: currentAnswer?.answerId,
-      timeRemaining: currentAnswer.timeRemaining,
+      timeRemaining: currentAnswer?.timeRemaining,
     });
   }
 
