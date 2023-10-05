@@ -41,6 +41,10 @@ function calculatePointsAndRestartUsersCurrentAnswers() {
       const points = isAnswerCorrect ? pointsToEarn : 0;
       const updatedPoints = clientGameState[key].points + points;
       clientGameState[key].points = updatedPoints > 0 ? updatedPoints : 0;
+      clientGameState[key].pointsAtEasyAndMedium =
+        currentPhase.level !== "difficult"
+          ? clientGameState[key].points
+          : clientGameState[key].pointsAtEasyAndMedium;
 
       // Cria um histórico de respostas das questões para cada usuário
       clientGameState[key].questionsAnswered.push({
@@ -110,6 +114,7 @@ function __createClientGameStateFromRoom() {
         points: 10,
         questionsAnswered: [],
         eliminated: false,
+        pointsAtEasyAndMedium: 0,
       },
     }),
     {}

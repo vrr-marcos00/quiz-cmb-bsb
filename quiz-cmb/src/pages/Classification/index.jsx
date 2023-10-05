@@ -14,6 +14,20 @@ function Classification({ socket }) {
     localStorage.getItem("classification")
   );
 
+  const classificationToRender = classification
+    .filter((user) => !user.eliminated)
+    .map((user) => {
+      return {
+        ...user,
+        points: finishedGame
+          ? user.points - user.pointsAtEasyAndMedium
+          : user.points,
+      };
+    })
+    .sort((a, b) => {
+      return b.points - a.points;
+    });
+
   const isPresenter = localStorage.getItem("isPresenter");
 
   React.useEffect(() => {
@@ -71,9 +85,7 @@ function Classification({ socket }) {
     <>
       <div className="container-page-classification">
         <div className="firt-classified">
-          <FirstPlaced
-            classification={classification.filter((user) => !user.eliminated)}
-          />
+          <FirstPlaced classification={classificationToRender} />
           <div className="row-main_buttons-classification">
             {isPresenter && !finishedGame && (
               <button onClick={handleFowardButtonClick}>Avançar</button>
