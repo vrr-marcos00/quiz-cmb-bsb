@@ -24,6 +24,18 @@ function Classification({ socket }) {
       );
       navigate(`/question/${isPresenter ? "presenter" : "student"}`);
     });
+
+    if (!isPresenter) {
+      const { userId } = JSON.parse(localStorage.getItem("roomUserId"));
+      const isUserOnClassification = classification.some(
+        (classificationUser) => classificationUser.userId === userId
+      );
+
+      if (!isUserOnClassification) {
+        localStorage.setItem("roomUserId", JSON.stringify({ userId: "" }));
+        navigate("/waiting-room");
+      }
+    }
   }, []);
 
   const handleFowardButtonClick = () => {
@@ -39,7 +51,9 @@ function Classification({ socket }) {
             {isPresenter && !finishedGame && (
               <button onClick={handleFowardButtonClick}>Avançar</button>
             )}
-            {finishedGame && <h1 className="finished-game">Jogo Finalizado!</h1>}
+            {finishedGame && (
+              <h1 className="finished-game">Jogo Finalizado!</h1>
+            )}
           </div>
         </div>
       </div>
