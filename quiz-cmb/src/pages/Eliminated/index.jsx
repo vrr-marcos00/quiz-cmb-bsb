@@ -6,10 +6,6 @@ import logoQuiz from "../../assets/images/logo_quiz.png";
 /**
  * Configs
  */
-// import { URL_SOCKET } from '../../configs';
-// import io from 'socket.io-client';
-
-// const socket = io(URL_SOCKET);
 
 function Eliminated() {
   return (

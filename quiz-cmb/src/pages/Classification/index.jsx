@@ -33,19 +33,21 @@ function Classification({ socket }) {
 
       if (!isUserOnClassification) {
         localStorage.setItem("roomUserId", JSON.stringify({ userId: "" }));
-        navigate("/waiting-room");
+        navigate("/eliminated");
       }
     }
   }, []);
 
   React.useEffect(() => {
     if (finishedGame) {
-      const blob = new Blob([JSON.stringify(classification)], { type: 'application/json' });
+      const blob = new Blob([JSON.stringify(classification)], {
+        type: "application/json",
+      });
       const url = window.URL.createObjectURL(blob);
 
-      const a = document.createElement('a');
+      const a = document.createElement("a");
       a.href = url;
-      a.download = 'auditsGame.json';
+      a.download = "auditsGame.json";
 
       a.click();
 
