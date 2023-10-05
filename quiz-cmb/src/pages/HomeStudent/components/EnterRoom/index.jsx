@@ -63,7 +63,7 @@ function EnterRoom({ socket }) {
   return (
     <div className="container-home-student">
       <div className="home-student-title">
-        <h1>QUIZ!</h1>
+        <h1>Desafio Global do Conhecimento 2023</h1>
       </div>
       <div className="home-student-login">
         <select
