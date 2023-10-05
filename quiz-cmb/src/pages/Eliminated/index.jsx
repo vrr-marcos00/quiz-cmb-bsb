@@ -12,7 +12,10 @@ import "./styles.css";
 function Eliminated() {
   return (
     <div className="main-page">
-      <h1>Eliminado</h1>
+      <p className="emoji">😞</p>
+      <p className="initFirstPhrase">Infelizmente você foi</p>
+      <p className="eliminated">DESCLASSIFICADO</p>
+      <p className="secondPhrase">Muito obrigado pela sua participação!</p>
     </div>
   );
 }
