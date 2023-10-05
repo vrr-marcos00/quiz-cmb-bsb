@@ -66,7 +66,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 1,
-        "description ": "As mudanças climáticas estão relacionadas com o aumento da temperatura no globo terrestre. Com o aumento dos gases do efeito estufa, o calor é retido e, consequentemente, a temperatura da Terra aumenta."
+        "description": "As mudanças climáticas estão relacionadas com o aumento da temperatura no globo terrestre. Com o aumento dos gases do efeito estufa, o calor é retido e, consequentemente, a temperatura da Terra aumenta."
       },
       {
         "id": 9,
@@ -97,7 +97,7 @@
         "img_response": "https://energes.com.br/storage/2021/01/Matriz-El%C3%A9trica-Brasileira.png",
         "img_question": "",
         "correct_answer_id": 2,
-        "description ": "A matriz elétrica brasileira é baseada na fonte energética hidráulica, conforme imagem abaixo:"
+        "description": "A matriz elétrica brasileira é baseada na fonte energética hidráulica, conforme imagem abaixo:"
       },
       {
         "id": 10,
@@ -128,7 +128,7 @@
         "img_response": "https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_1c50c62c73d46bf2b79774159e9703ff_5417670.jpg.png",
         "img_question": "",
         "correct_answer_id": 2,
-        "description ": "As vantagens do custo das ferrovias em relação às rodovias aparecem nos trajetos de extensão superior a 500 quilômetros. Pequenas distâncias, as vantagens nos transportes rodoviários (áreas de relevo acidentado). A circulação e entrega das mercadorias no interior das cidades é mais viável o sistema rodoviário."
+        "description": "As vantagens do custo das ferrovias em relação às rodovias aparecem nos trajetos de extensão superior a 500 quilômetros. Pequenas distâncias, as vantagens nos transportes rodoviários (áreas de relevo acidentado). A circulação e entrega das mercadorias no interior das cidades é mais viável o sistema rodoviário."
       },
       {
         "id": 121,
@@ -157,7 +157,7 @@
           }
         ],
         "correct_answer_id": 2,
-        "description ": "O poema I-Juca Pirama, de Gonçalves Dias, é um ícone do romantismo brasileiro. Trata-se de um poema épico, por abordar, de forma grandiosa, os feitos protagonizados por indígenas, tupis e timbiras.",
+        "description": "O poema I-Juca Pirama, de Gonçalves Dias, é um ícone do romantismo brasileiro. Trata-se de um poema épico, por abordar, de forma grandiosa, os feitos protagonizados por indígenas, tupis e timbiras.",
         "img_response": "",
         "img_question": ""
       },
@@ -188,7 +188,7 @@
           }
         ],
         "correct_answer_id": 2,
-        "description ": "Guerra dos Trinta Anos (1618-1648) – Guerra Franco-Prussiana (1870-1871) – Primeira Guerra Mundial (1814-1818).",
+        "description": "Guerra dos Trinta Anos (1618-1648) – Guerra Franco-Prussiana (1870-1871) – Primeira Guerra Mundial (1814-1818).",
         "img_response": "https://escolaeducacao.com.br/wp-content/uploads/2020/07/guerra-franco-prussiana-1.jpg",
         "img_question": ""
       },
@@ -252,7 +252,7 @@
         "img_response": "https://portalidea.com.br/cursos/xadrez.webp",
         "img_question": "",
         "correct_answer_id": 3,
-        "description ": "Quando um rei é atacado, isso é chamado de xeque. Um xeque-mate (também conhecido como 'mate') ocorre quando um rei é colocado em xeque e não tem lances legais para escapar. Quando acontece um xeque-mate, a partida termina imediatamente e o jogador que deu o xeque-mate vence."
+        "description": "Quando um rei é atacado, isso é chamado de xeque. Um xeque-mate (também conhecido como 'mate') ocorre quando um rei é colocado em xeque e não tem lances legais para escapar. Quando acontece um xeque-mate, a partida termina imediatamente e o jogador que deu o xeque-mate vence."
       },
       {
         "id": 105,
@@ -281,7 +281,7 @@
           }
         ],
         "correct_answer_id": 2,
-        "description ": "Cleópatra VII (69-30 a.C.) era descendente de Ptolomeu, um dos generais de Alexandre, o Grande.  Reinou no Egito do ano 51 a.C. até a sua morte, casou-se sucessivamente com dois de seus irmãos, conforme tradição de sua família, e foi companheira de César e, mais tarde, Marco Antônio.  Tentou garantir a autonomia do Egito e foi derrotada por Otávio.",
+        "description": "Cleópatra VII (69-30 a.C.) era descendente de Ptolomeu, um dos generais de Alexandre, o Grande.  Reinou no Egito do ano 51 a.C. até a sua morte, casou-se sucessivamente com dois de seus irmãos, conforme tradição de sua família, e foi companheira de César e, mais tarde, Marco Antônio.  Tentou garantir a autonomia do Egito e foi derrotada por Otávio.",
         "img_response": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/800px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
         "img_question": ""
       },
@@ -405,7 +405,7 @@
           }
         ],
         "correct_answer_id": 3,
-        "description ": "O Império Britânico foi o único que sobreviveu à 1ª Guerra, ainda assim, saiu abalado do conflito e começou a ter dificuldades em manter algumas de suas possessões.  Os demais impérios (alemão, austro-húngaro, otomano) foram desmembrados.  Já o Império Russo, manteve seu território, mas a revolução socialista derrubou a monarquia.",
+        "description": "O Império Britânico foi o único que sobreviveu à 1ª Guerra, ainda assim, saiu abalado do conflito e começou a ter dificuldades em manter algumas de suas possessões.  Os demais impérios (alemão, austro-húngaro, otomano) foram desmembrados.  Já o Império Russo, manteve seu território, mas a revolução socialista derrubou a monarquia.",
         "img_response": "https://1.bp.blogspot.com/-fVD6OrkhI2M/VQSk-cjGWoI/AAAAAAAACbk/Tubq4BZjhqA/s1600/george%2BV.jpg",
         "img_question": ""
       },
@@ -467,7 +467,7 @@
           }
         ],
         "correct_answer_id": 4,
-        "description ": "O empuxo aumenta devido ao aumento da densidade da água com uma maior concentração de sal.",
+        "description": "O empuxo aumenta devido ao aumento da densidade da água com uma maior concentração de sal.",
         "img_response": "",
         "img_question": "https://turismo.ig.com.br/imagens/186/186/85/3369411.mar_morto_educacao_224_299.jpg"
       },
@@ -686,7 +686,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 4,
-        "description ": "Quando colocamos uma fatia de batata no meio hipertônico (água salgada), a água que estava contida no interior da célula da batata atravessa a membrana semipermeável, indo para o lado mais concentrado, ou seja, onde foi colocado o sal. Com isso, a batata ficou mais “mole”, pois sofreu a plasmólise, ou seja, perdeu água."
+        "description": "Quando colocamos uma fatia de batata no meio hipertônico (água salgada), a água que estava contida no interior da célula da batata atravessa a membrana semipermeável, indo para o lado mais concentrado, ou seja, onde foi colocado o sal. Com isso, a batata ficou mais “mole”, pois sofreu a plasmólise, ou seja, perdeu água."
       },
       {
         "id": 50,
@@ -779,7 +779,7 @@
         "img_response": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/cacau.jpg",
         "img_question": "",
         "correct_answer_id": 2,
-        "description ": "A Costa do Marfim é um país localizado no litoral ocidental do continente africano. Com uma produção 2,2 milhões de toneladas de cacau por ano, o país é responsável, sozinho, por 38% da produção global de cacau do mundo. O cacau é um dos itens mais importantes da economia do país."
+        "description": "A Costa do Marfim é um país localizado no litoral ocidental do continente africano. Com uma produção 2,2 milhões de toneladas de cacau por ano, o país é responsável, sozinho, por 38% da produção global de cacau do mundo. O cacau é um dos itens mais importantes da economia do país."
       },
       {
         "id": 20,
@@ -839,7 +839,7 @@
           }
         ],
         "correct_answer_id": 1,
-        "description ": "Com o fim da 2ª Guerra e o enfraquecimento das potências europeias, várias e suas colônias conseguiram sua independência.  Alguns desses movimentos eram apoiados por Estados Unidos e URSS dentro do princípio da autodeterminação dos povos e com o intuito de ampliar as suas áreas de influência.",
+        "description": "Com o fim da 2ª Guerra e o enfraquecimento das potências europeias, várias e suas colônias conseguiram sua independência.  Alguns desses movimentos eram apoiados por Estados Unidos e URSS dentro do princípio da autodeterminação dos povos e com o intuito de ampliar as suas áreas de influência.",
         "img_response": "https://www.grupoescolar.com/wp-content/uploads/2021/03/C1FB6.jpg",
         "img_question": ""
       },
@@ -963,7 +963,7 @@
           }
         ],
         "correct_answer_id": 3,
-        "description ": "Nessa posição, o ciclista reduz sua área, reduzindo assim a resistência do ar.",
+        "description": "Nessa posição, o ciclista reduz sua área, reduzindo assim a resistência do ar.",
         "img_response": "",
         "img_question": "https://hypescience.com/wp-content/uploads/2016/08/ciclista-gif-768x348.gif"
       },
@@ -994,7 +994,7 @@
           }
         ],
         "correct_answer_id": 3,
-        "description ": "Soneto é uma estrutura literária de forma fixa composta por catorze versos, dos quais dois são quartetos (conjunto de quatro versos) e dois tercetos (conjunto de três versos). Seu conteúdo, predominantemente, é de expressão lírica, intimista, subjetiva.",
+        "description": "Soneto é uma estrutura literária de forma fixa composta por catorze versos, dos quais dois são quartetos (conjunto de quatro versos) e dois tercetos (conjunto de três versos). Seu conteúdo, predominantemente, é de expressão lírica, intimista, subjetiva.",
         "img_response": "",
         "img_question": ""
       },
@@ -1087,7 +1087,7 @@
           }
         ],
         "correct_answer_id": 5,
-        "description ": "A cultura helenística foi fruto da fusão do pensamento de vários povos (gregos, persas, egípcios, indianos etc.) e se expressou nas artes, na religião, na política e na filosofia.  A língua de transmissão desta cultura era o grego e foi um fator importante na estabilidade do Mediterrâneo oriental por vários séculos.",
+        "description": "A cultura helenística foi fruto da fusão do pensamento de vários povos (gregos, persas, egípcios, indianos etc.) e se expressou nas artes, na religião, na política e na filosofia.  A língua de transmissão desta cultura era o grego e foi um fator importante na estabilidade do Mediterrâneo oriental por vários séculos.",
         "img_response": "https://s1.static.brasilescola.uol.com.br/be/e/alexander.jpg",
         "img_question": ""
       }
@@ -1594,7 +1594,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 4,
-        "description ": "Úrsula, romance de Maria Firmina dos Reis, foi escrito em 1858 e pode ser considerado o primeiro romance abolicionista brasileiro de autoria feminina."
+        "description": "Úrsula, romance de Maria Firmina dos Reis, foi escrito em 1858 e pode ser considerado o primeiro romance abolicionista brasileiro de autoria feminina."
       },
       {
         "id": 95,
@@ -1654,7 +1654,7 @@
           }
         ],
         "correct_answer_id": 4,
-        "description ": "I. CORRETA. A pressão é constante e as grandezas que variam são volume e temperatura. \nII. CORRETA. Também é chamada de isométrica ou isovolumétrica. Nesse tipo de mudança o volume permanece constante e as grandezas que variam são pressão e temperatura. \nIII. ERRADA. A transformação isométrica permanece com o volume constante, enquanto a transformação isotérmica mantém a temperatura constante.",
+        "description": "I. CORRETA. A pressão é constante e as grandezas que variam são volume e temperatura. \nII. CORRETA. Também é chamada de isométrica ou isovolumétrica. Nesse tipo de mudança o volume permanece constante e as grandezas que variam são pressão e temperatura. \nIII. ERRADA. A transformação isométrica permanece com o volume constante, enquanto a transformação isotérmica mantém a temperatura constante.",
         "img_response": "",
         "img_question": ""
       },
@@ -1778,7 +1778,7 @@
           }
         ],
         "correct_answer_id": 5,
-        "description ": "Teoria da relatividade",
+        "description": "Teoria da relatividade",
         "img_response": "",
         "img_question": "https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/22625ba02e898a8d48593756b54f93c0.jpg"
       },
@@ -1966,7 +1966,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 4,
-        "description ": "A ilha de calor, também chamada de ilha de calor urbana (ICU), são microclimas identificados pelo aumento de temperatura em algumas zonas dos centros urbanos. Isso porque os raios solares que atingem esses locais têm dificuldade de se dissiparem por conta das construções nas grandes cidades. É possível que quando isso acontece, a temperatura das zonas rurais próximas, ou mesmo das áreas periféricas, apresentem uma diferença de 5 a 10 graus."
+        "description": "A ilha de calor, também chamada de ilha de calor urbana (ICU), são microclimas identificados pelo aumento de temperatura em algumas zonas dos centros urbanos. Isso porque os raios solares que atingem esses locais têm dificuldade de se dissiparem por conta das construções nas grandes cidades. É possível que quando isso acontece, a temperatura das zonas rurais próximas, ou mesmo das áreas periféricas, apresentem uma diferença de 5 a 10 graus."
       },
       {
         "id": 52,
@@ -2090,7 +2090,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 1,
-        "description ": "UM PERÍODO DA TABELA PERIÓDICA CORRESPONDE À COLUNA HORIZONTAL NA QUAL O ELEMENTO QUÍMICO ESTÁ ORGANIZADO. O CARBONO ESTÁ SITUADO NO 2o. PERÍODO."
+        "description": "UM PERÍODO DA TABELA PERIÓDICA CORRESPONDE À COLUNA HORIZONTAL NA QUAL O ELEMENTO QUÍMICO ESTÁ ORGANIZADO. O CARBONO ESTÁ SITUADO NO 2o. PERÍODO."
       },
       {
         "id": 4,
@@ -2121,7 +2121,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 2,
-        "description ": "Seres autotróficos são os que possuem a capacidade de produzir seu próprio alimento. Esses organismos, geralmente verdes por causa do pigmento clorofila, utilizam o gás carbônico (CO2) da atmosfera como fonte de carbono, que é um carbono inorgânico, no processo de fotossíntese para obter nutrientes e energia. Seres heterotróficos conseguem nutrientes e energia ao se alimentar de outros seres vivos, aproveitando suas fontes de carbono, portanto carbono orgânico."
+        "description": "Seres autotróficos são os que possuem a capacidade de produzir seu próprio alimento. Esses organismos, geralmente verdes por causa do pigmento clorofila, utilizam o gás carbônico (CO2) da atmosfera como fonte de carbono, que é um carbono inorgânico, no processo de fotossíntese para obter nutrientes e energia. Seres heterotróficos conseguem nutrientes e energia ao se alimentar de outros seres vivos, aproveitando suas fontes de carbono, portanto carbono orgânico."
       },
       {
         "id": 28,
@@ -2276,7 +2276,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 4,
-        "description ": " O Palmeira tem 11 títulos de campeão brasileiro, conquistados nos anos de 1960, 1967, 1967, 1969, 1972, 1973, 1993, 1994, 2016, 2018 e 2022."
+        "description": " O Palmeira tem 11 títulos de campeão brasileiro, conquistados nos anos de 1960, 1967, 1967, 1969, 1972, 1973, 1993, 1994, 2016, 2018 e 2022."
       },
       {
         "id": 33,
@@ -2524,7 +2524,7 @@
         "img_response": "https://super.abril.com.br/wp-content/uploads/2023/01/cordyceps_fb.jpg",
         "img_question": "",
         "correct_answer_id": 5,
-        "description ": "O fungo Cordyceps é um gênero de fungos ascomicetos que parasita principalmente insetos e outros artrópodes. Com aproximadamente 400 espécies, cada uma é especializada em um tipo específico de inseto. Esse tipo de fungo não atinge humanos."
+        "description": "O fungo Cordyceps é um gênero de fungos ascomicetos que parasita principalmente insetos e outros artrópodes. Com aproximadamente 400 espécies, cada uma é especializada em um tipo específico de inseto. Esse tipo de fungo não atinge humanos."
       },
       {
         "id": 125,
@@ -2553,7 +2553,7 @@
           }
         ],
         "correct_answer_id": 5,
-        "description ": "O pronome relativo cuja refere-se ao substantivo “obra” (consequente) e deve ser precedido da preposição “por”, uma vez que o substantivo “simpatia” exige essa preposição (“simpatia por”); de igual modo o pronome relativo “quem” se refere ao substantivo “autor” (antecedente) e deve vir precedido da preposição “de”, exigida pelo verbo “gostar” (“gostar de”).",
+        "description": "O pronome relativo cuja refere-se ao substantivo “obra” (consequente) e deve ser precedido da preposição “por”, uma vez que o substantivo “simpatia” exige essa preposição (“simpatia por”); de igual modo o pronome relativo “quem” se refere ao substantivo “autor” (antecedente) e deve vir precedido da preposição “de”, exigida pelo verbo “gostar” (“gostar de”).",
         "img_response": "",
         "img_question": ""
       },
@@ -2586,7 +2586,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 3,
-        "description ": "O desmatamento, também chamado de desflorestamento, é um dos problemas ambientais mais antigos que acontece no Brasil desde a chegada dos portugueses em 1500. A exploração do pau-Brasil, que ocorreu no período colonial, foi o princípio da eliminação de parte da cobertura vegetal do país. Estima-se que desde 1970, o Brasil já perdeu cerca de 20% das suas florestas por conta do desmatamento."
+        "description": "O desmatamento, também chamado de desflorestamento, é um dos problemas ambientais mais antigos que acontece no Brasil desde a chegada dos portugueses em 1500. A exploração do pau-Brasil, que ocorreu no período colonial, foi o princípio da eliminação de parte da cobertura vegetal do país. Estima-se que desde 1970, o Brasil já perdeu cerca de 20% das suas florestas por conta do desmatamento."
       },
       {
         "id": 29,
@@ -2739,7 +2739,7 @@
           }
         ],
         "correct_answer_id": 5,
-        "description ": "Ambicioso: que ou o que tem ambição; vaidoso. \nModesto: isento de vaidade; que não tem ambição.",
+        "description": "Ambicioso: que ou o que tem ambição; vaidoso. \nModesto: isento de vaidade; que não tem ambição.",
         "img_response": "",
         "img_question": ""
       },
@@ -2987,7 +2987,7 @@
           }
         ],
         "correct_answer_id": 5,
-        "description ": "Por estar “DEPRIMIDO” (causa), o atleta desistiu da competição (efeito).",
+        "description": "Por estar “DEPRIMIDO” (causa), o atleta desistiu da competição (efeito).",
         "img_response": "",
         "img_question": ""
       },
@@ -3080,7 +3080,7 @@
           }
         ],
         "correct_answer_id": 5,
-        "description ": "A frequência (f) do movimento é dada em unidade de tempo de acordo com a divisão do número de voltas pelo tempo gasto para executá-las.Para responder essa questão, basta substituir os dados do enunciado na fórmula a seguir.",
+        "description": "A frequência (f) do movimento é dada em unidade de tempo de acordo com a divisão do número de voltas pelo tempo gasto para executá-las.Para responder essa questão, basta substituir os dados do enunciado na fórmula a seguir.",
         "img_response": "",
         "img_question": ""
       },
@@ -3959,7 +3959,7 @@
         "img_response": "",
         "img_question": "https://static.todamateria.com.br/upload/ta/be/tabela-periodica-og.jpg",
         "correct_answer_id": 2,
-        "description ": "O CARBONO TEM NÚMERO ATÔMICO (Z) IGUAL A 6 E TEM DISTRIBUIÇÃO 1S2, 2S2, 2P2."
+        "description": "O CARBONO TEM NÚMERO ATÔMICO (Z) IGUAL A 6 E TEM DISTRIBUIÇÃO 1S2, 2S2, 2P2."
       },
       {
         "id": 67,
@@ -4114,7 +4114,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 1,
-        "description ": "FENOL É UMA FUNÇÃO ORGÂNICA ESPECIAL. NELA, HÁ A PRESENÇA DE UM ANEL AROMÁTICO COM UMA OU MAIS HIDROXILAS (OH) LIGADAS A ELE."
+        "description": "FENOL É UMA FUNÇÃO ORGÂNICA ESPECIAL. NELA, HÁ A PRESENÇA DE UM ANEL AROMÁTICO COM UMA OU MAIS HIDROXILAS (OH) LIGADAS A ELE."
       },
       {
         "id": 136,
@@ -4176,7 +4176,7 @@
         "img_response": "",
         "img_question": "",
         "correct_answer_id": 4,
-        "description ": "USANDO A EQUAÇÃO DE CLAPEYRON, PV = nRT, TEREMOS: 1 V = 960/16 x 0,082 x 300 V = 1476 LITROS"
+        "description": "USANDO A EQUAÇÃO DE CLAPEYRON, PV = nRT, TEREMOS: 1 V = 960/16 x 0,082 x 300 V = 1476 LITROS"
       },
       {
         "id": 44,
