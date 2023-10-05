@@ -9,7 +9,7 @@ import logoQuiz from "../../assets/images/logo_quiz.png";
 
 function Eliminated() {
   return (
-    <div className="main-page">
+    <div className="eliminated-main-page">
       <img className="logo" src={logoQuiz} alt="Logo Quiz" />
       <p className="initFirstPhrase">Infelizmente você foi</p>
       <p className="eliminated">DESCLASSIFICADO</p>
