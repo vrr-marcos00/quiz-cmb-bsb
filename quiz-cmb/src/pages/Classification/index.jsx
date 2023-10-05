@@ -17,10 +17,14 @@ function Classification({ socket }) {
   const isPresenter = localStorage.getItem("isPresenter");
 
   React.useEffect(() => {
-    socket.on("show-next-question", ({ question, level }) => {
+    socket.on("show-next-question", ({ question, level, phase_timer }) => {
       localStorage.setItem(
         "currentQuestion",
         JSON.stringify({ question, level })
+      );
+      localStorage.setItem(
+        "phaseTimer",
+        JSON.stringify({ phaseTimer: phase_timer })
       );
       navigate(`/question/${isPresenter ? "presenter" : "student"}`);
     });
@@ -57,6 +61,7 @@ function Classification({ socket }) {
 
   const handleFowardButtonClick = () => {
     socket.emit("foward");
+    socket.emit("init-phase-timer");
   };
 
   return (

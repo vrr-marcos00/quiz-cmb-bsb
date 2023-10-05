@@ -19,7 +19,12 @@ function QuestionPresenter({ socket }) {
   const { question: currentQuestion, level } = JSON.parse(
     localStorage.getItem("currentQuestion")
   );
+  const { phaseTimer: phaseTimerOriginal } = JSON.parse(
+    localStorage.getItem("phaseTimer")
+  );
+
   const [timer, setTimer] = React.useState(currentQuestion.time_per_question);
+  const [phaseTimer, setPhaseTimer] = React.useState(phaseTimerOriginal);
   const [isTimerRunning, setIsTimerRunning] = React.useState(false);
   const [isResponsePage, setIsResponsePage] = React.useState(false);
   const [allUsers, setAllUsers] = React.useState([]);
@@ -40,7 +45,7 @@ function QuestionPresenter({ socket }) {
       });
     });
 
-    socket.on("show-next-question", ({ question, level }) => {
+    socket.on("show-next-question", ({ question, level, phase_timer }) => {
       localStorage.setItem(
         "currentQuestion",
         JSON.stringify({ question, level })
@@ -57,7 +62,7 @@ function QuestionPresenter({ socket }) {
       navigate("/classification");
     });
 
-    socket.on("question-timeout", ({ classification, finishedGame }) => {
+    socket.on("question-timeout", () => {
       socket.emit("show-answer");
       setIsResponsePage(true);
       setIsTimerRunning(false);
@@ -74,6 +79,10 @@ function QuestionPresenter({ socket }) {
 
     socket.on("update-question-time", ({ currentTime }) => {
       setTimer(currentTime);
+    });
+
+    socket.on("update-phase-time", ({ currentTime }) => {
+      setPhaseTimer(currentTime);
     });
   }, []);
 
@@ -99,8 +108,9 @@ function QuestionPresenter({ socket }) {
         <Background />
 
         <div className="main-page_container">
-          <div className="row-main" >
+          <div className="row-main">
             <TimeAndTheme
+              phaseTimer={phaseTimer}
               timer={timer / 1000}
               theme={currentQuestion?.theme}
               isResponsePage={isResponsePage}
