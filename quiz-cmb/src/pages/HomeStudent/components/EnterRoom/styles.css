@@ -11,14 +11,16 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     font-weight: bold;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    color: #fff;
 }
 
 .home-student-login {
-    padding-top: 20px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #fff;
     width: 75%;
@@ -28,7 +30,7 @@
 
 .home-student-login select {
     width: 84%;
-    height: 70px;
+    height: 100px;
     margin: 10px auto;
     border-radius: 10px;
     border: 2px solid #000;
@@ -45,8 +47,8 @@
 }
 
 .home-student-login input {
-    width: 80%;
-    height: 45px;
+    width: 81%;
+    height: 80px;
     margin: 10px auto;
     border-radius: 10px;
     border: 2px solid #000;
@@ -59,7 +61,7 @@
 
 .home-student-login button {
     width: 85%;
-    height: 80px;
+    height: 120px;
     margin: 30px auto;
     border-radius: 10px;
     border: 2px solid #000;
@@ -68,4 +70,8 @@
     font-size: 20px;
     font-weight: bold;
     background-color: #000;
+}
+
+.logo-home-student img {
+    width: 200px;
 }

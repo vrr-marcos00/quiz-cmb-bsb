@@ -4,6 +4,11 @@ import "./styles.css";
 
 import { useNavigate } from "react-router-dom";
 
+/**
+ * Images
+ */
+import imageLogo from "../../../../assets/images/logo_quiz.png";
+
 function EnterRoom({ socket }) {
   const navigate = useNavigate();
 
@@ -62,8 +67,11 @@ function EnterRoom({ socket }) {
 
   return (
     <div className="container-home-student">
+      <div className="logo-home-student">
+        <img src={imageLogo} alt="logo" />
+      </div>
       <div className="home-student-title">
-        <h1>Desafio Global do Conhecimento 2023</h1>
+        <h1>Desafio Global do Conhecimento</h1>
       </div>
       <div className="home-student-login">
         <select
