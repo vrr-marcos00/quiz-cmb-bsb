@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
 
+import logoQuiz from "../../assets/images/logo_quiz.png";
+
 /**
  * Configs
  */
@@ -12,7 +14,10 @@ import "./styles.css";
 function Eliminated() {
   return (
     <div className="main-page">
-      <h1>Eliminado</h1>
+      <img className="logo" src={logoQuiz} alt="Logo Quiz" />
+      <p className="initFirstPhrase">Infelizmente você foi</p>
+      <p className="eliminated">DESCLASSIFICADO</p>
+      <p className="secondPhrase">Muito obrigado pela sua participação!</p>
     </div>
   );
 }
